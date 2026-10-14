@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-matrixrider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matrixrider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matrixrider/container.yaml"
-updated_at: "2026-10-13 09:19:38.835712"
+updated_at: "2026-10-14 07:30:38.464845"
 latest: "1.42.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matrixrider"
 

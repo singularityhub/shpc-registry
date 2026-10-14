@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplophaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplophaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplophaser/container.yaml"
-updated_at: "2026-10-13 09:21:58.347562"
+updated_at: "2026-10-14 07:33:04.334121"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/haplophaser"
 aliases:

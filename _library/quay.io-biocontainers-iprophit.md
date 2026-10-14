@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iprophit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iprophit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iprophit/container.yaml"
-updated_at: "2026-10-13 09:42:06.729641"
+updated_at: "2026-10-14 07:55:17.477941"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/iprophit"
 aliases:

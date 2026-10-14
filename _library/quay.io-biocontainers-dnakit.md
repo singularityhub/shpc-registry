@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnakit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnakit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnakit/container.yaml"
-updated_at: "2026-10-13 09:38:57.852065"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2026-10-14 07:51:50.026437"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnakit"
 aliases:
  - "dnakit"
@@ -19,8 +19,9 @@ aliases:
  - "pygmentize"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dnakit"
-config: {"url": "https://biocontainers.pro/tools/dnakit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnakit", "latest": {"0.1.3--pyhdfd78af_0": "sha256:9130a2010e9d63abc1ca90c5b0628152fae02c2dfc3bf06b56c6790c2d6c63ca"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:9130a2010e9d63abc1ca90c5b0628152fae02c2dfc3bf06b56c6790c2d6c63ca"}, "docker": "quay.io/biocontainers/dnakit", "aliases": {"dnakit": "/usr/local/bin/dnakit", "dnakit-mcp": "/usr/local/bin/dnakit-mcp", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/dnakit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnakit", "latest": {"0.1.5--pyhdfd78af_0": "sha256:aa8cc98e9ba669dbe2a24007cf1c3f4564ab390ac437d4cee6fd016b86f403ed"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:9130a2010e9d63abc1ca90c5b0628152fae02c2dfc3bf06b56c6790c2d6c63ca", "0.1.5--pyhdfd78af_0": "sha256:aa8cc98e9ba669dbe2a24007cf1c3f4564ab390ac437d4cee6fd016b86f403ed"}, "docker": "quay.io/biocontainers/dnakit", "aliases": {"dnakit": "/usr/local/bin/dnakit", "dnakit-mcp": "/usr/local/bin/dnakit-mcp", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnakit.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/dnakit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnakit:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dnakit:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnakit/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/dnakit/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/dnakit/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/dnakit/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

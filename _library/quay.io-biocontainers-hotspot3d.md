@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hotspot3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hotspot3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hotspot3d/container.yaml"
-updated_at: "2026-10-13 09:12:56.845401"
+updated_at: "2026-10-14 07:23:14.270823"
 latest: "1.8.2--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/hotspot3d"
 aliases:

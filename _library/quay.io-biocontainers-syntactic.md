@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/syntactic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syntactic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syntactic/container.yaml"
-updated_at: "2026-10-13 09:47:03.748694"
+updated_at: "2026-10-14 08:00:15.050063"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/syntactic"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for syntactic"
-config: {"url": "https://biocontainers.pro/tools/syntactic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for syntactic", "latest": {"0.1.1--pyhdfd78af_0": "sha256:a6dd54121a7cbd5831e563b95607d6e65420f0534730082b29622ee56ae9b656"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:50ebca2a1a232c9412d45055b8fb6ce98e0164e2cc4b8b2dc0a9d76eebe15b4f", "0.1.1--pyhdfd78af_0": "sha256:a6dd54121a7cbd5831e563b95607d6e65420f0534730082b29622ee56ae9b656"}, "docker": "quay.io/biocontainers/syntactic", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/syntactic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for syntactic", "latest": {"0.1.1--pyhdfd78af_0": "sha256:6bbcbe58510ed8355640cac110e08460ad528aa7780a0e9c387946182ecd0f4c"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:50ebca2a1a232c9412d45055b8fb6ce98e0164e2cc4b8b2dc0a9d76eebe15b4f", "0.1.1--pyhdfd78af_0": "sha256:6bbcbe58510ed8355640cac110e08460ad528aa7780a0e9c387946182ecd0f4c"}, "docker": "quay.io/biocontainers/syntactic", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/syntactic.

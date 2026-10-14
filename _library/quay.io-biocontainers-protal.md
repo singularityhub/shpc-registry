@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protal/container.yaml"
-updated_at: "2026-10-13 09:36:40.044482"
+updated_at: "2026-10-14 07:49:12.806824"
 latest: "0.6.0a--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/protal"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arcane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcane/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcane/container.yaml"
-updated_at: "2026-10-13 09:29:07.476816"
+updated_at: "2026-10-14 07:40:40.576857"
 latest: "0.1.3.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/arcane"
 aliases:

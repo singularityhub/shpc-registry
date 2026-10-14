@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/labretriever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/labretriever/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/labretriever/container.yaml"
-updated_at: "2026-10-13 09:17:28.972361"
-latest: "1.1.3--pyh106432d_0"
+updated_at: "2026-10-14 07:28:15.275553"
+latest: "1.1.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/labretriever"
 aliases:
  - "labretriever-mcp"
@@ -31,8 +31,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.1.3--pyh106432d_0"
+ - "1.1.5--pyh106432d_0"
 description: "singularity registry hpc automated addition for labretriever"
-config: {"url": "https://biocontainers.pro/tools/labretriever", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for labretriever", "latest": {"1.1.3--pyh106432d_0": "sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f"}, "tags": {"1.1.3--pyh106432d_0": "sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f"}, "docker": "quay.io/biocontainers/labretriever", "aliases": {"labretriever-mcp": "/usr/local/bin/labretriever-mcp", "labretriever-mcp-repo": "/usr/local/bin/labretriever-mcp-repo", "mcp": "/usr/local/bin/mcp", "uvicorn": "/usr/local/bin/uvicorn", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "idna": "/usr/local/bin/idna", "dotenv": "/usr/local/bin/dotenv", "httpx": "/usr/local/bin/httpx", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/labretriever", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for labretriever", "latest": {"1.1.5--pyh106432d_0": "sha256:3136acc5e36e0a4dfb0301fb744502a2f0a19840e80af6dd6e3565e841c03c3b"}, "tags": {"1.1.3--pyh106432d_0": "sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f", "1.1.5--pyh106432d_0": "sha256:3136acc5e36e0a4dfb0301fb744502a2f0a19840e80af6dd6e3565e841c03c3b"}, "docker": "quay.io/biocontainers/labretriever", "aliases": {"labretriever-mcp": "/usr/local/bin/labretriever-mcp", "labretriever-mcp-repo": "/usr/local/bin/labretriever-mcp-repo", "mcp": "/usr/local/bin/mcp", "uvicorn": "/usr/local/bin/uvicorn", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "idna": "/usr/local/bin/idna", "dotenv": "/usr/local/bin/dotenv", "httpx": "/usr/local/bin/httpx", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/labretriever.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/labretriever
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/labretriever:1.1.3--pyh106432d_0
+$ shpc install quay.io/biocontainers/labretriever:1.1.5--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/labretriever/1.1.3--pyh106432d_0
-$ module help quay.io/biocontainers/labretriever/1.1.3--pyh106432d_0
+$ module load quay.io/biocontainers/labretriever/1.1.5--pyh106432d_0
+$ module help quay.io/biocontainers/labretriever/1.1.5--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

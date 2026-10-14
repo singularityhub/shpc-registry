@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recode-h5ad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recode-h5ad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recode-h5ad/container.yaml"
-updated_at: "2026-10-13 09:23:17.171996"
+updated_at: "2026-10-14 07:34:24.765891"
 latest: "0.1.2--pyhcca532d_0"
 container_url: "https://biocontainers.pro/tools/recode-h5ad"
 aliases:

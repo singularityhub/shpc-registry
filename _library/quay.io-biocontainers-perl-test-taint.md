@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-taint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-taint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-taint/container.yaml"
-updated_at: "2026-10-13 09:31:21.139291"
+updated_at: "2026-10-14 07:43:07.766757"
 latest: "1.08--pl5321h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/perl-test-taint"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spice/container.yaml"
-updated_at: "2026-10-13 09:32:26.766467"
+updated_at: "2026-10-14 07:44:24.210911"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spice"
 aliases:

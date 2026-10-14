@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vhamster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vhamster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vhamster/container.yaml"
-updated_at: "2026-10-13 09:33:49.289267"
-latest: "1.3.1--pyh106432d_0"
+updated_at: "2026-10-14 07:46:03.073285"
+latest: "1.4.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/vhamster"
 aliases:
  - "accelerate"
@@ -43,8 +43,9 @@ aliases:
  - "hwloc-annotate"
 versions:
  - "1.3.1--pyh106432d_0"
+ - "1.4.1--pyh106432d_0"
 description: "singularity registry hpc automated addition for vhamster"
-config: {"url": "https://biocontainers.pro/tools/vhamster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vhamster", "latest": {"1.3.1--pyh106432d_0": "sha256:ae63a3bb8c7dac40c2107e42fbec15db6f85878e8211930c232a832089d04295"}, "tags": {"1.3.1--pyh106432d_0": "sha256:ae63a3bb8c7dac40c2107e42fbec15db6f85878e8211930c232a832089d04295"}, "docker": "quay.io/biocontainers/vhamster", "aliases": {"accelerate": "/usr/local/bin/accelerate", "accelerate-config": "/usr/local/bin/accelerate-config", "accelerate-estimate-memory": "/usr/local/bin/accelerate-estimate-memory", "accelerate-launch": "/usr/local/bin/accelerate-launch", "accelerate-merge-weights": "/usr/local/bin/accelerate-merge-weights", "vhamster": "/usr/local/bin/vhamster", "vhamster-features": "/usr/local/bin/vhamster-features", "vhamster-install-models": "/usr/local/bin/vhamster-install-models", "pyrodigal-gv": "/usr/local/bin/pyrodigal-gv", "transformers": "/usr/local/bin/transformers", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "pyrodigal": "/usr/local/bin/pyrodigal", "archspec": "/usr/local/bin/archspec", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "idna": "/usr/local/bin/idna", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "typer": "/usr/local/bin/typer", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "markdown-it": "/usr/local/bin/markdown-it", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate"}}
+config: {"url": "https://biocontainers.pro/tools/vhamster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vhamster", "latest": {"1.4.1--pyh106432d_0": "sha256:be11928f534093c5c572f096734987b20008b13fd0bf4ab4eb995c1293cd016a"}, "tags": {"1.3.1--pyh106432d_0": "sha256:ae63a3bb8c7dac40c2107e42fbec15db6f85878e8211930c232a832089d04295", "1.4.1--pyh106432d_0": "sha256:be11928f534093c5c572f096734987b20008b13fd0bf4ab4eb995c1293cd016a"}, "docker": "quay.io/biocontainers/vhamster", "aliases": {"accelerate": "/usr/local/bin/accelerate", "accelerate-config": "/usr/local/bin/accelerate-config", "accelerate-estimate-memory": "/usr/local/bin/accelerate-estimate-memory", "accelerate-launch": "/usr/local/bin/accelerate-launch", "accelerate-merge-weights": "/usr/local/bin/accelerate-merge-weights", "vhamster": "/usr/local/bin/vhamster", "vhamster-features": "/usr/local/bin/vhamster-features", "vhamster-install-models": "/usr/local/bin/vhamster-install-models", "pyrodigal-gv": "/usr/local/bin/pyrodigal-gv", "transformers": "/usr/local/bin/transformers", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "pyrodigal": "/usr/local/bin/pyrodigal", "archspec": "/usr/local/bin/archspec", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "idna": "/usr/local/bin/idna", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "typer": "/usr/local/bin/typer", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "markdown-it": "/usr/local/bin/markdown-it", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vhamster.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/vhamster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vhamster:1.3.1--pyh106432d_0
+$ shpc install quay.io/biocontainers/vhamster:1.4.1--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vhamster/1.3.1--pyh106432d_0
-$ module help quay.io/biocontainers/vhamster/1.3.1--pyh106432d_0
+$ module load quay.io/biocontainers/vhamster/1.4.1--pyh106432d_0
+$ module help quay.io/biocontainers/vhamster/1.4.1--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

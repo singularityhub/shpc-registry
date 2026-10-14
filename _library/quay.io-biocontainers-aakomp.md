@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aakomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aakomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aakomp/container.yaml"
-updated_at: "2026-10-13 09:11:16.264628"
+updated_at: "2026-10-14 07:21:21.350252"
 latest: "1.0.0--py312r45hf426362_0"
 container_url: "https://biocontainers.pro/tools/aakomp"
 aliases:
