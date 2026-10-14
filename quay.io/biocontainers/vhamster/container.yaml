@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vhamster
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vhamster
 latest:
-  1.3.1--pyh106432d_0: 
-    sha256:ae63a3bb8c7dac40c2107e42fbec15db6f85878e8211930c232a832089d04295
+  1.4.1--pyh106432d_0: 
+    sha256:be11928f534093c5c572f096734987b20008b13fd0bf4ab4eb995c1293cd016a
 tags:
   1.3.1--pyh106432d_0: 
     sha256:ae63a3bb8c7dac40c2107e42fbec15db6f85878e8211930c232a832089d04295
+  1.4.1--pyh106432d_0: 
+    sha256:be11928f534093c5c572f096734987b20008b13fd0bf4ab4eb995c1293cd016a
 docker: quay.io/biocontainers/vhamster
 aliases:
   accelerate: /usr/local/bin/accelerate

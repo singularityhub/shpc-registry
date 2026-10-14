@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-summarizedexperiment
 latest:
-  1.40.0--r45hdfd78af_0: 
-    sha256:1c6708964134ed047f6c8463221a4ba456da5de6286fa4b7631bf9acd82ae5a9
+  1.42.0--r45hdfd78af_0: 
+    sha256:c3abd0a68f7b529c7946aaab59e40813696e434c0ffeadb5991311fb979e1be8
 tags:
   1.8.0--r3.4.1_0: 
     sha256:f6b44de8416b50c7fb287ec38eea70fea4b28ede7cd63ebd620e3b0b4b6ff6a6
@@ -26,6 +26,8 @@ tags:
     sha256:e471201aa59667bf5f2318642b7229bdb02dc7d43c93e730b35d10bf02b541dc
   1.40.0--r45hdfd78af_0: 
     sha256:1c6708964134ed047f6c8463221a4ba456da5de6286fa4b7631bf9acd82ae5a9
+  1.42.0--r45hdfd78af_0: 
+    sha256:c3abd0a68f7b529c7946aaab59e40813696e434c0ffeadb5991311fb979e1be8
 docker: quay.io/biocontainers/bioconductor-summarizedexperiment
 aliases:
   wget: /usr/local/bin/wget

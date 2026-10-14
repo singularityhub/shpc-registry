@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biocsingular
 latest:
-  1.26.1--r45ha27e39d_0: 
-    sha256:0d246177cd39b18cd99a1587d09e568fcd7ab4d59fa5a32671c6e3e255b2c915
+  1.28.1--r45h55fe1e3_0: 
+    sha256:e3e493232d1b24369f2c1c10338f5fea3eb62ba13bdb11ccdd111962cc41feae
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0
@@ -26,6 +26,8 @@ tags:
     sha256:394c0587ac96e38eafefc49cc814d0e7f9180274c005304b69802ab14c05f424
   1.26.1--r45ha27e39d_0: 
     sha256:0d246177cd39b18cd99a1587d09e568fcd7ab4d59fa5a32671c6e3e255b2c915
+  1.28.1--r45h55fe1e3_0: 
+    sha256:e3e493232d1b24369f2c1c10338f5fea3eb62ba13bdb11ccdd111962cc41feae
 docker: quay.io/biocontainers/bioconductor-biocsingular
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

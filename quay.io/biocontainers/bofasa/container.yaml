@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bofasa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bofasa
 latest:
-  1.2.0--pyh106432d_0: 
-    sha256:7b1b54ac3f793a3b4c622d4b4461ca2956c4b88648c6ab70080a03b51ae20747
+  1.2.2--pyh106432d_0: 
+    sha256:326011c739b522026849e6ca76da8ac010a35c175afac9f730f5ba075023c338
 tags:
   1.2.0--pyh106432d_0: 
     sha256:7b1b54ac3f793a3b4c622d4b4461ca2956c4b88648c6ab70080a03b51ae20747
+  1.2.2--pyh106432d_0: 
+    sha256:326011c739b522026849e6ca76da8ac010a35c175afac9f730f5ba075023c338
 docker: quay.io/biocontainers/bofasa
 aliases:
   archive-peptide: /usr/local/bin/archive-peptide

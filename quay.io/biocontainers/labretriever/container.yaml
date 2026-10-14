@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/labretriever
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for labretriever
 latest:
-  1.1.3--pyh106432d_0: 
-    sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f
+  1.1.5--pyh106432d_0: 
+    sha256:3136acc5e36e0a4dfb0301fb744502a2f0a19840e80af6dd6e3565e841c03c3b
 tags:
   1.1.3--pyh106432d_0: 
     sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f
+  1.1.5--pyh106432d_0: 
+    sha256:3136acc5e36e0a4dfb0301fb744502a2f0a19840e80af6dd6e3565e841c03c3b
 docker: quay.io/biocontainers/labretriever
 aliases:
   labretriever-mcp: /usr/local/bin/labretriever-mcp
