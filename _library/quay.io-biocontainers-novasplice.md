@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novasplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novasplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novasplice/container.yaml"
-updated_at: "2026-10-15 08:04:01.028794"
+updated_at: "2026-10-15 19:57:33.534877"
 latest: "0.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/novasplice"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scriptmanager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scriptmanager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scriptmanager/container.yaml"
-updated_at: "2026-10-15 07:21:49.819527"
+updated_at: "2026-10-15 19:12:59.452112"
 latest: "0.15--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scriptmanager"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grid/container.yaml"
-updated_at: "2026-10-15 07:26:02.233315"
+updated_at: "2026-10-15 19:17:30.712629"
 latest: "1.3--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/grid"
 aliases:

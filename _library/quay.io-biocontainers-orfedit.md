@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orfedit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfedit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfedit/container.yaml"
-updated_at: "2026-10-15 08:07:01.897464"
+updated_at: "2026-10-15 20:00:50.037448"
 latest: "0.1.0--hab7d0fd_1"
 container_url: "https://biocontainers.pro/tools/orfedit"
 aliases:

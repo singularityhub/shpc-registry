@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-lwp-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lwp-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lwp-simple/container.yaml"
-updated_at: "2026-10-15 07:39:21.447051"
+updated_at: "2026-10-15 19:31:16.245712"
 latest: "6.67--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-lwp-simple"
 aliases:

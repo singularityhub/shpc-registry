@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scate/container.yaml"
-updated_at: "2026-10-15 07:32:33.669377"
+updated_at: "2026-10-15 19:24:18.737910"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scate"
 aliases:

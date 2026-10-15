@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probord/container.yaml"
-updated_at: "2026-10-15 07:52:03.787561"
+updated_at: "2026-10-15 19:44:52.436736"
 latest: "1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/probord"
 aliases:

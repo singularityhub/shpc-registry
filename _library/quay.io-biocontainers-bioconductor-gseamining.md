@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gseamining"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gseamining/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gseamining/container.yaml"
-updated_at: "2026-10-15 07:23:25.185711"
+updated_at: "2026-10-15 19:14:42.203735"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gseamining"
 

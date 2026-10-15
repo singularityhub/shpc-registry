@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nebulosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nebulosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nebulosa/container.yaml"
-updated_at: "2026-10-15 07:35:56.310461"
+updated_at: "2026-10-15 19:27:47.210947"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nebulosa"
 

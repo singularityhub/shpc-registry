@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sriptype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sriptype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sriptype/container.yaml"
-updated_at: "2026-10-15 07:46:07.406901"
+updated_at: "2026-10-15 19:38:12.221266"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sriptype"
 aliases:

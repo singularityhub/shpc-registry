@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biocommons.seqrepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocommons.seqrepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocommons.seqrepo/container.yaml"
-updated_at: "2026-10-15 08:00:45.214442"
+updated_at: "2026-10-15 19:54:00.023989"
 latest: "0.6.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biocommons.seqrepo"
 aliases:

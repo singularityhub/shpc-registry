@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-logging"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-logging/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-logging/container.yaml"
-updated_at: "2026-10-15 07:43:41.052720"
+updated_at: "2026-10-15 19:35:36.778442"
 latest: "0.7_103--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-logging"
 aliases:

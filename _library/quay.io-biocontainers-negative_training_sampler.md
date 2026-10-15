@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/negative_training_sampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/negative_training_sampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/negative_training_sampler/container.yaml"
-updated_at: "2026-10-15 07:49:31.515398"
+updated_at: "2026-10-15 19:42:07.655581"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/negative_training_sampler"
 aliases:

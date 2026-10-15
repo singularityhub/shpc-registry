@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mofaflex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mofaflex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mofaflex/container.yaml"
-updated_at: "2026-10-15 07:59:22.421792"
+updated_at: "2026-10-15 19:52:31.123950"
 latest: "0.1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mofaflex"
 aliases:
