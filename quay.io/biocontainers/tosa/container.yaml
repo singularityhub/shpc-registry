@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/tosa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tosa
+latest:
+  1.0.0--h0feb368_0: 
+    sha256:2c77c548c1e6ff49bad716b58337298bbf0ee2d2145e985f0788745db131dcd3
+tags:
+  1.0.0--h0feb368_0: 
+    sha256:2c77c548c1e6ff49bad716b58337298bbf0ee2d2145e985f0788745db131dcd3
+docker: quay.io/biocontainers/tosa
+aliases:
+  tosa: /usr/local/bin/tosa

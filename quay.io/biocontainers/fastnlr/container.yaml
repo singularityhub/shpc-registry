@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastnlr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastnlr
+latest:
+  1.4.1--hfa8f182_0: 
+    sha256:39aa4026da4f2eb79029436b30a8b497b2b78df0919c1e96754765eb14e6b91b
+tags:
+  1.4.1--hfa8f182_0: 
+    sha256:39aa4026da4f2eb79029436b30a8b497b2b78df0919c1e96754765eb14e6b91b
+docker: quay.io/biocontainers/fastnlr
+aliases:
+  fastnlr: /usr/local/bin/fastnlr

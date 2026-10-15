@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/voronotalt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for voronotalt
+latest:
+  1.1.479--py310hd766df8_0: 
+    sha256:963eb61934c19b6b58fa3cc3bb6402c325885b51bd3ec56c397bf43802e7879a
+tags:
+  1.1.479--py310hd766df8_0: 
+    sha256:963eb61934c19b6b58fa3cc3bb6402c325885b51bd3ec56c397bf43802e7879a
+docker: quay.io/biocontainers/voronotalt
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

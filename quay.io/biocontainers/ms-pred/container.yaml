@@ -1,0 +1,66 @@
+url: https://biocontainers.pro/tools/ms-pred
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ms-pred
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:a678e16135b0f6f24bd83bcf7e8ddfa3daea2fdd6708128391e77af7947629ba
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:a678e16135b0f6f24bd83bcf7e8ddfa3daea2fdd6708128391e77af7947629ba
+docker: quay.io/biocontainers/ms-pred
+aliases:
+  debuginfod-find: /usr/local/bin/debuginfod-find
+  eu-addr2line: /usr/local/bin/eu-addr2line
+  eu-ar: /usr/local/bin/eu-ar
+  eu-elfclassify: /usr/local/bin/eu-elfclassify
+  eu-elfcmp: /usr/local/bin/eu-elfcmp
+  eu-elfcompress: /usr/local/bin/eu-elfcompress
+  eu-elflint: /usr/local/bin/eu-elflint
+  eu-findtextrel: /usr/local/bin/eu-findtextrel
+  eu-make-debug-archive: /usr/local/bin/eu-make-debug-archive
+  eu-nm: /usr/local/bin/eu-nm
+  eu-objdump: /usr/local/bin/eu-objdump
+  eu-ranlib: /usr/local/bin/eu-ranlib
+  eu-readelf: /usr/local/bin/eu-readelf
+  eu-size: /usr/local/bin/eu-size
+  eu-srcfiles: /usr/local/bin/eu-srcfiles
+  eu-stack: /usr/local/bin/eu-stack
+  eu-strings: /usr/local/bin/eu-strings
+  eu-strip: /usr/local/bin/eu-strip
+  eu-unstrip: /usr/local/bin/eu-unstrip
+  gdown: /usr/local/bin/gdown
+  ipdb: /usr/local/bin/ipdb
+  ipdb3: /usr/local/bin/ipdb3
+  main_cmd.py: /usr/local/bin/main_cmd.py
+  memray: /usr/local/bin/memray
+  memray3.12: /usr/local/bin/memray3.12
+  msbuddy: /usr/local/bin/msbuddy
+  py-spy: /usr/local/bin/py-spy
+  pygrun: /usr/local/bin/pygrun
+  ray: /usr/local/bin/ray
+  tune: /usr/local/bin/tune
+  cairosvg: /usr/local/bin/cairosvg
+  pathos_connect: /usr/local/bin/pathos_connect
+  portpicker: /usr/local/bin/portpicker
+  pox: /usr/local/bin/pox
+  ppserver: /usr/local/bin/ppserver
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  virtualenv: /usr/local/bin/virtualenv
+  coverage: /usr/local/bin/coverage
+  debugpy: /usr/local/bin/debugpy
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  xxh3sum: /usr/local/bin/xxh3sum
+  flatc: /usr/local/bin/flatc
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  bsdunzip: /usr/local/bin/bsdunzip
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug

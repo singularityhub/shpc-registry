@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/vardictrust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vardictrust
+latest:
+  1.0.0--hfa8f182_0: 
+    sha256:b7f4c0615eaf3875ead8f531ea84277924b3610d823342145b3d483c6defdc01
+tags:
+  1.0.0--hfa8f182_0: 
+    sha256:b7f4c0615eaf3875ead8f531ea84277924b3610d823342145b3d483c6defdc01
+docker: quay.io/biocontainers/vardictrust
+aliases:
+  vardictrust: /usr/local/bin/vardictrust

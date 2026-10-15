@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/hapmeth
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hapmeth
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:ab0c113d554c7f32b6ff19606f1106edbf7c2500a1d605cdff92eede0377966a
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:ab0c113d554c7f32b6ff19606f1106edbf7c2500a1d605cdff92eede0377966a
+docker: quay.io/biocontainers/hapmeth
+aliases:
+  hapmeth: /usr/local/bin/hapmeth
