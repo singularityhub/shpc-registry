@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/kmhelpers
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kmhelpers
+latest:
+  0.7.1--pyhdfd78af_0: 
+    sha256:cad0220a3267277979e6d97106b1ca22be4b4f06d6ae21764d717dbc91d936e0
+tags:
+  0.7.1--pyhdfd78af_0: 
+    sha256:cad0220a3267277979e6d97106b1ca22be4b4f06d6ae21764d717dbc91d936e0
+docker: quay.io/biocontainers/kmhelpers
+aliases:
+  kh: /usr/local/bin/kh
+  kmhelpers: /usr/local/bin/kmhelpers
+  kmindex: /usr/local/bin/kmindex
+  kmindex-server: /usr/local/bin/kmindex-server
+  kmtricks: /usr/local/bin/kmtricks
+  ntcard: /usr/local/bin/ntcard
+  nthll: /usr/local/bin/nthll
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  fc-genconf: /usr/local/bin/fc-genconf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

@@ -1,0 +1,79 @@
+url: https://biocontainers.pro/tools/panteraga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panteraga
+latest:
+  1.4.0--hdfd78af_0: 
+    sha256:2241c2f073321d2846feee6b974b6c32142f78a6056a9553f2a8c4da4d9f646c
+tags:
+  1.4.0--hdfd78af_0: 
+    sha256:2241c2f073321d2846feee6b974b6c32142f78a6056a9553f2a8c4da4d9f646c
+docker: quay.io/biocontainers/panteraga
+aliases:
+  ALNchain: /usr/local/bin/ALNchain
+  ALNplot: /usr/local/bin/ALNplot
+  ALNreset: /usr/local/bin/ALNreset
+  ALNshow: /usr/local/bin/ALNshow
+  ALNtoPAF: /usr/local/bin/ALNtoPAF
+  ALNtoPSL: /usr/local/bin/ALNtoPSL
+  ANOshow: /usr/local/bin/ANOshow
+  ANOstat: /usr/local/bin/ANOstat
+  ANOtoBED: /usr/local/bin/ANOtoBED
+  BEDtoANO: /usr/local/bin/BEDtoANO
+  FAtoGDB: /usr/local/bin/FAtoGDB
+  FastGA: /usr/local/bin/FastGA
+  FastKS: /usr/local/bin/FastKS
+  GDBshow: /usr/local/bin/GDBshow
+  GDBstat: /usr/local/bin/GDBstat
+  GDBtoFA: /usr/local/bin/GDBtoFA
+  GIXcp: /usr/local/bin/GIXcp
+  GIXmake: /usr/local/bin/GIXmake
+  GIXmv: /usr/local/bin/GIXmv
+  GIXrm: /usr/local/bin/GIXrm
+  GIXshow: /usr/local/bin/GIXshow
+  ONEview: /usr/local/bin/ONEview
+  PAFtoALN: /usr/local/bin/PAFtoALN
+  PAFtoPSL: /usr/local/bin/PAFtoPSL
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gdbmask: /usr/local/bin/gdbmask
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  panteraGA: /usr/local/bin/panteraGA
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  svfind: /usr/local/bin/svfind
+  taco: /usr/local/bin/taco
+  tanbed: /usr/local/bin/tanbed
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  xmlget: /usr/local/bin/xmlget
+  xmltext: /usr/local/bin/xmltext
+  aaindexextract: /usr/local/bin/aaindexextract
+  abiview: /usr/local/bin/abiview
+  acdgalaxy: /usr/local/bin/acdgalaxy
+  acdlog: /usr/local/bin/acdlog
+  acdpretty: /usr/local/bin/acdpretty
+  acdtable: /usr/local/bin/acdtable
+  acdtrace: /usr/local/bin/acdtrace
+  acdvalid: /usr/local/bin/acdvalid
+  aligncopy: /usr/local/bin/aligncopy
+  aligncopypair: /usr/local/bin/aligncopypair
+  antigenic: /usr/local/bin/antigenic
+  assemblyget: /usr/local/bin/assemblyget
+  backtranambig: /usr/local/bin/backtranambig
+  backtranseq: /usr/local/bin/backtranseq
+  banana: /usr/local/bin/banana
+  biosed: /usr/local/bin/biosed
+  btwisted: /usr/local/bin/btwisted
+  cachedas: /usr/local/bin/cachedas
+  cachedbfetch: /usr/local/bin/cachedbfetch
+  cacheebeyesearch: /usr/local/bin/cacheebeyesearch
+  cacheensembl: /usr/local/bin/cacheensembl
+  chaos: /usr/local/bin/chaos

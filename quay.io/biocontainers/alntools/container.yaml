@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/alntools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alntools
+latest:
+  1.0--h118bc1c_0: 
+    sha256:d7e6db6feb8ee8cbae137ab5b681bd67f5fabaef82eb220b61a8b678daa33a1f
+tags:
+  1.0--h118bc1c_0: 
+    sha256:d7e6db6feb8ee8cbae137ab5b681bd67f5fabaef82eb220b61a8b678daa33a1f
+docker: quay.io/biocontainers/alntools
+aliases:
+  gdbmask: /usr/local/bin/gdbmask
+  svfind: /usr/local/bin/svfind
+  taco: /usr/local/bin/taco
+  tanbed: /usr/local/bin/tanbed
