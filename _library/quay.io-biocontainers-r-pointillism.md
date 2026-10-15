@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pointillism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pointillism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pointillism/container.yaml"
-updated_at: "2026-10-14 07:29:24.430270"
-latest: "0.8.0--r45hdfd78af_0"
+updated_at: "2026-10-15 07:26:16.414137"
+latest: "0.9.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-pointillism"
 aliases:
  - "fc-genconf"
@@ -16,8 +16,9 @@ aliases:
  - "pandoc"
 versions:
  - "0.8.0--r45hdfd78af_0"
+ - "0.9.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for r-pointillism"
-config: {"url": "https://biocontainers.pro/tools/r-pointillism", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pointillism", "latest": {"0.8.0--r45hdfd78af_0": "sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55"}, "tags": {"0.8.0--r45hdfd78af_0": "sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55"}, "docker": "quay.io/biocontainers/r-pointillism", "aliases": {"fc-genconf": "/usr/local/bin/fc-genconf", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-pointillism", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pointillism", "latest": {"0.9.0--r45hdfd78af_0": "sha256:e49d97dcff9ab67b71538831544cb8163881696ee2e58e1b84269502d571660e"}, "tags": {"0.8.0--r45hdfd78af_0": "sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55", "0.9.0--r45hdfd78af_0": "sha256:e49d97dcff9ab67b71538831544cb8163881696ee2e58e1b84269502d571660e"}, "docker": "quay.io/biocontainers/r-pointillism", "aliases": {"fc-genconf": "/usr/local/bin/fc-genconf", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pointillism.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/r-pointillism
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pointillism:0.8.0--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/r-pointillism:0.9.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pointillism/0.8.0--r45hdfd78af_0
-$ module help quay.io/biocontainers/r-pointillism/0.8.0--r45hdfd78af_0
+$ module load quay.io/biocontainers/r-pointillism/0.9.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/r-pointillism/0.9.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

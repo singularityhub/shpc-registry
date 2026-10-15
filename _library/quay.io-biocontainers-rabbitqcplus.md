@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rabbitqcplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabbitqcplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rabbitqcplus/container.yaml"
-updated_at: "2026-10-14 07:25:59.365754"
+updated_at: "2026-10-15 07:21:59.422086"
 latest: "2.3.0--h5ca1c30_1"
 container_url: "https://biocontainers.pro/tools/rabbitqcplus"
 aliases:

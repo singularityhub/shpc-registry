@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hyphaeon-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphaeon-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyphaeon-core/container.yaml"
-updated_at: "2026-10-14 07:30:24.440191"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-10-15 07:27:31.827805"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hyphaeon-core"
 aliases:
  - "hf"
@@ -35,8 +35,9 @@ aliases:
  - "hwloc-gather-topology"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hyphaeon-core"
-config: {"url": "https://biocontainers.pro/tools/hyphaeon-core", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hyphaeon-core", "latest": {"0.1.0--pyhdfd78af_0": "sha256:141a76653dcd246e83d2e28aff64f8d7ffab94b7783fabe1e70a8781c95a867c"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:141a76653dcd246e83d2e28aff64f8d7ffab94b7783fabe1e70a8781c95a867c"}, "docker": "quay.io/biocontainers/hyphaeon-core", "aliases": {"hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "idna": "/usr/local/bin/idna", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
+config: {"url": "https://biocontainers.pro/tools/hyphaeon-core", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hyphaeon-core", "latest": {"0.2.0--pyhdfd78af_0": "sha256:b08f0aba1b7d54484266af7be2227bf75ddafeb1c21d1227b8553e6a582fe21b"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:141a76653dcd246e83d2e28aff64f8d7ffab94b7783fabe1e70a8781c95a867c", "0.2.0--pyhdfd78af_0": "sha256:b08f0aba1b7d54484266af7be2227bf75ddafeb1c21d1227b8553e6a582fe21b"}, "docker": "quay.io/biocontainers/hyphaeon-core", "aliases": {"hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "idna": "/usr/local/bin/idna", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hyphaeon-core.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/hyphaeon-core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hyphaeon-core:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hyphaeon-core:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hyphaeon-core/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/hyphaeon-core/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/hyphaeon-core/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/hyphaeon-core/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

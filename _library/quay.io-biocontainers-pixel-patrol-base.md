@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pixel-patrol-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pixel-patrol-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pixel-patrol-base/container.yaml"
-updated_at: "2026-10-14 07:48:43.794119"
+updated_at: "2026-10-15 07:51:06.492705"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pixel-patrol-base"
 aliases:

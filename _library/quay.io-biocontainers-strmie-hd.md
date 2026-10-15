@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strmie-hd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strmie-hd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strmie-hd/container.yaml"
-updated_at: "2026-10-14 07:23:54.387967"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-10-15 07:19:22.151407"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/strmie-hd"
 aliases:
  - "strmie"
@@ -36,8 +36,9 @@ aliases:
  - "h52gif"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for strmie-hd"
-config: {"url": "https://biocontainers.pro/tools/strmie-hd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strmie-hd", "latest": {"1.0.0--pyhdfd78af_0": "sha256:b8c2dafa677e31295f6764cebefd41e4af1069c147cc78831210666a5395a52d"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:b8c2dafa677e31295f6764cebefd41e4af1069c147cc78831210666a5395a52d"}, "docker": "quay.io/biocontainers/strmie-hd", "aliases": {"strmie": "/usr/local/bin/strmie", "runxlrd.py": "/usr/local/bin/runxlrd.py", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5delete": "/usr/local/bin/h5delete", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
+config: {"url": "https://biocontainers.pro/tools/strmie-hd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strmie-hd", "latest": {"1.1.0--pyhdfd78af_0": "sha256:8e6a7c3226b2a6c680bc3a84fb51c3d082f2c7b6c435a1749129b7e106b317ca"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:b8c2dafa677e31295f6764cebefd41e4af1069c147cc78831210666a5395a52d", "1.1.0--pyhdfd78af_0": "sha256:8e6a7c3226b2a6c680bc3a84fb51c3d082f2c7b6c435a1749129b7e106b317ca"}, "docker": "quay.io/biocontainers/strmie-hd", "aliases": {"strmie": "/usr/local/bin/strmie", "runxlrd.py": "/usr/local/bin/runxlrd.py", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5delete": "/usr/local/bin/h5delete", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strmie-hd.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/strmie-hd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strmie-hd:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/strmie-hd:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strmie-hd/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/strmie-hd/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/strmie-hd/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/strmie-hd/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

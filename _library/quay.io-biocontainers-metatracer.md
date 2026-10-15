@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metatracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metatracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metatracer/container.yaml"
-updated_at: "2026-10-14 07:38:21.644708"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-10-15 07:37:34.840462"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metatracer"
 aliases:
  - "metatracer"
@@ -43,8 +43,9 @@ aliases:
  - "meshdebug"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metatracer"
-config: {"url": "https://biocontainers.pro/tools/metatracer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metatracer", "latest": {"0.1.1--pyhdfd78af_0": "sha256:668d6d206c4394451e2215bd866421b16a940f49847a660134126d1172caf0fe"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:668d6d206c4394451e2215bd866421b16a940f49847a660134126d1172caf0fe"}, "docker": "quay.io/biocontainers/metatracer", "aliases": {"metatracer": "/usr/local/bin/metatracer", "mtsv-binner": "/usr/local/bin/mtsv-binner", "mtsv-build": "/usr/local/bin/mtsv-build", "mtsv-chunk": "/usr/local/bin/mtsv-chunk", "mtsv-collapse": "/usr/local/bin/mtsv-collapse", "mtsv-partition": "/usr/local/bin/mtsv-partition", "mtsv-reference": "/usr/local/bin/mtsv-reference", "mtsv-resume-point": "/usr/local/bin/mtsv-resume-point", "pax11publish": "/usr/local/bin/pax11publish", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug"}}
+config: {"url": "https://biocontainers.pro/tools/metatracer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metatracer", "latest": {"0.1.2--pyhdfd78af_0": "sha256:90277da143c4bbcf44c16a4e42ba6d6e0e1e06b98c1b7d20d680e287a60e2bef"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:668d6d206c4394451e2215bd866421b16a940f49847a660134126d1172caf0fe", "0.1.2--pyhdfd78af_0": "sha256:90277da143c4bbcf44c16a4e42ba6d6e0e1e06b98c1b7d20d680e287a60e2bef"}, "docker": "quay.io/biocontainers/metatracer", "aliases": {"metatracer": "/usr/local/bin/metatracer", "mtsv-binner": "/usr/local/bin/mtsv-binner", "mtsv-build": "/usr/local/bin/mtsv-build", "mtsv-chunk": "/usr/local/bin/mtsv-chunk", "mtsv-collapse": "/usr/local/bin/mtsv-collapse", "mtsv-partition": "/usr/local/bin/mtsv-partition", "mtsv-reference": "/usr/local/bin/mtsv-reference", "mtsv-resume-point": "/usr/local/bin/mtsv-resume-point", "pax11publish": "/usr/local/bin/pax11publish", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metatracer.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/metatracer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metatracer:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metatracer:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metatracer/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/metatracer/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/metatracer/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/metatracer/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

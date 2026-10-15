@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vitessce-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vitessce-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vitessce-python/container.yaml"
-updated_at: "2026-10-14 07:47:37.069006"
-latest: "3.9.6--pyhdfd78af_0"
+updated_at: "2026-10-15 07:49:38.618570"
+latest: "3.9.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vitessce-python"
 aliases:
  - "black"
@@ -21,8 +21,9 @@ versions:
  - "3.8.3--pyhdfd78af_0"
  - "3.9.4--pyhdfd78af_0"
  - "3.9.6--pyhdfd78af_0"
+ - "3.9.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vitessce-python"
-config: {"url": "https://biocontainers.pro/tools/vitessce-python", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vitessce-python", "latest": {"3.9.6--pyhdfd78af_0": "sha256:10fc4afaa6e5c66b1ef669321179f5b6ef6b7d18da332b352f4eb45450c580d6"}, "tags": {"3.7.7--pyhdfd78af_0": "sha256:583c2c1e1c946c0e4db7ea7fde392590809477afe68300f8caa901155e6a4333", "3.7.9--pyhdfd78af_0": "sha256:b8a21eef1173ffc1237b7bb3c7c9612ecad5c91c7a5e227d874bdbad6adbc34e", "3.8.3--pyhdfd78af_0": "sha256:421a6f9f3b3e68755a49d72981abf5d3fbb7a8acc5081d50cb3d91c3e27ed2f0", "3.9.4--pyhdfd78af_0": "sha256:05dd35c39fa8ef3a4b0a52e725ea3c39c5c6a301beac6db6fbb05f860ede8ed8", "3.9.6--pyhdfd78af_0": "sha256:10fc4afaa6e5c66b1ef669321179f5b6ef6b7d18da332b352f4eb45450c580d6"}, "docker": "quay.io/biocontainers/vitessce-python", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/vitessce-python", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vitessce-python", "latest": {"3.9.7--pyhdfd78af_0": "sha256:4f1d833f0a65bdd8dd0e12b3458553e1c31c3272390ac2ef5420d227fc4aa2f4"}, "tags": {"3.7.7--pyhdfd78af_0": "sha256:583c2c1e1c946c0e4db7ea7fde392590809477afe68300f8caa901155e6a4333", "3.7.9--pyhdfd78af_0": "sha256:b8a21eef1173ffc1237b7bb3c7c9612ecad5c91c7a5e227d874bdbad6adbc34e", "3.8.3--pyhdfd78af_0": "sha256:421a6f9f3b3e68755a49d72981abf5d3fbb7a8acc5081d50cb3d91c3e27ed2f0", "3.9.4--pyhdfd78af_0": "sha256:05dd35c39fa8ef3a4b0a52e725ea3c39c5c6a301beac6db6fbb05f860ede8ed8", "3.9.6--pyhdfd78af_0": "sha256:10fc4afaa6e5c66b1ef669321179f5b6ef6b7d18da332b352f4eb45450c580d6", "3.9.7--pyhdfd78af_0": "sha256:4f1d833f0a65bdd8dd0e12b3458553e1c31c3272390ac2ef5420d227fc4aa2f4"}, "docker": "quay.io/biocontainers/vitessce-python", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vitessce-python.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/vitessce-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vitessce-python:3.9.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vitessce-python:3.9.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vitessce-python/3.9.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/vitessce-python/3.9.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/vitessce-python/3.9.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/vitessce-python/3.9.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

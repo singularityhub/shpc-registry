@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/piaso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piaso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piaso/container.yaml"
-updated_at: "2026-10-14 07:56:43.117906"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2026-10-15 08:01:19.052963"
+latest: "1.2.6--py310hce5ca29_0"
 container_url: "https://biocontainers.pro/tools/piaso"
 aliases:
  - "session-info"
@@ -36,8 +36,9 @@ aliases:
  - "qhull"
 versions:
  - "1.0.3--pyhdfd78af_0"
+ - "1.2.6--py310hce5ca29_0"
 description: "singularity registry hpc automated addition for piaso"
-config: {"url": "https://biocontainers.pro/tools/piaso", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piaso", "latest": {"1.0.3--pyhdfd78af_0": "sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59"}, "docker": "quay.io/biocontainers/piaso", "aliases": {"session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull"}}
+config: {"url": "https://biocontainers.pro/tools/piaso", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piaso", "latest": {"1.2.6--py310hce5ca29_0": "sha256:cdaa8cbe66d9f0f988ef6ba478a89c6381d1a79eed0d75571686c97a25f7d1ec"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59", "1.2.6--py310hce5ca29_0": "sha256:cdaa8cbe66d9f0f988ef6ba478a89c6381d1a79eed0d75571686c97a25f7d1ec"}, "docker": "quay.io/biocontainers/piaso", "aliases": {"session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piaso.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/piaso
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piaso:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/piaso:1.2.6--py310hce5ca29_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piaso/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/piaso/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/piaso/1.2.6--py310hce5ca29_0
+$ module help quay.io/biocontainers/piaso/1.2.6--py310hce5ca29_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

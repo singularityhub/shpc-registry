@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfaidx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfaidx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfaidx/container.yaml"
-updated_at: "2026-10-14 08:00:25.578001"
+updated_at: "2026-10-15 08:06:01.129937"
 latest: "1.8.3--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/gfaidx"
 aliases:

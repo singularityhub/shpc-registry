@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-freqestimationmodel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-freqestimationmodel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-freqestimationmodel/container.yaml"
-updated_at: "2026-10-14 07:52:39.287950"
-latest: "0.1.0--r45hdfd78af_0"
+updated_at: "2026-10-15 07:56:13.733766"
+latest: "0.1.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-freqestimationmodel"
 aliases:
  - "psl"
@@ -17,8 +17,9 @@ aliases:
  - "hb-info"
 versions:
  - "0.1.0--r45hdfd78af_0"
+ - "0.1.1--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for r-freqestimationmodel"
-config: {"url": "https://biocontainers.pro/tools/r-freqestimationmodel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-freqestimationmodel", "latest": {"0.1.0--r45hdfd78af_0": "sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a"}, "tags": {"0.1.0--r45hdfd78af_0": "sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a"}, "docker": "quay.io/biocontainers/r-freqestimationmodel", "aliases": {"psl": "/usr/local/bin/psl", "psl-make-dafsa": "/usr/local/bin/psl-make-dafsa", "fc-genconf": "/usr/local/bin/fc-genconf", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info"}}
+config: {"url": "https://biocontainers.pro/tools/r-freqestimationmodel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-freqestimationmodel", "latest": {"0.1.1--r45hdfd78af_0": "sha256:a1db393da96a0d5b2e4e7769d02aa38bba3bbfd6aae4f0473d89a420c996031f"}, "tags": {"0.1.0--r45hdfd78af_0": "sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a", "0.1.1--r45hdfd78af_0": "sha256:a1db393da96a0d5b2e4e7769d02aa38bba3bbfd6aae4f0473d89a420c996031f"}, "docker": "quay.io/biocontainers/r-freqestimationmodel", "aliases": {"psl": "/usr/local/bin/psl", "psl-make-dafsa": "/usr/local/bin/psl-make-dafsa", "fc-genconf": "/usr/local/bin/fc-genconf", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-freqestimationmodel.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/r-freqestimationmodel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-freqestimationmodel:0.1.0--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/r-freqestimationmodel:0.1.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-freqestimationmodel/0.1.0--r45hdfd78af_0
-$ module help quay.io/biocontainers/r-freqestimationmodel/0.1.0--r45hdfd78af_0
+$ module load quay.io/biocontainers/r-freqestimationmodel/0.1.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/r-freqestimationmodel/0.1.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

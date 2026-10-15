@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fg-stitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fg-stitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fg-stitch/container.yaml"
-updated_at: "2026-10-14 07:49:15.961635"
+updated_at: "2026-10-15 07:51:48.827146"
 latest: "0.1.2--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/fg-stitch"
 aliases:

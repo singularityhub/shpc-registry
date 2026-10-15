@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sativa-epang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sativa-epang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sativa-epang/container.yaml"
-updated_at: "2026-10-14 07:18:22.998472"
-latest: "0.9.3.4--py314hab16a5f_0"
+updated_at: "2026-10-15 07:12:23.955342"
+latest: "0.10.2--py314hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/sativa-epang"
 aliases:
  - "epa-ng"
@@ -16,8 +16,10 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.9.3.4--py314hab16a5f_0"
+ - "0.10.2--py314hab16a5f_0"
+ - "0.9.3.6--py314hab16a5f_0"
 description: "singularity registry hpc automated addition for sativa-epang"
-config: {"url": "https://biocontainers.pro/tools/sativa-epang", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sativa-epang", "latest": {"0.9.3.4--py314hab16a5f_0": "sha256:cbf6c158860970a5807758a60a0450542f788de0ad3e34c272bbdb92f2b3dbaf"}, "tags": {"0.9.3.4--py314hab16a5f_0": "sha256:cbf6c158860970a5807758a60a0450542f788de0ad3e34c272bbdb92f2b3dbaf"}, "docker": "quay.io/biocontainers/sativa-epang", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "sativa-epang": "/usr/local/bin/sativa-epang", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/sativa-epang", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sativa-epang", "latest": {"0.10.2--py314hab16a5f_0": "sha256:be4420ef7a99c208e53ebe499d31ac305186b8bf1a5df291dda6458000b12921"}, "tags": {"0.9.3.4--py314hab16a5f_0": "sha256:cbf6c158860970a5807758a60a0450542f788de0ad3e34c272bbdb92f2b3dbaf", "0.10.2--py314hab16a5f_0": "sha256:be4420ef7a99c208e53ebe499d31ac305186b8bf1a5df291dda6458000b12921", "0.9.3.6--py314hab16a5f_0": "sha256:2df3e07437d140e7aa7fa5853afd26f9abb2fc4390274dcce6386487c44f4f3c"}, "docker": "quay.io/biocontainers/sativa-epang", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "sativa-epang": "/usr/local/bin/sativa-epang", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sativa-epang.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/sativa-epang
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sativa-epang:0.9.3.4--py314hab16a5f_0
+$ shpc install quay.io/biocontainers/sativa-epang:0.10.2--py314hab16a5f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sativa-epang/0.9.3.4--py314hab16a5f_0
-$ module help quay.io/biocontainers/sativa-epang/0.9.3.4--py314hab16a5f_0
+$ module load quay.io/biocontainers/sativa-epang/0.10.2--py314hab16a5f_0
+$ module help quay.io/biocontainers/sativa-epang/0.10.2--py314hab16a5f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmindex/container.yaml"
-updated_at: "2026-10-14 07:48:21.756546"
-latest: "0.6.1--h1e44b93_0"
+updated_at: "2026-10-15 07:50:37.732144"
+latest: "0.7.1--h1e44b93_0"
 container_url: "https://biocontainers.pro/tools/kmindex"
 aliases:
  - "kmindex"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.6.0--h668145b_1"
  - "0.6.1--h1e44b93_0"
+ - "0.7.1--h1e44b93_0"
 description: "singularity registry hpc automated addition for kmindex"
-config: {"url": "https://biocontainers.pro/tools/kmindex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmindex", "latest": {"0.6.1--h1e44b93_0": "sha256:2a1966820b985a8eb0a710c6e32675bdbb47dc7c136729194621b591d1797b3f"}, "tags": {"0.6.0--h668145b_1": "sha256:af736c828c2da24cde3706ff65930162a1a62677bf25652c07f022e7f63b205a", "0.6.1--h1e44b93_0": "sha256:2a1966820b985a8eb0a710c6e32675bdbb47dc7c136729194621b591d1797b3f"}, "docker": "quay.io/biocontainers/kmindex", "aliases": {"kmindex": "/usr/local/bin/kmindex", "kmindex-server": "/usr/local/bin/kmindex-server", "kmtricks": "/usr/local/bin/kmtricks"}}
+config: {"url": "https://biocontainers.pro/tools/kmindex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmindex", "latest": {"0.7.1--h1e44b93_0": "sha256:79e3d5b6ccdfb4e1bbb502c94c98afe01a5933ea238fddc5053e2f2e201e0746"}, "tags": {"0.6.0--h668145b_1": "sha256:af736c828c2da24cde3706ff65930162a1a62677bf25652c07f022e7f63b205a", "0.6.1--h1e44b93_0": "sha256:2a1966820b985a8eb0a710c6e32675bdbb47dc7c136729194621b591d1797b3f", "0.7.1--h1e44b93_0": "sha256:79e3d5b6ccdfb4e1bbb502c94c98afe01a5933ea238fddc5053e2f2e201e0746"}, "docker": "quay.io/biocontainers/kmindex", "aliases": {"kmindex": "/usr/local/bin/kmindex", "kmindex-server": "/usr/local/bin/kmindex-server", "kmtricks": "/usr/local/bin/kmtricks"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmindex.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/kmindex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmindex:0.6.1--h1e44b93_0
+$ shpc install quay.io/biocontainers/kmindex:0.7.1--h1e44b93_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmindex/0.6.1--h1e44b93_0
-$ module help quay.io/biocontainers/kmindex/0.6.1--h1e44b93_0
+$ module load quay.io/biocontainers/kmindex/0.7.1--h1e44b93_0
+$ module help quay.io/biocontainers/kmindex/0.7.1--h1e44b93_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

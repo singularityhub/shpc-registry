@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enaswan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enaswan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enaswan/container.yaml"
-updated_at: "2026-10-14 07:39:15.890116"
+updated_at: "2026-10-15 07:38:42.725908"
 latest: "0.1.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/enaswan"
 aliases:
