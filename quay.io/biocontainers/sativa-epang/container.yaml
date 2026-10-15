@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/sativa-epang
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sativa-epang
 latest:
-  0.9.3.4--py314hab16a5f_0: 
-    sha256:cbf6c158860970a5807758a60a0450542f788de0ad3e34c272bbdb92f2b3dbaf
+  0.10.2--py314hab16a5f_0: 
+    sha256:be4420ef7a99c208e53ebe499d31ac305186b8bf1a5df291dda6458000b12921
 tags:
   0.9.3.4--py314hab16a5f_0: 
     sha256:cbf6c158860970a5807758a60a0450542f788de0ad3e34c272bbdb92f2b3dbaf
+  0.10.2--py314hab16a5f_0: 
+    sha256:be4420ef7a99c208e53ebe499d31ac305186b8bf1a5df291dda6458000b12921
+  0.9.3.6--py314hab16a5f_0: 
+    sha256:2df3e07437d140e7aa7fa5853afd26f9abb2fc4390274dcce6386487c44f4f3c
 docker: quay.io/biocontainers/sativa-epang
 aliases:
   epa-ng: /usr/local/bin/epa-ng

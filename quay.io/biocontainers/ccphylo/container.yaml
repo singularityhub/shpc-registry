@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ccphylo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ccphylo
 latest:
-  0.8.2--h577a1d6_3: 
-    sha256:fccfba6d11853d0aee43f27d8e5fdd621633cedb2010f18dfaa9e7bdb4941708
+  0.9.2--h118bc1c_0: 
+    sha256:bc511715477fa2ccd0b1ba556d442f5d0c0b28e142978188cac84948b09820bd
 tags:
   0.8.2--h7132678_0: 
     sha256:7b1fd511eed14e02f016ee231db7d3e2c8285dee061c0f094d3ff0d2a45eccae
@@ -11,6 +11,8 @@ tags:
     sha256:5897aa4f51a05e620ac9ac66ff04d696142859dde3ead10f169a7ee620b24811
   0.8.2--h577a1d6_3: 
     sha256:fccfba6d11853d0aee43f27d8e5fdd621633cedb2010f18dfaa9e7bdb4941708
+  0.9.2--h118bc1c_0: 
+    sha256:bc511715477fa2ccd0b1ba556d442f5d0c0b28e142978188cac84948b09820bd
 docker: quay.io/biocontainers/ccphylo
 aliases:
   ccphylo: /usr/local/bin/ccphylo

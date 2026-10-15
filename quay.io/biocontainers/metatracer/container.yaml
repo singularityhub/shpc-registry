@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metatracer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metatracer
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:668d6d206c4394451e2215bd866421b16a940f49847a660134126d1172caf0fe
+  0.1.2--pyhdfd78af_0: 
+    sha256:90277da143c4bbcf44c16a4e42ba6d6e0e1e06b98c1b7d20d680e287a60e2bef
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:668d6d206c4394451e2215bd866421b16a940f49847a660134126d1172caf0fe
+  0.1.2--pyhdfd78af_0: 
+    sha256:90277da143c4bbcf44c16a4e42ba6d6e0e1e06b98c1b7d20d680e287a60e2bef
 docker: quay.io/biocontainers/metatracer
 aliases:
   metatracer: /usr/local/bin/metatracer

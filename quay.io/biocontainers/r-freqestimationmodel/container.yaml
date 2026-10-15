@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   r-freqestimationmodel
 latest:
-  0.1.0--r45hdfd78af_0: 
-    sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a
+  0.1.1--r45hdfd78af_0: 
+    sha256:a1db393da96a0d5b2e4e7769d02aa38bba3bbfd6aae4f0473d89a420c996031f
 tags:
   0.1.0--r45hdfd78af_0: 
     sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a
+  0.1.1--r45hdfd78af_0: 
+    sha256:a1db393da96a0d5b2e4e7769d02aa38bba3bbfd6aae4f0473d89a420c996031f
 docker: quay.io/biocontainers/r-freqestimationmodel
 aliases:
   psl: /usr/local/bin/psl

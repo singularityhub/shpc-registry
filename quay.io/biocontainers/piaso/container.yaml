@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/piaso
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for piaso
 latest:
-  1.0.3--pyhdfd78af_0: 
-    sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59
+  1.2.6--py310hce5ca29_0: 
+    sha256:cdaa8cbe66d9f0f988ef6ba478a89c6381d1a79eed0d75571686c97a25f7d1ec
 tags:
   1.0.3--pyhdfd78af_0: 
     sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59
+  1.2.6--py310hce5ca29_0: 
+    sha256:cdaa8cbe66d9f0f988ef6ba478a89c6381d1a79eed0d75571686c97a25f7d1ec
 docker: quay.io/biocontainers/piaso
 aliases:
   session-info: /usr/local/bin/session-info

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/quaqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quaqc
 latest:
-  1.6--h118bc1c_0: 
-    sha256:c63d74e562d7cae1b5032df2be4fcb76afbbbc70f5f5c57df5edd343398cfe60
+  1.7--h118bc1c_0: 
+    sha256:985f3ec64060273a0a2cc045c0758e78264e32dc61ca30d6a7b4a6cf646618d2
 tags:
   1.3d--h577a1d6_0: 
     sha256:6a3a5c6afaea221e2087aa9a54a2a0a9ff755668299b48699cb81285639a46fa
@@ -15,6 +15,8 @@ tags:
     sha256:be72be2034316dd50c62ebf6c03cd53d5e2e9ab141cbb251c84b1fed2d334cec
   1.6--h118bc1c_0: 
     sha256:c63d74e562d7cae1b5032df2be4fcb76afbbbc70f5f5c57df5edd343398cfe60
+  1.7--h118bc1c_0: 
+    sha256:985f3ec64060273a0a2cc045c0758e78264e32dc61ca30d6a7b4a6cf646618d2
 docker: quay.io/biocontainers/quaqc
 aliases:
   quaqc: /usr/local/bin/quaqc

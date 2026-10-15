@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-pointillism
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-pointillism
 latest:
-  0.8.0--r45hdfd78af_0: 
-    sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55
+  0.9.0--r45hdfd78af_0: 
+    sha256:e49d97dcff9ab67b71538831544cb8163881696ee2e58e1b84269502d571660e
 tags:
   0.8.0--r45hdfd78af_0: 
     sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55
+  0.9.0--r45hdfd78af_0: 
+    sha256:e49d97dcff9ab67b71538831544cb8163881696ee2e58e1b84269502d571660e
 docker: quay.io/biocontainers/r-pointillism
 aliases:
   fc-genconf: /usr/local/bin/fc-genconf
