@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygoslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygoslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygoslin/container.yaml"
-updated_at: "2026-10-15 19:40:07.430762"
+updated_at: "2026-10-16 07:20:59.176242"
 latest: "2.2.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/pygoslin"
 aliases:

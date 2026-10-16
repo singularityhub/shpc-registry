@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/losat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/losat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/losat/container.yaml"
-updated_at: "2026-10-15 19:32:05.001163"
+updated_at: "2026-10-16 07:15:04.197612"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/losat"
 aliases:

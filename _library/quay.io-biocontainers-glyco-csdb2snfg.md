@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/glyco-csdb2snfg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glyco-csdb2snfg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glyco-csdb2snfg/container.yaml"
-updated_at: "2026-10-15 19:52:27.685431"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-10-16 07:30:21.298618"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/glyco-csdb2snfg"
 aliases:
  - "csdb2snfg"
@@ -31,8 +31,9 @@ aliases:
  - "brotli"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for glyco-csdb2snfg"
-config: {"url": "https://biocontainers.pro/tools/glyco-csdb2snfg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for glyco-csdb2snfg", "latest": {"0.1.0--pyhdfd78af_0": "sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133"}, "docker": "quay.io/biocontainers/glyco-csdb2snfg", "aliases": {"csdb2snfg": "/usr/local/bin/csdb2snfg", "vba_extract.py": "/usr/local/bin/vba_extract.py", "fc-genconf": "/usr/local/bin/fc-genconf", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/glyco-csdb2snfg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for glyco-csdb2snfg", "latest": {"0.2.0--pyhdfd78af_0": "sha256:0f203982a6022aa026fdcfa5afcbe4838568a1528fb7c6ec3123d81fbe145318"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133", "0.2.0--pyhdfd78af_0": "sha256:0f203982a6022aa026fdcfa5afcbe4838568a1528fb7c6ec3123d81fbe145318"}, "docker": "quay.io/biocontainers/glyco-csdb2snfg", "aliases": {"csdb2snfg": "/usr/local/bin/csdb2snfg", "vba_extract.py": "/usr/local/bin/vba_extract.py", "fc-genconf": "/usr/local/bin/fc-genconf", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glyco-csdb2snfg.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/glyco-csdb2snfg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/glyco-csdb2snfg:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/glyco-csdb2snfg:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/glyco-csdb2snfg/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/glyco-csdb2snfg/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/glyco-csdb2snfg/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/glyco-csdb2snfg/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

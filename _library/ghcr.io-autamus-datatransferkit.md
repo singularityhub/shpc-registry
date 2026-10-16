@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/datatransferkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/datatransferkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/datatransferkit/container.yaml"
-updated_at: "2026-10-15 18:58:13.061868"
+updated_at: "2026-10-16 06:49:44.781069"
 latest: "3.1.rc.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/datatransferkit"
 

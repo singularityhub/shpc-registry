@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amplirust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplirust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplirust/container.yaml"
-updated_at: "2026-10-15 19:07:16.377636"
+updated_at: "2026-10-16 06:56:28.219467"
 latest: "0.3.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/amplirust"
 aliases:

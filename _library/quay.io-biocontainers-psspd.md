@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psspd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psspd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psspd/container.yaml"
-updated_at: "2026-10-15 19:56:36.387949"
+updated_at: "2026-10-16 07:33:27.760716"
 latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psspd"
 aliases:

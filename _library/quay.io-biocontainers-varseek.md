@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varseek/container.yaml"
-updated_at: "2026-10-15 19:31:23.113819"
+updated_at: "2026-10-16 07:14:31.849546"
 latest: "0.2.1--py310h03affb9_0"
 container_url: "https://biocontainers.pro/tools/varseek"
 aliases:

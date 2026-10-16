@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dipper/container.yaml"
-updated_at: "2026-10-15 19:22:33.626038"
+updated_at: "2026-10-16 07:07:50.242493"
 latest: "0.1.5--hc1a0c02_0"
 container_url: "https://biocontainers.pro/tools/dipper"
 aliases:

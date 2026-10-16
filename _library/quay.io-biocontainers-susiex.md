@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/susiex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/susiex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/susiex/container.yaml"
-updated_at: "2026-10-15 19:34:36.849425"
+updated_at: "2026-10-16 07:16:58.843145"
 latest: "1.1.2--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/susiex"
 aliases:

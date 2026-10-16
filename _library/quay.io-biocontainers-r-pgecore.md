@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-pgecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pgecore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pgecore/container.yaml"
-updated_at: "2026-10-15 19:18:14.097777"
-latest: "0.1.0--r45hab16a5f_0"
+updated_at: "2026-10-16 07:04:32.585618"
+latest: "0.1.0--r45hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/r-pgecore"
 aliases:
  - "fc-genconf"
  - "x86_64-conda-linux-gnu.cfg"
 versions:
  - "0.1.0--r45hab16a5f_0"
+ - "0.1.0--r45hab16a5f_1"
 description: "singularity registry hpc automated addition for r-pgecore"
-config: {"url": "https://biocontainers.pro/tools/r-pgecore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pgecore", "latest": {"0.1.0--r45hab16a5f_0": "sha256:30c1842bd29909d8d192515ff906579798cae0ccb907867c20bdf5f72b825129"}, "tags": {"0.1.0--r45hab16a5f_0": "sha256:30c1842bd29909d8d192515ff906579798cae0ccb907867c20bdf5f72b825129"}, "docker": "quay.io/biocontainers/r-pgecore", "aliases": {"fc-genconf": "/usr/local/bin/fc-genconf", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
+config: {"url": "https://biocontainers.pro/tools/r-pgecore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pgecore", "latest": {"0.1.0--r45hab16a5f_1": "sha256:130f888812eaf4f9c3b83b6e1ab483a84692325f5f42d7d15293af2a7982f1ec"}, "tags": {"0.1.0--r45hab16a5f_0": "sha256:30c1842bd29909d8d192515ff906579798cae0ccb907867c20bdf5f72b825129", "0.1.0--r45hab16a5f_1": "sha256:130f888812eaf4f9c3b83b6e1ab483a84692325f5f42d7d15293af2a7982f1ec"}, "docker": "quay.io/biocontainers/r-pgecore", "aliases": {"fc-genconf": "/usr/local/bin/fc-genconf", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pgecore.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-pgecore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pgecore:0.1.0--r45hab16a5f_0
+$ shpc install quay.io/biocontainers/r-pgecore:0.1.0--r45hab16a5f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pgecore/0.1.0--r45hab16a5f_0
-$ module help quay.io/biocontainers/r-pgecore/0.1.0--r45hab16a5f_0
+$ module load quay.io/biocontainers/r-pgecore/0.1.0--r45hab16a5f_1
+$ module help quay.io/biocontainers/r-pgecore/0.1.0--r45hab16a5f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

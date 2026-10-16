@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/atol-data-broker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-data-broker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-data-broker/container.yaml"
-updated_at: "2026-10-15 19:13:58.951931"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2026-10-16 07:01:26.903154"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-data-broker"
 aliases:
  - "broker"
@@ -23,8 +23,9 @@ aliases:
  - "pygmentize"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for atol-data-broker"
-config: {"url": "https://biocontainers.pro/tools/atol-data-broker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-data-broker", "latest": {"0.1.2--pyhdfd78af_0": "sha256:4b1aabad39552b5f50a087b9c4b5d8d79b8124a80e4f5c4e0afb45ee43eb2130"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:4b1aabad39552b5f50a087b9c4b5d8d79b8124a80e4f5c4e0afb45ee43eb2130"}, "docker": "quay.io/biocontainers/atol-data-broker", "aliases": {"broker": "/usr/local/bin/broker", "dotenv": "/usr/local/bin/dotenv", "idna": "/usr/local/bin/idna", "httpx": "/usr/local/bin/httpx", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/atol-data-broker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-data-broker", "latest": {"0.1.7--pyhdfd78af_0": "sha256:dfd281bea27f00269f809686002e4b525b5430b751a2d1ccaf423a0f4fd52007"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:4b1aabad39552b5f50a087b9c4b5d8d79b8124a80e4f5c4e0afb45ee43eb2130", "0.1.7--pyhdfd78af_0": "sha256:dfd281bea27f00269f809686002e4b525b5430b751a2d1ccaf423a0f4fd52007"}, "docker": "quay.io/biocontainers/atol-data-broker", "aliases": {"broker": "/usr/local/bin/broker", "dotenv": "/usr/local/bin/dotenv", "idna": "/usr/local/bin/idna", "httpx": "/usr/local/bin/httpx", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atol-data-broker.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/atol-data-broker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atol-data-broker:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/atol-data-broker:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atol-data-broker/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/atol-data-broker/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/atol-data-broker/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/atol-data-broker/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

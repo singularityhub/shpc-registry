@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-sigminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigminer/container.yaml"
-updated_at: "2026-10-15 19:05:04.698483"
-latest: "2.3.1--r45h0df16ae_2"
+updated_at: "2026-10-16 06:54:45.574195"
+latest: "2.3.3--r45h67c2a1a_0"
 container_url: "https://biocontainers.pro/tools/r-sigminer"
 aliases:
  - "f2py3.10"
@@ -25,8 +25,9 @@ versions:
  - "2.3.1--r43h21a89ab_0"
  - "2.3.1--r43h21a89ab_1"
  - "2.3.1--r45h0df16ae_2"
+ - "2.3.3--r45h67c2a1a_0"
 description: "shpc-registry automated BioContainers addition for r-sigminer"
-config: {"url": "https://biocontainers.pro/tools/r-sigminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigminer", "latest": {"2.3.1--r45h0df16ae_2": "sha256:d84939139755f5081d1b2f7c4ba0705330ff443990299387460a977aaefb9561"}, "tags": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366", "2.1.9--r42hecf12ef_1": "sha256:b9f51c2a7726724e4d7f15d7e1002b31a402e89cba537c5b10c3d269d4dc862b", "2.2.0--r42h21a89ab_1": "sha256:c067526ea1c51809dd45e2f14f613d266f2d4f2417094b6a026c359c66784147", "2.1.9--r42h21a89ab_2": "sha256:32fda439bfa9ed2858588f5d5912e3015c898c78e3296628d117ec83323debe9", "2.2.2--r43h21a89ab_0": "sha256:184cdc81a9c81248aa7f6dc323148dc9825078c6a0c68d3135ddbcae78a63125", "2.3.0--r43h21a89ab_0": "sha256:6fa4ac6d95429a371acc886b7a7c2ef4a42e8ab8c67a43610c27723990186835", "2.3.1--r43h21a89ab_0": "sha256:4986a0266b8ccb3f03a54da628ccd84ae9f1974e9c16ca3a5b2392f1e5780c77", "2.3.1--r43h21a89ab_1": "sha256:f32a2d8d475ac95f672bfa46fb4ee1f6495a1ea8bce3e85181c9b52347d8a65a", "2.3.1--r45h0df16ae_2": "sha256:d84939139755f5081d1b2f7c4ba0705330ff443990299387460a977aaefb9561"}, "docker": "quay.io/biocontainers/r-sigminer", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-sigminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigminer", "latest": {"2.3.3--r45h67c2a1a_0": "sha256:e61a0262c78629feb1051716c724d76ae5ea05edf1c6895ff6d1fbfd8402e488"}, "tags": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366", "2.1.9--r42hecf12ef_1": "sha256:b9f51c2a7726724e4d7f15d7e1002b31a402e89cba537c5b10c3d269d4dc862b", "2.2.0--r42h21a89ab_1": "sha256:c067526ea1c51809dd45e2f14f613d266f2d4f2417094b6a026c359c66784147", "2.1.9--r42h21a89ab_2": "sha256:32fda439bfa9ed2858588f5d5912e3015c898c78e3296628d117ec83323debe9", "2.2.2--r43h21a89ab_0": "sha256:184cdc81a9c81248aa7f6dc323148dc9825078c6a0c68d3135ddbcae78a63125", "2.3.0--r43h21a89ab_0": "sha256:6fa4ac6d95429a371acc886b7a7c2ef4a42e8ab8c67a43610c27723990186835", "2.3.1--r43h21a89ab_0": "sha256:4986a0266b8ccb3f03a54da628ccd84ae9f1974e9c16ca3a5b2392f1e5780c77", "2.3.1--r43h21a89ab_1": "sha256:f32a2d8d475ac95f672bfa46fb4ee1f6495a1ea8bce3e85181c9b52347d8a65a", "2.3.1--r45h0df16ae_2": "sha256:d84939139755f5081d1b2f7c4ba0705330ff443990299387460a977aaefb9561", "2.3.3--r45h67c2a1a_0": "sha256:e61a0262c78629feb1051716c724d76ae5ea05edf1c6895ff6d1fbfd8402e488"}, "docker": "quay.io/biocontainers/r-sigminer", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sigminer.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/r-sigminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sigminer:2.3.1--r45h0df16ae_2
+$ shpc install quay.io/biocontainers/r-sigminer:2.3.3--r45h67c2a1a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sigminer/2.3.1--r45h0df16ae_2
-$ module help quay.io/biocontainers/r-sigminer/2.3.1--r45h0df16ae_2
+$ module load quay.io/biocontainers/r-sigminer/2.3.3--r45h67c2a1a_0
+$ module help quay.io/biocontainers/r-sigminer/2.3.3--r45h67c2a1a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

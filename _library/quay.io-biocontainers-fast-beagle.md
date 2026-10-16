@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast-beagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-beagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-beagle/container.yaml"
-updated_at: "2026-10-15 19:47:18.524084"
+updated_at: "2026-10-16 07:26:27.300994"
 latest: "5.5.3--hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/fast-beagle"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-proteininference"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-proteininference/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-proteininference/container.yaml"
-updated_at: "2026-10-15 19:28:39.713750"
+updated_at: "2026-10-16 07:12:25.563116"
 latest: "0.0.10--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-proteininference"
 aliases:

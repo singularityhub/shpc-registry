@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pafpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pafpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pafpy/container.yaml"
-updated_at: "2026-10-15 19:04:13.378010"
+updated_at: "2026-10-16 06:54:06.701411"
 latest: "0.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/pafpy"
 aliases:

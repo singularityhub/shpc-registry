@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/adios"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/adios/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/adios/container.yaml"
-updated_at: "2026-10-15 18:58:51.622986"
+updated_at: "2026-10-16 06:50:13.882085"
 latest: "1.13.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/adios"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kfb2zarr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kfb2zarr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kfb2zarr/container.yaml"
-updated_at: "2026-10-15 19:10:11.025835"
+updated_at: "2026-10-16 06:58:36.479038"
 latest: "0.1.3--hec9b1f2_1"
 container_url: "https://biocontainers.pro/tools/kfb2zarr"
 aliases:

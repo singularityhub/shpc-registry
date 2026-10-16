@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adtoolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adtoolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adtoolbox/container.yaml"
-updated_at: "2026-10-15 19:14:05.746072"
+updated_at: "2026-10-16 07:01:31.841551"
 latest: "1.1.16--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/adtoolbox"
 aliases:

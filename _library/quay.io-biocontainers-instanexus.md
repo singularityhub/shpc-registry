@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/instanexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instanexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/instanexus/container.yaml"
-updated_at: "2026-10-15 19:39:05.004369"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2026-10-16 07:20:15.186906"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/instanexus"
 aliases:
  - "hatch"
@@ -44,8 +44,9 @@ aliases:
  - "qvoronoi"
 versions:
  - "0.2.1--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for instanexus"
-config: {"url": "https://biocontainers.pro/tools/instanexus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for instanexus", "latest": {"0.2.1--pyhdfd78af_0": "sha256:69adc0fecd6b74a754cd4799039ed516ad2ef9676c5f8575efa2d9abf5944f6c"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:69adc0fecd6b74a754cd4799039ed516ad2ef9676c5f8575efa2d9abf5944f6c"}, "docker": "quay.io/biocontainers/instanexus", "aliases": {"hatch": "/usr/local/bin/hatch", "hatchling": "/usr/local/bin/hatchling", "httpx2": "/usr/local/bin/httpx2", "instanexus": "/usr/local/bin/instanexus", "instanexus-optimize": "/usr/local/bin/instanexus-optimize", "trove-classifiers": "/usr/local/bin/trove-classifiers", "userpath": "/usr/local/bin/userpath", "uv": "/usr/local/bin/uv", "uvx": "/usr/local/bin/uvx", "gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "distro": "/usr/local/bin/distro", "fc-genconf": "/usr/local/bin/fc-genconf", "keyring": "/usr/local/bin/keyring", "virtualenv": "/usr/local/bin/virtualenv", "idna": "/usr/local/bin/idna", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "clustalo": "/usr/local/bin/clustalo", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "gawkbug": "/usr/local/bin/gawkbug", "gawk": "/usr/local/bin/gawk", "awk": "/usr/local/bin/awk", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
+config: {"url": "https://biocontainers.pro/tools/instanexus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for instanexus", "latest": {"0.3.1--pyhdfd78af_0": "sha256:4e6c2d3b38cf02374c7d37527b8b6324deb438e437b204c982a49544fb88c91e"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:69adc0fecd6b74a754cd4799039ed516ad2ef9676c5f8575efa2d9abf5944f6c", "0.3.1--pyhdfd78af_0": "sha256:4e6c2d3b38cf02374c7d37527b8b6324deb438e437b204c982a49544fb88c91e"}, "docker": "quay.io/biocontainers/instanexus", "aliases": {"hatch": "/usr/local/bin/hatch", "hatchling": "/usr/local/bin/hatchling", "httpx2": "/usr/local/bin/httpx2", "instanexus": "/usr/local/bin/instanexus", "instanexus-optimize": "/usr/local/bin/instanexus-optimize", "trove-classifiers": "/usr/local/bin/trove-classifiers", "userpath": "/usr/local/bin/userpath", "uv": "/usr/local/bin/uv", "uvx": "/usr/local/bin/uvx", "gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "distro": "/usr/local/bin/distro", "fc-genconf": "/usr/local/bin/fc-genconf", "keyring": "/usr/local/bin/keyring", "virtualenv": "/usr/local/bin/virtualenv", "idna": "/usr/local/bin/idna", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "clustalo": "/usr/local/bin/clustalo", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "gawkbug": "/usr/local/bin/gawkbug", "gawk": "/usr/local/bin/gawk", "awk": "/usr/local/bin/awk", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/instanexus.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/instanexus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/instanexus:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/instanexus:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/instanexus/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/instanexus/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/instanexus/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/instanexus/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

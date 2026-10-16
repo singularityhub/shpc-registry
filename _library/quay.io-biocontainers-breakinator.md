@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breakinator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakinator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakinator/container.yaml"
-updated_at: "2026-10-15 19:07:44.867783"
+updated_at: "2026-10-16 06:56:49.430179"
 latest: "1.0.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/breakinator"
 aliases:
