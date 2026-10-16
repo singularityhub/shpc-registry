@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-pgecore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-pgecore
 latest:
-  0.1.0--r45hab16a5f_0: 
-    sha256:30c1842bd29909d8d192515ff906579798cae0ccb907867c20bdf5f72b825129
+  0.1.0--r45hab16a5f_1: 
+    sha256:130f888812eaf4f9c3b83b6e1ab483a84692325f5f42d7d15293af2a7982f1ec
 tags:
   0.1.0--r45hab16a5f_0: 
     sha256:30c1842bd29909d8d192515ff906579798cae0ccb907867c20bdf5f72b825129
+  0.1.0--r45hab16a5f_1: 
+    sha256:130f888812eaf4f9c3b83b6e1ab483a84692325f5f42d7d15293af2a7982f1ec
 docker: quay.io/biocontainers/r-pgecore
 aliases:
   fc-genconf: /usr/local/bin/fc-genconf

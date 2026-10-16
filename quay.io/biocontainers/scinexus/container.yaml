@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scinexus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scinexus
 latest:
-  2026.9.12--pyhdfd78af_0: 
-    sha256:42b7d43b1627cf2a34dd5d76229d86b5bd5ee019a09e70243fa2299515e53284
+  2026.10.12--pyhdfd78af_0: 
+    sha256:c28b5f011d0be89bb2b69fa19e77941c490fd7bcae6728a05988e3f73bbae883
 tags:
   2026.4.25b0--pyhdfd78af_0: 
     sha256:92250413ec40c22dc45dc7a4e7631ccf405266badaad02bd213a9f5bc633230a
@@ -11,6 +11,10 @@ tags:
     sha256:3e471c6c452ea0397c307f00fa5919046e1f5316085148c6875919ed9c1bfc24
   2026.9.12--pyhdfd78af_0: 
     sha256:42b7d43b1627cf2a34dd5d76229d86b5bd5ee019a09e70243fa2299515e53284
+  2026.10.12--pyhdfd78af_0: 
+    sha256:c28b5f011d0be89bb2b69fa19e77941c490fd7bcae6728a05988e3f73bbae883
+  2026.9.21--pyhdfd78af_0: 
+    sha256:579106e757119a932b78ed1ea27ee6554fa9768aa8206dcb062505b8776716e2
 docker: quay.io/biocontainers/scinexus
 aliases:
   idle3.14: /usr/local/bin/idle3.14

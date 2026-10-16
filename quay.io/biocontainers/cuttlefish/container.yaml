@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cuttlefish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cuttlefish
 latest:
-  3.0.2--hfa8f182_0: 
-    sha256:e8b99acd78a4cc9fd19c5e3b0fd8a413113b30094d262aa663b3a2b4415efbf8
+  3.1.0--hfa8f182_0: 
+    sha256:237a599fbe824fd7a2151be1ff6f87b352133c55ba90f77c28873035b572e578
 tags:
   2.1.0--hf1761c0_0: 
     sha256:aa009abd48c372125e060d39f49f1690be74b6dac276d451bf1cc4c847a914d6
@@ -19,6 +19,10 @@ tags:
     sha256:9c99fde753a6bd60022602e69317806f363cf998b463821d2ea6ecaf0c0e11f2
   3.0.2--hfa8f182_0: 
     sha256:e8b99acd78a4cc9fd19c5e3b0fd8a413113b30094d262aa663b3a2b4415efbf8
+  3.1.0--hfa8f182_0: 
+    sha256:237a599fbe824fd7a2151be1ff6f87b352133c55ba90f77c28873035b572e578
+  3.0.3--hfa8f182_0: 
+    sha256:d9ba52aed9c736a467d46359e0e74616ed0e87afb11c2928d248713f05b11cb1
 docker: quay.io/biocontainers/cuttlefish
 aliases:
   cuttlefish: /usr/local/bin/cuttlefish

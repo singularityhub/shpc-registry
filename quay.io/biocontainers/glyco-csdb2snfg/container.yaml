@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/glyco-csdb2snfg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for glyco-csdb2snfg
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133
+  0.2.0--pyhdfd78af_0: 
+    sha256:0f203982a6022aa026fdcfa5afcbe4838568a1528fb7c6ec3123d81fbe145318
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133
+  0.2.0--pyhdfd78af_0: 
+    sha256:0f203982a6022aa026fdcfa5afcbe4838568a1528fb7c6ec3123d81fbe145318
 docker: quay.io/biocontainers/glyco-csdb2snfg
 aliases:
   csdb2snfg: /usr/local/bin/csdb2snfg

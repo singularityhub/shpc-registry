@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/yame
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for yame
 latest:
-  1.41--he9f63f3_0: 
-    sha256:4c93d60bf95e916b6167011c8255f06791892383802725fec554a7dac91f0eb7
+  1.59--he9f63f3_0: 
+    sha256:2d19d28bd6d100c6ba95e4765c96f5dcf7ff61e95ab9398d252b381f40c9d10c
 tags:
   1.0.5--h96c455f_0: 
     sha256:ec031252221a2a8b223010270a3373bbca239c6b904c20bb05030a81806c41f4
@@ -19,6 +19,12 @@ tags:
     sha256:ea0c2b57d82bc2a36a8295264c2981ed7754ffead3a9f5a71735073c69cfb15a
   1.35--he9f63f3_0: 
     sha256:14348376b8bec9d4fb02a28b513ea969b2ea177e6be188ce34a491b293b10227
+  1.59--he9f63f3_0: 
+    sha256:2d19d28bd6d100c6ba95e4765c96f5dcf7ff61e95ab9398d252b381f40c9d10c
+  1.58--he9f63f3_0: 
+    sha256:9ab05558c89580c496d514f5147c441bc2164ffb24210a2f0eeef8fe6f32770f
+  1.51--he9f63f3_0: 
+    sha256:cf8f575d1a707f8b51ca01aff3763b1720a188dbad96c6be35463bd342022c2b
 docker: quay.io/biocontainers/yame
 aliases:
   yame: /usr/local/bin/yame

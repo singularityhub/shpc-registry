@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/instanexus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for instanexus
 latest:
-  0.2.1--pyhdfd78af_0: 
-    sha256:69adc0fecd6b74a754cd4799039ed516ad2ef9676c5f8575efa2d9abf5944f6c
+  0.3.1--pyhdfd78af_0: 
+    sha256:4e6c2d3b38cf02374c7d37527b8b6324deb438e437b204c982a49544fb88c91e
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:69adc0fecd6b74a754cd4799039ed516ad2ef9676c5f8575efa2d9abf5944f6c
+  0.3.1--pyhdfd78af_0: 
+    sha256:4e6c2d3b38cf02374c7d37527b8b6324deb438e437b204c982a49544fb88c91e
 docker: quay.io/biocontainers/instanexus
 aliases:
   hatch: /usr/local/bin/hatch
