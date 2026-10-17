@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plpe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plpe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plpe/container.yaml"
-updated_at: "2026-10-16 06:59:20.454752"
+updated_at: "2026-10-17 06:52:04.692259"
 latest: "1.70.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plpe"
 

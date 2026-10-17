@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scprep/container.yaml"
-updated_at: "2026-10-16 06:54:48.615357"
+updated_at: "2026-10-17 06:47:38.614711"
 latest: "1.2.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scprep"
 aliases:

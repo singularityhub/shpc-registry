@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cottonprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cottonprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cottonprobe/container.yaml"
-updated_at: "2026-10-16 07:09:02.225883"
+updated_at: "2026-10-17 07:01:42.621824"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-cottonprobe"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oxo-flow-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxo-flow-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxo-flow-cli/container.yaml"
-updated_at: "2026-10-16 07:12:17.045414"
+updated_at: "2026-10-17 07:04:56.956126"
 latest: "0.7.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/oxo-flow-cli"
 aliases:

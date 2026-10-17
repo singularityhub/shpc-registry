@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/k2tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/k2tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/k2tools/container.yaml"
-updated_at: "2026-10-16 06:59:33.545712"
-latest: "0.1.0--h54198d6_0"
+updated_at: "2026-10-17 06:52:17.333364"
+latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/k2tools"
 aliases:
  - "k2tools"
 versions:
  - "0.1.0--h54198d6_0"
+ - "0.2.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for k2tools"
-config: {"url": "https://biocontainers.pro/tools/k2tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for k2tools", "latest": {"0.1.0--h54198d6_0": "sha256:bf36738123d0f6427b0cef79295891c496eac3722746758020c99528943c0447"}, "tags": {"0.1.0--h54198d6_0": "sha256:bf36738123d0f6427b0cef79295891c496eac3722746758020c99528943c0447"}, "docker": "quay.io/biocontainers/k2tools", "aliases": {"k2tools": "/usr/local/bin/k2tools"}}
+config: {"url": "https://biocontainers.pro/tools/k2tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for k2tools", "latest": {"0.2.0--hfa8f182_0": "sha256:72a48b83d0fcb5f340c7f09dafd506545037b2ee7bc6533a504c2cf282cc5afa"}, "tags": {"0.1.0--h54198d6_0": "sha256:bf36738123d0f6427b0cef79295891c496eac3722746758020c99528943c0447", "0.2.0--hfa8f182_0": "sha256:72a48b83d0fcb5f340c7f09dafd506545037b2ee7bc6533a504c2cf282cc5afa"}, "docker": "quay.io/biocontainers/k2tools", "aliases": {"k2tools": "/usr/local/bin/k2tools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/k2tools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/k2tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/k2tools:0.1.0--h54198d6_0
+$ shpc install quay.io/biocontainers/k2tools:0.2.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/k2tools/0.1.0--h54198d6_0
-$ module help quay.io/biocontainers/k2tools/0.1.0--h54198d6_0
+$ module load quay.io/biocontainers/k2tools/0.2.0--hfa8f182_0
+$ module help quay.io/biocontainers/k2tools/0.2.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/philosopher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/philosopher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/philosopher/container.yaml"
-updated_at: "2026-10-16 07:01:11.510244"
+updated_at: "2026-10-17 06:53:53.793914"
 latest: "5.1.2--he881be0_0"
 container_url: "https://biocontainers.pro/tools/philosopher"
 aliases:

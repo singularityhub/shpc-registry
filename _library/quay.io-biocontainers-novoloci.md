@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novoloci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoloci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novoloci/container.yaml"
-updated_at: "2026-10-16 07:10:52.195118"
+updated_at: "2026-10-17 07:03:32.429962"
 latest: "0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/novoloci"
 aliases:

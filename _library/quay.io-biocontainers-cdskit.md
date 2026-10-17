@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdskit/container.yaml"
-updated_at: "2026-10-16 07:23:07.664089"
+updated_at: "2026-10-17 07:15:33.466989"
 latest: "0.32.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cdskit"
 aliases:

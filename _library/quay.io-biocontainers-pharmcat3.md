@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pharmcat3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pharmcat3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pharmcat3/container.yaml"
-updated_at: "2026-10-16 07:03:54.427094"
+updated_at: "2026-10-17 06:56:36.502522"
 latest: "3.4.0--py313h106432d_0"
 container_url: "https://biocontainers.pro/tools/pharmcat3"
 aliases:

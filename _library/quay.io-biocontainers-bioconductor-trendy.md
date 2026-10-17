@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trendy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trendy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trendy/container.yaml"
-updated_at: "2026-10-16 07:21:25.575470"
+updated_at: "2026-10-17 07:13:57.059631"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trendy"
 aliases:

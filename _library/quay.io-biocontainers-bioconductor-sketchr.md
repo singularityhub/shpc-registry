@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sketchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sketchr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sketchr/container.yaml"
-updated_at: "2026-10-16 07:21:56.026184"
+updated_at: "2026-10-17 07:14:25.755268"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sketchr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycytominer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycytominer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycytominer/container.yaml"
-updated_at: "2026-10-16 07:16:42.298860"
+updated_at: "2026-10-17 07:09:21.225727"
 latest: "1.6.1"
 container_url: "https://biocontainers.pro/tools/pycytominer"
 aliases:

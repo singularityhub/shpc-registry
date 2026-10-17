@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stag/container.yaml"
-updated_at: "2026-10-16 07:24:10.188652"
+updated_at: "2026-10-17 07:16:31.638065"
 latest: "0.8.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/stag"
 aliases:

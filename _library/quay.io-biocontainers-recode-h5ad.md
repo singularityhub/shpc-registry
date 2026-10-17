@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/recode-h5ad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recode-h5ad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recode-h5ad/container.yaml"
-updated_at: "2026-10-16 07:09:12.442769"
-latest: "0.1.2--pyhcca532d_0"
+updated_at: "2026-10-17 07:01:52.795713"
+latest: "0.1.3--pyhcca532d_0"
 container_url: "https://biocontainers.pro/tools/recode-h5ad"
 aliases:
  - "recode_h5ad"
@@ -36,8 +36,9 @@ aliases:
  - "h5diff"
 versions:
  - "0.1.2--pyhcca532d_0"
+ - "0.1.3--pyhcca532d_0"
 description: "singularity registry hpc automated addition for recode-h5ad"
-config: {"url": "https://biocontainers.pro/tools/recode-h5ad", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for recode-h5ad", "latest": {"0.1.2--pyhcca532d_0": "sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b"}, "tags": {"0.1.2--pyhcca532d_0": "sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b"}, "docker": "quay.io/biocontainers/recode-h5ad", "aliases": {"recode_h5ad": "/usr/local/bin/recode_h5ad", "ojph_compress": "/usr/local/bin/ojph_compress", "ojph_expand": "/usr/local/bin/ojph_expand", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "natsort": "/usr/local/bin/natsort", "h5delete": "/usr/local/bin/h5delete", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "h5fc": "/usr/local/bin/h5fc", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "numpy-config": "/usr/local/bin/numpy-config", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/recode-h5ad", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for recode-h5ad", "latest": {"0.1.3--pyhcca532d_0": "sha256:c46fac9c184441caf561040d6e7f4c2dbe7e90ce7fa9c84a0a6a2e0f9986b45e"}, "tags": {"0.1.2--pyhcca532d_0": "sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b", "0.1.3--pyhcca532d_0": "sha256:c46fac9c184441caf561040d6e7f4c2dbe7e90ce7fa9c84a0a6a2e0f9986b45e"}, "docker": "quay.io/biocontainers/recode-h5ad", "aliases": {"recode_h5ad": "/usr/local/bin/recode_h5ad", "ojph_compress": "/usr/local/bin/ojph_compress", "ojph_expand": "/usr/local/bin/ojph_expand", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "natsort": "/usr/local/bin/natsort", "h5delete": "/usr/local/bin/h5delete", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "h5fc": "/usr/local/bin/h5fc", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "numpy-config": "/usr/local/bin/numpy-config", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recode-h5ad.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/recode-h5ad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/recode-h5ad:0.1.2--pyhcca532d_0
+$ shpc install quay.io/biocontainers/recode-h5ad:0.1.3--pyhcca532d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/recode-h5ad/0.1.2--pyhcca532d_0
-$ module help quay.io/biocontainers/recode-h5ad/0.1.2--pyhcca532d_0
+$ module load quay.io/biocontainers/recode-h5ad/0.1.3--pyhcca532d_0
+$ module help quay.io/biocontainers/recode-h5ad/0.1.3--pyhcca532d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

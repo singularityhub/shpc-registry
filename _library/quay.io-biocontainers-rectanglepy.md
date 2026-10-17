@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rectanglepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rectanglepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rectanglepy/container.yaml"
-updated_at: "2026-10-16 07:09:26.118443"
-latest: "1.5.0--pyh106432d_0"
+updated_at: "2026-10-17 07:02:06.345470"
+latest: "1.7.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/rectanglepy"
 aliases:
  - "cffi-gen-src"
@@ -38,8 +38,10 @@ aliases:
  - "h2benchmark"
 versions:
  - "1.5.0--pyh106432d_0"
+ - "1.7.0--pyh106432d_0"
+ - "1.6.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for rectanglepy"
-config: {"url": "https://biocontainers.pro/tools/rectanglepy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rectanglepy", "latest": {"1.5.0--pyh106432d_0": "sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed"}, "tags": {"1.5.0--pyh106432d_0": "sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed"}, "docker": "quay.io/biocontainers/rectanglepy", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "jupyter-builder": "/usr/local/bin/jupyter-builder", "mistune": "/usr/local/bin/mistune", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "pyjson5": "/usr/local/bin/pyjson5", "jupyter-server": "/usr/local/bin/jupyter-server", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "jupyter-console": "/usr/local/bin/jupyter-console", "debugpy": "/usr/local/bin/debugpy", "send2trash": "/usr/local/bin/send2trash", "wsdump": "/usr/local/bin/wsdump", "jsonpointer": "/usr/local/bin/jsonpointer", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "idna": "/usr/local/bin/idna", "fc-genconf": "/usr/local/bin/fc-genconf", "pybabel": "/usr/local/bin/pybabel", "httpx": "/usr/local/bin/httpx", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "h2benchmark": "/usr/local/bin/h2benchmark"}}
+config: {"url": "https://biocontainers.pro/tools/rectanglepy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rectanglepy", "latest": {"1.7.0--pyh106432d_0": "sha256:93f1fe6fa8755aa467bac6099ba233d61b0d9026b590ae065f36810e1a902e2c"}, "tags": {"1.5.0--pyh106432d_0": "sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed", "1.7.0--pyh106432d_0": "sha256:93f1fe6fa8755aa467bac6099ba233d61b0d9026b590ae065f36810e1a902e2c", "1.6.0--pyh106432d_0": "sha256:973be3dcbbb8309328d6a78e1e8bfb1f065c4000651590b15bcad12296b32220"}, "docker": "quay.io/biocontainers/rectanglepy", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "jupyter-builder": "/usr/local/bin/jupyter-builder", "mistune": "/usr/local/bin/mistune", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "pyjson5": "/usr/local/bin/pyjson5", "jupyter-server": "/usr/local/bin/jupyter-server", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "jupyter-console": "/usr/local/bin/jupyter-console", "debugpy": "/usr/local/bin/debugpy", "send2trash": "/usr/local/bin/send2trash", "wsdump": "/usr/local/bin/wsdump", "jsonpointer": "/usr/local/bin/jsonpointer", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "idna": "/usr/local/bin/idna", "fc-genconf": "/usr/local/bin/fc-genconf", "pybabel": "/usr/local/bin/pybabel", "httpx": "/usr/local/bin/httpx", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "h2benchmark": "/usr/local/bin/h2benchmark"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rectanglepy.
@@ -54,7 +56,7 @@ $ shpc install quay.io/biocontainers/rectanglepy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rectanglepy:1.5.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/rectanglepy:1.7.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rectanglepy/1.5.0--pyh106432d_0
-$ module help quay.io/biocontainers/rectanglepy/1.5.0--pyh106432d_0
+$ module load quay.io/biocontainers/rectanglepy/1.7.0--pyh106432d_0
+$ module help quay.io/biocontainers/rectanglepy/1.7.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

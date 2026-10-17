@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barcode-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcode-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcode-validator/container.yaml"
-updated_at: "2026-10-16 07:34:54.829368"
+updated_at: "2026-10-17 07:27:16.083572"
 latest: "2.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/barcode-validator"
 aliases:

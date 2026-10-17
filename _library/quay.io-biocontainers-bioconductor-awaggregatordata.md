@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-awaggregatordata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-awaggregatordata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-awaggregatordata/container.yaml"
-updated_at: "2026-10-16 07:17:10.709271"
+updated_at: "2026-10-17 07:09:48.519833"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-awaggregatordata"
 aliases:

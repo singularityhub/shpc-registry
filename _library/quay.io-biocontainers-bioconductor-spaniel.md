@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spaniel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spaniel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spaniel/container.yaml"
-updated_at: "2026-10-16 06:51:46.440993"
+updated_at: "2026-10-17 06:44:32.576759"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spaniel"
 

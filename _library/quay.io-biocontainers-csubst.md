@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csubst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csubst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csubst/container.yaml"
-updated_at: "2026-10-16 07:05:01.053967"
+updated_at: "2026-10-17 06:57:43.327701"
 latest: "1.14.4--py311h04f3980_0"
 container_url: "https://biocontainers.pro/tools/csubst"
 aliases:

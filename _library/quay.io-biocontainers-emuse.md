@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emuse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emuse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emuse/container.yaml"
-updated_at: "2026-10-16 07:07:29.105722"
+updated_at: "2026-10-17 07:00:09.920881"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/emuse"
 aliases:

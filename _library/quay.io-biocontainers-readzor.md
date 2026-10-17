@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/readzor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/readzor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/readzor/container.yaml"
-updated_at: "2026-10-16 07:12:04.630750"
+updated_at: "2026-10-17 07:04:44.549476"
 latest: "0.1.20--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/readzor"
 aliases:

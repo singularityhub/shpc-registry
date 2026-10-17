@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nanotube"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanotube/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanotube/container.yaml"
-updated_at: "2026-10-16 07:06:52.475288"
+updated_at: "2026-10-17 06:59:33.575431"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanotube"
 

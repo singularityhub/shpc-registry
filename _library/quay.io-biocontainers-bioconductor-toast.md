@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-toast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-toast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-toast/container.yaml"
-updated_at: "2026-10-16 07:31:14.931567"
+updated_at: "2026-10-17 07:23:35.658300"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-toast"
 

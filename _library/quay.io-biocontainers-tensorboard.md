@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tensorboard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tensorboard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tensorboard/container.yaml"
-updated_at: "2026-10-16 07:23:56.008823"
-latest: "2.20.0"
+updated_at: "2026-10-17 07:16:18.395109"
+latest: "2.21.0"
 container_url: "https://biocontainers.pro/tools/tensorboard"
 aliases:
  - "tensorboard"
@@ -32,8 +32,9 @@ aliases:
  - "numpy-config"
 versions:
  - "2.20.0"
+ - "2.21.0"
 description: "singularity registry hpc automated addition for tensorboard"
-config: {"url": "https://biocontainers.pro/tools/tensorboard", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tensorboard", "latest": {"2.20.0": "sha256:552b84a3160ce107203af7a5e2d67244cca181eccadf6dc496bd9c65072cbf27"}, "tags": {"2.20.0": "sha256:552b84a3160ce107203af7a5e2d67244cca181eccadf6dc496bd9c65072cbf27"}, "docker": "quay.io/biocontainers/tensorboard", "aliases": {"tensorboard": "/usr/local/bin/tensorboard", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "markdown_py": "/usr/local/bin/markdown_py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "protoc": "/usr/local/bin/protoc", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/tensorboard", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tensorboard", "latest": {"2.21.0": "sha256:657278a6a6a5e8d38d12c4245d2c1411ad2d92414759f33931ddc7036185f637"}, "tags": {"2.20.0": "sha256:552b84a3160ce107203af7a5e2d67244cca181eccadf6dc496bd9c65072cbf27", "2.21.0": "sha256:657278a6a6a5e8d38d12c4245d2c1411ad2d92414759f33931ddc7036185f637"}, "docker": "quay.io/biocontainers/tensorboard", "aliases": {"tensorboard": "/usr/local/bin/tensorboard", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "markdown_py": "/usr/local/bin/markdown_py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "protoc": "/usr/local/bin/protoc", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tensorboard.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/tensorboard
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tensorboard:2.20.0
+$ shpc install quay.io/biocontainers/tensorboard:2.21.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tensorboard/2.20.0
-$ module help quay.io/biocontainers/tensorboard/2.20.0
+$ module load quay.io/biocontainers/tensorboard/2.21.0
+$ module help quay.io/biocontainers/tensorboard/2.21.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
