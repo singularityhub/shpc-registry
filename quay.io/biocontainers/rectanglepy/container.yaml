@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/rectanglepy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rectanglepy
 latest:
-  1.5.0--pyh106432d_0: 
-    sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed
+  1.7.0--pyh106432d_0: 
+    sha256:93f1fe6fa8755aa467bac6099ba233d61b0d9026b590ae065f36810e1a902e2c
 tags:
   1.5.0--pyh106432d_0: 
     sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed
+  1.7.0--pyh106432d_0: 
+    sha256:93f1fe6fa8755aa467bac6099ba233d61b0d9026b590ae065f36810e1a902e2c
+  1.6.0--pyh106432d_0: 
+    sha256:973be3dcbbb8309328d6a78e1e8bfb1f065c4000651590b15bcad12296b32220
 docker: quay.io/biocontainers/rectanglepy
 aliases:
   cffi-gen-src: /usr/local/bin/cffi-gen-src

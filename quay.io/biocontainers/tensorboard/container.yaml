@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tensorboard
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tensorboard
 latest:
-  2.20.0: 
-    sha256:552b84a3160ce107203af7a5e2d67244cca181eccadf6dc496bd9c65072cbf27
+  2.21.0: 
+    sha256:657278a6a6a5e8d38d12c4245d2c1411ad2d92414759f33931ddc7036185f637
 tags:
   2.20.0: 
     sha256:552b84a3160ce107203af7a5e2d67244cca181eccadf6dc496bd9c65072cbf27
+  2.21.0: 
+    sha256:657278a6a6a5e8d38d12c4245d2c1411ad2d92414759f33931ddc7036185f637
 docker: quay.io/biocontainers/tensorboard
 aliases:
   tensorboard: /usr/local/bin/tensorboard

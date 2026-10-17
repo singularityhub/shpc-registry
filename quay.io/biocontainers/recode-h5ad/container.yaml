@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/recode-h5ad
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for recode-h5ad
 latest:
-  0.1.2--pyhcca532d_0: 
-    sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b
+  0.1.3--pyhcca532d_0: 
+    sha256:c46fac9c184441caf561040d6e7f4c2dbe7e90ce7fa9c84a0a6a2e0f9986b45e
 tags:
   0.1.2--pyhcca532d_0: 
     sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b
+  0.1.3--pyhcca532d_0: 
+    sha256:c46fac9c184441caf561040d6e7f4c2dbe7e90ce7fa9c84a0a6a2e0f9986b45e
 docker: quay.io/biocontainers/recode-h5ad
 aliases:
   recode_h5ad: /usr/local/bin/recode_h5ad
