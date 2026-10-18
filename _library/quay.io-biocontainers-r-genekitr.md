@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-genekitr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genekitr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genekitr/container.yaml"
-updated_at: "2026-10-17 06:50:23.457261"
-latest: "1.2.8--r45h3342da4_0"
+updated_at: "2026-10-18 07:14:06.031113"
+latest: "1.3.0--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-genekitr"
 aliases:
  - "hb-raster"
@@ -31,8 +31,9 @@ aliases:
  - "hb-info"
 versions:
  - "1.2.8--r45h3342da4_0"
+ - "1.3.0--r45h3342da4_0"
 description: "singularity registry hpc automated addition for r-genekitr"
-config: {"url": "https://biocontainers.pro/tools/r-genekitr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-genekitr", "latest": {"1.2.8--r45h3342da4_0": "sha256:b064315fa1fec3a0d272c944cca58237da100ee24f9665b8e434b25e3059102d"}, "tags": {"1.2.8--r45h3342da4_0": "sha256:b064315fa1fec3a0d272c944cca58237da100ee24f9665b8e434b25e3059102d"}, "docker": "quay.io/biocontainers/r-genekitr", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "glpsol": "/usr/local/bin/glpsol", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info"}}
+config: {"url": "https://biocontainers.pro/tools/r-genekitr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-genekitr", "latest": {"1.3.0--r45h3342da4_0": "sha256:ff24bc5fdd6fca571c7f4f36fa473baf197f4ae9c75a0e414b901919ce0e91ed"}, "tags": {"1.2.8--r45h3342da4_0": "sha256:b064315fa1fec3a0d272c944cca58237da100ee24f9665b8e434b25e3059102d", "1.3.0--r45h3342da4_0": "sha256:ff24bc5fdd6fca571c7f4f36fa473baf197f4ae9c75a0e414b901919ce0e91ed"}, "docker": "quay.io/biocontainers/r-genekitr", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "glpsol": "/usr/local/bin/glpsol", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genekitr.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/r-genekitr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-genekitr:1.2.8--r45h3342da4_0
+$ shpc install quay.io/biocontainers/r-genekitr:1.3.0--r45h3342da4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-genekitr/1.2.8--r45h3342da4_0
-$ module help quay.io/biocontainers/r-genekitr/1.2.8--r45h3342da4_0
+$ module load quay.io/biocontainers/r-genekitr/1.3.0--r45h3342da4_0
+$ module help quay.io/biocontainers/r-genekitr/1.3.0--r45h3342da4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

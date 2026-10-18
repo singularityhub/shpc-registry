@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqanti3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqanti3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqanti3/container.yaml"
-updated_at: "2026-10-17 06:45:42.641992"
+updated_at: "2026-10-18 07:07:35.202586"
 latest: "6.0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sqanti3"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomeinfodbdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomeinfodbdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomeinfodbdata/container.yaml"
-updated_at: "2026-10-17 07:21:09.581370"
+updated_at: "2026-10-18 07:56:34.603439"
 latest: "1.2.15--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomeinfodbdata"
 

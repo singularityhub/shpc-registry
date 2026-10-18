@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-seqinfo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqinfo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqinfo/container.yaml"
-updated_at: "2026-10-17 06:55:43.192434"
-latest: "1.0.0--r45hdfd78af_0"
+updated_at: "2026-10-18 07:21:36.945799"
+latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqinfo"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r45hdfd78af_0"
+ - "1.2.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-seqinfo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seqinfo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-seqinfo", "latest": {"1.0.0--r45hdfd78af_0": "sha256:70dbd4cee976c958e2f7a9277888606771bbb2ed3d3a25cd56e9b1ca8ffcbd53"}, "tags": {"1.0.0--r45hdfd78af_0": "sha256:70dbd4cee976c958e2f7a9277888606771bbb2ed3d3a25cd56e9b1ca8ffcbd53"}, "docker": "quay.io/biocontainers/bioconductor-seqinfo", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seqinfo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-seqinfo", "latest": {"1.2.0--r45hdfd78af_0": "sha256:5cf36f338c6e0d441d1f18a8a85b283cb06ae4272e0e83417c6cf1e3b9090bf4"}, "tags": {"1.0.0--r45hdfd78af_0": "sha256:70dbd4cee976c958e2f7a9277888606771bbb2ed3d3a25cd56e9b1ca8ffcbd53", "1.2.0--r45hdfd78af_0": "sha256:5cf36f338c6e0d441d1f18a8a85b283cb06ae4272e0e83417c6cf1e3b9090bf4"}, "docker": "quay.io/biocontainers/bioconductor-seqinfo", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seqinfo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seqinfo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seqinfo:1.0.0--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-seqinfo:1.2.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seqinfo/1.0.0--r45hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-seqinfo/1.0.0--r45hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-seqinfo/1.2.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seqinfo/1.2.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

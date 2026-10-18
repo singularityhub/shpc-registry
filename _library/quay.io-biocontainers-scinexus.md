@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scinexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scinexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scinexus/container.yaml"
-updated_at: "2026-10-17 06:52:26.968959"
+updated_at: "2026-10-18 07:17:02.031697"
 latest: "2026.10.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scinexus"
 aliases:

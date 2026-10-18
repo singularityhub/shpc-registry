@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pykofamsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pykofamsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pykofamsearch/container.yaml"
-updated_at: "2026-10-17 07:18:16.717309"
+updated_at: "2026-10-18 07:52:47.809498"
 latest: "2026.7.21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pykofamsearch"
 aliases:

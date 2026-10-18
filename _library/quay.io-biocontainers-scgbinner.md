@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scgbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scgbinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scgbinner/container.yaml"
-updated_at: "2026-10-17 07:11:08.272400"
+updated_at: "2026-10-18 07:43:08.787759"
 latest: "1.0.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/scgbinner"
 aliases:

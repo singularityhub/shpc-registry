@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-caomicsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-caomicsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-caomicsv/container.yaml"
-updated_at: "2026-10-17 06:55:42.284758"
+updated_at: "2026-10-18 07:21:35.634789"
 latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-caomicsv"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metahict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metahict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metahict/container.yaml"
-updated_at: "2026-10-17 07:12:04.002461"
+updated_at: "2026-10-18 07:44:27.190577"
 latest: "1.2.0--py314hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metahict"
 aliases:

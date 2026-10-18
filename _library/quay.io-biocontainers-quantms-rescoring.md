@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quantms-rescoring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantms-rescoring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantms-rescoring/container.yaml"
-updated_at: "2026-10-17 07:14:11.777307"
+updated_at: "2026-10-18 07:47:14.900548"
 latest: "0.0.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quantms-rescoring"
 aliases:

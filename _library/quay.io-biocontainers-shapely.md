@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shapely"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapely/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapely/container.yaml"
-updated_at: "2026-10-17 07:09:02.832223"
-latest: "2.0.4"
+updated_at: "2026-10-18 07:40:13.213892"
+latest: "2.0.5"
 container_url: "https://biocontainers.pro/tools/shapely"
 aliases:
  - "numpy-config"
@@ -18,8 +18,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "2.0.4"
+ - "2.0.5"
 description: "singularity registry hpc automated addition for shapely"
-config: {"url": "https://biocontainers.pro/tools/shapely", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shapely", "latest": {"2.0.4": "sha256:4377d430f2aaf598fa7583d88afa1d95e5016d13362ba0f0d04cc6064c247535"}, "tags": {"2.0.4": "sha256:4377d430f2aaf598fa7583d88afa1d95e5016d13362ba0f0d04cc6064c247535"}, "docker": "quay.io/biocontainers/shapely", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/shapely", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shapely", "latest": {"2.0.5": "sha256:920a2022053551d097d1fbcefeeb7437214fa1da9c8ad3a65af3c7080fd67395"}, "tags": {"2.0.4": "sha256:4377d430f2aaf598fa7583d88afa1d95e5016d13362ba0f0d04cc6064c247535", "2.0.5": "sha256:920a2022053551d097d1fbcefeeb7437214fa1da9c8ad3a65af3c7080fd67395"}, "docker": "quay.io/biocontainers/shapely", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shapely.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/shapely
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shapely:2.0.4
+$ shpc install quay.io/biocontainers/shapely:2.0.5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shapely/2.0.4
-$ module help quay.io/biocontainers/shapely/2.0.4
+$ module load quay.io/biocontainers/shapely/2.0.5
+$ module help quay.io/biocontainers/shapely/2.0.5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

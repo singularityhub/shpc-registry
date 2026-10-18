@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlst/container.yaml"
-updated_at: "2026-10-17 06:48:41.742468"
+updated_at: "2026-10-18 07:11:42.406846"
 latest: "2.35.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mlst"
 aliases:

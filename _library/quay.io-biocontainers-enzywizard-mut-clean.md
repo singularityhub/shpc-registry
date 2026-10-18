@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-mut-clean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-mut-clean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-mut-clean/container.yaml"
-updated_at: "2026-10-17 06:52:34.221881"
+updated_at: "2026-10-18 07:17:12.183499"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-mut-clean"
 aliases:
