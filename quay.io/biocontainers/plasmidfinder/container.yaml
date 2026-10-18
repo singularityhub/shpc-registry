@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/plasmidfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plasmidfinder
 latest:
-  2.1.6--py314hdfd78af_2: 
-    sha256:94082907128bd572e82836eb635f2e3aca1309a9ca705876a196b7b4e6782d4f
+  3.0.3--pyhdfd78af_1: 
+    sha256:09644afd8f1f66f9249e941c4948374daa9798408e38522fc91029ee6f3d982f
 tags:
   2.1.6--py310hdfd78af_1: 
     sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3
   2.1.6--py314hdfd78af_2: 
     sha256:94082907128bd572e82836eb635f2e3aca1309a9ca705876a196b7b4e6782d4f
+  3.0.3--pyhdfd78af_1: 
+    sha256:09644afd8f1f66f9249e941c4948374daa9798408e38522fc91029ee6f3d982f
 docker: quay.io/biocontainers/plasmidfinder
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh

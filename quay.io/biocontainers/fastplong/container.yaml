@@ -2,8 +2,7 @@ url: https://biocontainers.pro/tools/fastplong
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastplong
 latest:
-  0.7.0--h43da1c4_0: 
-    sha256:4a2b718c7120cdf9ebf11ea427bc91b1565e62bdf7c04f77265fd9c4f4f05dc7
+  0.7.1: sha256:c04f701a393bb3d754082f25293aee36ce4f2b6ba505f4f53e85686a51d2e2ec
 tags:
   0.2.0--h125f33a_0: 
     sha256:b015a7fc10675cd23f6191ef26e1d8d8cd42453a794587309ceb4785bf065485
@@ -19,6 +18,7 @@ tags:
     sha256:7f84819aeec4db217cb11a9657c5979f4b8f0564b00d75a63d5f7e09c3a39da2
   0.5.0--h43da1c4_0: 
     sha256:240148075c70fea006d4de713798c1509dbb96e4bf0011abc51c06d3086ff7d6
+  0.7.1: sha256:c04f701a393bb3d754082f25293aee36ce4f2b6ba505f4f53e85686a51d2e2ec
 docker: quay.io/biocontainers/fastplong
 aliases:
   fastplong: /usr/local/bin/fastplong

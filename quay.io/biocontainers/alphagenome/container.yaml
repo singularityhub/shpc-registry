@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/alphagenome
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alphagenome
 latest:
-  0.9.0--pyhdfd78af_0: 
-    sha256:e319d92df0c25fbda6a39bd4bcb5ee99a7208d4debdfef25fa505b58e713607e
+  0.10.0--pyhdfd78af_0: 
+    sha256:833948525800c32b1f6828083424c2a42b247fd12ce307ffdf0d280f8d7844a4
 tags:
   0.5.1--pyhdfd78af_0: 
     sha256:8334179ce127b3396afde6202dcf1781ebfc8e0a8a1066897ab14e9a4c9ede25
@@ -15,6 +15,8 @@ tags:
     sha256:e319d92df0c25fbda6a39bd4bcb5ee99a7208d4debdfef25fa505b58e713607e
   0.8.0--pyhdfd78af_0: 
     sha256:600ab130fda8deaea1382e99418fb5787faf9f8a7b19284dd71cb1e704bb94ce
+  0.10.0--pyhdfd78af_0: 
+    sha256:833948525800c32b1f6828083424c2a42b247fd12ce307ffdf0d280f8d7844a4
 docker: quay.io/biocontainers/alphagenome
 aliases:
   protoc-33.5.0: /usr/local/bin/protoc-33.5.0

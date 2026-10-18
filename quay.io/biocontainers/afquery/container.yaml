@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/afquery
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for afquery
 latest:
-  0.4.1--pyhdfd78af_0: 
-    sha256:baa3c4f8f479341eb58d44abac561d0e2cf2ce7e48087d2986f68c57d1f014a4
+  0.5.0--pyhdfd78af_0: 
+    sha256:e1fe37813490bddef7fe6a94daeabba80a6ca1e187947e7efd8aed34d13afd75
 tags:
   0.2.2--pyhdfd78af_0: 
     sha256:32c08dbd80b1bb8f263882eab861ee742a8c00f3acae11de8cc65bed5e68dc69
@@ -13,6 +13,8 @@ tags:
     sha256:e37ff0abdbdb7b020991529ea8ed40f00c81fb9487180002e1ed3f2975769a0a
   0.4.1--pyhdfd78af_0: 
     sha256:baa3c4f8f479341eb58d44abac561d0e2cf2ce7e48087d2986f68c57d1f014a4
+  0.5.0--pyhdfd78af_0: 
+    sha256:e1fe37813490bddef7fe6a94daeabba80a6ca1e187947e7efd8aed34d13afd75
 docker: quay.io/biocontainers/afquery
 aliases:
   afquery: /usr/local/bin/afquery

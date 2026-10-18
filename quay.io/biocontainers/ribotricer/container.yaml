@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ribotricer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ribotricer
 latest:
-  1.5.0--pyhdfd78af_0: 
-    sha256:fc438a75d2714f48d8816364033692480ad1ee874f386e78b82e1425e7271ed5
+  1.6.0--pyhdfd78af_0: 
+    sha256:f5d319c4007530e3a768af3d12abd7c199e1ba920fb81a76857dc5b6267ae22d
 tags:
   1.3.2--py_0: 
     sha256:ee66d39c752f32f2b5de489d36063bc74e6739a2637fc78dd084ec116f3b4af3
@@ -13,4 +13,6 @@ tags:
     sha256:09b1efa9f235a38319126d712e332ed09742c72896a4438627c2bd4e5f93623f
   1.5.0--pyhdfd78af_0: 
     sha256:fc438a75d2714f48d8816364033692480ad1ee874f386e78b82e1425e7271ed5
+  1.6.0--pyhdfd78af_0: 
+    sha256:f5d319c4007530e3a768af3d12abd7c199e1ba920fb81a76857dc5b6267ae22d
 docker: quay.io/biocontainers/ribotricer

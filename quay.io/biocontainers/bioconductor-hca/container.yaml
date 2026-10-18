@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hca
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:7c77b430ee3bfbf2328118c30c94abcf57417c2f9126a0961781ee7f5f365c9b
+  1.14.1--r45hdfd78af_0: 
+    sha256:e9107b0bec742ddd965a8a606d9d00059056504aec47acf88a86762a1c1d5c5c
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:ab20a261fedc655b8ca2ff9d60e04f40b6b4d200aa8046344f5100c597c67df1
@@ -15,4 +15,6 @@ tags:
     sha256:ecb3882f8fcaa5b3884390c96a454b3d2f83d63f8f226c55c3195fb4eee3eec9
   1.14.0--r44hdfd78af_0: 
     sha256:7c77b430ee3bfbf2328118c30c94abcf57417c2f9126a0961781ee7f5f365c9b
+  1.14.1--r45hdfd78af_0: 
+    sha256:e9107b0bec742ddd965a8a606d9d00059056504aec47acf88a86762a1c1d5c5c
 docker: quay.io/biocontainers/bioconductor-hca

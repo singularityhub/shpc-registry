@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/bioleads
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioleads
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:9eb21fb474dd7852c1adbaec894aa283044d4a6535de31aa93206d7df0f60675
+  0.4.0--pyhdfd78af_0: 
+    sha256:d1c6a91f5076af0ce1c1bd3cb3e38f7011baf45533fd4cd419f5cfae8d33dd31
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:8e54e3d5dff04e5db1000f3386b5309f4acd76aa48a6b6acd5e380487e335ee3
   0.2.0--pyhdfd78af_0: 
     sha256:9eb21fb474dd7852c1adbaec894aa283044d4a6535de31aa93206d7df0f60675
+  0.4.0--pyhdfd78af_0: 
+    sha256:d1c6a91f5076af0ce1c1bd3cb3e38f7011baf45533fd4cd419f5cfae8d33dd31
+  0.3.0--pyhdfd78af_0: 
+    sha256:6e21d77e8879f0fd261a02dfda304fb09e6bd3330724cda2f4fa8a12e57e4e35
 docker: quay.io/biocontainers/bioleads
 aliases:
   bioleads: /usr/local/bin/bioleads
