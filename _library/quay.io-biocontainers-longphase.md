@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longphase/container.yaml"
-updated_at: "2026-10-18 07:33:17.046066"
+updated_at: "2026-10-19 07:53:51.486069"
 latest: "2.1--h4e109e1_0"
 container_url: "https://biocontainers.pro/tools/longphase"
 aliases:

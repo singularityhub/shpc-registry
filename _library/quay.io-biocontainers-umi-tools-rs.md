@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/umi-tools-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umi-tools-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umi-tools-rs/container.yaml"
-updated_at: "2026-10-18 08:05:03.505861"
-latest: "1.1.0--hfa8f182_0"
+updated_at: "2026-10-19 08:22:57.304270"
+latest: "2.0.1--hec9b1f2_1"
 container_url: "https://biocontainers.pro/tools/umi-tools-rs"
 aliases:
  - "umi-tools-rs"
 versions:
  - "1.1.0--hfa8f182_0"
+ - "2.0.1--hec9b1f2_1"
+ - "1.3.1--hfa8f182_0"
 description: "singularity registry hpc automated addition for umi-tools-rs"
-config: {"url": "https://biocontainers.pro/tools/umi-tools-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for umi-tools-rs", "latest": {"1.1.0--hfa8f182_0": "sha256:297d684f8feff5d42f80c29ecc4f565b40efd0c745409a5f0ff3b01f6b243025"}, "tags": {"1.1.0--hfa8f182_0": "sha256:297d684f8feff5d42f80c29ecc4f565b40efd0c745409a5f0ff3b01f6b243025"}, "docker": "quay.io/biocontainers/umi-tools-rs", "aliases": {"umi-tools-rs": "/usr/local/bin/umi-tools-rs"}}
+config: {"url": "https://biocontainers.pro/tools/umi-tools-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for umi-tools-rs", "latest": {"2.0.1--hec9b1f2_1": "sha256:fc8f0a5739c51c552c2cfdacbfce76815c0b31bd66c1419837fce73321d7cd86"}, "tags": {"1.1.0--hfa8f182_0": "sha256:297d684f8feff5d42f80c29ecc4f565b40efd0c745409a5f0ff3b01f6b243025", "2.0.1--hec9b1f2_1": "sha256:fc8f0a5739c51c552c2cfdacbfce76815c0b31bd66c1419837fce73321d7cd86", "1.3.1--hfa8f182_0": "sha256:08ccddc6b109d15218bdcfc6d8dee5b4e1d36e58c990715c99a74aceb60fe2cf"}, "docker": "quay.io/biocontainers/umi-tools-rs", "aliases": {"umi-tools-rs": "/usr/local/bin/umi-tools-rs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umi-tools-rs.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/umi-tools-rs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/umi-tools-rs:1.1.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/umi-tools-rs:2.0.1--hec9b1f2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/umi-tools-rs/1.1.0--hfa8f182_0
-$ module help quay.io/biocontainers/umi-tools-rs/1.1.0--hfa8f182_0
+$ module load quay.io/biocontainers/umi-tools-rs/2.0.1--hec9b1f2_1
+$ module help quay.io/biocontainers/umi-tools-rs/2.0.1--hec9b1f2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

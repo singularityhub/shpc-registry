@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tensorboard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tensorboard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tensorboard/container.yaml"
-updated_at: "2026-10-18 07:50:10.571576"
+updated_at: "2026-10-19 08:09:13.813341"
 latest: "2.21.0"
 container_url: "https://biocontainers.pro/tools/tensorboard"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/acidgenomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acidgenomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acidgenomes/container.yaml"
-updated_at: "2026-10-18 07:53:44.352706"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2026-10-19 08:12:29.774720"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/acidgenomes"
 aliases:
  - "idna"
@@ -18,8 +18,10 @@ aliases:
 versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for acidgenomes"
-config: {"url": "https://biocontainers.pro/tools/acidgenomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for acidgenomes", "latest": {"0.2.1--pyhdfd78af_0": "sha256:0e754dcbc5316d8a15c7533883f65cd4936e5a40738c2aaf313aac8d69fbdb4e"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:8f8472a308abf043439a59fa83af3fbcece9dc615e415352aeac9422d439a203", "0.2.1--pyhdfd78af_0": "sha256:0e754dcbc5316d8a15c7533883f65cd4936e5a40738c2aaf313aac8d69fbdb4e"}, "docker": "quay.io/biocontainers/acidgenomes", "aliases": {"idna": "/usr/local/bin/idna", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/acidgenomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for acidgenomes", "latest": {"0.4.0--pyhdfd78af_0": "sha256:f200af14876b88a036d2ff4d3051da8bd54dde24248ffdd85c8414168b58c473"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:8f8472a308abf043439a59fa83af3fbcece9dc615e415352aeac9422d439a203", "0.2.1--pyhdfd78af_0": "sha256:0e754dcbc5316d8a15c7533883f65cd4936e5a40738c2aaf313aac8d69fbdb4e", "0.4.0--pyhdfd78af_0": "sha256:f200af14876b88a036d2ff4d3051da8bd54dde24248ffdd85c8414168b58c473", "0.3.0--pyhdfd78af_0": "sha256:52dbae6e63ffd0f49df54c77a5f33ccb0b3474342f9dc6a46c573c1df77edcbf"}, "docker": "quay.io/biocontainers/acidgenomes", "aliases": {"idna": "/usr/local/bin/idna", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/acidgenomes.
@@ -34,7 +36,7 @@ $ shpc install quay.io/biocontainers/acidgenomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/acidgenomes:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/acidgenomes:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/acidgenomes/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/acidgenomes/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/acidgenomes/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/acidgenomes/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

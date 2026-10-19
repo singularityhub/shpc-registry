@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-treg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treg/container.yaml"
-updated_at: "2026-10-18 07:31:42.688466"
+updated_at: "2026-10-19 07:52:26.565570"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treg"
 aliases:

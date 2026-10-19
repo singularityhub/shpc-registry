@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngspeciesid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngspeciesid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngspeciesid/container.yaml"
-updated_at: "2026-10-18 07:50:09.640617"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2026-10-19 08:09:12.955972"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngspeciesid"
 aliases:
  - "NGSpeciesID"
@@ -47,8 +47,10 @@ aliases:
  - "run-roh.pl"
 versions:
  - "0.3.1--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ngspeciesid"
-config: {"url": "https://biocontainers.pro/tools/ngspeciesid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngspeciesid", "latest": {"0.3.1--pyhdfd78af_0": "sha256:0b8eddb49b2772d76c8baa7ddd93cadcf90529dd0cbc5ad6cd30a6bf74251e40"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:0b8eddb49b2772d76c8baa7ddd93cadcf90529dd0cbc5ad6cd30a6bf74251e40"}, "docker": "quay.io/biocontainers/ngspeciesid", "aliases": {"NGSpeciesID": "/usr/local/bin/NGSpeciesID", "gff2gff": "/usr/local/bin/gff2gff", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_consensus_joint": "/usr/local/bin/medaka_consensus_joint", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "roh-viz": "/usr/local/bin/roh-viz", "spoa": "/usr/local/bin/spoa", "vrfs-variances": "/usr/local/bin/vrfs-variances", "demux_fast5": "/usr/local/bin/demux_fast5", "mini_align": "/usr/local/bin/mini_align", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "minimap2.py": "/usr/local/bin/minimap2.py", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "ref-cache": "/usr/local/bin/ref-cache", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "tar": "/usr/local/bin/tar", "h5fuse": "/usr/local/bin/h5fuse", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ngspeciesid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngspeciesid", "latest": {"0.5.0--pyhdfd78af_0": "sha256:45db98913741b113cdd57d0132e2fdb4ffc84e525ac24b01f6593afbbf132a73"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:0b8eddb49b2772d76c8baa7ddd93cadcf90529dd0cbc5ad6cd30a6bf74251e40", "0.5.0--pyhdfd78af_0": "sha256:45db98913741b113cdd57d0132e2fdb4ffc84e525ac24b01f6593afbbf132a73", "0.4.1--pyhdfd78af_0": "sha256:ff2054d64986d89360dc2fb2ae00ce37fd57fa275dba81e99261f64b33ee512c"}, "docker": "quay.io/biocontainers/ngspeciesid", "aliases": {"NGSpeciesID": "/usr/local/bin/NGSpeciesID", "gff2gff": "/usr/local/bin/gff2gff", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_consensus_joint": "/usr/local/bin/medaka_consensus_joint", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "roh-viz": "/usr/local/bin/roh-viz", "spoa": "/usr/local/bin/spoa", "vrfs-variances": "/usr/local/bin/vrfs-variances", "demux_fast5": "/usr/local/bin/demux_fast5", "mini_align": "/usr/local/bin/mini_align", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "minimap2.py": "/usr/local/bin/minimap2.py", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "ref-cache": "/usr/local/bin/ref-cache", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "tar": "/usr/local/bin/tar", "h5fuse": "/usr/local/bin/h5fuse", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngspeciesid.
@@ -63,7 +65,7 @@ $ shpc install quay.io/biocontainers/ngspeciesid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngspeciesid:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ngspeciesid:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngspeciesid/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ngspeciesid/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ngspeciesid/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ngspeciesid/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

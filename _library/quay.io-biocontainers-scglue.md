@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scglue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scglue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scglue/container.yaml"
-updated_at: "2026-10-18 07:42:40.975218"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2026-10-19 08:02:21.394303"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scglue"
 aliases:
  - "torchrun"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.3.2--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scglue"
-config: {"url": "https://biocontainers.pro/tools/scglue", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scglue", "latest": {"0.4.0--pyhdfd78af_0": "sha256:c3aac5820c2f91afccbb61917bd6f485e58d5c5324bb004877f7f3fe2c134ff9"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:ea72cbd88acdcb09d6c3eedc1617fc5451002e8760fe3758d650db12dd8d7fc6", "0.4.0--pyhdfd78af_0": "sha256:c3aac5820c2f91afccbb61917bd6f485e58d5c5324bb004877f7f3fe2c134ff9"}, "docker": "quay.io/biocontainers/scglue", "aliases": {"torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "docutils": "/usr/local/bin/docutils", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "get_objgraph": "/usr/local/bin/get_objgraph", "pybabel": "/usr/local/bin/pybabel", "undill": "/usr/local/bin/undill", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/scglue", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scglue", "latest": {"0.4.1--pyhdfd78af_0": "sha256:940e6f8b5fc0a5bad17284347c238fcbb9d0b08de1d2f4746451a732dc1155ea"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:ea72cbd88acdcb09d6c3eedc1617fc5451002e8760fe3758d650db12dd8d7fc6", "0.4.0--pyhdfd78af_0": "sha256:c3aac5820c2f91afccbb61917bd6f485e58d5c5324bb004877f7f3fe2c134ff9", "0.4.1--pyhdfd78af_0": "sha256:940e6f8b5fc0a5bad17284347c238fcbb9d0b08de1d2f4746451a732dc1155ea"}, "docker": "quay.io/biocontainers/scglue", "aliases": {"torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "docutils": "/usr/local/bin/docutils", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "get_objgraph": "/usr/local/bin/get_objgraph", "pybabel": "/usr/local/bin/pybabel", "undill": "/usr/local/bin/undill", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scglue.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/scglue
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scglue:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scglue:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scglue/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scglue/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scglue/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/scglue/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

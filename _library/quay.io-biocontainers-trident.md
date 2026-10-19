@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trident"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trident/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trident/container.yaml"
-updated_at: "2026-10-18 07:59:07.491434"
+updated_at: "2026-10-19 08:17:24.766015"
 latest: "1.0.0--py310h03affb9_0"
 container_url: "https://biocontainers.pro/tools/trident"
 aliases:
