@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/ngspeciesid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ngspeciesid
 latest:
-  0.3.1--pyhdfd78af_0: 
-    sha256:0b8eddb49b2772d76c8baa7ddd93cadcf90529dd0cbc5ad6cd30a6bf74251e40
+  0.5.0--pyhdfd78af_0: 
+    sha256:45db98913741b113cdd57d0132e2fdb4ffc84e525ac24b01f6593afbbf132a73
 tags:
   0.3.1--pyhdfd78af_0: 
     sha256:0b8eddb49b2772d76c8baa7ddd93cadcf90529dd0cbc5ad6cd30a6bf74251e40
+  0.5.0--pyhdfd78af_0: 
+    sha256:45db98913741b113cdd57d0132e2fdb4ffc84e525ac24b01f6593afbbf132a73
+  0.4.1--pyhdfd78af_0: 
+    sha256:ff2054d64986d89360dc2fb2ae00ce37fd57fa275dba81e99261f64b33ee512c
 docker: quay.io/biocontainers/ngspeciesid
 aliases:
   NGSpeciesID: /usr/local/bin/NGSpeciesID

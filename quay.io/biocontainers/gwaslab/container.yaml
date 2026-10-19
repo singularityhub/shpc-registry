@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gwaslab
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gwaslab
 latest:
-  4.2.2--pyhdfd78af_0: 
-    sha256:5c020be42a7c38a86c2aae2c1c44d3244342eeca14c5c82640ace6c39dc8d209
+  4.2.3--pyhdfd78af_0: 
+    sha256:a750ed5ca2da1e796bd93bf9f9348efbd73531cdaeb86548522a45c840a85d64
 tags:
   4.1.5--pyhdfd78af_0: 
     sha256:748016974f45366965000c649aeba081e0ca6f436fc0245450d0e8e7798651a8
@@ -15,6 +15,8 @@ tags:
     sha256:c322d9c3f99e09a12def8379f8f5ad40ca0b5379106dbbb4b571365d5de2cc35
   4.2.2--pyhdfd78af_0: 
     sha256:5c020be42a7c38a86c2aae2c1c44d3244342eeca14c5c82640ace6c39dc8d209
+  4.2.3--pyhdfd78af_0: 
+    sha256:a750ed5ca2da1e796bd93bf9f9348efbd73531cdaeb86548522a45c840a85d64
 docker: quay.io/biocontainers/gwaslab
 aliases:
   gwaslab: /usr/local/bin/gwaslab
