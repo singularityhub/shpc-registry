@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/orfdata
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for orfdata
+latest:
+  0.34.0--pyhdfd78af_0: 
+    sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79
+tags:
+  0.34.0--pyhdfd78af_0: 
+    sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79
+docker: quay.io/biocontainers/orfdata
+aliases:
+  idle3.15: /usr/local/bin/idle3.15
+  orfdata: /usr/local/bin/orfdata
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
