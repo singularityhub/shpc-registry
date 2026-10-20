@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/quantms-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quantms-utils
 latest:
-  0.0.30--pyhdfd78af_0: 
-    sha256:86698482dcb3430c32cac8edad26eafb32828ca74ae82be587a206b704fc4c06
+  0.0.31--pyhdfd78af_0: 
+    sha256:7d744a4d69d7e98e209f5afafa80c4ff07954a3f9620dcb5cc3153c5abbe8c5f
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:d45077ff4f3164613020a4c57658c5118337b1efc4a105f07972179f31b7a54b
@@ -29,6 +29,8 @@ tags:
     sha256:abacc2f2927b9ff1b133db7dea32f289e8895055971ec4c616cbaeb243076815
   0.0.30--pyhdfd78af_0: 
     sha256:86698482dcb3430c32cac8edad26eafb32828ca74ae82be587a206b704fc4c06
+  0.0.31--pyhdfd78af_0: 
+    sha256:7d744a4d69d7e98e209f5afafa80c4ff07954a3f9620dcb5cc3153c5abbe8c5f
 docker: quay.io/biocontainers/quantms-utils
 aliases:
   deeplc: /usr/local/bin/deeplc

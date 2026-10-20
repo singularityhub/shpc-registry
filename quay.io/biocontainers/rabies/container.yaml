@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rabies
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rabies
 latest:
-  0.6.1--pyhdfd78af_0: 
-    sha256:268c85e93818ff46adda9bf5715bdfeddf1025ceb5330879e17a2eb17b9b1d87
+  0.6.2--pyhdfd78af_0: 
+    sha256:5e3c93ed10ac24580121c75c00c7b1680e739391f777cef08a81bae474b0756a
 tags:
   0.5.2--pyhdfd78af_0: 
     sha256:c125fb1c90e4334f05a21d4fc477d7b62d9851d26e8ad6596b0db87fff596dcf
@@ -15,6 +15,8 @@ tags:
     sha256:6a1dd7c3009060c30df20b82b7aca2dda37f146fe61f39f0d8361b01790ff577
   0.6.1--pyhdfd78af_0: 
     sha256:268c85e93818ff46adda9bf5715bdfeddf1025ceb5330879e17a2eb17b9b1d87
+  0.6.2--pyhdfd78af_0: 
+    sha256:5e3c93ed10ac24580121c75c00c7b1680e739391f777cef08a81bae474b0756a
 docker: quay.io/biocontainers/rabies
 aliases:
   EPI-preprocessing.sh: /usr/local/bin/EPI-preprocessing.sh
