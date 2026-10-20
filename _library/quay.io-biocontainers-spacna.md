@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spacna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spacna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spacna/container.yaml"
-updated_at: "2026-10-19 08:05:32.436216"
+updated_at: "2026-10-20 07:50:52.643519"
 latest: "0.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spacna"
 aliases:

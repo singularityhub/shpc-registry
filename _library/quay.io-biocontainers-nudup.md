@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nudup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nudup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nudup/container.yaml"
-updated_at: "2026-10-19 08:04:03.994017"
+updated_at: "2026-10-20 07:58:40.278809"
 latest: "2.3.3--py_2"
 container_url: "https://biocontainers.pro/tools/nudup"
 aliases:

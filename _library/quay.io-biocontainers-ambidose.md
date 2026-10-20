@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ambidose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ambidose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ambidose/container.yaml"
-updated_at: "2026-10-19 08:05:02.320367"
+updated_at: "2026-10-20 07:44:13.351691"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ambidose"
 aliases:

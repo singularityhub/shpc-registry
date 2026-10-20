@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dotmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dotmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dotmatch/container.yaml"
-updated_at: "2026-10-19 08:02:02.849091"
-latest: "0.5.0--py311h13f8228_0"
+updated_at: "2026-10-20 08:12:26.863104"
+latest: "0.7.0--py313hfeada96_0"
 container_url: "https://biocontainers.pro/tools/dotmatch"
 aliases:
  - "dotmatch"
@@ -22,8 +22,10 @@ versions:
  - "0.2.2--py311h13f8228_1"
  - "0.5.0--py311h13f8228_0"
  - "0.4.1--py312h9639c01_0"
+ - "0.7.0--py313hfeada96_0"
+ - "0.6.4--py312h9639c01_0"
 description: "singularity registry hpc automated addition for dotmatch"
-config: {"url": "https://biocontainers.pro/tools/dotmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dotmatch", "latest": {"0.5.0--py311h13f8228_0": "sha256:c62c87ff2776472aabd43dedb2a1d1291e2f81cd9b4e90ce04579a402ba60c18"}, "tags": {"0.1.4--py314h118bc1c_0": "sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538", "0.1.8--py314h118bc1c_0": "sha256:247ea93a1231a419dc987642fc15abd5ef7c4ac755f7c00009e67fb4c122b256", "0.2.0--py314h118bc1c_0": "sha256:485c4d8e7321cfec4c1bed2d67c91492d294221ead22e50e3c314ddfc9957b23", "0.1.9--py312h9639c01_1": "sha256:ef84026a4e5527bf0ccfb5b0142858ea2210541296ebe50e481c47df0a69d406", "0.2.2--py311h13f8228_1": "sha256:220f55c0fb16c418386c1fe883565da32236eac5dd8b0f87e15607f04c7f18b0", "0.5.0--py311h13f8228_0": "sha256:c62c87ff2776472aabd43dedb2a1d1291e2f81cd9b4e90ce04579a402ba60c18", "0.4.1--py312h9639c01_0": "sha256:3c6943abb1883e6e8a83c6f19a7a852f24636115ce19bd20330b7c4036edf978"}, "docker": "quay.io/biocontainers/dotmatch", "aliases": {"dotmatch": "/usr/local/bin/dotmatch", "quickdna": "/usr/local/bin/quickdna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/dotmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dotmatch", "latest": {"0.7.0--py313hfeada96_0": "sha256:b89ad9034fb3ffadf93f7faa77506b84d759f3d3e0b6e438561de73aff898211"}, "tags": {"0.1.4--py314h118bc1c_0": "sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538", "0.1.8--py314h118bc1c_0": "sha256:247ea93a1231a419dc987642fc15abd5ef7c4ac755f7c00009e67fb4c122b256", "0.2.0--py314h118bc1c_0": "sha256:485c4d8e7321cfec4c1bed2d67c91492d294221ead22e50e3c314ddfc9957b23", "0.1.9--py312h9639c01_1": "sha256:ef84026a4e5527bf0ccfb5b0142858ea2210541296ebe50e481c47df0a69d406", "0.2.2--py311h13f8228_1": "sha256:220f55c0fb16c418386c1fe883565da32236eac5dd8b0f87e15607f04c7f18b0", "0.5.0--py311h13f8228_0": "sha256:c62c87ff2776472aabd43dedb2a1d1291e2f81cd9b4e90ce04579a402ba60c18", "0.4.1--py312h9639c01_0": "sha256:3c6943abb1883e6e8a83c6f19a7a852f24636115ce19bd20330b7c4036edf978", "0.7.0--py313hfeada96_0": "sha256:b89ad9034fb3ffadf93f7faa77506b84d759f3d3e0b6e438561de73aff898211", "0.6.4--py312h9639c01_0": "sha256:1bd67abe302fcea0dcad4c03c9bd4626c643fdeeddebbf3d2b23cad4625b8de5"}, "docker": "quay.io/biocontainers/dotmatch", "aliases": {"dotmatch": "/usr/local/bin/dotmatch", "quickdna": "/usr/local/bin/quickdna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dotmatch.
@@ -38,7 +40,7 @@ $ shpc install quay.io/biocontainers/dotmatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dotmatch:0.5.0--py311h13f8228_0
+$ shpc install quay.io/biocontainers/dotmatch:0.7.0--py313hfeada96_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dotmatch/0.5.0--py311h13f8228_0
-$ module help quay.io/biocontainers/dotmatch/0.5.0--py311h13f8228_0
+$ module load quay.io/biocontainers/dotmatch/0.7.0--py313hfeada96_0
+$ module help quay.io/biocontainers/dotmatch/0.7.0--py313hfeada96_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

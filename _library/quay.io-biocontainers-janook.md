@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/janook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/janook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/janook/container.yaml"
-updated_at: "2026-10-19 07:29:33.070304"
+updated_at: "2026-10-20 07:33:27.131810"
 latest: "9.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/janook"
 aliases:

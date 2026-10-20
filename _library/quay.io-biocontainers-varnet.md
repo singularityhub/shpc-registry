@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varnet/container.yaml"
-updated_at: "2026-10-19 08:00:21.389516"
+updated_at: "2026-10-20 08:02:11.088391"
 latest: "1.5.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varnet"
 aliases:

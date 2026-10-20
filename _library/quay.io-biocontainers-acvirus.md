@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/acvirus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acvirus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acvirus/container.yaml"
-updated_at: "2026-10-19 07:50:14.369731"
+updated_at: "2026-10-20 07:37:43.347967"
 latest: "1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/acvirus"
 aliases:

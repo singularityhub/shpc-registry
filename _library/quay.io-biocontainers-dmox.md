@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dmox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dmox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dmox/container.yaml"
-updated_at: "2026-10-19 08:17:04.865509"
-latest: "0.2.1--h3ab6199_0"
+updated_at: "2026-10-20 07:43:03.624227"
+latest: "0.3.1--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/dmox"
 aliases:
  - "dmox"
 versions:
  - "0.1.3--h3ab6199_0"
  - "0.2.1--h3ab6199_0"
+ - "0.3.1--hec9b1f2_0"
 description: "singularity registry hpc automated addition for dmox"
-config: {"url": "https://biocontainers.pro/tools/dmox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dmox", "latest": {"0.2.1--h3ab6199_0": "sha256:dcb8c38a7cdf902c475cf24e2992ff6f20eca9157dbbc79f7bdd14d4fa476914"}, "tags": {"0.1.3--h3ab6199_0": "sha256:6052484f8f96034f14df49ca153de9d8fc17a7caf46a23f939614083b2a2feed", "0.2.1--h3ab6199_0": "sha256:dcb8c38a7cdf902c475cf24e2992ff6f20eca9157dbbc79f7bdd14d4fa476914"}, "docker": "quay.io/biocontainers/dmox", "aliases": {"dmox": "/usr/local/bin/dmox"}}
+config: {"url": "https://biocontainers.pro/tools/dmox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dmox", "latest": {"0.3.1--hec9b1f2_0": "sha256:7618d622fc1796d4343f71923fa607f7c7e6329fadb341061fe245f9565ff2d2"}, "tags": {"0.1.3--h3ab6199_0": "sha256:6052484f8f96034f14df49ca153de9d8fc17a7caf46a23f939614083b2a2feed", "0.2.1--h3ab6199_0": "sha256:dcb8c38a7cdf902c475cf24e2992ff6f20eca9157dbbc79f7bdd14d4fa476914", "0.3.1--hec9b1f2_0": "sha256:7618d622fc1796d4343f71923fa607f7c7e6329fadb341061fe245f9565ff2d2"}, "docker": "quay.io/biocontainers/dmox", "aliases": {"dmox": "/usr/local/bin/dmox"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dmox.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dmox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dmox:0.2.1--h3ab6199_0
+$ shpc install quay.io/biocontainers/dmox:0.3.1--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dmox/0.2.1--h3ab6199_0
-$ module help quay.io/biocontainers/dmox/0.2.1--h3ab6199_0
+$ module load quay.io/biocontainers/dmox/0.3.1--hec9b1f2_0
+$ module help quay.io/biocontainers/dmox/0.3.1--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

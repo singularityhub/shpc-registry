@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nim-abif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nim-abif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nim-abif/container.yaml"
-updated_at: "2026-10-19 07:49:06.959042"
-latest: "0.3.0--hab16a5f_0"
+updated_at: "2026-10-20 07:49:32.745558"
+latest: "0.3.0--hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/nim-abif"
 aliases:
  - "abi2fq"
@@ -14,8 +14,9 @@ versions:
  - "0.1.0--h7b50bb2_0"
  - "0.2.0--h7b50bb2_0"
  - "0.3.0--hab16a5f_0"
+ - "0.3.0--hab16a5f_1"
 description: "singularity registry hpc automated addition for nim-abif"
-config: {"url": "https://biocontainers.pro/tools/nim-abif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nim-abif", "latest": {"0.3.0--hab16a5f_0": "sha256:55431b3c35abd8a2618618a637f150ab78d98f766b62f7b177da48e03a370944"}, "tags": {"0.1.0--h7b50bb2_0": "sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2", "0.2.0--h7b50bb2_0": "sha256:626e00686e1826dc8d8a82a5ed9350ed36a9185ed1d45639bf14bcf930dc9002", "0.3.0--hab16a5f_0": "sha256:55431b3c35abd8a2618618a637f150ab78d98f766b62f7b177da48e03a370944"}, "docker": "quay.io/biocontainers/nim-abif", "aliases": {"abi2fq": "/usr/local/bin/abi2fq", "abif": "/usr/local/bin/abif"}}
+config: {"url": "https://biocontainers.pro/tools/nim-abif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nim-abif", "latest": {"0.3.0--hab16a5f_1": "sha256:0349e974a423704ea128d6fc669a098e14af5ed5b09bab114c8504b703d49904"}, "tags": {"0.1.0--h7b50bb2_0": "sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2", "0.2.0--h7b50bb2_0": "sha256:626e00686e1826dc8d8a82a5ed9350ed36a9185ed1d45639bf14bcf930dc9002", "0.3.0--hab16a5f_0": "sha256:55431b3c35abd8a2618618a637f150ab78d98f766b62f7b177da48e03a370944", "0.3.0--hab16a5f_1": "sha256:0349e974a423704ea128d6fc669a098e14af5ed5b09bab114c8504b703d49904"}, "docker": "quay.io/biocontainers/nim-abif", "aliases": {"abi2fq": "/usr/local/bin/abi2fq", "abif": "/usr/local/bin/abif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nim-abif.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/nim-abif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nim-abif:0.3.0--hab16a5f_0
+$ shpc install quay.io/biocontainers/nim-abif:0.3.0--hab16a5f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nim-abif/0.3.0--hab16a5f_0
-$ module help quay.io/biocontainers/nim-abif/0.3.0--hab16a5f_0
+$ module load quay.io/biocontainers/nim-abif/0.3.0--hab16a5f_1
+$ module help quay.io/biocontainers/nim-abif/0.3.0--hab16a5f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

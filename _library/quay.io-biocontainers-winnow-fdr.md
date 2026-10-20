@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/winnow-fdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/winnow-fdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/winnow-fdr/container.yaml"
-updated_at: "2026-10-19 08:22:09.775403"
+updated_at: "2026-10-20 07:43:31.493276"
 latest: "2.0.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/winnow-fdr"
 aliases:

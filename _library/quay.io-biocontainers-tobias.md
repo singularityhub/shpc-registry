@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tobias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tobias/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tobias/container.yaml"
-updated_at: "2026-10-19 07:53:36.761941"
+updated_at: "2026-10-20 07:39:16.518717"
 latest: "0.17.5--py311h96b6c0b_0"
 container_url: "https://biocontainers.pro/tools/tobias"
 aliases:

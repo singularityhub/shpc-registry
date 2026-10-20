@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/delphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delphy/container.yaml"
-updated_at: "2026-10-19 07:43:12.388122"
+updated_at: "2026-10-20 07:33:19.646475"
 latest: "1.4.1--h52ea530_0"
 container_url: "https://biocontainers.pro/tools/delphy"
 aliases:

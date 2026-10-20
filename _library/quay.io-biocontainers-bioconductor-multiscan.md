@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multiscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiscan/container.yaml"
-updated_at: "2026-10-19 07:38:45.446578"
+updated_at: "2026-10-20 07:40:56.852699"
 latest: "1.70.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiscan"
 

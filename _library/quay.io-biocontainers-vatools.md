@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vatools/container.yaml"
-updated_at: "2026-10-19 08:20:14.340019"
+updated_at: "2026-10-20 07:23:04.231124"
 latest: "6.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vatools"
 aliases:

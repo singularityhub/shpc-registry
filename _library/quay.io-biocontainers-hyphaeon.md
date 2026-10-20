@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hyphaeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphaeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyphaeon/container.yaml"
-updated_at: "2026-10-19 07:45:52.429297"
+updated_at: "2026-10-20 08:07:20.561620"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hyphaeon"
 aliases:

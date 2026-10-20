@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treemix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treemix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treemix/container.yaml"
-updated_at: "2026-10-19 07:35:10.748896"
+updated_at: "2026-10-20 07:32:26.105324"
 latest: "1.13--h63c0f18_10"
 container_url: "https://biocontainers.pro/tools/treemix"
 aliases:

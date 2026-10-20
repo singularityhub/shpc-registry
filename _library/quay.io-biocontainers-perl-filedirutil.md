@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-filedirutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-filedirutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-filedirutil/container.yaml"
-updated_at: "2026-10-19 07:52:45.318281"
+updated_at: "2026-10-20 07:53:53.070354"
 latest: "v0.04--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-filedirutil"
 aliases:

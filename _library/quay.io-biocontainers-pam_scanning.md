@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pam_scanning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pam_scanning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pam_scanning/container.yaml"
-updated_at: "2026-10-19 08:17:16.691624"
+updated_at: "2026-10-20 07:41:43.840000"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pam_scanning"
 aliases:

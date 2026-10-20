@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cfoldseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cfoldseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cfoldseeker/container.yaml"
-updated_at: "2026-10-19 08:04:52.368293"
+updated_at: "2026-10-20 08:03:36.360992"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cfoldseeker"
 aliases:

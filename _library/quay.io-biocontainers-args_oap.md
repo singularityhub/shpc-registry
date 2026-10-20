@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/args_oap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/args_oap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/args_oap/container.yaml"
-updated_at: "2026-10-19 08:12:50.213854"
+updated_at: "2026-10-20 07:36:54.009826"
 latest: "4.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/args_oap"
 aliases:

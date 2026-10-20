@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minipolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minipolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minipolish/container.yaml"
-updated_at: "2026-10-19 08:19:19.703480"
+updated_at: "2026-10-20 07:37:23.541155"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/minipolish"
 aliases:

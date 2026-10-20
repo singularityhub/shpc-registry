@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bactopia-sketcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-sketcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-sketcher/container.yaml"
-updated_at: "2026-10-19 08:19:57.514149"
+updated_at: "2026-10-20 07:34:38.519916"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-sketcher"
 aliases:

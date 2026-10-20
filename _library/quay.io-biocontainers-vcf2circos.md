@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2circos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2circos/container.yaml"
-updated_at: "2026-10-19 07:57:39.046233"
+updated_at: "2026-10-20 07:37:06.605901"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf2circos"
 aliases:

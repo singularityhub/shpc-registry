@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segmentation-fold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segmentation-fold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segmentation-fold/container.yaml"
-updated_at: "2026-10-19 07:35:05.314613"
+updated_at: "2026-10-20 07:53:28.449014"
 latest: "1.7.0--py27hc30c61c_4"
 container_url: "https://biocontainers.pro/tools/segmentation-fold"
 aliases:

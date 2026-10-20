@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/container.yaml"
-updated_at: "2026-10-19 08:24:09.047821"
+updated_at: "2026-10-20 08:10:43.373803"
 latest: "1.0.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.fantom4.promoters.hg19"
 
