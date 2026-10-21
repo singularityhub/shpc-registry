@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/treeknit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for treeknit
+latest:
+  1.0.0--h9ee0642_0: 
+    sha256:e7fa0e48b945643207fa063cc8cc8680b1c0338e3ac2ce8489db63304cc62328
+tags:
+  1.0.0--h9ee0642_0: 
+    sha256:e7fa0e48b945643207fa063cc8cc8680b1c0338e3ac2ce8489db63304cc62328
+docker: quay.io/biocontainers/treeknit
+aliases:
+  treeknit: /usr/local/bin/treeknit
