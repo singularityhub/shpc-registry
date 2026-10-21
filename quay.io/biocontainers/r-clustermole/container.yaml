@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-clustermole
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-clustermole
 latest:
-  1.1.1--r45h3121a25_0: 
-    sha256:f81b23a30f513301f096028a2c1ee7d8a1d5eef3dc9a2964f86dc1c6a45422ce
+  1.2.0--r45h3121a25_0: 
+    sha256:cc5d09ef916b2706bca42cab883c91d42e289bcb460c77634cd050497847a2d4
 tags:
   1.1.1--r45h3121a25_0: 
     sha256:f81b23a30f513301f096028a2c1ee7d8a1d5eef3dc9a2964f86dc1c6a45422ce
+  1.2.0--r45h3121a25_0: 
+    sha256:cc5d09ef916b2706bca42cab883c91d42e289bcb460c77634cd050497847a2d4
 docker: quay.io/biocontainers/r-clustermole
 aliases:
   dec265: /usr/local/bin/dec265

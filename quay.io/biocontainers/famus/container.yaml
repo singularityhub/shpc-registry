@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/famus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for famus
 latest:
-  0.2.3--py312hdfd78af_0: 
-    sha256:a68d8e645a618e465582b722e360a9e8cebcc533df1d441860e531d90b15cb6e
+  0.2.4--py312hdfd78af_0: 
+    sha256:b77db746dcd14835448f8fee0ebe80eb3b22a274019cfd5e05df2f2d2eb1e470
 tags:
   0.1.1--py312hdfd78af_0: 
     sha256:abe49d43af48f2cc40ab4f6187b92585a7fbf92dddf5120d47b8aaa0f0bc8000
@@ -13,6 +13,8 @@ tags:
     sha256:398b043316e059b0518ec12238cecb7149aa145426773ccf24da4025b5b4e772
   0.2.3--py312hdfd78af_0: 
     sha256:a68d8e645a618e465582b722e360a9e8cebcc533df1d441860e531d90b15cb6e
+  0.2.4--py312hdfd78af_0: 
+    sha256:b77db746dcd14835448f8fee0ebe80eb3b22a274019cfd5e05df2f2d2eb1e470
 docker: quay.io/biocontainers/famus
 aliases:
   famus-classify: /usr/local/bin/famus-classify
