@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-potra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-potra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-potra/container.yaml"
-updated_at: "2026-10-20 07:22:49.943700"
+updated_at: "2026-10-21 08:15:43.266333"
 latest: "1.13.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-potra"
 aliases:

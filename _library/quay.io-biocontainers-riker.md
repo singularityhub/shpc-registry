@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/riker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riker/container.yaml"
-updated_at: "2026-10-20 08:01:41.065916"
-latest: "0.4.1--hec9b1f2_0"
+updated_at: "2026-10-21 07:39:09.102631"
+latest: "0.5.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/riker"
 aliases:
  - "riker"
@@ -15,8 +15,9 @@ versions:
  - "0.2.0--hec9b1f2_1"
  - "0.4.1--hec9b1f2_0"
  - "0.3.0--hec9b1f2_0"
+ - "0.5.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for riker"
-config: {"url": "https://biocontainers.pro/tools/riker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riker", "latest": {"0.4.1--hec9b1f2_0": "sha256:2359c74031e21fa256b320eecb945ae09768e1ba3bdb88a808bc00b27446de6f"}, "tags": {"0.1.0--h4349ce8_0": "sha256:1cad1e50aab83e434f894800d7f4d9a3a24a26e02f8e5e87a05872d0b5707d8c", "0.2.0--hec9b1f2_0": "sha256:794ac0e85d2ee714a1d1f844577c81d027853460e818eb9b34dea53add206bec", "0.2.0--hec9b1f2_1": "sha256:aee2444dbd855dc0abf0d56fb4b0e6b741090e02d16fd55dc3ecec89b075db53", "0.4.1--hec9b1f2_0": "sha256:2359c74031e21fa256b320eecb945ae09768e1ba3bdb88a808bc00b27446de6f", "0.3.0--hec9b1f2_0": "sha256:286cfba2f58c7b28dbf561e8b18af3a67a7d29d29e11349fb0e34201f31560c6"}, "docker": "quay.io/biocontainers/riker", "aliases": {"riker": "/usr/local/bin/riker"}}
+config: {"url": "https://biocontainers.pro/tools/riker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riker", "latest": {"0.5.0--hec9b1f2_0": "sha256:7a8e45a625365c4a01b82db501456f3c733fefd3f7833947b3e426e288fb6801"}, "tags": {"0.1.0--h4349ce8_0": "sha256:1cad1e50aab83e434f894800d7f4d9a3a24a26e02f8e5e87a05872d0b5707d8c", "0.2.0--hec9b1f2_0": "sha256:794ac0e85d2ee714a1d1f844577c81d027853460e818eb9b34dea53add206bec", "0.2.0--hec9b1f2_1": "sha256:aee2444dbd855dc0abf0d56fb4b0e6b741090e02d16fd55dc3ecec89b075db53", "0.4.1--hec9b1f2_0": "sha256:2359c74031e21fa256b320eecb945ae09768e1ba3bdb88a808bc00b27446de6f", "0.3.0--hec9b1f2_0": "sha256:286cfba2f58c7b28dbf561e8b18af3a67a7d29d29e11349fb0e34201f31560c6", "0.5.0--hec9b1f2_0": "sha256:7a8e45a625365c4a01b82db501456f3c733fefd3f7833947b3e426e288fb6801"}, "docker": "quay.io/biocontainers/riker", "aliases": {"riker": "/usr/local/bin/riker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riker.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/riker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/riker:0.4.1--hec9b1f2_0
+$ shpc install quay.io/biocontainers/riker:0.5.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/riker/0.4.1--hec9b1f2_0
-$ module help quay.io/biocontainers/riker/0.4.1--hec9b1f2_0
+$ module load quay.io/biocontainers/riker/0.5.0--hec9b1f2_0
+$ module help quay.io/biocontainers/riker/0.5.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

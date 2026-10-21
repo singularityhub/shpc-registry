@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxutils/container.yaml"
-updated_at: "2026-10-20 07:25:27.230692"
+updated_at: "2026-10-21 07:43:39.467044"
 latest: "1.1.7--py310hce5ca29_0"
 container_url: "https://biocontainers.pro/tools/taxutils"
 aliases:

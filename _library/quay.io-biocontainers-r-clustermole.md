@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-clustermole"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-clustermole/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-clustermole/container.yaml"
-updated_at: "2026-10-20 07:50:47.820097"
-latest: "1.1.1--r45h3121a25_0"
+updated_at: "2026-10-21 07:36:38.615294"
+latest: "1.2.0--r45h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-clustermole"
 aliases:
  - "dec265"
@@ -35,8 +35,9 @@ aliases:
  - "display"
 versions:
  - "1.1.1--r45h3121a25_0"
+ - "1.2.0--r45h3121a25_0"
 description: "singularity registry hpc automated addition for r-clustermole"
-config: {"url": "https://biocontainers.pro/tools/r-clustermole", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-clustermole", "latest": {"1.1.1--r45h3121a25_0": "sha256:f81b23a30f513301f096028a2c1ee7d8a1d5eef3dc9a2964f86dc1c6a45422ce"}, "tags": {"1.1.1--r45h3121a25_0": "sha256:f81b23a30f513301f096028a2c1ee7d8a1d5eef3dc9a2964f86dc1c6a45422ce"}, "docker": "quay.io/biocontainers/r-clustermole", "aliases": {"dec265": "/usr/local/bin/dec265", "dot_sandbox": "/usr/local/bin/dot_sandbox", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "x265": "/usr/local/bin/x265", "wayland-scanner": "/usr/local/bin/wayland-scanner", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display"}}
+config: {"url": "https://biocontainers.pro/tools/r-clustermole", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-clustermole", "latest": {"1.2.0--r45h3121a25_0": "sha256:cc5d09ef916b2706bca42cab883c91d42e289bcb460c77634cd050497847a2d4"}, "tags": {"1.1.1--r45h3121a25_0": "sha256:f81b23a30f513301f096028a2c1ee7d8a1d5eef3dc9a2964f86dc1c6a45422ce", "1.2.0--r45h3121a25_0": "sha256:cc5d09ef916b2706bca42cab883c91d42e289bcb460c77634cd050497847a2d4"}, "docker": "quay.io/biocontainers/r-clustermole", "aliases": {"dec265": "/usr/local/bin/dec265", "dot_sandbox": "/usr/local/bin/dot_sandbox", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "x265": "/usr/local/bin/x265", "wayland-scanner": "/usr/local/bin/wayland-scanner", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-clustermole.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/r-clustermole
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-clustermole:1.1.1--r45h3121a25_0
+$ shpc install quay.io/biocontainers/r-clustermole:1.2.0--r45h3121a25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-clustermole/1.1.1--r45h3121a25_0
-$ module help quay.io/biocontainers/r-clustermole/1.1.1--r45h3121a25_0
+$ module load quay.io/biocontainers/r-clustermole/1.2.0--r45h3121a25_0
+$ module help quay.io/biocontainers/r-clustermole/1.2.0--r45h3121a25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

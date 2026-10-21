@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-argumentcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-argumentcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-argumentcheck/container.yaml"
-updated_at: "2026-10-20 07:47:10.680238"
+updated_at: "2026-10-21 07:31:13.542388"
 latest: "0.10.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-argumentcheck"
 aliases:

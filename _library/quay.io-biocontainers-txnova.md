@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/txnova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/txnova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/txnova/container.yaml"
-updated_at: "2026-10-20 07:22:55.025030"
+updated_at: "2026-10-21 08:13:46.414846"
 latest: "0.1.12--py314h80bd393_0"
 container_url: "https://biocontainers.pro/tools/txnova"
 aliases:

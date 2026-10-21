@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/methylsieve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylsieve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylsieve/container.yaml"
-updated_at: "2026-10-20 07:58:32.199503"
-latest: "0.2.1--h54198d6_0"
+updated_at: "2026-10-21 07:36:53.707703"
+latest: "0.3.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/methylsieve"
 aliases:
  - "methylsieve"
 versions:
  - "0.1.0--h54198d6_1"
  - "0.2.1--h54198d6_0"
+ - "0.3.0--h54198d6_0"
 description: "singularity registry hpc automated addition for methylsieve"
-config: {"url": "https://biocontainers.pro/tools/methylsieve", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methylsieve", "latest": {"0.2.1--h54198d6_0": "sha256:aadb172473cf3e77f87a6a1536b68a83fdb26da20aa734b218d4d6dad8c47a54"}, "tags": {"0.1.0--h54198d6_1": "sha256:b0b375c358b38abc8b6da57241ac1b335e214c218f03afb907e2eba4d4a80149", "0.2.1--h54198d6_0": "sha256:aadb172473cf3e77f87a6a1536b68a83fdb26da20aa734b218d4d6dad8c47a54"}, "docker": "quay.io/biocontainers/methylsieve", "aliases": {"methylsieve": "/usr/local/bin/methylsieve"}}
+config: {"url": "https://biocontainers.pro/tools/methylsieve", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methylsieve", "latest": {"0.3.0--h54198d6_0": "sha256:ae21ab83d61b515ee35da6c2acc9ac76bc2e6170ab0d76f077dcf055fb095086"}, "tags": {"0.1.0--h54198d6_1": "sha256:b0b375c358b38abc8b6da57241ac1b335e214c218f03afb907e2eba4d4a80149", "0.2.1--h54198d6_0": "sha256:aadb172473cf3e77f87a6a1536b68a83fdb26da20aa734b218d4d6dad8c47a54", "0.3.0--h54198d6_0": "sha256:ae21ab83d61b515ee35da6c2acc9ac76bc2e6170ab0d76f077dcf055fb095086"}, "docker": "quay.io/biocontainers/methylsieve", "aliases": {"methylsieve": "/usr/local/bin/methylsieve"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methylsieve.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/methylsieve
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methylsieve:0.2.1--h54198d6_0
+$ shpc install quay.io/biocontainers/methylsieve:0.3.0--h54198d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methylsieve/0.2.1--h54198d6_0
-$ module help quay.io/biocontainers/methylsieve/0.2.1--h54198d6_0
+$ module load quay.io/biocontainers/methylsieve/0.3.0--h54198d6_0
+$ module help quay.io/biocontainers/methylsieve/0.3.0--h54198d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
