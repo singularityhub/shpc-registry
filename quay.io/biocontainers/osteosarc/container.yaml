@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/osteosarc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for osteosarc
+latest:
+  0.15.5--pyhdfd78af_0: 
+    sha256:a47dd607da4d857f2ffab8d3d96c90e52a2ee0b75f906e21fb31a84b30702be4
+tags:
+  0.15.5--pyhdfd78af_0: 
+    sha256:a47dd607da4d857f2ffab8d3d96c90e52a2ee0b75f906e21fb31a84b30702be4
+docker: quay.io/biocontainers/osteosarc
+aliases:
+  osteosarc: /usr/local/bin/osteosarc
+  idna: /usr/local/bin/idna
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
