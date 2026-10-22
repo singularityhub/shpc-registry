@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/aakomp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aakomp
 latest:
-  1.0.0--py312r45hf426362_0: 
-    sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0
+  1.1.0--py313r45h3be2455_0: 
+    sha256:8d486de53ea6ecf02816abfbfb94a93a4bdb17f8725f2610ec9c312914c3f378
 tags:
   1.0.0--py312r45hf426362_0: 
     sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0
+  1.1.0--py313r45h3be2455_0: 
+    sha256:8d486de53ea6ecf02816abfbfb94a93a4bdb17f8725f2610ec9c312914c3f378
+  1.0.0--py313r45h3be2455_1: 
+    sha256:e3880b2370342f79cdfcaf9d38898b45a75f94f0f6fccbb0de0bb5686edf2701
 docker: quay.io/biocontainers/aakomp
 aliases:
   aakomp: /usr/local/bin/aakomp

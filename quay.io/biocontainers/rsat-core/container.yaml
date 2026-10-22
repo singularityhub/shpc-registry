@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rsat-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rsat-core
 latest:
-  2025.04.04--hb2a3317_1: 
-    sha256:a8247fc03169522cb5d3658dfe873f487e757a561ede5d14b4672663c3b3e46e
+  2026.10.08--hed7202d_0: 
+    sha256:04defa2eb3fb7613c4addd98c58a7c5df7fdac96dafdc081973478b06bb25638
 tags:
   2020.02.29--py36pl526r36hc99cbb1_0: 
     sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402
@@ -13,6 +13,8 @@ tags:
     sha256:d4b3a596eb203efc0d054cb4ff7adda7e286a5e2a01a513b92f4005beb3e79b2
   2025.04.04--hb2a3317_1: 
     sha256:a8247fc03169522cb5d3658dfe873f487e757a561ede5d14b4672663c3b3e46e
+  2026.10.08--hed7202d_0: 
+    sha256:04defa2eb3fb7613c4addd98c58a7c5df7fdac96dafdc081973478b06bb25638
 docker: quay.io/biocontainers/rsat-core
 aliases:
   Vmatchtrans.pl: /usr/local/bin/Vmatchtrans.pl

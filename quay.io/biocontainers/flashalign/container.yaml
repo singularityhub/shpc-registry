@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/flashalign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flashalign
 latest:
-  0.1.0--h5814d7d_0: 
-    sha256:5d6a9a3540e7bfc71c05eb4d534859e52e70e30729e285b297ac02db3501e66a
+  0.3.0--h5814d7d_0: 
+    sha256:ce70caba164e38440e730d219c616f20849d2dabda17da91092bf295b7d1fde7
 tags:
   0.1.0--h5814d7d_0: 
     sha256:5d6a9a3540e7bfc71c05eb4d534859e52e70e30729e285b297ac02db3501e66a
+  0.3.0--h5814d7d_0: 
+    sha256:ce70caba164e38440e730d219c616f20849d2dabda17da91092bf295b7d1fde7
+  0.2.0--h5814d7d_0: 
+    sha256:a4188e8a17b365481e539af4f3e7f5e661fac4325e63a9ec0960e295b6253285
 docker: quay.io/biocontainers/flashalign
 aliases:
   flashalign: /usr/local/bin/flashalign

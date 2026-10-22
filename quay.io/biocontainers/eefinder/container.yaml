@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/eefinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eefinder
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c
+  1.1.3--pyhdfd78af_0: 
+    sha256:9a763f800afe6afc32d3a4a0942b539f6f952667d660adfdcca76523e201ce4f
 tags:
   1.1.2--pyhdfd78af_0: 
     sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c
+  1.1.3--pyhdfd78af_0: 
+    sha256:9a763f800afe6afc32d3a4a0942b539f6f952667d660adfdcca76523e201ce4f
 docker: quay.io/biocontainers/eefinder
 aliases:
   archive-peptide: /usr/local/bin/archive-peptide

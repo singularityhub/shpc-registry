@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/gpid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gpid
 latest:
-  1.1.2--hdfd78af_0: 
-    sha256:34f91b6568e3fc1fc81deea1cb3261e85b068dc7b85f34215299752c6c45d5da
+  1.2.0--hdfd78af_0: 
+    sha256:35a37aea4063a2560a0af7564e6397dd884bd8aaa37372c17ae05aaf96e8c60b
 tags:
   1.1.2--hdfd78af_0: 
     sha256:34f91b6568e3fc1fc81deea1cb3261e85b068dc7b85f34215299752c6c45d5da
+  1.2.0--hdfd78af_0: 
+    sha256:35a37aea4063a2560a0af7564e6397dd884bd8aaa37372c17ae05aaf96e8c60b
 docker: quay.io/biocontainers/gpid
 aliases:
   gawk-5.4.0: /usr/local/bin/gawk-5.4.0

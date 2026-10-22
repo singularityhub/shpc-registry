@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-rigraphlib
 latest:
-  1.2.0--r45ha27e39d_0: 
-    sha256:a1a9cdb8e748c134370b5f3ed31914d136334d8c35d87a3533549afe70ec27c6
+  1.4.0--r45h55fe1e3_0: 
+    sha256:7c4793335f41b1518c6a74e21b246fc21e6391305cb74e882e1bdbedfccaf5b6
 tags:
   1.2.0--r45ha27e39d_0: 
     sha256:a1a9cdb8e748c134370b5f3ed31914d136334d8c35d87a3533549afe70ec27c6
+  1.4.0--r45h55fe1e3_0: 
+    sha256:7c4793335f41b1518c6a74e21b246fc21e6391305cb74e882e1bdbedfccaf5b6
 docker: quay.io/biocontainers/bioconductor-rigraphlib
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

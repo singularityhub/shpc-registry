@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/paraphase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for paraphase
 latest:
-  4.0.0--h9ee0642_0: 
-    sha256:40904d963b815fb839816bf6e00c84537e140dd881bd938a16264e2e03c825d8
+  4.1.0--h9ee0642_0: 
+    sha256:f2dc7fe920686200905eab249f3587d8b2c3b12d932222d0f7ca7292221cfc1e
 tags:
   1.1.3--pyhdfd78af_0: 
     sha256:bc105ab21e03a1d5730e44eb7e618486c449d5d7768cbfbcd6a77c0d30e249a1
@@ -35,6 +35,8 @@ tags:
     sha256:321ccc927d6c6db266eb21825f840dfa1c3d171de009c8e77b07e44ceeaad492
   4.0.0--h9ee0642_0: 
     sha256:40904d963b815fb839816bf6e00c84537e140dd881bd938a16264e2e03c825d8
+  4.1.0--h9ee0642_0: 
+    sha256:f2dc7fe920686200905eab249f3587d8b2c3b12d932222d0f7ca7292221cfc1e
 docker: quay.io/biocontainers/paraphase
 aliases:
   paraphase: /usr/local/bin/paraphase
