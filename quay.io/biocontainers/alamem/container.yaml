@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/alamem
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alamem
+latest:
+  0.1.5--hfa8f182_0: 
+    sha256:e0120a040cd0430f082b38158ed8eb7a190b4be67037b9b3537cd66cf6743c4b
+tags:
+  0.1.5--hfa8f182_0: 
+    sha256:e0120a040cd0430f082b38158ed8eb7a190b4be67037b9b3537cd66cf6743c4b
+docker: quay.io/biocontainers/alamem
+aliases:
+  alamem: /usr/local/bin/alamem

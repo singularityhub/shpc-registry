@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/fair-bioheaders
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fair-bioheaders
+latest:
+  0.5.0--pyhdfd78af_0: 
+    sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4
+tags:
+  0.5.0--pyhdfd78af_0: 
+    sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4
+docker: quay.io/biocontainers/fair-bioheaders
+aliases:
+  bioheaders: /usr/local/bin/bioheaders
+  fhr-convert: /usr/local/bin/fhr-convert
+  fhr-fasta-combine: /usr/local/bin/fhr-fasta-combine
+  fhr-fasta-strip: /usr/local/bin/fhr-fasta-strip
+  fhr-fasta-validate: /usr/local/bin/fhr-fasta-validate
+  fhr-gfa-combine: /usr/local/bin/fhr-gfa-combine
+  fhr-gfa-strip: /usr/local/bin/fhr-gfa-strip
+  fhr-gfa-validate: /usr/local/bin/fhr-gfa-validate
+  fhr-validate: /usr/local/bin/fhr-validate
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  jsonpointer: /usr/local/bin/jsonpointer
+  idna: /usr/local/bin/idna
+  jsonschema: /usr/local/bin/jsonschema

@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/ciri3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ciri3
+latest:
+  3.0.1--hdfd78af_0: 
+    sha256:428868f056472eae1f6e9ba305ff47497f4a8556a98cf6a1e5400fa782569aec
+tags:
+  3.0.1--hdfd78af_0: 
+    sha256:428868f056472eae1f6e9ba305ff47497f4a8556a98cf6a1e5400fa782569aec
+docker: quay.io/biocontainers/ciri3
+aliases:
+  FDR.py: /usr/local/bin/FDR.py
+  RNASeq-MATS.py: /usr/local/bin/RNASeq-MATS.py
+  STAR-avx: /usr/local/bin/STAR-avx
+  STAR-avx2: /usr/local/bin/STAR-avx2
+  STAR-plain: /usr/local/bin/STAR-plain
+  STAR-sse3: /usr/local/bin/STAR-sse3
+  STAR-sse4.1: /usr/local/bin/STAR-sse4.1
+  STAR-ssse3: /usr/local/bin/STAR-ssse3
+  STARlong-avx: /usr/local/bin/STARlong-avx
+  STARlong-avx2: /usr/local/bin/STARlong-avx2
+  STARlong-plain: /usr/local/bin/STARlong-plain
+  STARlong-sse3: /usr/local/bin/STARlong-sse3
+  STARlong-sse4.1: /usr/local/bin/STARlong-sse4.1
+  STARlong-ssse3: /usr/local/bin/STARlong-ssse3
+  ciri3: /usr/local/bin/ciri3
+  gmake: /usr/local/bin/gmake
+  inclusion_level.py: /usr/local/bin/inclusion_level.py
+  joinFiles.py: /usr/local/bin/joinFiles.py
+  paste.py: /usr/local/bin/paste.py
+  rmats.py: /usr/local/bin/rmats.py
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  jnativescan: /usr/local/bin/jnativescan
+  fc-genconf: /usr/local/bin/fc-genconf
+  jwebserver: /usr/local/bin/jwebserver
+  ref-cache: /usr/local/bin/ref-cache
+  jpackage: /usr/local/bin/jpackage
+  annot-tsv: /usr/local/bin/annot-tsv
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
