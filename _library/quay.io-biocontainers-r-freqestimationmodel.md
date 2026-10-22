@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-freqestimationmodel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-freqestimationmodel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-freqestimationmodel/container.yaml"
-updated_at: "2026-10-21 08:04:28.838066"
+updated_at: "2026-10-22 08:04:39.084103"
 latest: "0.1.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-freqestimationmodel"
 aliases:

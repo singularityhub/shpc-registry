@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-excluderanges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
-updated_at: "2026-10-21 07:36:08.333195"
+updated_at: "2026-10-22 07:37:20.728140"
 latest: "0.99.10--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-excluderanges"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gchromvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gchromvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gchromvar/container.yaml"
-updated_at: "2026-10-21 08:08:20.960637"
+updated_at: "2026-10-22 08:08:21.661827"
 latest: "0.3.2--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-gchromvar"
 aliases:

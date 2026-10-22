@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccphylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccphylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccphylo/container.yaml"
-updated_at: "2026-10-21 08:13:29.528465"
+updated_at: "2026-10-22 08:13:10.088746"
 latest: "0.9.2--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/ccphylo"
 aliases:

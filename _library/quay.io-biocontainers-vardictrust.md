@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vardictrust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vardictrust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vardictrust/container.yaml"
-updated_at: "2026-10-21 08:08:12.816869"
-latest: "1.0.0--hfa8f182_0"
+updated_at: "2026-10-22 08:08:13.782179"
+latest: "1.0.2--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/vardictrust"
 aliases:
  - "vardictrust"
 versions:
  - "1.0.0--hfa8f182_0"
+ - "1.0.2--hfa8f182_0"
 description: "singularity registry hpc automated addition for vardictrust"
-config: {"url": "https://biocontainers.pro/tools/vardictrust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vardictrust", "latest": {"1.0.0--hfa8f182_0": "sha256:b7f4c0615eaf3875ead8f531ea84277924b3610d823342145b3d483c6defdc01"}, "tags": {"1.0.0--hfa8f182_0": "sha256:b7f4c0615eaf3875ead8f531ea84277924b3610d823342145b3d483c6defdc01"}, "docker": "quay.io/biocontainers/vardictrust", "aliases": {"vardictrust": "/usr/local/bin/vardictrust"}}
+config: {"url": "https://biocontainers.pro/tools/vardictrust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vardictrust", "latest": {"1.0.2--hfa8f182_0": "sha256:5948225b27970c548030837e1dd6ed655c91160cb080a2843ccdadd11a315c86"}, "tags": {"1.0.0--hfa8f182_0": "sha256:b7f4c0615eaf3875ead8f531ea84277924b3610d823342145b3d483c6defdc01", "1.0.2--hfa8f182_0": "sha256:5948225b27970c548030837e1dd6ed655c91160cb080a2843ccdadd11a315c86"}, "docker": "quay.io/biocontainers/vardictrust", "aliases": {"vardictrust": "/usr/local/bin/vardictrust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vardictrust.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vardictrust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vardictrust:1.0.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/vardictrust:1.0.2--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vardictrust/1.0.0--hfa8f182_0
-$ module help quay.io/biocontainers/vardictrust/1.0.0--hfa8f182_0
+$ module load quay.io/biocontainers/vardictrust/1.0.2--hfa8f182_0
+$ module help quay.io/biocontainers/vardictrust/1.0.2--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

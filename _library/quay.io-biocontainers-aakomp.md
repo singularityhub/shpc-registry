@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aakomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aakomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aakomp/container.yaml"
-updated_at: "2026-10-21 07:22:39.438620"
-latest: "1.0.0--py312r45hf426362_0"
+updated_at: "2026-10-22 07:24:21.339075"
+latest: "1.1.0--py313r45h3be2455_0"
 container_url: "https://biocontainers.pro/tools/aakomp"
 aliases:
  - "aakomp"
@@ -43,8 +43,10 @@ aliases:
  - "hmmemit"
 versions:
  - "1.0.0--py312r45hf426362_0"
+ - "1.1.0--py313r45h3be2455_0"
+ - "1.0.0--py313r45h3be2455_1"
 description: "singularity registry hpc automated addition for aakomp"
-config: {"url": "https://biocontainers.pro/tools/aakomp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aakomp", "latest": {"1.0.0--py312r45hf426362_0": "sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0"}, "tags": {"1.0.0--py312r45hf426362_0": "sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0"}, "docker": "quay.io/biocontainers/aakomp", "aliases": {"aakomp": "/usr/local/bin/aakomp", "aakomp_plot.R": "/usr/local/bin/aakomp_plot.R", "libsequenceConfig": "/usr/local/bin/libsequenceConfig", "lrz": "/usr/local/bin/lrz", "make_mibf": "/usr/local/bin/make_mibf", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "randseq": "/usr/local/bin/randseq", "run-aakomp": "/usr/local/bin/run-aakomp", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdunzip": "/usr/local/bin/bsdunzip", "ref-cache": "/usr/local/bin/ref-cache", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "annot-tsv": "/usr/local/bin/annot-tsv", "alimask": "/usr/local/bin/alimask", "hmmconvert": "/usr/local/bin/hmmconvert", "hmmemit": "/usr/local/bin/hmmemit"}}
+config: {"url": "https://biocontainers.pro/tools/aakomp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aakomp", "latest": {"1.1.0--py313r45h3be2455_0": "sha256:8d486de53ea6ecf02816abfbfb94a93a4bdb17f8725f2610ec9c312914c3f378"}, "tags": {"1.0.0--py312r45hf426362_0": "sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0", "1.1.0--py313r45h3be2455_0": "sha256:8d486de53ea6ecf02816abfbfb94a93a4bdb17f8725f2610ec9c312914c3f378", "1.0.0--py313r45h3be2455_1": "sha256:e3880b2370342f79cdfcaf9d38898b45a75f94f0f6fccbb0de0bb5686edf2701"}, "docker": "quay.io/biocontainers/aakomp", "aliases": {"aakomp": "/usr/local/bin/aakomp", "aakomp_plot.R": "/usr/local/bin/aakomp_plot.R", "libsequenceConfig": "/usr/local/bin/libsequenceConfig", "lrz": "/usr/local/bin/lrz", "make_mibf": "/usr/local/bin/make_mibf", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "randseq": "/usr/local/bin/randseq", "run-aakomp": "/usr/local/bin/run-aakomp", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdunzip": "/usr/local/bin/bsdunzip", "ref-cache": "/usr/local/bin/ref-cache", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "annot-tsv": "/usr/local/bin/annot-tsv", "alimask": "/usr/local/bin/alimask", "hmmconvert": "/usr/local/bin/hmmconvert", "hmmemit": "/usr/local/bin/hmmemit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aakomp.
@@ -59,7 +61,7 @@ $ shpc install quay.io/biocontainers/aakomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aakomp:1.0.0--py312r45hf426362_0
+$ shpc install quay.io/biocontainers/aakomp:1.1.0--py313r45h3be2455_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aakomp/1.0.0--py312r45hf426362_0
-$ module help quay.io/biocontainers/aakomp/1.0.0--py312r45hf426362_0
+$ module load quay.io/biocontainers/aakomp/1.1.0--py313r45h3be2455_0
+$ module help quay.io/biocontainers/aakomp/1.1.0--py313r45h3be2455_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

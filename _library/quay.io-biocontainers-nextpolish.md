@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nextpolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextpolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextpolish/container.yaml"
-updated_at: "2026-10-21 08:09:27.834725"
-latest: "1.4.1--h3952c39_7"
+updated_at: "2026-10-22 08:09:23.721758"
+latest: "1.4.1--ha243130_8"
 container_url: "https://biocontainers.pro/tools/nextpolish"
 aliases:
  - "nextPolish"
@@ -45,8 +45,9 @@ versions:
  - "1.4.1--py310h0ceaa1d_4"
  - "1.4.1--heebf65f_5"
  - "1.4.1--h3952c39_7"
+ - "1.4.1--ha243130_8"
 description: "singularity registry hpc automated addition for nextpolish"
-config: {"url": "https://biocontainers.pro/tools/nextpolish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nextpolish", "latest": {"1.4.1--h3952c39_7": "sha256:b44db193cb1823f3465f621125abd52aa343570374f6ac6274829c3fcf5b52fb"}, "tags": {"1.4.1--py310h7132678_0": "sha256:fecf10c096a9d5a2b100cd5cb0597eb99359796919202072e5482308d7126e52", "1.4.1--py311he4a0461_1": "sha256:0131954b45c3e491a0b12863994002d6edaebde8ddb74b554385a242d9d9c4ec", "1.4.1--py39h4a8586d_2": "sha256:c96fe92c89d03963fba95b57ed1396d9c910b73b17011900802ee4085ef1d900", "1.4.1--py310h7523f66_3": "sha256:f7c7597605148f6e253cf8cfae886a5bce1c8627cb59bd23a0641fdf2052c1d3", "1.4.1--py310h0ceaa1d_4": "sha256:5b26fdc31e5ac445df8959394e0ae51a9b0f16dd13a649272a01cade504ae208", "1.4.1--heebf65f_5": "sha256:45341eeaad8d7ae26b517395b8abb9dee0ab5e86efda2d314fa404bfca036d8d", "1.4.1--h3952c39_7": "sha256:b44db193cb1823f3465f621125abd52aa343570374f6ac6274829c3fcf5b52fb"}, "docker": "quay.io/biocontainers/nextpolish", "aliases": {"nextPolish": "/usr/local/bin/nextPolish", "paralleltask": "/usr/local/bin/paralleltask", "seq_count": "/usr/local/bin/seq_count", "seq_split": "/usr/local/bin/seq_split", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/nextpolish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nextpolish", "latest": {"1.4.1--ha243130_8": "sha256:d2c4525eb4aa4610fd42a18d3eafc1005e57f4469bfbbd6458e6bb9c7e1cc968"}, "tags": {"1.4.1--py310h7132678_0": "sha256:fecf10c096a9d5a2b100cd5cb0597eb99359796919202072e5482308d7126e52", "1.4.1--py311he4a0461_1": "sha256:0131954b45c3e491a0b12863994002d6edaebde8ddb74b554385a242d9d9c4ec", "1.4.1--py39h4a8586d_2": "sha256:c96fe92c89d03963fba95b57ed1396d9c910b73b17011900802ee4085ef1d900", "1.4.1--py310h7523f66_3": "sha256:f7c7597605148f6e253cf8cfae886a5bce1c8627cb59bd23a0641fdf2052c1d3", "1.4.1--py310h0ceaa1d_4": "sha256:5b26fdc31e5ac445df8959394e0ae51a9b0f16dd13a649272a01cade504ae208", "1.4.1--heebf65f_5": "sha256:45341eeaad8d7ae26b517395b8abb9dee0ab5e86efda2d314fa404bfca036d8d", "1.4.1--h3952c39_7": "sha256:b44db193cb1823f3465f621125abd52aa343570374f6ac6274829c3fcf5b52fb", "1.4.1--ha243130_8": "sha256:d2c4525eb4aa4610fd42a18d3eafc1005e57f4469bfbbd6458e6bb9c7e1cc968"}, "docker": "quay.io/biocontainers/nextpolish", "aliases": {"nextPolish": "/usr/local/bin/nextPolish", "paralleltask": "/usr/local/bin/paralleltask", "seq_count": "/usr/local/bin/seq_count", "seq_split": "/usr/local/bin/seq_split", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextpolish.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/nextpolish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextpolish:1.4.1--h3952c39_7
+$ shpc install quay.io/biocontainers/nextpolish:1.4.1--ha243130_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextpolish/1.4.1--h3952c39_7
-$ module help quay.io/biocontainers/nextpolish/1.4.1--h3952c39_7
+$ module load quay.io/biocontainers/nextpolish/1.4.1--ha243130_8
+$ module help quay.io/biocontainers/nextpolish/1.4.1--ha243130_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

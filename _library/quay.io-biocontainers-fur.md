@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fur/container.yaml"
-updated_at: "2026-10-21 08:13:45.810413"
+updated_at: "2026-10-22 08:13:25.864646"
 latest: "4.3--hb9cd612_0"
 container_url: "https://biocontainers.pro/tools/fur"
 aliases:

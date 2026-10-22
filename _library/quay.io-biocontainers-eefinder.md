@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eefinder/container.yaml"
-updated_at: "2026-10-21 07:51:11.514858"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2026-10-22 07:51:53.698694"
+latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eefinder"
 aliases:
  - "archive-peptide"
@@ -50,8 +50,9 @@ aliases:
  - "archive-pmc"
 versions:
  - "1.1.2--pyhdfd78af_0"
+ - "1.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for eefinder"
-config: {"url": "https://biocontainers.pro/tools/eefinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eefinder", "latest": {"1.1.2--pyhdfd78af_0": "sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c"}, "docker": "quay.io/biocontainers/eefinder", "aliases": {"archive-peptide": "/usr/local/bin/archive-peptide", "cittest": "/usr/local/bin/cittest", "combine-uids": "/usr/local/bin/combine-uids", "compare-uids": "/usr/local/bin/compare-uids", "eefinder": "/usr/local/bin/eefinder", "exclude-uids": "/usr/local/bin/exclude-uids", "filter-records": "/usr/local/bin/filter-records", "gene2tbl": "/usr/local/bin/gene2tbl", "gpf2info": "/usr/local/bin/gpf2info", "intersect-uids": "/usr/local/bin/intersect-uids", "rcommon.sh": "/usr/local/bin/rcommon.sh", "split-records": "/usr/local/bin/split-records", "test-repeat": "/usr/local/bin/test-repeat", "uniq-count": "/usr/local/bin/uniq-count", "uniq-count-rank": "/usr/local/bin/uniq-count-rank", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc"}}
+config: {"url": "https://biocontainers.pro/tools/eefinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eefinder", "latest": {"1.1.3--pyhdfd78af_0": "sha256:9a763f800afe6afc32d3a4a0942b539f6f952667d660adfdcca76523e201ce4f"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c", "1.1.3--pyhdfd78af_0": "sha256:9a763f800afe6afc32d3a4a0942b539f6f952667d660adfdcca76523e201ce4f"}, "docker": "quay.io/biocontainers/eefinder", "aliases": {"archive-peptide": "/usr/local/bin/archive-peptide", "cittest": "/usr/local/bin/cittest", "combine-uids": "/usr/local/bin/combine-uids", "compare-uids": "/usr/local/bin/compare-uids", "eefinder": "/usr/local/bin/eefinder", "exclude-uids": "/usr/local/bin/exclude-uids", "filter-records": "/usr/local/bin/filter-records", "gene2tbl": "/usr/local/bin/gene2tbl", "gpf2info": "/usr/local/bin/gpf2info", "intersect-uids": "/usr/local/bin/intersect-uids", "rcommon.sh": "/usr/local/bin/rcommon.sh", "split-records": "/usr/local/bin/split-records", "test-repeat": "/usr/local/bin/test-repeat", "uniq-count": "/usr/local/bin/uniq-count", "uniq-count-rank": "/usr/local/bin/uniq-count-rank", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eefinder.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/eefinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eefinder:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/eefinder:1.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eefinder/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/eefinder/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/eefinder/1.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/eefinder/1.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

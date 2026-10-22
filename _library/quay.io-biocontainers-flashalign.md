@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/flashalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flashalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flashalign/container.yaml"
-updated_at: "2026-10-21 08:12:41.999982"
-latest: "0.1.0--h5814d7d_0"
+updated_at: "2026-10-22 08:12:25.541177"
+latest: "0.3.0--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/flashalign"
 aliases:
  - "flashalign"
 versions:
  - "0.1.0--h5814d7d_0"
+ - "0.3.0--h5814d7d_0"
+ - "0.2.0--h5814d7d_0"
 description: "singularity registry hpc automated addition for flashalign"
-config: {"url": "https://biocontainers.pro/tools/flashalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flashalign", "latest": {"0.1.0--h5814d7d_0": "sha256:5d6a9a3540e7bfc71c05eb4d534859e52e70e30729e285b297ac02db3501e66a"}, "tags": {"0.1.0--h5814d7d_0": "sha256:5d6a9a3540e7bfc71c05eb4d534859e52e70e30729e285b297ac02db3501e66a"}, "docker": "quay.io/biocontainers/flashalign", "aliases": {"flashalign": "/usr/local/bin/flashalign"}}
+config: {"url": "https://biocontainers.pro/tools/flashalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flashalign", "latest": {"0.3.0--h5814d7d_0": "sha256:ce70caba164e38440e730d219c616f20849d2dabda17da91092bf295b7d1fde7"}, "tags": {"0.1.0--h5814d7d_0": "sha256:5d6a9a3540e7bfc71c05eb4d534859e52e70e30729e285b297ac02db3501e66a", "0.3.0--h5814d7d_0": "sha256:ce70caba164e38440e730d219c616f20849d2dabda17da91092bf295b7d1fde7", "0.2.0--h5814d7d_0": "sha256:a4188e8a17b365481e539af4f3e7f5e661fac4325e63a9ec0960e295b6253285"}, "docker": "quay.io/biocontainers/flashalign", "aliases": {"flashalign": "/usr/local/bin/flashalign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flashalign.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/flashalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flashalign:0.1.0--h5814d7d_0
+$ shpc install quay.io/biocontainers/flashalign:0.3.0--h5814d7d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flashalign/0.1.0--h5814d7d_0
-$ module help quay.io/biocontainers/flashalign/0.1.0--h5814d7d_0
+$ module load quay.io/biocontainers/flashalign/0.3.0--h5814d7d_0
+$ module help quay.io/biocontainers/flashalign/0.3.0--h5814d7d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

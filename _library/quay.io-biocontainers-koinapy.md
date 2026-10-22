@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/koinapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/koinapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/koinapy/container.yaml"
-updated_at: "2026-10-21 07:22:49.484461"
+updated_at: "2026-10-22 07:24:31.272506"
 latest: "0.0.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/koinapy"
 aliases:

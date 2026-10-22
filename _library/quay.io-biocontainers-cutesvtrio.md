@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cutesvtrio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutesvtrio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutesvtrio/container.yaml"
-updated_at: "2026-10-21 08:05:05.000530"
+updated_at: "2026-10-22 08:05:13.897612"
 latest: "1.1.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/cutesvtrio"
 aliases:

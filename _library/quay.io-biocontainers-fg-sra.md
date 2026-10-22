@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fg-sra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fg-sra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fg-sra/container.yaml"
-updated_at: "2026-10-21 07:50:15.775211"
-latest: "0.1.0--hdaf81d9_0"
+updated_at: "2026-10-22 07:51:01.295862"
+latest: "0.2.0--hec9b1f2_1"
 container_url: "https://biocontainers.pro/tools/fg-sra"
 aliases:
  - "fg-sra"
 versions:
  - "0.1.0--hdaf81d9_0"
+ - "0.2.0--hec9b1f2_1"
 description: "singularity registry hpc automated addition for fg-sra"
-config: {"url": "https://biocontainers.pro/tools/fg-sra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fg-sra", "latest": {"0.1.0--hdaf81d9_0": "sha256:bc02a2ff35f1c9fa7c30be4130c7942d9b93434e7717fc207fc8aa4eaaaac9ec"}, "tags": {"0.1.0--hdaf81d9_0": "sha256:bc02a2ff35f1c9fa7c30be4130c7942d9b93434e7717fc207fc8aa4eaaaac9ec"}, "docker": "quay.io/biocontainers/fg-sra", "aliases": {"fg-sra": "/usr/local/bin/fg-sra"}}
+config: {"url": "https://biocontainers.pro/tools/fg-sra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fg-sra", "latest": {"0.2.0--hec9b1f2_1": "sha256:e6f3798d37524418d9bfa8c34eb0a3cb3d7e1d1ced03c78c51c9ed71e8265f5a"}, "tags": {"0.1.0--hdaf81d9_0": "sha256:bc02a2ff35f1c9fa7c30be4130c7942d9b93434e7717fc207fc8aa4eaaaac9ec", "0.2.0--hec9b1f2_1": "sha256:e6f3798d37524418d9bfa8c34eb0a3cb3d7e1d1ced03c78c51c9ed71e8265f5a"}, "docker": "quay.io/biocontainers/fg-sra", "aliases": {"fg-sra": "/usr/local/bin/fg-sra"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fg-sra.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fg-sra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fg-sra:0.1.0--hdaf81d9_0
+$ shpc install quay.io/biocontainers/fg-sra:0.2.0--hec9b1f2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fg-sra/0.1.0--hdaf81d9_0
-$ module help quay.io/biocontainers/fg-sra/0.1.0--hdaf81d9_0
+$ module load quay.io/biocontainers/fg-sra/0.2.0--hec9b1f2_1
+$ module help quay.io/biocontainers/fg-sra/0.2.0--hec9b1f2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

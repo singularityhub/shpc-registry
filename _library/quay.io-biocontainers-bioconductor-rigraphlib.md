@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rigraphlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rigraphlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rigraphlib/container.yaml"
-updated_at: "2026-10-21 07:37:58.456391"
-latest: "1.2.0--r45ha27e39d_0"
+updated_at: "2026-10-22 07:39:03.398554"
+latest: "1.4.0--r45h55fe1e3_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rigraphlib"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r45ha27e39d_0"
+ - "1.4.0--r45h55fe1e3_0"
 description: "singularity registry hpc automated addition for bioconductor-rigraphlib"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rigraphlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rigraphlib", "latest": {"1.2.0--r45ha27e39d_0": "sha256:a1a9cdb8e748c134370b5f3ed31914d136334d8c35d87a3533549afe70ec27c6"}, "tags": {"1.2.0--r45ha27e39d_0": "sha256:a1a9cdb8e748c134370b5f3ed31914d136334d8c35d87a3533549afe70ec27c6"}, "docker": "quay.io/biocontainers/bioconductor-rigraphlib", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rigraphlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rigraphlib", "latest": {"1.4.0--r45h55fe1e3_0": "sha256:7c4793335f41b1518c6a74e21b246fc21e6391305cb74e882e1bdbedfccaf5b6"}, "tags": {"1.2.0--r45ha27e39d_0": "sha256:a1a9cdb8e748c134370b5f3ed31914d136334d8c35d87a3533549afe70ec27c6", "1.4.0--r45h55fe1e3_0": "sha256:7c4793335f41b1518c6a74e21b246fc21e6391305cb74e882e1bdbedfccaf5b6"}, "docker": "quay.io/biocontainers/bioconductor-rigraphlib", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rigraphlib.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rigraphlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rigraphlib:1.2.0--r45ha27e39d_0
+$ shpc install quay.io/biocontainers/bioconductor-rigraphlib:1.4.0--r45h55fe1e3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rigraphlib/1.2.0--r45ha27e39d_0
-$ module help quay.io/biocontainers/bioconductor-rigraphlib/1.2.0--r45ha27e39d_0
+$ module load quay.io/biocontainers/bioconductor-rigraphlib/1.4.0--r45h55fe1e3_0
+$ module help quay.io/biocontainers/bioconductor-rigraphlib/1.4.0--r45h55fe1e3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

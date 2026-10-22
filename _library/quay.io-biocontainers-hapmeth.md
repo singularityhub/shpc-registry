@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapmeth/container.yaml"
-updated_at: "2026-10-21 07:15:50.668865"
+updated_at: "2026-10-22 07:17:48.693248"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/hapmeth"
 aliases:

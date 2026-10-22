@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gpid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gpid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gpid/container.yaml"
-updated_at: "2026-10-21 08:14:23.548572"
-latest: "1.1.2--hdfd78af_0"
+updated_at: "2026-10-22 08:14:02.635471"
+latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gpid"
 aliases:
  - "gawk-5.4.0"
@@ -37,8 +37,9 @@ aliases:
  - "hb-raster"
 versions:
  - "1.1.2--hdfd78af_0"
+ - "1.2.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for gpid"
-config: {"url": "https://biocontainers.pro/tools/gpid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gpid", "latest": {"1.1.2--hdfd78af_0": "sha256:34f91b6568e3fc1fc81deea1cb3261e85b068dc7b85f34215299752c6c45d5da"}, "tags": {"1.1.2--hdfd78af_0": "sha256:34f91b6568e3fc1fc81deea1cb3261e85b068dc7b85f34215299752c6c45d5da"}, "docker": "quay.io/biocontainers/gpid", "aliases": {"gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "gpid": "/usr/local/bin/gpid", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "hb-raster": "/usr/local/bin/hb-raster"}}
+config: {"url": "https://biocontainers.pro/tools/gpid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gpid", "latest": {"1.2.0--hdfd78af_0": "sha256:35a37aea4063a2560a0af7564e6397dd884bd8aaa37372c17ae05aaf96e8c60b"}, "tags": {"1.1.2--hdfd78af_0": "sha256:34f91b6568e3fc1fc81deea1cb3261e85b068dc7b85f34215299752c6c45d5da", "1.2.0--hdfd78af_0": "sha256:35a37aea4063a2560a0af7564e6397dd884bd8aaa37372c17ae05aaf96e8c60b"}, "docker": "quay.io/biocontainers/gpid", "aliases": {"gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "gpid": "/usr/local/bin/gpid", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "hb-raster": "/usr/local/bin/hb-raster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gpid.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/gpid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gpid:1.1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/gpid:1.2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gpid/1.1.2--hdfd78af_0
-$ module help quay.io/biocontainers/gpid/1.1.2--hdfd78af_0
+$ module load quay.io/biocontainers/gpid/1.2.0--hdfd78af_0
+$ module help quay.io/biocontainers/gpid/1.2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

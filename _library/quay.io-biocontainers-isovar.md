@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isovar/container.yaml"
-updated_at: "2026-10-21 07:38:57.444011"
+updated_at: "2026-10-22 07:39:59.621492"
 latest: "1.7.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/isovar"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-biox-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biox-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biox-seq/container.yaml"
-updated_at: "2026-10-21 07:18:40.921187"
-latest: "0.008010--pl5321hdfd78af_0"
+updated_at: "2026-10-22 07:20:34.702794"
+latest: "0.008014--pl5321hcbfc158_0"
 container_url: "https://biocontainers.pro/tools/perl-biox-seq"
 aliases:
  - "bgzip.pl"
@@ -17,8 +17,10 @@ versions:
  - "0.008008--pl5321hdfd78af_0"
  - "0.008009--pl5321hdfd78af_0"
  - "0.008010--pl5321hdfd78af_0"
+ - "0.008014--pl5321hcbfc158_0"
+ - "0.008012--pl5321hcbfc158_0"
 description: "shpc-registry automated BioContainers addition for perl-biox-seq"
-config: {"url": "https://biocontainers.pro/tools/perl-biox-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biox-seq", "latest": {"0.008010--pl5321hdfd78af_0": "sha256:b89fac01adee8933b3bd6ca8239450a69d23b52f7ccc908701b53361856a17ff"}, "tags": {"0.008006--pl5321hdfd78af_0": "sha256:194e6f0a79c5866e95f89733756fbb49865cce50661e728cd6b785114e1134b2", "0.008007--pl5321hdfd78af_0": "sha256:d52f66c1b61dad5ced4b3378c5e635578dd33a24bb85c60c6b97633eab226134", "0.008008--pl5321hdfd78af_0": "sha256:1cb174ebb28341d3455ef45c8701dcd9279fd5bd30237c71d5c70f5865007cd5", "0.008009--pl5321hdfd78af_0": "sha256:f1f082717d52912a1e94247684a9ce6202668c8406f46d6af8f307e120439ce1", "0.008010--pl5321hdfd78af_0": "sha256:b89fac01adee8933b3bd6ca8239450a69d23b52f7ccc908701b53361856a17ff"}, "docker": "quay.io/biocontainers/perl-biox-seq", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-biox-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biox-seq", "latest": {"0.008014--pl5321hcbfc158_0": "sha256:d70ec03a69cb28a0aac6649127e774f8dfe4e0feaa51bd90695c452ce3179d5f"}, "tags": {"0.008006--pl5321hdfd78af_0": "sha256:194e6f0a79c5866e95f89733756fbb49865cce50661e728cd6b785114e1134b2", "0.008007--pl5321hdfd78af_0": "sha256:d52f66c1b61dad5ced4b3378c5e635578dd33a24bb85c60c6b97633eab226134", "0.008008--pl5321hdfd78af_0": "sha256:1cb174ebb28341d3455ef45c8701dcd9279fd5bd30237c71d5c70f5865007cd5", "0.008009--pl5321hdfd78af_0": "sha256:f1f082717d52912a1e94247684a9ce6202668c8406f46d6af8f307e120439ce1", "0.008010--pl5321hdfd78af_0": "sha256:b89fac01adee8933b3bd6ca8239450a69d23b52f7ccc908701b53361856a17ff", "0.008014--pl5321hcbfc158_0": "sha256:d70ec03a69cb28a0aac6649127e774f8dfe4e0feaa51bd90695c452ce3179d5f", "0.008012--pl5321hcbfc158_0": "sha256:9f7618af3d5c54550e5cc5ed85dfe715c20525a5248b0519e673e37956a558f5"}, "docker": "quay.io/biocontainers/perl-biox-seq", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-biox-seq.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/perl-biox-seq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-biox-seq:0.008010--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-biox-seq:0.008014--pl5321hcbfc158_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-biox-seq/0.008010--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-biox-seq/0.008010--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-biox-seq/0.008014--pl5321hcbfc158_0
+$ module help quay.io/biocontainers/perl-biox-seq/0.008014--pl5321hcbfc158_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

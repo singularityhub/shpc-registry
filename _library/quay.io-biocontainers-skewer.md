@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/skewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skewer/container.yaml"
-updated_at: "2026-10-21 07:58:04.935186"
-latest: "0.2.2--hc9558a2_3"
+updated_at: "2026-10-22 07:58:32.327241"
+latest: "0.2.2--hc52dbad_5"
 container_url: "https://biocontainers.pro/tools/skewer"
 aliases:
  - "skewer"
 versions:
  - "0.2.2--hc9558a2_3"
+ - "0.2.2--hc52dbad_5"
 description: "shpc-registry automated BioContainers addition for skewer"
-config: {"url": "https://biocontainers.pro/tools/skewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skewer", "latest": {"0.2.2--hc9558a2_3": "sha256:7aa88909b49729c20a3711c59751cc119582d35d67c9b0efde3f727e98d85cc6"}, "tags": {"0.2.2--hc9558a2_3": "sha256:7aa88909b49729c20a3711c59751cc119582d35d67c9b0efde3f727e98d85cc6"}, "docker": "quay.io/biocontainers/skewer", "aliases": {"skewer": "/usr/local/bin/skewer"}}
+config: {"url": "https://biocontainers.pro/tools/skewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skewer", "latest": {"0.2.2--hc52dbad_5": "sha256:3c7f7d7d4015fff8b365621c9492d8d72ad02a7586f9f8ecddad058e83c0da37"}, "tags": {"0.2.2--hc9558a2_3": "sha256:7aa88909b49729c20a3711c59751cc119582d35d67c9b0efde3f727e98d85cc6", "0.2.2--hc52dbad_5": "sha256:3c7f7d7d4015fff8b365621c9492d8d72ad02a7586f9f8ecddad058e83c0da37"}, "docker": "quay.io/biocontainers/skewer", "aliases": {"skewer": "/usr/local/bin/skewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skewer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/skewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skewer:0.2.2--hc9558a2_3
+$ shpc install quay.io/biocontainers/skewer:0.2.2--hc52dbad_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skewer/0.2.2--hc9558a2_3
-$ module help quay.io/biocontainers/skewer/0.2.2--hc9558a2_3
+$ module load quay.io/biocontainers/skewer/0.2.2--hc52dbad_5
+$ module help quay.io/biocontainers/skewer/0.2.2--hc52dbad_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
