@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/fragpipe-speclib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fragpipe-speclib
+latest:
+  0.1.59--pyh106432d_0: 
+    sha256:55dc45e15ccc9e2171c62d8e61a8651ee8afa354464f19c6ed98676761e44bbe
+tags:
+  0.1.59--pyh106432d_0: 
+    sha256:55dc45e15ccc9e2171c62d8e61a8651ee8afa354464f19c6ed98676761e44bbe
+docker: quay.io/biocontainers/fragpipe-speclib
+aliases:
+  fragpipe-speclib: /usr/local/bin/fragpipe-speclib
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
+  pax11publish: /usr/local/bin/pax11publish
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print
+  SAXCount: /usr/local/bin/SAXCount
+  SAXPrint: /usr/local/bin/SAXPrint
+  SCMPrint: /usr/local/bin/SCMPrint
+  SEnumVal: /usr/local/bin/SEnumVal
+  StdInParse: /usr/local/bin/StdInParse
+  XInclude: /usr/local/bin/XInclude
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
