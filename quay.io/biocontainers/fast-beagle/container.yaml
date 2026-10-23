@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fast-beagle
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fast-beagle
 latest:
-  5.5.3--hab16a5f_0: 
-    sha256:62ecd2a800f7e4e12dc337a1286c5e7c0fc4fe38ecaabffa4cfba2fc74df95ac
+  5.5.4--hab16a5f_0: 
+    sha256:9a2bae122b8e5bfe467850193cf6ac011c539ba084657e8f45aafd86ed5826e4
 tags:
   5.5.3--hab16a5f_0: 
     sha256:62ecd2a800f7e4e12dc337a1286c5e7c0fc4fe38ecaabffa4cfba2fc74df95ac
+  5.5.4--hab16a5f_0: 
+    sha256:9a2bae122b8e5bfe467850193cf6ac011c539ba084657e8f45aafd86ed5826e4
 docker: quay.io/biocontainers/fast-beagle
 aliases:
   fast-beagle: /usr/local/bin/fast-beagle

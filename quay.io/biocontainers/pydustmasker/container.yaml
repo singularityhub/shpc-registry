@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pydustmasker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pydustmasker
 latest:
-  3.2.0--py313h9a1e870_0: 
-    sha256:c192ebcb8f8da2f62a06e73ac5336a2affa852e1bace32127ac99eef204f1036
+  3.3.0--py311h78a2e26_0: 
+    sha256:8b02d0747f099c09f741a3c2fe9decc6c689f24950eee2e557d9c1cc82cf345d
 tags:
   1.0.0--py310h7c593f9_0: 
     sha256:99dff24cc7577a7d1e88fbdbf22ef477bcc16c84f56436c90f51089fe62f19cb
@@ -27,6 +27,8 @@ tags:
     sha256:ecf4788d7fcd5affa70732118df4a3ca178e29ba2438d2242d8778145b84cab2
   2.0.0--py313h9a1e870_1: 
     sha256:e2dfa5bcaa131e6b154d1b568cd71c6d7e91fb6a89666d0fe62f31c7476301f4
+  3.3.0--py311h78a2e26_0: 
+    sha256:8b02d0747f099c09f741a3c2fe9decc6c689f24950eee2e557d9c1cc82cf345d
 docker: quay.io/biocontainers/pydustmasker
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

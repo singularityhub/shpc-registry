@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/vepyr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vepyr
 latest:
-  0.7.0--py310h093eb96_0: 
-    sha256:2937201119d454a9785ec0383ba1d99023f1242d6611c36a7cdf891ae68b248a
+  0.10.0--py310h093eb96_0: 
+    sha256:0b8631a9019bb8faba760a596f56f58d49d16c2952cd0d39717ad3d788f56b81
 tags:
   0.7.0--py310h093eb96_0: 
     sha256:2937201119d454a9785ec0383ba1d99023f1242d6611c36a7cdf891ae68b248a
+  0.10.0--py310h093eb96_0: 
+    sha256:0b8631a9019bb8faba760a596f56f58d49d16c2952cd0d39717ad3d788f56b81
+  0.9.2--py310h093eb96_0: 
+    sha256:859ec2a3d06c4fff7cfffaa2c00f9ff4f31c5dfd7a1efca67ff5ea638ca5f726
+  0.8.0--py310h093eb96_0: 
+    sha256:7bc896f22ac9fc908e352a02a3f84289463694ff735348e99836d638fbb92ca3
 docker: quay.io/biocontainers/vepyr
 aliases:
   vepyr: /usr/local/bin/vepyr

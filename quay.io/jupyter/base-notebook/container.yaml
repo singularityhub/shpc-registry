@@ -3,11 +3,11 @@ url: https://quay.io/repository/jupyter/base-notebook
 maintainer: '@HasseJohansen'
 description: Jupyter Base Notebook from https://github.com/jupyter/docker-stacks
 latest:
-  '2026-09-21': 
-    sha256:6d0358f11292d59dbf621ea5f3a68b7432f6873a03ed92513799939ab372a5f7
+  '2026-10-19': 
+    sha256:8c2070865d058ddee0570fd32a245856376bda5d17c4112e88c404885ba47c4a
 tags:
   latest: 
-    sha256:6d0358f11292d59dbf621ea5f3a68b7432f6873a03ed92513799939ab372a5f7
+    sha256:8c2070865d058ddee0570fd32a245856376bda5d17c4112e88c404885ba47c4a
   '2025-05-30': 
     sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04
   '2025-06-23': 
@@ -74,6 +74,10 @@ tags:
     sha256:6d0358f11292d59dbf621ea5f3a68b7432f6873a03ed92513799939ab372a5f7
   '2026-08-31': 
     sha256:963ec09d64bfe909efe60423c390356d12bb92b6966b3da844cbede7df9454f4
+  '2026-10-19': 
+    sha256:8c2070865d058ddee0570fd32a245856376bda5d17c4112e88c404885ba47c4a
+  '2026-09-01': 
+    sha256:292da16615e356b8b1258dab58f86386d9624e2a9532fc1d7ab1d6585dc7773a
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

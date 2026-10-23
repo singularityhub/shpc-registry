@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/varnet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for varnet
 latest:
-  1.5.3--pyhdfd78af_0: 
-    sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723
+  1.5.4--pyhdfd78af_0: 
+    sha256:7c627385ad608800a1601e9c6d7a7323a97bd22bc049d9481adba04de4a54451
 tags:
   1.5.3--pyhdfd78af_0: 
     sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723
+  1.5.4--pyhdfd78af_0: 
+    sha256:7c627385ad608800a1601e9c6d7a7323a97bd22bc049d9481adba04de4a54451
 docker: quay.io/biocontainers/varnet
 aliases:
   varnet-filter: /usr/local/bin/varnet-filter
