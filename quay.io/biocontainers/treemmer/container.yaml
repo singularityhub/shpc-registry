@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/treemmer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for treemmer
+latest:
+  0.3--pyhdfd78af_0: 
+    sha256:ab48a3c7d1447f7b27f911b7befa24c8250b923721b623d85feb3c330d9bd0e2
+tags:
+  0.3--pyhdfd78af_0: 
+    sha256:ab48a3c7d1447f7b27f911b7befa24c8250b923721b623d85feb3c330d9bd0e2
+docker: quay.io/biocontainers/treemmer
+aliases:
+  Treemmer.py: /usr/local/bin/Treemmer.py
+  treemmer: /usr/local/bin/treemmer
+  pax11publish: /usr/local/bin/pax11publish
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  balsam: /usr/local/bin/balsam
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro
+  meshdebug: /usr/local/bin/meshdebug
+  qmlformat: /usr/local/bin/qmlformat
+  qmltime: /usr/local/bin/qmltime

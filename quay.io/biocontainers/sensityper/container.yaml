@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/sensityper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sensityper
+latest:
+  1.0.4--pyhdfd78af_0: 
+    sha256:71fac72193e03bcd82dd0e719c114daa5bfc0e0e14ca808a389e02022e696a9b
+tags:
+  1.0.4--pyhdfd78af_0: 
+    sha256:71fac72193e03bcd82dd0e719c114daa5bfc0e0e14ca808a389e02022e696a9b
+docker: quay.io/biocontainers/sensityper
+aliases:
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  sensityper: /usr/local/bin/sensityper
+  sensityping-metrics: /usr/local/bin/sensityping-metrics
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  numpy-config: /usr/local/bin/numpy-config
