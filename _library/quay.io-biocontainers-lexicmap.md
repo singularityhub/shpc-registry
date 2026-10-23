@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lexicmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lexicmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lexicmap/container.yaml"
-updated_at: "2026-10-22 07:24:20.720748"
-latest: "0.9.0--h9ee0642_0"
+updated_at: "2026-10-23 07:13:49.897790"
+latest: "0.10.0--hb192632_0"
 container_url: "https://biocontainers.pro/tools/lexicmap"
 aliases:
  - "lexicmap"
@@ -17,8 +17,9 @@ versions:
  - "0.8.0--h9ee0642_0"
  - "0.8.1--h9ee0642_1"
  - "0.9.0--h9ee0642_0"
+ - "0.10.0--hb192632_0"
 description: "singularity registry hpc automated addition for lexicmap"
-config: {"url": "https://biocontainers.pro/tools/lexicmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lexicmap", "latest": {"0.9.0--h9ee0642_0": "sha256:4b763d7e77ee232cc77e946d37d1733ae69ff5f794e238b3e3ddbf81015448a7"}, "tags": {"0.4.0--h9ee0642_0": "sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97", "0.5.0--h9ee0642_0": "sha256:f7a0a4113745f6a88734558962caf7b61b8608c3ff2e5d85ea73da4381419e58", "0.7.0--h9ee0642_0": "sha256:21f9e4f8fec423fe5f0d4f61a049bf2425abe6e129b18f15ba6bbdcdc3913fdd", "0.6.1--h9ee0642_0": "sha256:8f316c5a9ee9ec977a5cf0a7418d1ad8ea88b0167b1bce5892e0c6de9d316a8a", "0.8.0--h9ee0642_0": "sha256:9acc8fd7ce5d9c34726da32e223920825e5d1635205172bbeaf7285c99c5d867", "0.8.1--h9ee0642_1": "sha256:1d692f9e4816147bbc52efbf083be71e7dc9a82451d0eb0a02621d94702437df", "0.9.0--h9ee0642_0": "sha256:4b763d7e77ee232cc77e946d37d1733ae69ff5f794e238b3e3ddbf81015448a7"}, "docker": "quay.io/biocontainers/lexicmap", "aliases": {"lexicmap": "/usr/local/bin/lexicmap"}}
+config: {"url": "https://biocontainers.pro/tools/lexicmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lexicmap", "latest": {"0.10.0--hb192632_0": "sha256:f2fd9998e920d046e71cb8a13db7d19aa6ec60ca4d35ab3d3d5192305e0d389d"}, "tags": {"0.4.0--h9ee0642_0": "sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97", "0.5.0--h9ee0642_0": "sha256:f7a0a4113745f6a88734558962caf7b61b8608c3ff2e5d85ea73da4381419e58", "0.7.0--h9ee0642_0": "sha256:21f9e4f8fec423fe5f0d4f61a049bf2425abe6e129b18f15ba6bbdcdc3913fdd", "0.6.1--h9ee0642_0": "sha256:8f316c5a9ee9ec977a5cf0a7418d1ad8ea88b0167b1bce5892e0c6de9d316a8a", "0.8.0--h9ee0642_0": "sha256:9acc8fd7ce5d9c34726da32e223920825e5d1635205172bbeaf7285c99c5d867", "0.8.1--h9ee0642_1": "sha256:1d692f9e4816147bbc52efbf083be71e7dc9a82451d0eb0a02621d94702437df", "0.9.0--h9ee0642_0": "sha256:4b763d7e77ee232cc77e946d37d1733ae69ff5f794e238b3e3ddbf81015448a7", "0.10.0--hb192632_0": "sha256:f2fd9998e920d046e71cb8a13db7d19aa6ec60ca4d35ab3d3d5192305e0d389d"}, "docker": "quay.io/biocontainers/lexicmap", "aliases": {"lexicmap": "/usr/local/bin/lexicmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lexicmap.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/lexicmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lexicmap:0.9.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/lexicmap:0.10.0--hb192632_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lexicmap/0.9.0--h9ee0642_0
-$ module help quay.io/biocontainers/lexicmap/0.9.0--h9ee0642_0
+$ module load quay.io/biocontainers/lexicmap/0.10.0--hb192632_0
+$ module help quay.io/biocontainers/lexicmap/0.10.0--hb192632_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

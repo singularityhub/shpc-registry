@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fpocketr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fpocketr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fpocketr/container.yaml"
-updated_at: "2026-10-22 07:38:20.750436"
+updated_at: "2026-10-23 07:25:26.131276"
 latest: "1.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fpocketr"
 aliases:

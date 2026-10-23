@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-degreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-degreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-degreport/container.yaml"
-updated_at: "2026-10-22 07:23:46.488288"
+updated_at: "2026-10-23 07:13:23.070851"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-degreport"
 aliases:

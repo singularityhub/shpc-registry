@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abacus-str"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacus-str/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abacus-str/container.yaml"
-updated_at: "2026-10-22 07:51:02.462904"
+updated_at: "2026-10-23 07:35:39.015784"
 latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/abacus-str"
 aliases:

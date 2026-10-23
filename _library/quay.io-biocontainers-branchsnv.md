@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/branchsnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/branchsnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/branchsnv/container.yaml"
-updated_at: "2026-10-22 07:56:10.804315"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-10-23 07:39:47.160164"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/branchsnv"
 aliases:
  - "branchsnv"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for branchsnv"
-config: {"url": "https://biocontainers.pro/tools/branchsnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for branchsnv", "latest": {"0.1.0--pyhdfd78af_0": "sha256:32789a43bce9db71906f6e8089f7e97fdc470e7b70f5224bb901daf1d713f712"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:32789a43bce9db71906f6e8089f7e97fdc470e7b70f5224bb901daf1d713f712"}, "docker": "quay.io/biocontainers/branchsnv", "aliases": {"branchsnv": "/usr/local/bin/branchsnv", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/branchsnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for branchsnv", "latest": {"0.2.0--pyhdfd78af_0": "sha256:bc7f539db1c9286f9919059f8c23106df638daaa4ce1f9281db52283bab76226"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:32789a43bce9db71906f6e8089f7e97fdc470e7b70f5224bb901daf1d713f712", "0.2.0--pyhdfd78af_0": "sha256:bc7f539db1c9286f9919059f8c23106df638daaa4ce1f9281db52283bab76226"}, "docker": "quay.io/biocontainers/branchsnv", "aliases": {"branchsnv": "/usr/local/bin/branchsnv", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/branchsnv.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/branchsnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/branchsnv:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/branchsnv:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/branchsnv/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/branchsnv/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/branchsnv/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/branchsnv/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

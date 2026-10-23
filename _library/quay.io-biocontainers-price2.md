@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/price2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/price2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/price2/container.yaml"
-updated_at: "2026-10-22 07:44:01.056256"
+updated_at: "2026-10-23 07:30:01.899062"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/price2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rucs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rucs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rucs/container.yaml"
-updated_at: "2026-10-22 07:34:42.155787"
+updated_at: "2026-10-23 07:22:22.848309"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rucs"
 aliases:

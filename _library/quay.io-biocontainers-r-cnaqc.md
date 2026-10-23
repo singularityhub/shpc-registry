@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cnaqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cnaqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cnaqc/container.yaml"
-updated_at: "2026-10-22 07:56:40.727118"
+updated_at: "2026-10-23 07:40:10.579004"
 latest: "1.1.5--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-cnaqc"
 aliases:

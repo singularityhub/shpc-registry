@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prform"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prform/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prform/container.yaml"
-updated_at: "2026-10-22 07:41:37.095509"
+updated_at: "2026-10-23 07:28:06.075839"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prform"
 aliases:

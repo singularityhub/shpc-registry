@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fast-beagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-beagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-beagle/container.yaml"
-updated_at: "2026-10-22 08:02:52.043654"
-latest: "5.5.3--hab16a5f_0"
+updated_at: "2026-10-23 07:45:01.619045"
+latest: "5.5.4--hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/fast-beagle"
 aliases:
  - "fast-beagle"
@@ -16,8 +16,9 @@ aliases:
  - "tabix"
 versions:
  - "5.5.3--hab16a5f_0"
+ - "5.5.4--hab16a5f_0"
 description: "singularity registry hpc automated addition for fast-beagle"
-config: {"url": "https://biocontainers.pro/tools/fast-beagle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-beagle", "latest": {"5.5.3--hab16a5f_0": "sha256:62ecd2a800f7e4e12dc337a1286c5e7c0fc4fe38ecaabffa4cfba2fc74df95ac"}, "tags": {"5.5.3--hab16a5f_0": "sha256:62ecd2a800f7e4e12dc337a1286c5e7c0fc4fe38ecaabffa4cfba2fc74df95ac"}, "docker": "quay.io/biocontainers/fast-beagle", "aliases": {"fast-beagle": "/usr/local/bin/fast-beagle", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/fast-beagle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-beagle", "latest": {"5.5.4--hab16a5f_0": "sha256:9a2bae122b8e5bfe467850193cf6ac011c539ba084657e8f45aafd86ed5826e4"}, "tags": {"5.5.3--hab16a5f_0": "sha256:62ecd2a800f7e4e12dc337a1286c5e7c0fc4fe38ecaabffa4cfba2fc74df95ac", "5.5.4--hab16a5f_0": "sha256:9a2bae122b8e5bfe467850193cf6ac011c539ba084657e8f45aafd86ed5826e4"}, "docker": "quay.io/biocontainers/fast-beagle", "aliases": {"fast-beagle": "/usr/local/bin/fast-beagle", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fast-beagle.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/fast-beagle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fast-beagle:5.5.3--hab16a5f_0
+$ shpc install quay.io/biocontainers/fast-beagle:5.5.4--hab16a5f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fast-beagle/5.5.3--hab16a5f_0
-$ module help quay.io/biocontainers/fast-beagle/5.5.3--hab16a5f_0
+$ module load quay.io/biocontainers/fast-beagle/5.5.4--hab16a5f_0
+$ module help quay.io/biocontainers/fast-beagle/5.5.4--hab16a5f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

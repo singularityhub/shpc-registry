@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mspms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mspms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mspms/container.yaml"
-updated_at: "2026-10-22 08:07:15.633448"
+updated_at: "2026-10-23 07:48:29.844591"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mspms"
 aliases:

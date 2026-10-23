@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-glimma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glimma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glimma/container.yaml"
-updated_at: "2026-10-22 08:03:57.396689"
+updated_at: "2026-10-23 07:45:53.383831"
 latest: "2.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glimma"
 

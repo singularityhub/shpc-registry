@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varnet/container.yaml"
-updated_at: "2026-10-22 07:50:45.256210"
-latest: "1.5.3--pyhdfd78af_0"
+updated_at: "2026-10-23 07:35:24.668209"
+latest: "1.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varnet"
 aliases:
  - "varnet-filter"
@@ -37,8 +37,9 @@ aliases:
  - "grpc_csharp_plugin"
 versions:
  - "1.5.3--pyhdfd78af_0"
+ - "1.5.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for varnet"
-config: {"url": "https://biocontainers.pro/tools/varnet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varnet", "latest": {"1.5.3--pyhdfd78af_0": "sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723"}, "tags": {"1.5.3--pyhdfd78af_0": "sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723"}, "docker": "quay.io/biocontainers/varnet", "aliases": {"varnet-filter": "/usr/local/bin/varnet-filter", "varnet-predict": "/usr/local/bin/varnet-predict", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "cffi-gen-src": "/usr/local/bin/cffi-gen-src", "flatc": "/usr/local/bin/flatc", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "idna": "/usr/local/bin/idna", "tensorboard": "/usr/local/bin/tensorboard", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "elasticurl": "/usr/local/bin/elasticurl", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/varnet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varnet", "latest": {"1.5.4--pyhdfd78af_0": "sha256:7c627385ad608800a1601e9c6d7a7323a97bd22bc049d9481adba04de4a54451"}, "tags": {"1.5.3--pyhdfd78af_0": "sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723", "1.5.4--pyhdfd78af_0": "sha256:7c627385ad608800a1601e9c6d7a7323a97bd22bc049d9481adba04de4a54451"}, "docker": "quay.io/biocontainers/varnet", "aliases": {"varnet-filter": "/usr/local/bin/varnet-filter", "varnet-predict": "/usr/local/bin/varnet-predict", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "cffi-gen-src": "/usr/local/bin/cffi-gen-src", "flatc": "/usr/local/bin/flatc", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "idna": "/usr/local/bin/idna", "tensorboard": "/usr/local/bin/tensorboard", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "elasticurl": "/usr/local/bin/elasticurl", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varnet.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/varnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varnet:1.5.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/varnet:1.5.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varnet/1.5.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/varnet/1.5.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/varnet/1.5.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/varnet/1.5.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mpra-data-access-portal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpra-data-access-portal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpra-data-access-portal/container.yaml"
-updated_at: "2026-10-22 08:05:25.626087"
+updated_at: "2026-10-23 07:47:03.538916"
 latest: "0.1.18--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mpra-data-access-portal"
 aliases:

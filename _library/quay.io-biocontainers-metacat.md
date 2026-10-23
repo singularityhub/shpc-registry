@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacat/container.yaml"
-updated_at: "2026-10-22 07:50:42.302428"
+updated_at: "2026-10-23 07:35:22.312373"
 latest: "1.0.6--py314h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/metacat"
 aliases:

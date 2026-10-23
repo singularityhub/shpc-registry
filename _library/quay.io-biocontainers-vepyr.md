@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vepyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vepyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vepyr/container.yaml"
-updated_at: "2026-10-22 08:12:27.577992"
-latest: "0.7.0--py310h093eb96_0"
+updated_at: "2026-10-23 07:52:40.467702"
+latest: "0.10.0--py310h093eb96_0"
 container_url: "https://biocontainers.pro/tools/vepyr"
 aliases:
  - "vepyr"
@@ -36,8 +36,11 @@ aliases:
  - "elasticurl"
 versions:
  - "0.7.0--py310h093eb96_0"
+ - "0.10.0--py310h093eb96_0"
+ - "0.9.2--py310h093eb96_0"
+ - "0.8.0--py310h093eb96_0"
 description: "singularity registry hpc automated addition for vepyr"
-config: {"url": "https://biocontainers.pro/tools/vepyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vepyr", "latest": {"0.7.0--py310h093eb96_0": "sha256:2937201119d454a9785ec0383ba1d99023f1242d6611c36a7cdf891ae68b248a"}, "tags": {"0.7.0--py310h093eb96_0": "sha256:2937201119d454a9785ec0383ba1d99023f1242d6611c36a7cdf891ae68b248a"}, "docker": "quay.io/biocontainers/vepyr", "aliases": {"vepyr": "/usr/local/bin/vepyr", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "elasticurl": "/usr/local/bin/elasticurl"}}
+config: {"url": "https://biocontainers.pro/tools/vepyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vepyr", "latest": {"0.10.0--py310h093eb96_0": "sha256:0b8631a9019bb8faba760a596f56f58d49d16c2952cd0d39717ad3d788f56b81"}, "tags": {"0.7.0--py310h093eb96_0": "sha256:2937201119d454a9785ec0383ba1d99023f1242d6611c36a7cdf891ae68b248a", "0.10.0--py310h093eb96_0": "sha256:0b8631a9019bb8faba760a596f56f58d49d16c2952cd0d39717ad3d788f56b81", "0.9.2--py310h093eb96_0": "sha256:859ec2a3d06c4fff7cfffaa2c00f9ff4f31c5dfd7a1efca67ff5ea638ca5f726", "0.8.0--py310h093eb96_0": "sha256:7bc896f22ac9fc908e352a02a3f84289463694ff735348e99836d638fbb92ca3"}, "docker": "quay.io/biocontainers/vepyr", "aliases": {"vepyr": "/usr/local/bin/vepyr", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "elasticurl": "/usr/local/bin/elasticurl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vepyr.
@@ -52,7 +55,7 @@ $ shpc install quay.io/biocontainers/vepyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vepyr:0.7.0--py310h093eb96_0
+$ shpc install quay.io/biocontainers/vepyr:0.10.0--py310h093eb96_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vepyr/0.7.0--py310h093eb96_0
-$ module help quay.io/biocontainers/vepyr/0.7.0--py310h093eb96_0
+$ module load quay.io/biocontainers/vepyr/0.10.0--py310h093eb96_0
+$ module help quay.io/biocontainers/vepyr/0.10.0--py310h093eb96_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gaggle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaggle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaggle/container.yaml"
-updated_at: "2026-10-22 07:44:12.895984"
+updated_at: "2026-10-23 07:30:11.161168"
 latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaggle"
 aliases:

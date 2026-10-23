@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimac4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimac4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimac4/container.yaml"
-updated_at: "2026-10-22 07:24:39.332236"
+updated_at: "2026-10-23 07:14:04.702399"
 latest: "4.1.6--h33c104e_2"
 container_url: "https://biocontainers.pro/tools/minimac4"
 aliases:

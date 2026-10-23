@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/derip2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/derip2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/derip2/container.yaml"
-updated_at: "2026-10-22 07:23:40.613290"
+updated_at: "2026-10-23 07:13:18.479676"
 latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/derip2"
 aliases:

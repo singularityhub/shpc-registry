@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygrgl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygrgl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygrgl/container.yaml"
-updated_at: "2026-10-22 07:26:32.737868"
+updated_at: "2026-10-23 07:15:37.094556"
 latest: "2.12--py312hedfda1a_0"
 container_url: "https://biocontainers.pro/tools/pygrgl"
 aliases:

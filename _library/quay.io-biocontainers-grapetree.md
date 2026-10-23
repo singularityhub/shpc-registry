@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grapetree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grapetree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grapetree/container.yaml"
-updated_at: "2026-10-22 08:08:01.755453"
-latest: "2.1--pyh3252c3a_0"
+updated_at: "2026-10-23 07:49:07.288530"
+latest: "3.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grapetree"
 aliases:
  - "grapetree"
@@ -21,8 +21,9 @@ aliases:
  - "qmlcachegen"
 versions:
  - "2.1--pyh3252c3a_0"
+ - "3.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for grapetree"
-config: {"url": "https://biocontainers.pro/tools/grapetree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grapetree", "latest": {"2.1--pyh3252c3a_0": "sha256:fa040abbeb646bb2576536ccaec8b88683509c4e45842f81b954e27ac91e4a83"}, "tags": {"2.1--pyh3252c3a_0": "sha256:fa040abbeb646bb2576536ccaec8b88683509c4e45842f81b954e27ac91e4a83"}, "docker": "quay.io/biocontainers/grapetree", "aliases": {"grapetree": "/usr/local/bin/grapetree", "unidecode": "/usr/local/bin/unidecode", "ete3": "/usr/local/bin/ete3", "flask": "/usr/local/bin/flask", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen"}}
+config: {"url": "https://biocontainers.pro/tools/grapetree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grapetree", "latest": {"3.0.0--pyhdfd78af_0": "sha256:cf0e0247adfa8da4a10cf7ba91d6e666398b413ec7b754baeb81e81f66b39814"}, "tags": {"2.1--pyh3252c3a_0": "sha256:fa040abbeb646bb2576536ccaec8b88683509c4e45842f81b954e27ac91e4a83", "3.0.0--pyhdfd78af_0": "sha256:cf0e0247adfa8da4a10cf7ba91d6e666398b413ec7b754baeb81e81f66b39814"}, "docker": "quay.io/biocontainers/grapetree", "aliases": {"grapetree": "/usr/local/bin/grapetree", "unidecode": "/usr/local/bin/unidecode", "ete3": "/usr/local/bin/ete3", "flask": "/usr/local/bin/flask", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grapetree.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/grapetree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grapetree:2.1--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/grapetree:3.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grapetree/2.1--pyh3252c3a_0
-$ module help quay.io/biocontainers/grapetree/2.1--pyh3252c3a_0
+$ module load quay.io/biocontainers/grapetree/3.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/grapetree/3.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

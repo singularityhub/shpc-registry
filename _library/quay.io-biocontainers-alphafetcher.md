@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alphafetcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphafetcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphafetcher/container.yaml"
-updated_at: "2026-10-22 07:55:54.169956"
+updated_at: "2026-10-23 07:39:33.897125"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alphafetcher"
 aliases:

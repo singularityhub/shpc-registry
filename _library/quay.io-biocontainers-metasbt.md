@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metasbt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasbt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasbt/container.yaml"
-updated_at: "2026-10-22 07:17:59.925850"
+updated_at: "2026-10-23 07:08:52.143448"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metasbt"
 aliases:
