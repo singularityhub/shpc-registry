@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/hide-deconv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hide-deconv
+latest:
+  0.4.2--pyhdfd78af_0: 
+    sha256:a5d7b2d31f034d2f8c0809e3a62715dfaad57a4080edd54b90b72f25c90a4fb5
+tags:
+  0.4.2--pyhdfd78af_0: 
+    sha256:a5d7b2d31f034d2f8c0809e3a62715dfaad57a4080edd54b90b72f25c90a4fb5
+docker: quay.io/biocontainers/hide-deconv
+aliases:
+  hide-deconv: /usr/local/bin/hide-deconv
+  jupyter-builder: /usr/local/bin/jupyter-builder
+  mistune: /usr/local/bin/mistune
+  scikit-build: /usr/local/bin/scikit-build
+  scikit-build-core: /usr/local/bin/scikit-build-core
+  jlpm: /usr/local/bin/jlpm
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  jupyter-events: /usr/local/bin/jupyter-events
+  pyjson5: /usr/local/bin/pyjson5
+  jupyter-server: /usr/local/bin/jupyter-server
+  session-info2: /usr/local/bin/session-info2
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  jupyter-console: /usr/local/bin/jupyter-console
+  session-info: /usr/local/bin/session-info
+  debugpy: /usr/local/bin/debugpy
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  zarr: /usr/local/bin/zarr
+  send2trash: /usr/local/bin/send2trash
+  wsdump: /usr/local/bin/wsdump
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jsonpointer: /usr/local/bin/jsonpointer
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  dotenv: /usr/local/bin/dotenv
+  jupyter-notebook: /usr/local/bin/jupyter-notebook

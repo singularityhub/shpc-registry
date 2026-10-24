@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/spice-lineage
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spice-lineage
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:5792ced8951d88953a88fe45134ee46ce8549b273540162b1339c2252f5d5641
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:5792ced8951d88953a88fe45134ee46ce8549b273540162b1339c2252f5d5641
+docker: quay.io/biocontainers/spice-lineage
+aliases:
+  spice: /usr/local/bin/spice
+  iqtree2: /usr/local/bin/iqtree2
+  iqtree: /usr/local/bin/iqtree
+  fc-genconf: /usr/local/bin/fc-genconf
+  glpsol: /usr/local/bin/glpsol
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info

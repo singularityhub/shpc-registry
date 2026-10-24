@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/ucsc-matrixnormalize
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  ucsc-matrixnormalize
+latest:
+  502--ha7d8dd5_0-amd64: 
+    sha256:6c84dc43ace377a9039012505bf27b41b80a17a500b6ea866361a2a33fbb5e62
+tags:
+  502--ha7d8dd5_0-amd64: 
+    sha256:6c84dc43ace377a9039012505bf27b41b80a17a500b6ea866361a2a33fbb5e62
+docker: quay.io/biocontainers/ucsc-matrixnormalize
+aliases:
+  matrixNormalize: /usr/local/bin/matrixNormalize
+  zless: /usr/local/bin/zless
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
