@@ -3,17 +3,18 @@ url: https://quay.io/repository/jupyter/r-notebook
 maintainer: '@HasseJohansen'
 description: Jupyter R Notebook from https://github.com/jupyter/docker-stacks
 latest:
-  '2026-09-21': 
-    sha256:f4a49eab5ca7bc883e430f6df76d491ed005986b54a4d5e01240f0dbd48e02d7
+  '2026-10-23': 
+    sha256:9a3cd29ccb1c4399d4cef51d4da7f0de319a2223a46b36520eab4b521e7ca044
 tags:
   latest: 
-    sha256:f4a49eab5ca7bc883e430f6df76d491ed005986b54a4d5e01240f0dbd48e02d7
+    sha256:9a3cd29ccb1c4399d4cef51d4da7f0de319a2223a46b36520eab4b521e7ca044
   '2025-06-02': 
     sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093
   '2025-06-23': 
     sha256:0c2d79320666490af2f9da1b072d1a8ae54cb49fd314d32bdb15631140b01103
-  '2025-07-21': 
-    sha256:1d1b8104db0d372fe5a069f9441919de28a481d7660dffb1522fa8ac704a025b
+  '2025-07-21': "crane digest quay.io/jupyter/r-notebook:2025-07-21: unsupported status
+    code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\
+    \n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
   '2025-06-30': 
     sha256:6186d4db7cf4af13a473987bb59c0e0bbf9912b6b64b36b4ea25e7c3bc4a574a
   '2025-08-18': 
@@ -72,6 +73,10 @@ tags:
     sha256:d96ab72c71213a335d7f8f497a37615018b50536166275d138184ed7329d4acb
   '2026-09-21': 
     sha256:f4a49eab5ca7bc883e430f6df76d491ed005986b54a4d5e01240f0dbd48e02d7
+  '2026-10-23': 
+    sha256:9a3cd29ccb1c4399d4cef51d4da7f0de319a2223a46b36520eab4b521e7ca044
+  '2026-08-08': 
+    sha256:781b19127ebbeb1d1326e4ce4347a4d3bbb5f519f7a37b16b9280a8dc40b0687
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

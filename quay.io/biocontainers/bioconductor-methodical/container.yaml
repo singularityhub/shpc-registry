@@ -3,11 +3,11 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-methodical
 latest:
-  1.6.0--r45hdfd78af_0: 
-    sha256:a1303cc9b2746d3fce00f7ce6a905e97f97db5575009088e91922f263716189d
+  1.6.0--r45hdfd78af_0: 'crane digest quay.io/biocontainers/bioconductor-methodical:1.6.0--r45hdfd78af_0:
+    unrecognized HTTP status: 502 Bad Gateway'
 tags:
-  1.6.0--r45hdfd78af_0: 
-    sha256:a1303cc9b2746d3fce00f7ce6a905e97f97db5575009088e91922f263716189d
+  1.6.0--r45hdfd78af_0: 'crane digest quay.io/biocontainers/bioconductor-methodical:1.6.0--r45hdfd78af_0:
+    unrecognized HTTP status: 502 Bad Gateway'
 docker: quay.io/biocontainers/bioconductor-methodical
 aliases:
   git2: /usr/local/bin/git2

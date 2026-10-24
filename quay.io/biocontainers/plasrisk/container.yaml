@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/plasrisk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plasrisk
 latest:
-  1.4.0--pyhdfd78af_0: 
-    sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b
+  1.7.3--pyhdfd78af_0: 
+    sha256:e23b9d849639b16ed53af1a97640b38154088a957728a597dee21b657a723bbf
 tags:
   1.4.0--pyhdfd78af_0: 
     sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b
+  1.7.3--pyhdfd78af_0: 
+    sha256:e23b9d849639b16ed53af1a97640b38154088a957728a597dee21b657a723bbf
 docker: quay.io/biocontainers/plasrisk
 aliases:
   plasrisk: /usr/local/bin/plasrisk

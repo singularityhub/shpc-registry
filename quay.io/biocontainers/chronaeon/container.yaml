@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/chronaeon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chronaeon
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269
+  0.3.1--pyhdfd78af_0: 
+    sha256:0792cf2e71aa71657753df89b70808ff48f33f98d70e9c9c1a9ed1a8c727b6d1
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269
+  0.3.1--pyhdfd78af_0: 
+    sha256:0792cf2e71aa71657753df89b70808ff48f33f98d70e9c9c1a9ed1a8c727b6d1
+  0.2.0--pyhdfd78af_0: 
+    sha256:b066375290ffe2f30bf0d3472a565a2c0f3b02b6d189085ae8300a129d38617c
+  0.1.1--pyhdfd78af_1: 
+    sha256:9e55009a74bc2b09b162f2887ba7ff3a0e76aa796c84a2873d332b9964a5e149
 docker: quay.io/biocontainers/chronaeon
 aliases:
   ShortestPathTN93: /usr/local/bin/ShortestPathTN93

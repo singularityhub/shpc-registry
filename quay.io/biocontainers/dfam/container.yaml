@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/dfam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dfam
 latest:
-  3.7--hdfd78af_0: 
-    sha256:5d45246d62d3f98adb8b305193ea5548178e4241d59a8067aa890a11a456cdd8
+  3.7--hdfd78af_0: "crane digest quay.io/biocontainers/dfam:3.7--hdfd78af_0: unsupported
+    status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\
+    \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\
+    \n"
 tags:
   3.3--hdfd78af_0: 
     sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
-  3.7--hdfd78af_0: 
-    sha256:5d45246d62d3f98adb8b305193ea5548178e4241d59a8067aa890a11a456cdd8
+  3.7--hdfd78af_0: "crane digest quay.io/biocontainers/dfam:3.7--hdfd78af_0: unsupported
+    status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\
+    \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\
+    \n"
 docker: quay.io/biocontainers/dfam
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats

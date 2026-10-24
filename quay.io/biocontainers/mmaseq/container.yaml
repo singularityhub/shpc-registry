@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mmaseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mmaseq
 latest:
-  2.2.0--pyhdfd78af_0: 
-    sha256:0ddcc4aaf209cae0cd3ad58b9468800b5abb86cbcdabf26bec8fd3aec44b1dc1
+  2.4.2--pyhdfd78af_0: 
+    sha256:c2417a7cb0f903c7c92cab90e2c07b9af3425d55a7fd65041ea3d3bbfbeee980
 tags:
   1.0.0--pyh106432d_0: 
     sha256:9ef44e316d8b4b99441848c446dcf850914226fa3169a3be0ff47fc6ca3a7216
@@ -11,6 +11,10 @@ tags:
     sha256:d09dd62253658402d0ace473864d8cc2aa27a2a46d7e67416ec32f89ff2d44ac
   2.2.0--pyhdfd78af_0: 
     sha256:0ddcc4aaf209cae0cd3ad58b9468800b5abb86cbcdabf26bec8fd3aec44b1dc1
+  2.4.2--pyhdfd78af_0: 
+    sha256:c2417a7cb0f903c7c92cab90e2c07b9af3425d55a7fd65041ea3d3bbfbeee980
+  2.3.3--pyhdfd78af_0: 
+    sha256:e81b8bcf04df144f5d1ba72d5fb27e4a616ecc99df0f8ec75348c1a431d3423d
 docker: quay.io/biocontainers/mmaseq
 aliases:
   menuinst: /usr/local/bin/menuinst

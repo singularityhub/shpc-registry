@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tetyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tetyper
 latest:
-  1.1--hdfd78af_1: 
-    sha256:2dd06307467e331063173aaf7f6ede61cb8a469c2f6840cc20eff4fe838f8ab5
+  1.2--hdfd78af_0: 
+    sha256:18943062c7b07bfcc4c6a89dffa01f72baa1ee4c4a105043542ae5f4a6c3d863
 tags:
   1.1--hdfd78af_1: 
     sha256:2dd06307467e331063173aaf7f6ede61cb8a469c2f6840cc20eff4fe838f8ab5
+  1.2--hdfd78af_0: 
+    sha256:18943062c7b07bfcc4c6a89dffa01f72baa1ee4c4a105043542ae5f4a6c3d863
 docker: quay.io/biocontainers/tetyper
 aliases:
   TETyper.py: /usr/local/bin/TETyper.py

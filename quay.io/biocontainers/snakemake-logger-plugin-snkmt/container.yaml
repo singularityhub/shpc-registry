@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-logger-plugin-snkmt
 latest:
-  0.1.8--pyhdfd78af_0: 
-    sha256:94784d902dca20eb46d953a83c6888da873fbc3ebc7d2f507a14ecb811c45ca7
+  0.1.9--pyhdfd78af_0: 
+    sha256:e2b0f1e7c30c37e0b4602d1fe69cb404bb3a116b3e1a207ccba6f5b3e6929aa6
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:8057a99b64c44577191a22ad3148b339c687b8746058b226a79c757b4a72021a
@@ -14,6 +14,8 @@ tags:
     sha256:2288a1fbb01e791c137d2da08d0d2de56bc0928d4e3387de57d062400be9d3af
   0.1.8--pyhdfd78af_0: 
     sha256:94784d902dca20eb46d953a83c6888da873fbc3ebc7d2f507a14ecb811c45ca7
+  0.1.9--pyhdfd78af_0: 
+    sha256:e2b0f1e7c30c37e0b4602d1fe69cb404bb3a116b3e1a207ccba6f5b3e6929aa6
 docker: quay.io/biocontainers/snakemake-logger-plugin-snkmt
 aliases:
   snkmt: /usr/local/bin/snkmt

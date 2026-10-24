@@ -16,8 +16,9 @@ tags:
     sha256:b5109f76e05a6685d32c67e0c4a8f552eae70e0f4e5798cf718c3a9ef033965e
   1.34.0--r43hf17093f_0: 
     sha256:3635048a93c859ea0f88f721f8dc4db94ab6de9e5672d946bdd17f455eb62370
-  1.38.0--r44he5774e6_0: 
-    sha256:2f59ce3ccae773b8c853f206ae68df21280b2b22712e80a014d5dfb5ea2e8265
+  1.38.0--r44he5774e6_0: "crane digest quay.io/biocontainers/bioconductor-r3cpet:1.38.0--r44he5774e6_0:
+    unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\
+    \n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
   1.42.0--r45ha27e39d_0: 
     sha256:1b64c3739bc5ca55e7353c811970d1628a457f13c835a9e66cc900d1976eae45
 docker: quay.io/biocontainers/bioconductor-r3cpet

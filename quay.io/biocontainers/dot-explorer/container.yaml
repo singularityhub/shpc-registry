@@ -7,6 +7,8 @@ latest:
 tags:
   0.2.1--py314h78a2e26_0: 
     sha256:29b4bb20b83f65353cae0a25a52b16f72aab971064ba55bfea0464d2e47d4661
+  0.2.1--py314h9a1e870_0: 
+    sha256:4733f00cd567476c4873141187c2c3974dbc9a32fccd7f3d48d3b907ef4770c8
 docker: quay.io/biocontainers/dot-explorer
 aliases:
   dot-explorer-app: /usr/local/bin/dot-explorer-app
