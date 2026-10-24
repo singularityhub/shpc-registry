@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/tissue-sc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tissue-sc
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:dbb7786081d5edf0b89c0078bf12832a567c2b57469f595a65bc52ef8952c615
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:dbb7786081d5edf0b89c0078bf12832a567c2b57469f595a65bc52ef8952c615
+docker: quay.io/biocontainers/tissue-sc
+aliases:
+  ome-zarr-models: /usr/local/bin/ome-zarr-models
+  ome_zarr: /usr/local/bin/ome_zarr
+  pyct: /usr/local/bin/pyct
+  scikit-build: /usr/local/bin/scikit-build
+  scikit-build-core: /usr/local/bin/scikit-build-core
+  xrspatial: /usr/local/bin/xrspatial
+  pyproj: /usr/local/bin/pyproj
+  gdal: /usr/local/bin/gdal
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  sozip: /usr/local/bin/sozip
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  zarr: /usr/local/bin/zarr
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  dotenv: /usr/local/bin/dotenv
+  bsdunzip: /usr/local/bin/bsdunzip
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  gdal_create: /usr/local/bin/gdal_create
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  tiffcomment: /usr/local/bin/tiffcomment
+  cbrunsli: /usr/local/bin/cbrunsli
+  dask: /usr/local/bin/dask
+  dbrunsli: /usr/local/bin/dbrunsli

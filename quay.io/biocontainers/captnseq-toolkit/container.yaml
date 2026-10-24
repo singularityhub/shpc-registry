@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/captnseq-toolkit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for captnseq-toolkit
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:3e94cee94290644923367ec03bdc093dccafaca5e14b26d901e4ab773f6b1409
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:3e94cee94290644923367ec03bdc093dccafaca5e14b26d901e4ab773f6b1409
+docker: quay.io/biocontainers/captnseq-toolkit
+aliases:
+  captnseq-toolkit: /usr/local/bin/captnseq-toolkit
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  fc-genconf: /usr/local/bin/fc-genconf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
