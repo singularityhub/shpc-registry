@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dart/container.yaml"
-updated_at: "2026-10-23 07:37:49.243295"
+updated_at: "2026-10-24 07:27:28.005278"
 latest: "1.58.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dart"
 
@@ -16,7 +16,7 @@ versions:
  - "1.54.0--r44hdfd78af_0"
  - "1.58.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dart"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dart", "latest": {"1.58.0--r45hdfd78af_0": "sha256:08dffc5b31950cfc7f31eaf4ccde2b1e77e41bc32e4b17b90a1d56e5498a84d5"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:ba1c94d776946dc27fb1fca85ff57779c380f8bdd762883ca6b4060874e395a3", "1.46.0--r42hdfd78af_0": "sha256:ee3c56eb7415c4455d64fc9805cd36d13e6f235aa1b233ac829162ff3ab2e474", "1.48.0--r43hdfd78af_0": "sha256:4a71efd8c443e158e72a210207290c27a569c8cba41a628679263a200ee0be1a", "1.50.0--r43hdfd78af_0": "sha256:5f282e6cf8045c1fa7a1d10b49bd22a794c57f5f1927c17a0b426d80a85a2c2c", "1.54.0--r44hdfd78af_0": "sha256:c11a3b5054bb74d6936beb0a9b6ccdba3078a4d4fd01d5c380ca83f630c7e858", "1.58.0--r45hdfd78af_0": "sha256:08dffc5b31950cfc7f31eaf4ccde2b1e77e41bc32e4b17b90a1d56e5498a84d5"}, "docker": "quay.io/biocontainers/bioconductor-dart"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dart", "latest": {"1.58.0--r45hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-dart:1.58.0--r45hdfd78af_0: unrecognized HTTP status: 502 Bad Gateway"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:ba1c94d776946dc27fb1fca85ff57779c380f8bdd762883ca6b4060874e395a3", "1.46.0--r42hdfd78af_0": "sha256:ee3c56eb7415c4455d64fc9805cd36d13e6f235aa1b233ac829162ff3ab2e474", "1.48.0--r43hdfd78af_0": "sha256:4a71efd8c443e158e72a210207290c27a569c8cba41a628679263a200ee0be1a", "1.50.0--r43hdfd78af_0": "sha256:5f282e6cf8045c1fa7a1d10b49bd22a794c57f5f1927c17a0b426d80a85a2c2c", "1.54.0--r44hdfd78af_0": "sha256:c11a3b5054bb74d6936beb0a9b6ccdba3078a4d4fd01d5c380ca83f630c7e858", "1.58.0--r45hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-dart:1.58.0--r45hdfd78af_0: unrecognized HTTP status: 502 Bad Gateway"}, "docker": "quay.io/biocontainers/bioconductor-dart"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dart.

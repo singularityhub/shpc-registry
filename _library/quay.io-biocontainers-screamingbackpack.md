@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/screamingbackpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/screamingbackpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/screamingbackpack/container.yaml"
-updated_at: "2026-10-23 07:24:34.223341"
+updated_at: "2026-10-24 07:14:44.387187"
 latest: "0.2.333--py_1"
 container_url: "https://biocontainers.pro/tools/screamingbackpack"
 aliases:

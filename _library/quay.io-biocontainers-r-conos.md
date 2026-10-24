@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-conos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-conos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-conos/container.yaml"
-updated_at: "2026-10-23 07:50:57.730340"
+updated_at: "2026-10-24 07:40:42.643751"
 latest: "1.5.4--r45h67c2a1a_0"
 container_url: "https://biocontainers.pro/tools/r-conos"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pangenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangenie/container.yaml"
-updated_at: "2026-10-23 07:16:03.283540"
+updated_at: "2026-10-24 07:06:45.025687"
 latest: "4.2.1--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/pangenie"
 aliases:

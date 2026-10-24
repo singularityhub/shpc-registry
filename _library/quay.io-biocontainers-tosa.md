@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tosa/container.yaml"
-updated_at: "2026-10-23 07:37:00.711120"
+updated_at: "2026-10-24 07:26:40.022627"
 latest: "1.0.0--h0feb368_0"
 container_url: "https://biocontainers.pro/tools/tosa"
 aliases:

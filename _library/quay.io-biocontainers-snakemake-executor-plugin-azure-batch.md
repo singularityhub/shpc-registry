@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-azure-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-azure-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-azure-batch/container.yaml"
-updated_at: "2026-10-23 07:44:06.117740"
+updated_at: "2026-10-24 07:33:51.261875"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-azure-batch"
 aliases:

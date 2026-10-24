@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multirnafold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multirnafold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multirnafold/container.yaml"
-updated_at: "2026-10-23 07:27:41.508798"
+updated_at: "2026-10-24 07:17:40.689557"
 latest: "2.1--h9948957_1"
 container_url: "https://biocontainers.pro/tools/multirnafold"
 aliases:

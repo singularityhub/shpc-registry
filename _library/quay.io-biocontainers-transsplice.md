@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transsplice/container.yaml"
-updated_at: "2026-10-23 07:53:51.396280"
+updated_at: "2026-10-24 07:43:29.414881"
 latest: "0.2.1--hab7d0fd_1"
 container_url: "https://biocontainers.pro/tools/transsplice"
 aliases:

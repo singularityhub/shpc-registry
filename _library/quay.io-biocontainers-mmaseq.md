@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mmaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmaseq/container.yaml"
-updated_at: "2026-10-23 07:41:52.880056"
-latest: "2.2.0--pyhdfd78af_0"
+updated_at: "2026-10-24 07:31:36.909975"
+latest: "2.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mmaseq"
 aliases:
  - "menuinst"
@@ -44,8 +44,10 @@ versions:
  - "1.0.0--pyh106432d_0"
  - "2.1.0--pyh106432d_0"
  - "2.2.0--pyhdfd78af_0"
+ - "2.4.2--pyhdfd78af_0"
+ - "2.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mmaseq"
-config: {"url": "https://biocontainers.pro/tools/mmaseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmaseq", "latest": {"2.2.0--pyhdfd78af_0": "sha256:0ddcc4aaf209cae0cd3ad58b9468800b5abb86cbcdabf26bec8fd3aec44b1dc1"}, "tags": {"1.0.0--pyh106432d_0": "sha256:9ef44e316d8b4b99441848c446dcf850914226fa3169a3be0ff47fc6ca3a7216", "2.1.0--pyh106432d_0": "sha256:d09dd62253658402d0ace473864d8cc2aa27a2a46d7e67416ec32f89ff2d44ac", "2.2.0--pyhdfd78af_0": "sha256:0ddcc4aaf209cae0cd3ad58b9468800b5abb86cbcdabf26bec8fd3aec44b1dc1"}, "docker": "quay.io/biocontainers/mmaseq", "aliases": {"menuinst": "/usr/local/bin/menuinst", "mmacreate": "/usr/local/bin/mmacreate", "mmadeploy": "/usr/local/bin/mmadeploy", "mmaseq": "/usr/local/bin/mmaseq", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "unearth": "/usr/local/bin/unearth", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "distro": "/usr/local/bin/distro", "phc": "/usr/local/bin/phc", "idna": "/usr/local/bin/idna", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "archspec": "/usr/local/bin/archspec", "eido": "/usr/local/bin/eido", "cph": "/usr/local/bin/cph", "bsdunzip": "/usr/local/bin/bsdunzip", "httpx": "/usr/local/bin/httpx", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt"}}
+config: {"url": "https://biocontainers.pro/tools/mmaseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmaseq", "latest": {"2.4.2--pyhdfd78af_0": "sha256:c2417a7cb0f903c7c92cab90e2c07b9af3425d55a7fd65041ea3d3bbfbeee980"}, "tags": {"1.0.0--pyh106432d_0": "sha256:9ef44e316d8b4b99441848c446dcf850914226fa3169a3be0ff47fc6ca3a7216", "2.1.0--pyh106432d_0": "sha256:d09dd62253658402d0ace473864d8cc2aa27a2a46d7e67416ec32f89ff2d44ac", "2.2.0--pyhdfd78af_0": "sha256:0ddcc4aaf209cae0cd3ad58b9468800b5abb86cbcdabf26bec8fd3aec44b1dc1", "2.4.2--pyhdfd78af_0": "sha256:c2417a7cb0f903c7c92cab90e2c07b9af3425d55a7fd65041ea3d3bbfbeee980", "2.3.3--pyhdfd78af_0": "sha256:e81b8bcf04df144f5d1ba72d5fb27e4a616ecc99df0f8ec75348c1a431d3423d"}, "docker": "quay.io/biocontainers/mmaseq", "aliases": {"menuinst": "/usr/local/bin/menuinst", "mmacreate": "/usr/local/bin/mmacreate", "mmadeploy": "/usr/local/bin/mmadeploy", "mmaseq": "/usr/local/bin/mmaseq", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "unearth": "/usr/local/bin/unearth", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "distro": "/usr/local/bin/distro", "phc": "/usr/local/bin/phc", "idna": "/usr/local/bin/idna", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "archspec": "/usr/local/bin/archspec", "eido": "/usr/local/bin/eido", "cph": "/usr/local/bin/cph", "bsdunzip": "/usr/local/bin/bsdunzip", "httpx": "/usr/local/bin/httpx", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmaseq.
@@ -60,7 +62,7 @@ $ shpc install quay.io/biocontainers/mmaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmaseq:2.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mmaseq:2.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmaseq/2.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mmaseq/2.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mmaseq/2.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/mmaseq/2.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

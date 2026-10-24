@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crux-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crux-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crux-toolkit/container.yaml"
-updated_at: "2026-10-23 07:27:55.985156"
+updated_at: "2026-10-24 07:17:53.953079"
 latest: "4.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/crux-toolkit"
 aliases:

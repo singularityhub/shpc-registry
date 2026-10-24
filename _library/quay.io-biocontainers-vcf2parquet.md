@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2parquet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2parquet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2parquet/container.yaml"
-updated_at: "2026-10-23 07:30:20.158785"
+updated_at: "2026-10-24 07:20:12.726052"
 latest: "0.5.0--h790517f_1"
 container_url: "https://biocontainers.pro/tools/vcf2parquet"
 aliases:

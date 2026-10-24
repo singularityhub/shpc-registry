@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromvar/container.yaml"
-updated_at: "2026-10-23 07:40:05.732211"
+updated_at: "2026-10-24 07:29:46.800506"
 latest: "1.30.1--r44h81e381d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromvar"
 aliases:

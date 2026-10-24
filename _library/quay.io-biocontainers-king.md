@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/king"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/king/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/king/container.yaml"
-updated_at: "2026-10-23 07:41:51.298170"
+updated_at: "2026-10-24 07:31:35.299782"
 latest: "2.3.2--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/king"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "2.2.7--h077b44d_3"
  - "2.3.2--h3be2455_0"
 description: "shpc-registry automated BioContainers addition for king"
-config: {"url": "https://biocontainers.pro/tools/king", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for king", "latest": {"2.3.2--h3be2455_0": "sha256:d7fa3d41d5207c1849eb6a8605f5634623bb02bf7a8ca7308fa734124aee359a"}, "tags": {"2.2.7--hd03093a_0": "sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa", "2.2.7--hdcf5f25_2": "sha256:89bdcaa2f5f8a76989ef15bf297dd32496fb8ba91acd834428d50a36ff373090", "2.2.7--h077b44d_3": "sha256:89a18ca94bc8751931b0839e2831ed90b2940144c033bb664454d4c22840cdd1", "2.3.2--h3be2455_0": "sha256:d7fa3d41d5207c1849eb6a8605f5634623bb02bf7a8ca7308fa734124aee359a"}, "docker": "quay.io/biocontainers/king", "aliases": {"king": "/usr/local/bin/king"}}
+config: {"url": "https://biocontainers.pro/tools/king", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for king", "latest": {"2.3.2--h3be2455_0": "sha256:d7fa3d41d5207c1849eb6a8605f5634623bb02bf7a8ca7308fa734124aee359a"}, "tags": {"2.2.7--hd03093a_0": "sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa", "2.2.7--hdcf5f25_2": "sha256:89bdcaa2f5f8a76989ef15bf297dd32496fb8ba91acd834428d50a36ff373090", "2.2.7--h077b44d_3": "crane digest quay.io/biocontainers/king:2.2.7--h077b44d_3: unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n", "2.3.2--h3be2455_0": "sha256:d7fa3d41d5207c1849eb6a8605f5634623bb02bf7a8ca7308fa734124aee359a"}, "docker": "quay.io/biocontainers/king", "aliases": {"king": "/usr/local/bin/king"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/king.

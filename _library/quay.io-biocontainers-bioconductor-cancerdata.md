@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancerdata/container.yaml"
-updated_at: "2026-10-23 07:20:37.973574"
+updated_at: "2026-10-24 07:11:05.150696"
 latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancerdata"
 
@@ -16,7 +16,7 @@ versions:
  - "1.44.0--r44hdfd78af_0"
  - "1.48.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cancerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cancerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancerdata", "latest": {"1.48.0--r45hdfd78af_0": "sha256:347f77389620267b0bc3e29283f14361f3b6f019b0c84142ebbf006f71c59182"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:eef6b8e0c4624468dc57df979f4b5ecd6282514567067745abc880174b8bfd02", "1.36.0--r42hdfd78af_0": "sha256:ecd3d477b2376c6a15de20a20f8ffc13925dbd092de34478f8a33a827eb53cef", "1.38.0--r43hdfd78af_0": "sha256:85b4297264916ab7fdefdb74b993e2f13b7855f3f6e51bf0d68123fdb927d230", "1.40.0--r43hdfd78af_0": "sha256:31b3bc4bd95672738c278a160dd4407333c3873b91b9ca434b190463b15026fb", "1.44.0--r44hdfd78af_0": "sha256:1a691fbcdbafef1cb5aa7d8815383483e7bfaf8ce54c1734b884b4b53850f8e5", "1.48.0--r45hdfd78af_0": "sha256:347f77389620267b0bc3e29283f14361f3b6f019b0c84142ebbf006f71c59182"}, "docker": "quay.io/biocontainers/bioconductor-cancerdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cancerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancerdata", "latest": {"1.48.0--r45hdfd78af_0": "sha256:347f77389620267b0bc3e29283f14361f3b6f019b0c84142ebbf006f71c59182"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:eef6b8e0c4624468dc57df979f4b5ecd6282514567067745abc880174b8bfd02", "1.36.0--r42hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-cancerdata:1.36.0--r42hdfd78af_0: unrecognized HTTP status: 504 Gateway Timeout", "1.38.0--r43hdfd78af_0": "sha256:85b4297264916ab7fdefdb74b993e2f13b7855f3f6e51bf0d68123fdb927d230", "1.40.0--r43hdfd78af_0": "sha256:31b3bc4bd95672738c278a160dd4407333c3873b91b9ca434b190463b15026fb", "1.44.0--r44hdfd78af_0": "sha256:1a691fbcdbafef1cb5aa7d8815383483e7bfaf8ce54c1734b884b4b53850f8e5", "1.48.0--r45hdfd78af_0": "sha256:347f77389620267b0bc3e29283f14361f3b6f019b0c84142ebbf006f71c59182"}, "docker": "quay.io/biocontainers/bioconductor-cancerdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cancerdata.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-manifest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-manifest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-manifest/container.yaml"
-updated_at: "2026-10-23 07:26:49.629158"
+updated_at: "2026-10-24 07:16:51.756739"
 latest: "1.75--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-manifest"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "1.73--pl5321hdfd78af_0"
  - "1.75--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-extutils-manifest"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-manifest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-manifest", "latest": {"1.75--pl5321hdfd78af_0": "sha256:7f90bd1562c7edb16362b2ad01ad4f9d1179f55ede8cb1a84b105426903e66e0"}, "tags": {"1.73--pl5321hdfd78af_0": "sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e", "1.75--pl5321hdfd78af_0": "sha256:7f90bd1562c7edb16362b2ad01ad4f9d1179f55ede8cb1a84b105426903e66e0"}, "docker": "quay.io/biocontainers/perl-extutils-manifest", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-manifest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-manifest", "latest": {"1.75--pl5321hdfd78af_0": "crane digest quay.io/biocontainers/perl-extutils-manifest:1.75--pl5321hdfd78af_0: unrecognized HTTP status: 502 Bad Gateway"}, "tags": {"1.73--pl5321hdfd78af_0": "sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e", "1.75--pl5321hdfd78af_0": "crane digest quay.io/biocontainers/perl-extutils-manifest:1.75--pl5321hdfd78af_0: unrecognized HTTP status: 502 Bad Gateway"}, "docker": "quay.io/biocontainers/perl-extutils-manifest", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-manifest.

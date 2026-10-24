@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cernanetsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cernanetsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cernanetsim/container.yaml"
-updated_at: "2026-10-23 07:52:57.566651"
+updated_at: "2026-10-24 07:42:38.088829"
 latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cernanetsim"
 
@@ -16,7 +16,7 @@ versions:
  - "1.18.0--r44hdfd78af_0"
  - "1.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cernanetsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cernanetsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cernanetsim", "latest": {"1.22.0--r45hdfd78af_0": "sha256:755215a92d50b159ebb414d70430352170606c0a4fdbc2d2f8f5f0a3ceb27435"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd1638693f7e75e6416da47c8115b356928fea61ec93009dfe50c65a5fb1896c", "1.10.0--r42hdfd78af_0": "sha256:563f23abcc17c6527af533a88e3dd30a3d26eb348775d4901f1997c240ac467c", "1.12.0--r43hdfd78af_0": "sha256:52b7ddaca3a913f21d70cb68952fc79088739fa5bcb4be32568da89b3507b9d9", "1.14.0--r43hdfd78af_0": "sha256:5b4ef09a88d4473aad2d75c61ff19e31ed6c75d6e666ce5b244b64487bd70a5d", "1.18.0--r44hdfd78af_0": "sha256:0f72d140a579620ca700db7a92effdd23e1aba23b2f70f1adc07929549b8fdb7", "1.22.0--r45hdfd78af_0": "sha256:755215a92d50b159ebb414d70430352170606c0a4fdbc2d2f8f5f0a3ceb27435"}, "docker": "quay.io/biocontainers/bioconductor-cernanetsim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cernanetsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cernanetsim", "latest": {"1.22.0--r45hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-cernanetsim:1.22.0--r45hdfd78af_0: unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd1638693f7e75e6416da47c8115b356928fea61ec93009dfe50c65a5fb1896c", "1.10.0--r42hdfd78af_0": "sha256:563f23abcc17c6527af533a88e3dd30a3d26eb348775d4901f1997c240ac467c", "1.12.0--r43hdfd78af_0": "sha256:52b7ddaca3a913f21d70cb68952fc79088739fa5bcb4be32568da89b3507b9d9", "1.14.0--r43hdfd78af_0": "sha256:5b4ef09a88d4473aad2d75c61ff19e31ed6c75d6e666ce5b244b64487bd70a5d", "1.18.0--r44hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-cernanetsim:1.18.0--r44hdfd78af_0: unrecognized HTTP status: 502 Bad Gateway", "1.22.0--r45hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-cernanetsim:1.22.0--r45hdfd78af_0: unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"}, "docker": "quay.io/biocontainers/bioconductor-cernanetsim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cernanetsim.

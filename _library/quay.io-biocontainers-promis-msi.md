@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/promis-msi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/promis-msi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/promis-msi/container.yaml"
-updated_at: "2026-10-23 07:32:28.951427"
+updated_at: "2026-10-24 07:22:16.327327"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/promis-msi"
 aliases:

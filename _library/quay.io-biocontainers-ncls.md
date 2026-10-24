@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncls/container.yaml"
-updated_at: "2026-10-23 07:38:32.458977"
+updated_at: "2026-10-24 07:28:10.824156"
 latest: "0.0.70--py39hbcbf7aa_0"
 container_url: "https://biocontainers.pro/tools/ncls"
 aliases:

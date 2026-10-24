@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plasrisk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasrisk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasrisk/container.yaml"
-updated_at: "2026-10-23 07:39:27.444608"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2026-10-24 07:29:07.975579"
+latest: "1.7.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasrisk"
 aliases:
  - "plasrisk"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.4.0--pyhdfd78af_0"
+ - "1.7.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for plasrisk"
-config: {"url": "https://biocontainers.pro/tools/plasrisk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasrisk", "latest": {"1.4.0--pyhdfd78af_0": "sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b"}, "docker": "quay.io/biocontainers/plasrisk", "aliases": {"plasrisk": "/usr/local/bin/plasrisk", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/plasrisk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasrisk", "latest": {"1.7.3--pyhdfd78af_0": "sha256:e23b9d849639b16ed53af1a97640b38154088a957728a597dee21b657a723bbf"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b", "1.7.3--pyhdfd78af_0": "sha256:e23b9d849639b16ed53af1a97640b38154088a957728a597dee21b657a723bbf"}, "docker": "quay.io/biocontainers/plasrisk", "aliases": {"plasrisk": "/usr/local/bin/plasrisk", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasrisk.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/plasrisk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plasrisk:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/plasrisk:1.7.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plasrisk/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/plasrisk/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/plasrisk/1.7.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/plasrisk/1.7.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

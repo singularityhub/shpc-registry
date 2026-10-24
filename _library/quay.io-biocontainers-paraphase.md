@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paraphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paraphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paraphase/container.yaml"
-updated_at: "2026-10-23 07:29:38.266769"
+updated_at: "2026-10-24 07:19:31.850741"
 latest: "4.1.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/paraphase"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bulksignalr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bulksignalr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bulksignalr/container.yaml"
-updated_at: "2026-10-23 07:52:01.058461"
+updated_at: "2026-10-24 07:41:44.326876"
 latest: "1.2.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bulksignalr"
 aliases:

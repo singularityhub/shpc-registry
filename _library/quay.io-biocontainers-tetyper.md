@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tetyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetyper/container.yaml"
-updated_at: "2026-10-23 07:19:38.851123"
-latest: "1.1--hdfd78af_1"
+updated_at: "2026-10-24 07:10:09.335343"
+latest: "1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tetyper"
 aliases:
  - "TETyper.py"
@@ -21,8 +21,9 @@ aliases:
  - "spades-core"
 versions:
  - "1.1--hdfd78af_1"
+ - "1.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tetyper"
-config: {"url": "https://biocontainers.pro/tools/tetyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetyper", "latest": {"1.1--hdfd78af_1": "sha256:2dd06307467e331063173aaf7f6ede61cb8a469c2f6840cc20eff4fe838f8ab5"}, "tags": {"1.1--hdfd78af_1": "sha256:2dd06307467e331063173aaf7f6ede61cb8a469c2f6840cc20eff4fe838f8ab5"}, "docker": "quay.io/biocontainers/tetyper", "aliases": {"TETyper.py": "/usr/local/bin/TETyper.py", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core"}}
+config: {"url": "https://biocontainers.pro/tools/tetyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetyper", "latest": {"1.2--hdfd78af_0": "sha256:18943062c7b07bfcc4c6a89dffa01f72baa1ee4c4a105043542ae5f4a6c3d863"}, "tags": {"1.1--hdfd78af_1": "sha256:2dd06307467e331063173aaf7f6ede61cb8a469c2f6840cc20eff4fe838f8ab5", "1.2--hdfd78af_0": "sha256:18943062c7b07bfcc4c6a89dffa01f72baa1ee4c4a105043542ae5f4a6c3d863"}, "docker": "quay.io/biocontainers/tetyper", "aliases": {"TETyper.py": "/usr/local/bin/TETyper.py", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tetyper.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/tetyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tetyper:1.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/tetyper:1.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tetyper/1.1--hdfd78af_1
-$ module help quay.io/biocontainers/tetyper/1.1--hdfd78af_1
+$ module load quay.io/biocontainers/tetyper/1.2--hdfd78af_0
+$ module help quay.io/biocontainers/tetyper/1.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rfpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfpred/container.yaml"
-updated_at: "2026-10-23 07:20:19.551006"
+updated_at: "2026-10-24 07:10:48.183316"
 latest: "1.44.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfpred"
 

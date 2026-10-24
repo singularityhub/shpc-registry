@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chronaeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chronaeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chronaeon/container.yaml"
-updated_at: "2026-10-23 07:25:22.208994"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-10-24 07:15:28.633886"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chronaeon"
 aliases:
  - "ShortestPathTN93"
@@ -46,8 +46,11 @@ aliases:
  - "hwloc-distrib"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for chronaeon"
-config: {"url": "https://biocontainers.pro/tools/chronaeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chronaeon", "latest": {"0.1.1--pyhdfd78af_0": "sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269"}, "docker": "quay.io/biocontainers/chronaeon", "aliases": {"ShortestPathTN93": "/usr/local/bin/ShortestPathTN93", "chronaeon": "/usr/local/bin/chronaeon", "fasta_diff": "/usr/local/bin/fasta_diff", "fasta_digest": "/usr/local/bin/fasta_digest", "nucfreqsfasta": "/usr/local/bin/nucfreqsfasta", "readreduce": "/usr/local/bin/readreduce", "selectreads": "/usr/local/bin/selectreads", "seqcoverage": "/usr/local/bin/seqcoverage", "seqdiff": "/usr/local/bin/seqdiff", "tn93": "/usr/local/bin/tn93", "tn93-cluster": "/usr/local/bin/tn93-cluster", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "idna": "/usr/local/bin/idna", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "fc-genconf": "/usr/local/bin/fc-genconf", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib"}}
+config: {"url": "https://biocontainers.pro/tools/chronaeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chronaeon", "latest": {"0.3.1--pyhdfd78af_0": "sha256:0792cf2e71aa71657753df89b70808ff48f33f98d70e9c9c1a9ed1a8c727b6d1"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269", "0.3.1--pyhdfd78af_0": "sha256:0792cf2e71aa71657753df89b70808ff48f33f98d70e9c9c1a9ed1a8c727b6d1", "0.2.0--pyhdfd78af_0": "sha256:b066375290ffe2f30bf0d3472a565a2c0f3b02b6d189085ae8300a129d38617c", "0.1.1--pyhdfd78af_1": "sha256:9e55009a74bc2b09b162f2887ba7ff3a0e76aa796c84a2873d332b9964a5e149"}, "docker": "quay.io/biocontainers/chronaeon", "aliases": {"ShortestPathTN93": "/usr/local/bin/ShortestPathTN93", "chronaeon": "/usr/local/bin/chronaeon", "fasta_diff": "/usr/local/bin/fasta_diff", "fasta_digest": "/usr/local/bin/fasta_digest", "nucfreqsfasta": "/usr/local/bin/nucfreqsfasta", "readreduce": "/usr/local/bin/readreduce", "selectreads": "/usr/local/bin/selectreads", "seqcoverage": "/usr/local/bin/seqcoverage", "seqdiff": "/usr/local/bin/seqdiff", "tn93": "/usr/local/bin/tn93", "tn93-cluster": "/usr/local/bin/tn93-cluster", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "idna": "/usr/local/bin/idna", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "fc-genconf": "/usr/local/bin/fc-genconf", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chronaeon.
@@ -62,7 +65,7 @@ $ shpc install quay.io/biocontainers/chronaeon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chronaeon:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/chronaeon:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chronaeon/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/chronaeon/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/chronaeon/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/chronaeon/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vepyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vepyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vepyr/container.yaml"
-updated_at: "2026-10-23 07:52:40.467702"
+updated_at: "2026-10-24 07:42:21.988647"
 latest: "0.10.0--py310h093eb96_0"
 container_url: "https://biocontainers.pro/tools/vepyr"
 aliases:

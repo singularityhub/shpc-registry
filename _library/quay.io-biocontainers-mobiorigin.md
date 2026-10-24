@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mobiorigin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobiorigin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mobiorigin/container.yaml"
-updated_at: "2026-10-23 07:24:43.623576"
+updated_at: "2026-10-24 07:14:53.084309"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mobiorigin"
 aliases:

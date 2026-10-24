@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gtdb-genomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdb-genomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdb-genomes/container.yaml"
-updated_at: "2026-10-23 07:34:28.617661"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2026-10-24 07:24:11.163855"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gtdb-genomes"
 aliases:
  - "gtdb-genomes"
@@ -25,8 +25,9 @@ versions:
  - "0.2.1--pyhdfd78af_0"
  - "0.3.0--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gtdb-genomes"
-config: {"url": "https://biocontainers.pro/tools/gtdb-genomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gtdb-genomes", "latest": {"0.3.0--pyhdfd78af_0": "sha256:5479dba5cad41aa1f7e20db33bd621a01be15c5aba1f6c530e9eb240f95ac2e2"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:18dba10e71a3fa8d6619a2183d03055ef4b0a55761b5e4fd1d7134b8210e69a8", "0.3.0--pyhdfd78af_0": "sha256:5479dba5cad41aa1f7e20db33bd621a01be15c5aba1f6c530e9eb240f95ac2e2", "0.2.2--pyhdfd78af_0": "sha256:8fd98af21aab994bb690af6507326fb1f5406866b96abdf96a1513e325ec2447"}, "docker": "quay.io/biocontainers/gtdb-genomes", "aliases": {"gtdb-genomes": "/usr/local/bin/gtdb-genomes", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/gtdb-genomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gtdb-genomes", "latest": {"0.4.0--pyhdfd78af_0": "sha256:76775b27c3306c0139ebdf1a5c75329ef9187daaf7e5b962ce8d7bbe86a53d4d"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:18dba10e71a3fa8d6619a2183d03055ef4b0a55761b5e4fd1d7134b8210e69a8", "0.3.0--pyhdfd78af_0": "sha256:5479dba5cad41aa1f7e20db33bd621a01be15c5aba1f6c530e9eb240f95ac2e2", "0.2.2--pyhdfd78af_0": "sha256:8fd98af21aab994bb690af6507326fb1f5406866b96abdf96a1513e325ec2447", "0.4.0--pyhdfd78af_0": "sha256:76775b27c3306c0139ebdf1a5c75329ef9187daaf7e5b962ce8d7bbe86a53d4d"}, "docker": "quay.io/biocontainers/gtdb-genomes", "aliases": {"gtdb-genomes": "/usr/local/bin/gtdb-genomes", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gtdb-genomes.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/gtdb-genomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gtdb-genomes:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gtdb-genomes:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gtdb-genomes/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/gtdb-genomes/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/gtdb-genomes/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/gtdb-genomes/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
