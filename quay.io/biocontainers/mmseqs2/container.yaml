@@ -35,6 +35,8 @@ tags:
     sha256:561786fa5ce3acb15f5a26b157013c7195c71fa35668fdaaa2fbb2ffae17691f
   18.8cc5c--hd6d6fdc_0: 
     sha256:3503bfe576d560e550df2872af86a1ad1bcc1c06cfb7caadd3e7a95649f5f0ef
+  18-8cc5c: 
+    sha256:2fe6072f605e427f7a779685ce6c625ff0a95a47fb18e09cf8907330078322cc
 docker: quay.io/biocontainers/mmseqs2
 aliases:
   gawk-5.0.0: /usr/local/bin/gawk-5.0.0

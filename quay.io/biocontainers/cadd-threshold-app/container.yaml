@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cadd-threshold-app
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cadd-threshold-app
 latest:
-  0.0.9--pyhdfd78af_0: 
-    sha256:a90a50d5ff8105cc16824a572e7c61fc8797607fcdff73ba9bc44739924e0249
+  0.0.11--pyhdfd78af_0: 
+    sha256:cb63631abf7012fd7f69e30d0f03f8b2010dac9caf9ad4513a9c5b31cb4bc5c9
 tags:
   0.0.1--pyhdfd78af_0: 
     sha256:92478421e9da06bdbcac5ada74d2a75543a870632161731ecc28ef42189212bf
@@ -13,6 +13,8 @@ tags:
     sha256:45d38c8749fe6f0b02415a16b7a31826b9c69bbcb6aeec3c2dcf49da7702d980
   0.0.9--pyhdfd78af_0: 
     sha256:a90a50d5ff8105cc16824a572e7c61fc8797607fcdff73ba9bc44739924e0249
+  0.0.11--pyhdfd78af_0: 
+    sha256:cb63631abf7012fd7f69e30d0f03f8b2010dac9caf9ad4513a9c5b31cb4bc5c9
 docker: quay.io/biocontainers/cadd-threshold-app
 aliases:
   cadd-threshold-app: /usr/local/bin/cadd-threshold-app

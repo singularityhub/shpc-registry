@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/lxml
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lxml
 latest:
-  4.9.1: sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37
+  6.1.3: sha256:760a6ff9217f3dacbe63a38a8f66adb0e84bf6e9c463be34818de5aea666cd6f
 tags:
   4.9.1: sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37
+  6.1.3: sha256:760a6ff9217f3dacbe63a38a8f66adb0e84bf6e9c463be34818de5aea666cd6f
 docker: quay.io/biocontainers/lxml
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

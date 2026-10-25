@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ramr
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:8a8cb24b1de40a91a768523de79c16bbcf46c6666464c4a94ea527e1ab451b7d
+  1.18.0--r45h55fe1e3_2-amd64: 
+    sha256:82baa3f778a248576ec7c3a2b6982e78ac1f946e426059643ac76c996da9fa5e
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:5101cb7045e88a3324ba6c50d2b88356c2d6c59dbff14a54eece728396e812c2
@@ -16,4 +16,6 @@ tags:
     sha256:11027bb14db878855ecc26b300499d443ed94f411006fda3764ea4999d41e42e
   1.14.0--r44hdfd78af_0: 
     sha256:8a8cb24b1de40a91a768523de79c16bbcf46c6666464c4a94ea527e1ab451b7d
+  1.18.0--r45h55fe1e3_2-amd64: 
+    sha256:82baa3f778a248576ec7c3a2b6982e78ac1f946e426059643ac76c996da9fa5e
 docker: quay.io/biocontainers/bioconductor-ramr
