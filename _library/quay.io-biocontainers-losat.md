@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/losat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/losat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/losat/container.yaml"
-updated_at: "2026-10-24 07:23:34.778522"
-latest: "0.1.0--hfa8f182_0"
+updated_at: "2026-10-25 07:56:22.753726"
+latest: "0.1.0--hfa8f182_1"
 container_url: "https://biocontainers.pro/tools/losat"
 aliases:
  - "losat"
 versions:
  - "0.1.0--hfa8f182_0"
+ - "0.1.0--hfa8f182_1"
 description: "singularity registry hpc automated addition for losat"
-config: {"url": "https://biocontainers.pro/tools/losat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for losat", "latest": {"0.1.0--hfa8f182_0": "sha256:96f096610fae7d2312ab0a2bc864a66bf4db1eadeb0efdeeed848a65ea96731d"}, "tags": {"0.1.0--hfa8f182_0": "sha256:96f096610fae7d2312ab0a2bc864a66bf4db1eadeb0efdeeed848a65ea96731d"}, "docker": "quay.io/biocontainers/losat", "aliases": {"losat": "/usr/local/bin/losat"}}
+config: {"url": "https://biocontainers.pro/tools/losat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for losat", "latest": {"0.1.0--hfa8f182_1": "sha256:4717c23f0af4258c0ace42789fd1ffce67636a203482667dd5f98945f1858ca8"}, "tags": {"0.1.0--hfa8f182_0": "sha256:96f096610fae7d2312ab0a2bc864a66bf4db1eadeb0efdeeed848a65ea96731d", "0.1.0--hfa8f182_1": "sha256:4717c23f0af4258c0ace42789fd1ffce67636a203482667dd5f98945f1858ca8"}, "docker": "quay.io/biocontainers/losat", "aliases": {"losat": "/usr/local/bin/losat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/losat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/losat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/losat:0.1.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/losat:0.1.0--hfa8f182_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/losat/0.1.0--hfa8f182_0
-$ module help quay.io/biocontainers/losat/0.1.0--hfa8f182_0
+$ module load quay.io/biocontainers/losat/0.1.0--hfa8f182_1
+$ module help quay.io/biocontainers/losat/0.1.0--hfa8f182_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

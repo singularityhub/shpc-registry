@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mist_typing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mist_typing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mist_typing/container.yaml"
-updated_at: "2026-10-24 07:35:13.718904"
+updated_at: "2026-10-25 08:12:39.027933"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mist_typing"
 aliases:

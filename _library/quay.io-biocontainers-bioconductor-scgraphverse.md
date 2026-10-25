@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scgraphverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scgraphverse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scgraphverse/container.yaml"
-updated_at: "2026-10-24 07:07:27.970230"
+updated_at: "2026-10-25 07:34:46.449708"
 latest: "1.0.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scgraphverse"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-teddy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-teddy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-teddy/container.yaml"
-updated_at: "2026-10-24 07:18:07.936149"
+updated_at: "2026-10-25 07:48:58.702498"
 latest: "1.2.8--r41hcf09f9e_0"
 container_url: "https://biocontainers.pro/tools/r-teddy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stark/container.yaml"
-updated_at: "2026-10-24 07:14:24.922664"
+updated_at: "2026-10-25 07:44:00.429763"
 latest: "0.1.1--h9948957_7"
 container_url: "https://biocontainers.pro/tools/stark"
 aliases:

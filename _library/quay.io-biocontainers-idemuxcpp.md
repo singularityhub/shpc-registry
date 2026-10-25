@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/idemuxcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idemuxcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idemuxcpp/container.yaml"
-updated_at: "2026-10-24 07:04:17.373796"
+updated_at: "2026-10-25 07:30:32.989446"
 latest: "0.3.0--hf426362_3"
 container_url: "https://biocontainers.pro/tools/idemuxcpp"
 aliases:

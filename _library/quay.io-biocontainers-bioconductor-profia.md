@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-profia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-profia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-profia/container.yaml"
-updated_at: "2026-10-24 07:30:40.084314"
+updated_at: "2026-10-25 08:06:17.042560"
 latest: "1.23.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-profia"
 aliases:

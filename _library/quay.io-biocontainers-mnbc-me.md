@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mnbc-me"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mnbc-me/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mnbc-me/container.yaml"
-updated_at: "2026-10-24 07:13:21.577742"
+updated_at: "2026-10-25 07:42:36.078280"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mnbc-me"
 aliases:

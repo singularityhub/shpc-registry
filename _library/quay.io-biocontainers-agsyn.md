@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agsyn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agsyn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agsyn/container.yaml"
-updated_at: "2026-10-24 07:20:04.502252"
+updated_at: "2026-10-25 07:51:34.214604"
 latest: "0.6.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agsyn"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lxml/container.yaml"
-updated_at: "2026-10-24 07:24:46.818588"
-latest: "4.9.1"
+updated_at: "2026-10-25 07:58:03.443571"
+latest: "6.1.3"
 container_url: "https://biocontainers.pro/tools/lxml"
 aliases:
  - "2to3-3.11"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "4.9.1"
+ - "6.1.3"
 description: "singularity registry hpc automated addition for lxml"
-config: {"url": "https://biocontainers.pro/tools/lxml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lxml", "latest": {"4.9.1": "sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37"}, "tags": {"4.9.1": "sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37"}, "docker": "quay.io/biocontainers/lxml", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/lxml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lxml", "latest": {"6.1.3": "sha256:760a6ff9217f3dacbe63a38a8f66adb0e84bf6e9c463be34818de5aea666cd6f"}, "tags": {"4.9.1": "sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37", "6.1.3": "sha256:760a6ff9217f3dacbe63a38a8f66adb0e84bf6e9c463be34818de5aea666cd6f"}, "docker": "quay.io/biocontainers/lxml", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lxml.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/lxml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lxml:4.9.1
+$ shpc install quay.io/biocontainers/lxml:6.1.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lxml/4.9.1
-$ module help quay.io/biocontainers/lxml/4.9.1
+$ module load quay.io/biocontainers/lxml/6.1.3
+$ module help quay.io/biocontainers/lxml/6.1.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

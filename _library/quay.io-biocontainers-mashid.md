@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mashid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mashid/container.yaml"
-updated_at: "2026-10-24 07:18:10.906271"
+updated_at: "2026-10-25 07:49:02.642156"
 latest: "0.2.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mashid"
 aliases:

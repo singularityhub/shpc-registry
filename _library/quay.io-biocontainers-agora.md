@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agora"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agora/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agora/container.yaml"
-updated_at: "2026-10-24 07:38:01.282554"
+updated_at: "2026-10-25 08:16:35.884004"
 latest: "3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agora"
 aliases:

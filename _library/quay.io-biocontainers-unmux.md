@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unmux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unmux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unmux/container.yaml"
-updated_at: "2026-10-24 07:24:41.519238"
+updated_at: "2026-10-25 07:57:55.592000"
 latest: "0.4.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/unmux"
 aliases:

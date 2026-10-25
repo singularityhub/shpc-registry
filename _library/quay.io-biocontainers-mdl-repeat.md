@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mdl-repeat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdl-repeat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdl-repeat/container.yaml"
-updated_at: "2026-10-24 07:28:00.191640"
+updated_at: "2026-10-25 08:02:35.352377"
 latest: "1.0.1--hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/mdl-repeat"
 aliases:
