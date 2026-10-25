@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/twitcher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for twitcher
+latest:
+  0.8.1--hc38652c_0: 
+    sha256:fd5fe0b747dea0d630d2a28ee76e5b90c79531cd47c6e8a863994c167c3cf200
+tags:
+  0.8.1--hc38652c_0: 
+    sha256:fd5fe0b747dea0d630d2a28ee76e5b90c79531cd47c6e8a863994c167c3cf200
+docker: quay.io/biocontainers/twitcher
+aliases:
+  twitcher: /usr/local/bin/twitcher
