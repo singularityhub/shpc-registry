@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-elvis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-elvis
+latest:
+  1.2.0--r45hdfd78af_0-amd64: 
+    sha256:c00a3078f51305854af42c228afdb83ab96d9463e67d9b893f1fd6286567181a
+tags:
+  1.2.0--r45hdfd78af_0-amd64: 
+    sha256:c00a3078f51305854af42c228afdb83ab96d9463e67d9b893f1fd6286567181a
+docker: quay.io/biocontainers/bioconductor-elvis
+aliases:
+  gmake: /usr/local/bin/gmake
+  fc-genconf: /usr/local/bin/fc-genconf
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
