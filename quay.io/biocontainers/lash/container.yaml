@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/lash
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lash
+latest:
+  0.1.7--hfa8f182_0: 
+    sha256:d404f0ca34ced60be9b154f9dfb917e19c34a95fcb677c529c7c02d264017900
+tags:
+  0.1.7--hfa8f182_0: 
+    sha256:d404f0ca34ced60be9b154f9dfb917e19c34a95fcb677c529c7c02d264017900
+docker: quay.io/biocontainers/lash
+aliases:
+  lash: /usr/local/bin/lash
