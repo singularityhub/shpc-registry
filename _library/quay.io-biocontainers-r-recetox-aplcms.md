@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-recetox-aplcms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-aplcms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-aplcms/container.yaml"
-updated_at: "2026-10-26 00:10:36.415156"
+updated_at: "2026-10-26 07:55:32.161630"
 latest: "0.15.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-recetox-aplcms"
 aliases:

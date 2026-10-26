@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-vars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-vars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-vars/container.yaml"
-updated_at: "2026-10-25 23:57:54.289627"
+updated_at: "2026-10-26 07:43:39.114217"
 latest: "1.03--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-vars"
 aliases:

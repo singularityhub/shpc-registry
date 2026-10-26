@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapolish/container.yaml"
-updated_at: "2026-10-25 23:54:33.523025"
+updated_at: "2026-10-26 07:40:15.818127"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hapolish"
 aliases:

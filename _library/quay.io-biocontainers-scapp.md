@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scapp/container.yaml"
-updated_at: "2026-10-26 00:27:27.971513"
+updated_at: "2026-10-26 08:11:36.270764"
 latest: "0.1.4--py_0"
 container_url: "https://biocontainers.pro/tools/scapp"
 aliases:

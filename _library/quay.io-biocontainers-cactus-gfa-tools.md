@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cactus-gfa-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cactus-gfa-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cactus-gfa-tools/container.yaml"
-updated_at: "2026-10-26 00:47:35.977107"
+updated_at: "2026-10-26 08:31:17.781444"
 latest: "0.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/cactus-gfa-tools"
 aliases:

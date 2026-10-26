@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reparation_blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reparation_blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reparation_blast/container.yaml"
-updated_at: "2026-10-26 00:34:31.959456"
+updated_at: "2026-10-26 08:18:18.277164"
 latest: "1.0.9--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/reparation_blast"
 aliases:

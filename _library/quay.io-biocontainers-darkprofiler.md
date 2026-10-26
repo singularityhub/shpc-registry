@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/darkprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/darkprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/darkprofiler/container.yaml"
-updated_at: "2026-10-25 23:47:20.280852"
+updated_at: "2026-10-26 07:33:19.101082"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/darkprofiler"
 aliases:

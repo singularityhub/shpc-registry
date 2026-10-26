@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lisa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lisa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lisa2/container.yaml"
-updated_at: "2026-10-26 00:31:14.651243"
+updated_at: "2026-10-26 08:15:08.809333"
 latest: "2.3.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/lisa2"
 aliases:

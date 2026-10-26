@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biomformat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomformat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomformat/container.yaml"
-updated_at: "2026-10-25 23:53:26.344155"
+updated_at: "2026-10-26 07:39:08.443440"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomformat"
 

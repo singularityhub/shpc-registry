@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prosampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prosampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prosampler/container.yaml"
-updated_at: "2026-10-26 00:14:07.434821"
+updated_at: "2026-10-26 07:58:56.140589"
 latest: "1.5--h9948957_2"
 container_url: "https://biocontainers.pro/tools/prosampler"
 aliases:

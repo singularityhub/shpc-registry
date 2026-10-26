@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytofast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytofast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytofast/container.yaml"
-updated_at: "2026-10-26 00:43:06.244707"
+updated_at: "2026-10-26 08:26:56.147499"
 latest: "1.6.0--r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytofast"
 aliases:

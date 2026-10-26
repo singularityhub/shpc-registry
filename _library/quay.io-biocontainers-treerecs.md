@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treerecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treerecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treerecs/container.yaml"
-updated_at: "2026-10-26 00:47:53.364913"
+updated_at: "2026-10-26 08:31:35.791346"
 latest: "1.2--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/treerecs"
 aliases:

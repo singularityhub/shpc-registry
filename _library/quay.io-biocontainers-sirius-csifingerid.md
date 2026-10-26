@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sirius-csifingerid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sirius-csifingerid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sirius-csifingerid/container.yaml"
-updated_at: "2026-10-25 23:58:54.729770"
+updated_at: "2026-10-26 07:44:39.989922"
 latest: "6.5.4--h3bb291f_0"
 container_url: "https://biocontainers.pro/tools/sirius-csifingerid"
 aliases:

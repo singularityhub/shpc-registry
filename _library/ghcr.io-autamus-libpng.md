@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libpng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libpng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libpng/container.yaml"
-updated_at: "2026-10-25 23:45:49.269936"
+updated_at: "2026-10-26 07:31:54.198530"
 latest: "1.6.37"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libpng"
 aliases:

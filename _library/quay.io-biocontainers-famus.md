@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/famus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famus/container.yaml"
-updated_at: "2026-10-26 00:40:29.514123"
+updated_at: "2026-10-26 08:24:14.394004"
 latest: "0.2.4--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/famus"
 aliases:

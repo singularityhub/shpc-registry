@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/molpacd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molpacd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molpacd/container.yaml"
-updated_at: "2026-10-25 23:56:37.233440"
+updated_at: "2026-10-26 07:42:20.841208"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/molpacd"
 aliases:

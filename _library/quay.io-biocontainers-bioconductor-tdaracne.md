@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tdaracne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tdaracne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tdaracne/container.yaml"
-updated_at: "2026-10-26 00:25:41.405886"
+updated_at: "2026-10-26 08:09:56.577947"
 latest: "1.47.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tdaracne"
 

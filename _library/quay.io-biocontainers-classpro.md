@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/classpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/classpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/classpro/container.yaml"
-updated_at: "2026-10-25 23:48:47.907099"
+updated_at: "2026-10-26 07:34:40.140131"
 latest: "1.0.2--hda11466_1"
 container_url: "https://biocontainers.pro/tools/classpro"
 aliases:

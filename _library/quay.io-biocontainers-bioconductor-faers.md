@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-faers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-faers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-faers/container.yaml"
-updated_at: "2026-10-26 00:30:44.192030"
+updated_at: "2026-10-26 08:14:38.471332"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-faers"
 aliases:

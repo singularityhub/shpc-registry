@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pretextgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextgraph/container.yaml"
-updated_at: "2026-10-26 00:29:18.164458"
-latest: "0.0.9--h9948957_1"
+updated_at: "2026-10-26 08:13:15.133032"
+latest: "0.1.0--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/pretextgraph"
 aliases:
  - "PretextGraph"
@@ -20,8 +20,9 @@ versions:
  - "0.0.7--h9948957_1"
  - "0.0.8--h9948957_0"
  - "0.0.9--h9948957_1"
+ - "0.1.0--hc52dbad_0"
 description: "shpc-registry automated BioContainers addition for pretextgraph"
-config: {"url": "https://biocontainers.pro/tools/pretextgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextgraph", "latest": {"0.0.9--h9948957_1": "sha256:99b403f38ad2e0308e8e6fa5b43c29e2d375b4bc8bb4765fe6abecc8808078eb"}, "tags": {"0.0.6--h9f5acd7_1": "sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341", "0.0.6--h4ac6f70_3": "sha256:7195c78d71b3c6fd74fea35338acdc3001cf90849fbca9d3f7256d99405d3d81", "0.0.7--h4ac6f70_0": "sha256:25c2b6f5558bc842d9294ee02844abceb0ec7716c9e299f7def8bf9dbe033d01", "0.0.7--h9948957_1": "sha256:6913e24ecb50e62143d8ced2590d32b78aa0fed12e2ef1323ba9324020584642", "0.0.8--h9948957_0": "sha256:64bbd20c07108092a98ae33f69094ffe568d415c6967a159d3fb35b6deb04972", "0.0.9--h9948957_1": "sha256:99b403f38ad2e0308e8e6fa5b43c29e2d375b4bc8bb4765fe6abecc8808078eb"}, "docker": "quay.io/biocontainers/pretextgraph", "aliases": {"PretextGraph": "/usr/local/bin/PretextGraph", "PretextGraph.avx": "/usr/local/bin/PretextGraph.avx", "PretextGraph.avx2": "/usr/local/bin/PretextGraph.avx2", "PretextGraph.sse41": "/usr/local/bin/PretextGraph.sse41", "PretextGraph.sse42": "/usr/local/bin/PretextGraph.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/pretextgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextgraph", "latest": {"0.1.0--hc52dbad_0": "sha256:217d49e7e3059608bf2de861c278ee32b34f50c3b3fe5eff1b1192799db6e573"}, "tags": {"0.0.6--h9f5acd7_1": "sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341", "0.0.6--h4ac6f70_3": "sha256:7195c78d71b3c6fd74fea35338acdc3001cf90849fbca9d3f7256d99405d3d81", "0.0.7--h4ac6f70_0": "sha256:25c2b6f5558bc842d9294ee02844abceb0ec7716c9e299f7def8bf9dbe033d01", "0.0.7--h9948957_1": "sha256:6913e24ecb50e62143d8ced2590d32b78aa0fed12e2ef1323ba9324020584642", "0.0.8--h9948957_0": "sha256:64bbd20c07108092a98ae33f69094ffe568d415c6967a159d3fb35b6deb04972", "0.0.9--h9948957_1": "sha256:99b403f38ad2e0308e8e6fa5b43c29e2d375b4bc8bb4765fe6abecc8808078eb", "0.1.0--hc52dbad_0": "sha256:217d49e7e3059608bf2de861c278ee32b34f50c3b3fe5eff1b1192799db6e573"}, "docker": "quay.io/biocontainers/pretextgraph", "aliases": {"PretextGraph": "/usr/local/bin/PretextGraph", "PretextGraph.avx": "/usr/local/bin/PretextGraph.avx", "PretextGraph.avx2": "/usr/local/bin/PretextGraph.avx2", "PretextGraph.sse41": "/usr/local/bin/PretextGraph.sse41", "PretextGraph.sse42": "/usr/local/bin/PretextGraph.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pretextgraph.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pretextgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pretextgraph:0.0.9--h9948957_1
+$ shpc install quay.io/biocontainers/pretextgraph:0.1.0--hc52dbad_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pretextgraph/0.0.9--h9948957_1
-$ module help quay.io/biocontainers/pretextgraph/0.0.9--h9948957_1
+$ module load quay.io/biocontainers/pretextgraph/0.1.0--hc52dbad_0
+$ module help quay.io/biocontainers/pretextgraph/0.1.0--hc52dbad_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

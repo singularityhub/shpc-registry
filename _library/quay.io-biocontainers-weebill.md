@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/weebill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weebill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/weebill/container.yaml"
-updated_at: "2026-10-25 23:57:34.600628"
-latest: "0.3.0--hec9b1f2_0"
+updated_at: "2026-10-26 07:43:19.058925"
+latest: "0.4.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/weebill"
 aliases:
  - "weebill"
 versions:
  - "0.3.0--hec9b1f2_0"
+ - "0.4.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for weebill"
-config: {"url": "https://biocontainers.pro/tools/weebill", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for weebill", "latest": {"0.3.0--hec9b1f2_0": "sha256:7dd3b6fcb6a012cab7190f8baa6bbf8d58f79b1b9f812dbc34449b21a0f3d737"}, "tags": {"0.3.0--hec9b1f2_0": "sha256:7dd3b6fcb6a012cab7190f8baa6bbf8d58f79b1b9f812dbc34449b21a0f3d737"}, "docker": "quay.io/biocontainers/weebill", "aliases": {"weebill": "/usr/local/bin/weebill"}}
+config: {"url": "https://biocontainers.pro/tools/weebill", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for weebill", "latest": {"0.4.0--hec9b1f2_0": "sha256:b0b9326266fc48bc4c00d565b767ba5df99ae164f11e19d0090ddc14fd53f72f"}, "tags": {"0.3.0--hec9b1f2_0": "sha256:7dd3b6fcb6a012cab7190f8baa6bbf8d58f79b1b9f812dbc34449b21a0f3d737", "0.4.0--hec9b1f2_0": "sha256:b0b9326266fc48bc4c00d565b767ba5df99ae164f11e19d0090ddc14fd53f72f"}, "docker": "quay.io/biocontainers/weebill", "aliases": {"weebill": "/usr/local/bin/weebill"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/weebill.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/weebill
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/weebill:0.3.0--hec9b1f2_0
+$ shpc install quay.io/biocontainers/weebill:0.4.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/weebill/0.3.0--hec9b1f2_0
-$ module help quay.io/biocontainers/weebill/0.3.0--hec9b1f2_0
+$ module load quay.io/biocontainers/weebill/0.4.0--hec9b1f2_0
+$ module help quay.io/biocontainers/weebill/0.4.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

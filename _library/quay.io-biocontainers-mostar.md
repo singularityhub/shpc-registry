@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mostar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mostar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mostar/container.yaml"
-updated_at: "2026-10-26 00:10:19.157765"
+updated_at: "2026-10-26 07:55:17.660698"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mostar"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/impaqt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/impaqt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/impaqt/container.yaml"
-updated_at: "2026-10-26 00:33:58.142623"
+updated_at: "2026-10-26 08:17:46.804475"
 latest: "1.2.0--hd7584cf_0"
 container_url: "https://biocontainers.pro/tools/impaqt"
 aliases:

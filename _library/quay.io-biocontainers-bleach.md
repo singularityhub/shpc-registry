@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bleach"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bleach/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bleach/container.yaml"
-updated_at: "2026-10-26 00:12:26.425684"
+updated_at: "2026-10-26 07:57:12.813205"
 latest: "1.4.2--py35_0"
 container_url: "https://biocontainers.pro/tools/bleach"
 aliases:

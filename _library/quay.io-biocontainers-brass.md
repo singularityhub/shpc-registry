@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brass/container.yaml"
-updated_at: "2026-10-26 00:31:00.455675"
+updated_at: "2026-10-26 08:14:54.047473"
 latest: "5.1.6--7"
 container_url: "https://biocontainers.pro/tools/brass"
 aliases:

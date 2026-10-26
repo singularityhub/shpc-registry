@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/read2tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/read2tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/read2tree/container.yaml"
-updated_at: "2026-10-26 00:12:37.140868"
+updated_at: "2026-10-26 07:57:23.455195"
 latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/read2tree"
 aliases:

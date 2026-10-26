@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panteraga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panteraga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panteraga/container.yaml"
-updated_at: "2026-10-26 00:10:10.774499"
+updated_at: "2026-10-26 07:55:10.656310"
 latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panteraga"
 aliases:

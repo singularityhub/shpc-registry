@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnp-binstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-binstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-binstrings/container.yaml"
-updated_at: "2026-10-26 00:34:14.828437"
+updated_at: "2026-10-26 08:18:02.511416"
 latest: "1.0--hd6d6fdc_6"
 container_url: "https://biocontainers.pro/tools/dnp-binstrings"
 aliases:

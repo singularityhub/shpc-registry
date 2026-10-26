@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chisel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chisel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chisel/container.yaml"
-updated_at: "2026-10-26 00:31:55.349429"
+updated_at: "2026-10-26 08:15:50.111783"
 latest: "1.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chisel"
 aliases:

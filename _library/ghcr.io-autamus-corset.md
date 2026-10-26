@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/corset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/corset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/corset/container.yaml"
-updated_at: "2026-10-25 23:45:58.095156"
+updated_at: "2026-10-26 07:32:02.585684"
 latest: "1.09"
 container_url: "https://github.com/orgs/autamus/packages/container/package/corset"
 aliases:

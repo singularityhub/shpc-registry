@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecolicdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolicdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolicdf/container.yaml"
-updated_at: "2026-10-26 00:45:43.249773"
+updated_at: "2026-10-26 08:29:25.448809"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolicdf"
 

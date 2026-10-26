@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pipets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pipets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pipets/container.yaml"
-updated_at: "2026-10-26 00:32:03.784836"
+updated_at: "2026-10-26 08:15:58.209331"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pipets"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protein-mosaic-q"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protein-mosaic-q/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protein-mosaic-q/container.yaml"
-updated_at: "2026-10-26 00:26:20.288858"
+updated_at: "2026-10-26 08:10:33.085006"
 latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/protein-mosaic-q"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ristretto-ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ristretto-ms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ristretto-ms/container.yaml"
-updated_at: "2026-10-25 23:51:46.369864"
+updated_at: "2026-10-26 07:37:28.668616"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ristretto-ms"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cif-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cif-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cif-tools/container.yaml"
-updated_at: "2026-10-25 23:57:36.946144"
+updated_at: "2026-10-26 07:43:21.455417"
 latest: "1.0.13--hf426362_0"
 container_url: "https://biocontainers.pro/tools/cif-tools"
 aliases:

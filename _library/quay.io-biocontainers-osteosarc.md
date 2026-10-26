@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/osteosarc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/osteosarc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/osteosarc/container.yaml"
-updated_at: "2026-10-26 00:37:35.693342"
+updated_at: "2026-10-26 08:21:18.437768"
 latest: "0.15.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/osteosarc"
 aliases:

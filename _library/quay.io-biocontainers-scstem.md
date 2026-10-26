@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scstem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scstem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scstem/container.yaml"
-updated_at: "2026-10-25 23:48:48.832632"
+updated_at: "2026-10-26 07:34:41.016231"
 latest: "0.0.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/scstem"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/yleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yleaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yleaf/container.yaml"
-updated_at: "2026-10-25 23:48:36.959517"
-latest: "3.2.1--pyh1286868_0"
+updated_at: "2026-10-26 07:34:30.275846"
+latest: "4.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/yleaf"
 aliases:
  - "Yleaf"
@@ -44,8 +44,9 @@ aliases:
  - "fdp"
 versions:
  - "3.2.1--pyh1286868_0"
+ - "4.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for yleaf"
-config: {"url": "https://biocontainers.pro/tools/yleaf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for yleaf", "latest": {"3.2.1--pyh1286868_0": "sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1"}, "tags": {"3.2.1--pyh1286868_0": "sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1"}, "docker": "quay.io/biocontainers/yleaf", "aliases": {"Yleaf": "/usr/local/bin/Yleaf", "dot_sandbox": "/usr/local/bin/dot_sandbox", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "predict_haplogroup": "/usr/local/bin/predict_haplogroup", "wayland-scanner": "/usr/local/bin/wayland-scanner", "xkbcli": "/usr/local/bin/xkbcli", "numpy-config": "/usr/local/bin/numpy-config", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins", "edgepaint": "/usr/local/bin/edgepaint", "fdp": "/usr/local/bin/fdp"}}
+config: {"url": "https://biocontainers.pro/tools/yleaf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for yleaf", "latest": {"4.1.6--pyhdfd78af_0": "sha256:8b47b140b0cdc13da9549bd876a413492f1893488ee2857d08c6e26092bf032d"}, "tags": {"3.2.1--pyh1286868_0": "sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1", "4.1.6--pyhdfd78af_0": "sha256:8b47b140b0cdc13da9549bd876a413492f1893488ee2857d08c6e26092bf032d"}, "docker": "quay.io/biocontainers/yleaf", "aliases": {"Yleaf": "/usr/local/bin/Yleaf", "dot_sandbox": "/usr/local/bin/dot_sandbox", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "predict_haplogroup": "/usr/local/bin/predict_haplogroup", "wayland-scanner": "/usr/local/bin/wayland-scanner", "xkbcli": "/usr/local/bin/xkbcli", "numpy-config": "/usr/local/bin/numpy-config", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins", "edgepaint": "/usr/local/bin/edgepaint", "fdp": "/usr/local/bin/fdp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yleaf.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/yleaf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yleaf:3.2.1--pyh1286868_0
+$ shpc install quay.io/biocontainers/yleaf:4.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yleaf/3.2.1--pyh1286868_0
-$ module help quay.io/biocontainers/yleaf/3.2.1--pyh1286868_0
+$ module load quay.io/biocontainers/yleaf/4.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/yleaf/4.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

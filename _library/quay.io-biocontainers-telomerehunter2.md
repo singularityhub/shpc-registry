@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/telomerehunter2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telomerehunter2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telomerehunter2/container.yaml"
-updated_at: "2026-10-25 23:47:12.696826"
-latest: "1.0.11--pyhdfd78af_0"
+updated_at: "2026-10-26 07:33:12.454925"
+latest: "1.0.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telomerehunter2"
 aliases:
  - "choreo_diagnose"
@@ -22,8 +22,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.11--pyhdfd78af_0"
+ - "1.0.12--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for telomerehunter2"
-config: {"url": "https://biocontainers.pro/tools/telomerehunter2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telomerehunter2", "latest": {"1.0.11--pyhdfd78af_0": "sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595"}, "tags": {"1.0.11--pyhdfd78af_0": "sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595"}, "docker": "quay.io/biocontainers/telomerehunter2", "aliases": {"choreo_diagnose": "/usr/local/bin/choreo_diagnose", "choreo_get_chrome": "/usr/local/bin/choreo_get_chrome", "kaleido_get_chrome": "/usr/local/bin/kaleido_get_chrome", "kaleido_mocker": "/usr/local/bin/kaleido_mocker", "telomerehunter2": "/usr/local/bin/telomerehunter2", "telomerehunter2-sc": "/usr/local/bin/telomerehunter2-sc", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/telomerehunter2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telomerehunter2", "latest": {"1.0.12--pyhdfd78af_0": "sha256:cce567bcc7209b075ea7943f3880b340e2fb19b1e62ee19dd52b7b532d23611d"}, "tags": {"1.0.11--pyhdfd78af_0": "sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595", "1.0.12--pyhdfd78af_0": "sha256:cce567bcc7209b075ea7943f3880b340e2fb19b1e62ee19dd52b7b532d23611d"}, "docker": "quay.io/biocontainers/telomerehunter2", "aliases": {"choreo_diagnose": "/usr/local/bin/choreo_diagnose", "choreo_get_chrome": "/usr/local/bin/choreo_get_chrome", "kaleido_get_chrome": "/usr/local/bin/kaleido_get_chrome", "kaleido_mocker": "/usr/local/bin/kaleido_mocker", "telomerehunter2": "/usr/local/bin/telomerehunter2", "telomerehunter2-sc": "/usr/local/bin/telomerehunter2-sc", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telomerehunter2.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/telomerehunter2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/telomerehunter2:1.0.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/telomerehunter2:1.0.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/telomerehunter2/1.0.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/telomerehunter2/1.0.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/telomerehunter2/1.0.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/telomerehunter2/1.0.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

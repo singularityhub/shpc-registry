@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-b-debug"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-b-debug/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-b-debug/container.yaml"
-updated_at: "2026-10-25 23:55:40.566163"
+updated_at: "2026-10-26 07:41:23.621125"
 latest: "1.26--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-b-debug"
 aliases:
