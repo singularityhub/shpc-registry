@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/telomerehunter2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for telomerehunter2
 latest:
-  1.0.11--pyhdfd78af_0: 
-    sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595
+  1.0.12--pyhdfd78af_0: 
+    sha256:cce567bcc7209b075ea7943f3880b340e2fb19b1e62ee19dd52b7b532d23611d
 tags:
   1.0.11--pyhdfd78af_0: 
     sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595
+  1.0.12--pyhdfd78af_0: 
+    sha256:cce567bcc7209b075ea7943f3880b340e2fb19b1e62ee19dd52b7b532d23611d
 docker: quay.io/biocontainers/telomerehunter2
 aliases:
   choreo_diagnose: /usr/local/bin/choreo_diagnose

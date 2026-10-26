@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pretextgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pretextgraph
 latest:
-  0.0.9--h9948957_1: 
-    sha256:99b403f38ad2e0308e8e6fa5b43c29e2d375b4bc8bb4765fe6abecc8808078eb
+  0.1.0--hc52dbad_0: 
+    sha256:217d49e7e3059608bf2de861c278ee32b34f50c3b3fe5eff1b1192799db6e573
 tags:
   0.0.6--h9f5acd7_1: 
     sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341
@@ -17,6 +17,8 @@ tags:
     sha256:64bbd20c07108092a98ae33f69094ffe568d415c6967a159d3fb35b6deb04972
   0.0.9--h9948957_1: 
     sha256:99b403f38ad2e0308e8e6fa5b43c29e2d375b4bc8bb4765fe6abecc8808078eb
+  0.1.0--hc52dbad_0: 
+    sha256:217d49e7e3059608bf2de861c278ee32b34f50c3b3fe5eff1b1192799db6e573
 docker: quay.io/biocontainers/pretextgraph
 aliases:
   PretextGraph: /usr/local/bin/PretextGraph

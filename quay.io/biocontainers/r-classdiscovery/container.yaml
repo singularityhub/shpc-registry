@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-classdiscovery
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-classdiscovery
 latest:
-  3.4.10--r45h3342da4_0: 
-    sha256:34f5f6bf4e4845ac20b2d2921fb90ac3bd19917169546b4b1d2954be7f3ca3ab
+  3.4.11--r45h3342da4_0: 
+    sha256:976a56524fb4c96716ae69f0a3ab717a557f3415c7cb3681894b37539407e63b
 tags:
   3.4.0--r41h3342da4_0: 
     sha256:a55868ca243ef85b5d9c3afe6e79febb26b879863b9535b0f71e65d8be43874a
@@ -21,6 +21,8 @@ tags:
     sha256:74bf8ae62671b61d566fd5886844c52e6fab89fd4e4b3debec03fb0a3ef29e3d
   3.4.10--r45h3342da4_0: 
     sha256:34f5f6bf4e4845ac20b2d2921fb90ac3bd19917169546b4b1d2954be7f3ca3ab
+  3.4.11--r45h3342da4_0: 
+    sha256:976a56524fb4c96716ae69f0a3ab717a557f3415c7cb3681894b37539407e63b
 docker: quay.io/biocontainers/r-classdiscovery
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 
