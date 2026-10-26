@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ushuffle/container.yaml"
-updated_at: "2026-10-25 08:23:00.973017"
+updated_at: "2026-10-26 00:46:28.821272"
 latest: "1.2.2--py39hf95cd2a_7"
 container_url: "https://biocontainers.pro/tools/ushuffle"
 aliases:

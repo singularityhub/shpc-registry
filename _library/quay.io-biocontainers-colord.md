@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colord/container.yaml"
-updated_at: "2026-10-25 08:05:15.227559"
+updated_at: "2026-10-26 00:28:56.500443"
 latest: "1.1.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/colord"
 aliases:

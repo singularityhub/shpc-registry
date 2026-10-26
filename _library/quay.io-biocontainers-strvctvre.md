@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strvctvre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strvctvre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strvctvre/container.yaml"
-updated_at: "2026-10-25 07:51:49.963128"
+updated_at: "2026-10-26 00:15:34.114438"
 latest: "1.10--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/strvctvre"
 aliases:

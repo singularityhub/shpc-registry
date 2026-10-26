@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trumicount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trumicount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trumicount/container.yaml"
-updated_at: "2026-10-25 07:30:06.345797"
+updated_at: "2026-10-25 23:53:27.525147"
 latest: "0.9.14--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/trumicount"
 aliases:

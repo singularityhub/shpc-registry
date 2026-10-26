@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panisoguard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panisoguard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panisoguard/container.yaml"
-updated_at: "2026-10-25 07:59:12.856670"
+updated_at: "2026-10-26 00:22:57.484861"
 latest: "0.0.5--h8471819_0"
 container_url: "https://biocontainers.pro/tools/panisoguard"
 aliases:

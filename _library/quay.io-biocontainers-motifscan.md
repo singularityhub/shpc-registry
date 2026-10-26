@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/motifscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motifscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motifscan/container.yaml"
-updated_at: "2026-10-25 08:05:05.489926"
+updated_at: "2026-10-26 00:28:46.147000"
 latest: "1.3.0--py312h247cb63_6"
 container_url: "https://biocontainers.pro/tools/motifscan"
 aliases:

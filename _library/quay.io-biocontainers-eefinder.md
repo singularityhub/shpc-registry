@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eefinder/container.yaml"
-updated_at: "2026-10-25 07:59:48.565839"
+updated_at: "2026-10-26 00:23:33.825957"
 latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eefinder"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-condcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-condcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-condcomp/container.yaml"
-updated_at: "2026-10-25 08:03:42.794775"
+updated_at: "2026-10-26 00:27:23.183377"
 latest: "1.1.1--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-condcomp"
 aliases:

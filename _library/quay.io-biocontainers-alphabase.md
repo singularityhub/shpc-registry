@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alphabase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphabase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphabase/container.yaml"
-updated_at: "2026-10-25 07:58:16.900915"
+updated_at: "2026-10-26 00:22:04.561016"
 latest: "1.10.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alphabase"
 aliases:

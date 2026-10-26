@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sc-musketeers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sc-musketeers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sc-musketeers/container.yaml"
-updated_at: "2026-10-25 07:35:57.450638"
+updated_at: "2026-10-25 23:59:07.509018"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sc-musketeers"
 aliases:

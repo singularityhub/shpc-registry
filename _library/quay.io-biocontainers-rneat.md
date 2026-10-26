@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rneat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rneat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rneat/container.yaml"
-updated_at: "2026-10-25 08:02:21.690004"
+updated_at: "2026-10-26 00:26:03.284054"
 latest: "1.20.1--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/rneat"
 aliases:

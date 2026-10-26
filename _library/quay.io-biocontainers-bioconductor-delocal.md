@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-delocal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delocal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delocal/container.yaml"
-updated_at: "2026-10-25 08:04:34.005870"
+updated_at: "2026-10-26 00:28:13.657996"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delocal"
 aliases:

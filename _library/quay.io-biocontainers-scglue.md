@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scglue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scglue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scglue/container.yaml"
-updated_at: "2026-10-25 08:00:50.003483"
+updated_at: "2026-10-26 00:24:33.100348"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scglue"
 aliases:

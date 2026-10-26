@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meneco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meneco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meneco/container.yaml"
-updated_at: "2026-10-25 07:29:37.488697"
+updated_at: "2026-10-25 23:52:58.889574"
 latest: "1.5.2--py36_0"
 container_url: "https://biocontainers.pro/tools/meneco"
 aliases:

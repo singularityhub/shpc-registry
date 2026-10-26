@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sparsedossa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsedossa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsedossa/container.yaml"
-updated_at: "2026-10-25 08:08:56.615161"
+updated_at: "2026-10-26 00:32:32.052926"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsedossa"
 aliases:

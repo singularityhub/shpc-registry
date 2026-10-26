@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphscope-sccmec-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscope-sccmec-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscope-sccmec-data/container.yaml"
-updated_at: "2026-10-25 08:01:01.666164"
+updated_at: "2026-10-26 00:24:44.323532"
 latest: "1.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscope-sccmec-data"
 

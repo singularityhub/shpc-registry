@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-handle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-handle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-handle/container.yaml"
-updated_at: "2026-10-25 08:23:20.245257"
+updated_at: "2026-10-26 00:46:48.909201"
 latest: "1.42--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-io-handle"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tecap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tecap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tecap/container.yaml"
-updated_at: "2026-10-25 07:38:59.945619"
+updated_at: "2026-10-26 00:02:06.403958"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tecap"
 aliases:

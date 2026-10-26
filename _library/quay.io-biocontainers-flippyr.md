@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flippyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flippyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flippyr/container.yaml"
-updated_at: "2026-10-25 08:17:13.821965"
+updated_at: "2026-10-26 00:40:31.925842"
 latest: "0.6.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/flippyr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyeuk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyeuk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyeuk/container.yaml"
-updated_at: "2026-10-25 07:36:08.029014"
+updated_at: "2026-10-25 23:59:17.964171"
 latest: "0.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyeuk"
 aliases:

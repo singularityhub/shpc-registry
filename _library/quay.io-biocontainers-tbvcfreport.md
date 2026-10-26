@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tbvcfreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbvcfreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbvcfreport/container.yaml"
-updated_at: "2026-10-25 07:59:32.963523"
+updated_at: "2026-10-26 00:23:17.966690"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tbvcfreport"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109/container.yaml"
-updated_at: "2026-10-25 08:23:38.548002"
+updated_at: "2026-10-26 00:47:08.167408"
 latest: "0.99.7--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp.20101109"
 

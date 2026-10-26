@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genbank_to"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genbank_to/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genbank_to/container.yaml"
-updated_at: "2026-10-25 08:03:48.965132"
+updated_at: "2026-10-26 00:27:29.248099"
 latest: "0.54--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genbank_to"
 aliases:

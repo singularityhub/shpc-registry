@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/djinn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/djinn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/djinn/container.yaml"
-updated_at: "2026-10-25 07:55:27.692558"
+updated_at: "2026-10-26 00:19:11.098665"
 latest: "2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/djinn"
 aliases:

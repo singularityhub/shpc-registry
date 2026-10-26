@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-apalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-apalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-apalyzer/container.yaml"
-updated_at: "2026-10-25 07:40:44.283035"
+updated_at: "2026-10-26 00:03:57.219350"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-apalyzer"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treesapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treesapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treesapp/container.yaml"
-updated_at: "2026-10-25 08:18:37.368718"
+updated_at: "2026-10-26 00:41:51.910670"
 latest: "0.11.4--py39h2de1943_2"
 container_url: "https://biocontainers.pro/tools/treesapp"
 aliases:

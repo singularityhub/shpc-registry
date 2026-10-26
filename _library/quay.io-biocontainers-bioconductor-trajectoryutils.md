@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trajectoryutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trajectoryutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trajectoryutils/container.yaml"
-updated_at: "2026-10-25 08:11:38.428323"
+updated_at: "2026-10-26 00:35:11.504712"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trajectoryutils"
 

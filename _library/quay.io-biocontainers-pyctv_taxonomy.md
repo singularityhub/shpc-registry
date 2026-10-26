@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyctv_taxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyctv_taxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyctv_taxonomy/container.yaml"
-updated_at: "2026-10-25 07:58:34.940382"
+updated_at: "2026-10-26 00:22:21.785288"
 latest: "0.25--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyctv_taxonomy"
 aliases:

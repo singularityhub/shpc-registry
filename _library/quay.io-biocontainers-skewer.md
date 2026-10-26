@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skewer/container.yaml"
-updated_at: "2026-10-25 08:07:15.593625"
+updated_at: "2026-10-26 00:30:53.474877"
 latest: "0.2.2--hc52dbad_5"
 container_url: "https://biocontainers.pro/tools/skewer"
 aliases:

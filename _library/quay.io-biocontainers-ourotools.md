@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ourotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ourotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ourotools/container.yaml"
-updated_at: "2026-10-25 07:29:08.097404"
+updated_at: "2026-10-25 23:52:30.404818"
 latest: "0.2.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ourotools"
 aliases:

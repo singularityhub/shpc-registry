@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rpmg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rpmg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rpmg/container.yaml"
-updated_at: "2026-10-25 08:19:02.805722"
+updated_at: "2026-10-26 00:42:16.579173"
 latest: "2.2_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rpmg"
 aliases:

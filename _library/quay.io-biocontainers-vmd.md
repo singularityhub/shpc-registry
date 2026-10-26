@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vmd/container.yaml"
-updated_at: "2026-10-25 07:24:33.985326"
+updated_at: "2026-10-25 23:47:43.071491"
 latest: "1.9.3"
 container_url: "https://biocontainers.pro/tools/vmd"
 aliases:

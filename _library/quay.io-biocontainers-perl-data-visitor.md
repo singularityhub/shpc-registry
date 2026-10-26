@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-visitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-visitor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-visitor/container.yaml"
-updated_at: "2026-10-25 08:03:29.234187"
+updated_at: "2026-10-26 00:27:09.742844"
 latest: "0.30--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-data-visitor"
 aliases:
