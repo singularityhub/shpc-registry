@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genbankr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genbankr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genbankr/container.yaml"
-updated_at: "2026-10-26 07:47:03.360618"
+updated_at: "2026-10-27 07:42:31.572655"
 latest: "1.27.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genbankr"
 aliases:

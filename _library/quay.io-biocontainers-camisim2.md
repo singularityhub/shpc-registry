@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/camisim2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/camisim2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/camisim2/container.yaml"
-updated_at: "2026-10-26 07:51:54.394500"
+updated_at: "2026-10-27 07:47:10.375429"
 latest: "2.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/camisim2"
 aliases:

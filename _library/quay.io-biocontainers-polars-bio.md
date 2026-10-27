@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/polars-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polars-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polars-bio/container.yaml"
-updated_at: "2026-10-26 08:04:46.621301"
-latest: "0.36.0--py312h46b6c60_0"
+updated_at: "2026-10-27 07:59:09.335108"
+latest: "0.36.2--py313h4c8ee94_0"
 container_url: "https://biocontainers.pro/tools/polars-bio"
 aliases:
  - "protoc-33.5.0"
@@ -38,8 +38,9 @@ versions:
  - "0.34.0--py313h4c8ee94_0"
  - "0.36.0--py312h46b6c60_0"
  - "0.35.1--py312h46b6c60_0"
+ - "0.36.2--py313h4c8ee94_0"
 description: "singularity registry hpc automated addition for polars-bio"
-config: {"url": "https://biocontainers.pro/tools/polars-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for polars-bio", "latest": {"0.36.0--py312h46b6c60_0": "sha256:e5924d86726071f693bd0d410f5b8097935eab883cb323bfde16729469401563"}, "tags": {"0.34.0--py311h84dfe7a_0": "sha256:73d952727bc9ca4bf122a58c251c203c9e69cc77362d778072e6014fa42569ca", "0.34.0--py313h4c8ee94_0": "sha256:b9c7bdef202b75d020ee0054644185f1355e6491f05c802d189f8010e4090231", "0.36.0--py312h46b6c60_0": "sha256:e5924d86726071f693bd0d410f5b8097935eab883cb323bfde16729469401563", "0.35.1--py312h46b6c60_0": "sha256:c473f23d5bd067af004258d6dd0b5d0743be574ae5b763a05ced22cf914e0ee9"}, "docker": "quay.io/biocontainers/polars-bio", "aliases": {"protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "elastishadow": "/usr/local/bin/elastishadow", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "elasticurl": "/usr/local/bin/elasticurl"}}
+config: {"url": "https://biocontainers.pro/tools/polars-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for polars-bio", "latest": {"0.36.2--py313h4c8ee94_0": "sha256:250e14df7624df86a4745db954e0508b5bfeb5b65459d0a642aea9943b476721"}, "tags": {"0.34.0--py311h84dfe7a_0": "sha256:73d952727bc9ca4bf122a58c251c203c9e69cc77362d778072e6014fa42569ca", "0.34.0--py313h4c8ee94_0": "sha256:b9c7bdef202b75d020ee0054644185f1355e6491f05c802d189f8010e4090231", "0.36.0--py312h46b6c60_0": "sha256:e5924d86726071f693bd0d410f5b8097935eab883cb323bfde16729469401563", "0.35.1--py312h46b6c60_0": "sha256:c473f23d5bd067af004258d6dd0b5d0743be574ae5b763a05ced22cf914e0ee9", "0.36.2--py313h4c8ee94_0": "sha256:250e14df7624df86a4745db954e0508b5bfeb5b65459d0a642aea9943b476721"}, "docker": "quay.io/biocontainers/polars-bio", "aliases": {"protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "elastishadow": "/usr/local/bin/elastishadow", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "elasticurl": "/usr/local/bin/elasticurl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/polars-bio.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/polars-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/polars-bio:0.36.0--py312h46b6c60_0
+$ shpc install quay.io/biocontainers/polars-bio:0.36.2--py313h4c8ee94_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/polars-bio/0.36.0--py312h46b6c60_0
-$ module help quay.io/biocontainers/polars-bio/0.36.0--py312h46b6c60_0
+$ module load quay.io/biocontainers/polars-bio/0.36.2--py313h4c8ee94_0
+$ module help quay.io/biocontainers/polars-bio/0.36.2--py313h4c8ee94_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

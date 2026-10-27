@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-xcell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xcell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xcell/container.yaml"
-updated_at: "2026-10-26 07:48:52.308914"
+updated_at: "2026-10-27 07:44:16.601538"
 latest: "1.3--r44h9948957_8"
 container_url: "https://biocontainers.pro/tools/r-xcell"
 

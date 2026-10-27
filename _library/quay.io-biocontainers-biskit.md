@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biskit/container.yaml"
-updated_at: "2026-10-26 07:37:38.453579"
+updated_at: "2026-10-27 07:33:32.302978"
 latest: "3.0.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/biskit"
 aliases:

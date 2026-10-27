@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-kraken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-kraken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-kraken/container.yaml"
-updated_at: "2026-10-26 07:37:36.147255"
+updated_at: "2026-10-27 07:33:30.036648"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-kraken"
 aliases:

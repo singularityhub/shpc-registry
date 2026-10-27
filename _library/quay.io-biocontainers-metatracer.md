@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metatracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metatracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metatracer/container.yaml"
-updated_at: "2026-10-26 08:02:10.767943"
+updated_at: "2026-10-27 07:56:43.049504"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metatracer"
 aliases:

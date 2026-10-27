@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmaseq/container.yaml"
-updated_at: "2026-10-26 08:15:05.990634"
+updated_at: "2026-10-27 08:09:12.554060"
 latest: "2.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mmaseq"
 aliases:

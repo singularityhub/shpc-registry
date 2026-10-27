@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mbomic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbomic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbomic/container.yaml"
-updated_at: "2026-10-26 08:27:49.376386"
+updated_at: "2026-10-27 08:20:57.632560"
 latest: "1.3.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbomic"
 aliases:

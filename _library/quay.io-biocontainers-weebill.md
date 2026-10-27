@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/weebill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weebill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/weebill/container.yaml"
-updated_at: "2026-10-26 07:43:19.058925"
+updated_at: "2026-10-27 07:38:56.515753"
 latest: "0.4.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/weebill"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-peakpick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-peakpick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-peakpick/container.yaml"
-updated_at: "2026-10-26 08:20:44.243156"
+updated_at: "2026-10-27 08:14:28.074640"
 latest: "0.11--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-peakpick"
 aliases:

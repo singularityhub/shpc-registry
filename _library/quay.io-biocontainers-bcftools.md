@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools/container.yaml"
-updated_at: "2026-10-26 07:43:34.281140"
+updated_at: "2026-10-27 07:39:10.918824"
 latest: "1.24--h118bc1c_4"
 container_url: "https://biocontainers.pro/tools/bcftools"
 aliases:

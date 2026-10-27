@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-substrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-substrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-substrate/container.yaml"
-updated_at: "2026-10-26 08:32:15.841509"
+updated_at: "2026-10-27 08:25:05.276362"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-substrate"
 aliases:

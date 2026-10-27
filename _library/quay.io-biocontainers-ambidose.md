@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ambidose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ambidose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ambidose/container.yaml"
-updated_at: "2026-10-26 08:11:41.226352"
-latest: "0.3.2--pyhdfd78af_0"
+updated_at: "2026-10-27 08:05:45.794239"
+latest: "0.5.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ambidose"
 aliases:
  - "ambidose"
@@ -36,8 +36,10 @@ aliases:
  - "aomenc"
 versions:
  - "0.3.2--pyhdfd78af_0"
+ - "0.5.13--pyhdfd78af_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ambidose"
-config: {"url": "https://biocontainers.pro/tools/ambidose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ambidose", "latest": {"0.3.2--pyhdfd78af_0": "sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e"}, "docker": "quay.io/biocontainers/ambidose", "aliases": {"ambidose": "/usr/local/bin/ambidose", "ojph_compress": "/usr/local/bin/ojph_compress", "ojph_expand": "/usr/local/bin/ojph_expand", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "zfp": "/usr/local/bin/zfp", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "igraph": "/usr/local/bin/igraph", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "scanpy": "/usr/local/bin/scanpy", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc"}}
+config: {"url": "https://biocontainers.pro/tools/ambidose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ambidose", "latest": {"0.5.13--pyhdfd78af_0": "sha256:0eae9f8ad2ccb6f858595006c96c834a23f71204f99efd01bee98fb523fd47de"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e", "0.5.13--pyhdfd78af_0": "sha256:0eae9f8ad2ccb6f858595006c96c834a23f71204f99efd01bee98fb523fd47de", "0.3.3--pyhdfd78af_0": "sha256:887fd56bfb22ae62c5989a7eb30eb0c4df8222b89f3328223c788de02fba4ca9"}, "docker": "quay.io/biocontainers/ambidose", "aliases": {"ambidose": "/usr/local/bin/ambidose", "ojph_compress": "/usr/local/bin/ojph_compress", "ojph_expand": "/usr/local/bin/ojph_expand", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "zfp": "/usr/local/bin/zfp", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "igraph": "/usr/local/bin/igraph", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "scanpy": "/usr/local/bin/scanpy", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ambidose.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/ambidose
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ambidose:0.3.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ambidose:0.5.13--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ambidose/0.3.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/ambidose/0.3.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/ambidose/0.5.13--pyhdfd78af_0
+$ module help quay.io/biocontainers/ambidose/0.5.13--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

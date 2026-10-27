@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genecircuitry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genecircuitry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genecircuitry/container.yaml"
-updated_at: "2026-10-26 08:02:50.294174"
+updated_at: "2026-10-27 07:57:20.243807"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genecircuitry"
 aliases:

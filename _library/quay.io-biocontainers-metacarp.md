@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacarp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacarp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacarp/container.yaml"
-updated_at: "2026-10-26 08:15:56.425239"
+updated_at: "2026-10-27 08:09:59.961131"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacarp"
 aliases:

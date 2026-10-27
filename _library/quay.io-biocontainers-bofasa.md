@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bofasa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bofasa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bofasa/container.yaml"
-updated_at: "2026-10-26 07:56:00.693576"
+updated_at: "2026-10-27 07:51:02.084810"
 latest: "1.2.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/bofasa"
 aliases:
