@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyranges
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyranges
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:8175b7eead2d96f7431f4ed973b71d153f1bd07049d8273d682d12dfe55cb641
+  0.1.7--pyhdfd78af_0: 
+    sha256:48df2a70499573b396562475f89e2de9f207ba809e4e303fda7f5f93c0ec8990
 tags:
   0.0.88--pyh3252c3a_0: 
     sha256:ac1d15f9cd5d4cf13ecd09b27b7c10099b563e37aea1df3ed58b21fe3390f0e9
@@ -13,6 +13,8 @@ tags:
     sha256:cb78b1d3f88e54f3d7823a9e5ec1199a015ed117bfee41240d6b429821bd5c48
   0.1.4--pyhdfd78af_0: 
     sha256:8175b7eead2d96f7431f4ed973b71d153f1bd07049d8273d682d12dfe55cb641
+  0.1.7--pyhdfd78af_0: 
+    sha256:48df2a70499573b396562475f89e2de9f207ba809e4e303fda7f5f93c0ec8990
 docker: quay.io/biocontainers/pyranges
 aliases:
   tabulate: /usr/local/bin/tabulate

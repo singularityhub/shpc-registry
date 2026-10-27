@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/ambidose
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ambidose
 latest:
-  0.3.2--pyhdfd78af_0: 
-    sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e
+  0.5.13--pyhdfd78af_0: 
+    sha256:0eae9f8ad2ccb6f858595006c96c834a23f71204f99efd01bee98fb523fd47de
 tags:
   0.3.2--pyhdfd78af_0: 
     sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e
+  0.5.13--pyhdfd78af_0: 
+    sha256:0eae9f8ad2ccb6f858595006c96c834a23f71204f99efd01bee98fb523fd47de
+  0.3.3--pyhdfd78af_0: 
+    sha256:887fd56bfb22ae62c5989a7eb30eb0c4df8222b89f3328223c788de02fba4ca9
 docker: quay.io/biocontainers/ambidose
 aliases:
   ambidose: /usr/local/bin/ambidose

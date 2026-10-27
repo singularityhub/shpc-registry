@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vcfclick
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcfclick
 latest:
-  0.14.1--pyhdfd78af_0: 
-    sha256:5521c11f92d191f0fb71b5fa60cd11122e3d28296f503a3be6c1478d6040bb0b
+  0.14.3--pyhdfd78af_0: 
+    sha256:a980ee770ba061c9f82f1201394dde3f90df9c8f5d8e43618b3d715cf15bf0ce
 tags:
   0.8.1--pyhdfd78af_0: 
     sha256:643653b8298d1f304d28cf30d3c106809701442c4e19ecd2ffa4d8d18b17ff89
@@ -11,6 +11,8 @@ tags:
     sha256:715f953a1b0f9e2fffba4e0459a028bc23f343169ba304c5333e0e8299f97fb6
   0.14.1--pyhdfd78af_0: 
     sha256:5521c11f92d191f0fb71b5fa60cd11122e3d28296f503a3be6c1478d6040bb0b
+  0.14.3--pyhdfd78af_0: 
+    sha256:a980ee770ba061c9f82f1201394dde3f90df9c8f5d8e43618b3d715cf15bf0ce
 docker: quay.io/biocontainers/vcfclick
 aliases:
   mcp: /usr/local/bin/mcp

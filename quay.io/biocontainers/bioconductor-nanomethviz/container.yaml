@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nanomethviz
 latest:
-  2.8.1--r43hf17093f_0: 
-    sha256:2851195457e79b47d1297b2232f96daeb9be9a1499c5cef2beb987b4bb31927e
+  3.6.0--r45h55fe1e3_1-amd64: 
+    sha256:365790239f3bd07453fb841e1230016e4f602fc9d953fb5b278d518ae2fe521a
 tags:
   2.0.0--r41hc247a5b_2: 
     sha256:dfa3d49acde10f541a873508f14d3549f2bd01df87b9d7f6e48e205b02afa038
@@ -16,4 +16,6 @@ tags:
     sha256:39d305606c6b7d2880897dd1f45d56a246297886bc2042ca25fb53017dafbaf2
   2.8.1--r43hf17093f_0: 
     sha256:2851195457e79b47d1297b2232f96daeb9be9a1499c5cef2beb987b4bb31927e
+  3.6.0--r45h55fe1e3_1-amd64: 
+    sha256:365790239f3bd07453fb841e1230016e4f602fc9d953fb5b278d518ae2fe521a
 docker: quay.io/biocontainers/bioconductor-nanomethviz

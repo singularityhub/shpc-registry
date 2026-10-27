@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/metasmash
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metasmash
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:b04462e34b81977ee2d7332a2c3739961fa35f41c882d57c2966b2c1dbd86a7e
+  0.1.5--pyhdfd78af_1: 
+    sha256:595b037e60e146b38490b0fb94d8b3c25f7be607674fb3a08888a86669e27868
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:7d4bafb9952292119fef53f58b09c7ef26cb7282c7c766793fc02b194012b918
@@ -13,6 +13,8 @@ tags:
     sha256:c73deefa277ec856e721489e682e699e631e39547588c14044f7b35a329ce3d4
   0.1.4--pyhdfd78af_0: 
     sha256:b04462e34b81977ee2d7332a2c3739961fa35f41c882d57c2966b2c1dbd86a7e
+  0.1.5--pyhdfd78af_1: 
+    sha256:595b037e60e146b38490b0fb94d8b3c25f7be607674fb3a08888a86669e27868
 docker: quay.io/biocontainers/metasmash
 aliases:
   brawn: /usr/local/bin/brawn
