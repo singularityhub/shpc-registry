@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chelae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chelae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chelae/container.yaml"
-updated_at: "2026-10-27 07:45:45.861847"
+updated_at: "2026-10-28 08:19:48.410360"
 latest: "0.2.1--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/chelae"
 aliases:

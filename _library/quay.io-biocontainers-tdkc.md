@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tdkc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tdkc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tdkc/container.yaml"
-updated_at: "2026-10-27 08:18:27.899731"
+updated_at: "2026-10-28 08:52:24.196125"
 latest: "1.0.2--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/tdkc"
 aliases:

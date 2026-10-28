@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytome/container.yaml"
-updated_at: "2026-10-27 08:14:35.410947"
+updated_at: "2026-10-28 08:48:31.171949"
 latest: "0.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cytome"
 aliases:

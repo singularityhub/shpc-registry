@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tissue-sc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tissue-sc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tissue-sc/container.yaml"
-updated_at: "2026-10-27 08:01:41.658632"
+updated_at: "2026-10-28 08:35:51.174834"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tissue-sc"
 aliases:

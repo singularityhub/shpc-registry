@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dive-mri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dive-mri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dive-mri/container.yaml"
-updated_at: "2026-10-27 07:37:16.792320"
+updated_at: "2026-10-28 08:11:15.080064"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dive-mri"
 aliases:
