@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/trace50
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trace50
+latest:
+  5.0.0--py310hce5ca29_0: 
+    sha256:218ca864f3484deede53fce0d7db88045db3cd0cded1463f4d4888e26fcfbdbb
+tags:
+  5.0.0--py310hce5ca29_0: 
+    sha256:218ca864f3484deede53fce0d7db88045db3cd0cded1463f4d4888e26fcfbdbb
+docker: quay.io/biocontainers/trace50
+aliases:
+  trace50: /usr/local/bin/trace50
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
