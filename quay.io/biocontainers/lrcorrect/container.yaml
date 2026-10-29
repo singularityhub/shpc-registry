@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/lrcorrect
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lrcorrect
+latest:
+  0.1.0--hf1b6044_0: 
+    sha256:f81cab77e6e875ad7fdd6f62635bd9d0cd70b140c363f071c2a620eb5d5db47d
+tags:
+  0.1.0--hf1b6044_0: 
+    sha256:f81cab77e6e875ad7fdd6f62635bd9d0cd70b140c363f071c2a620eb5d5db47d
+docker: quay.io/biocontainers/lrcorrect
+aliases:
+  lrcorrect: /usr/local/bin/lrcorrect

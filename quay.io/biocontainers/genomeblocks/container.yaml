@@ -1,0 +1,48 @@
+url: https://biocontainers.pro/tools/genomeblocks
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genomeblocks
+latest:
+  2.0.1--pyhdfd78af_0: 
+    sha256:2e5a8ab87a6092edcd50b23bcde52be57d336ed38724116e572650492e279799
+tags:
+  2.0.1--pyhdfd78af_0: 
+    sha256:2e5a8ab87a6092edcd50b23bcde52be57d336ed38724116e572650492e279799
+docker: quay.io/biocontainers/genomeblocks
+aliases:
+  boostchr.pl: /usr/local/bin/boostchr.pl
+  column_remover.pl.bak: /usr/local/bin/column_remover.pl.bak
+  create_randompairs.pl: /usr/local/bin/create_randompairs.pl
+  duplicate_header_remover.pl.bak: 
+    /usr/local/bin/duplicate_header_remover.pl.bak
+  fragment_4dnpairs.pl.bak: /usr/local/bin/fragment_4dnpairs.pl.bak
+  juicer_shortform2pairs.pl.bak: /usr/local/bin/juicer_shortform2pairs.pl.bak
+  merged_nodup2pairs.pl.bak: /usr/local/bin/merged_nodup2pairs.pl.bak
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  old_merged_nodup2pairs.pl.bak: /usr/local/bin/old_merged_nodup2pairs.pl.bak
+  perl5.44.0: /usr/local/bin/perl5.44.0
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  cooler: /usr/local/bin/cooler
+  bam2pairs: /usr/local/bin/bam2pairs
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix
+  pairs_merger: /usr/local/bin/pairs_merger
+  process_merged_nodup.sh: /usr/local/bin/process_merged_nodup.sh
+  process_old_merged_nodup.sh: /usr/local/bin/process_old_merged_nodup.sh
+  streamer_1d: /usr/local/bin/streamer_1d
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  dask: /usr/local/bin/dask
+  get_gprof: /usr/local/bin/get_gprof
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  bokeh: /usr/local/bin/bokeh
