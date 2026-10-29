@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metasmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasmash/container.yaml"
-updated_at: "2026-10-28 08:40:16.114535"
+updated_at: "2026-10-29 08:44:18.579638"
 latest: "0.1.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metasmash"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nirvana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nirvana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nirvana/container.yaml"
-updated_at: "2026-10-28 08:48:18.116877"
+updated_at: "2026-10-29 08:12:29.036305"
 latest: "3.18.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/nirvana"
 aliases:

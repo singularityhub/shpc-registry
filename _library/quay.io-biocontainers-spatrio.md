@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatrio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatrio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatrio/container.yaml"
-updated_at: "2026-10-28 08:17:55.272949"
+updated_at: "2026-10-29 08:48:39.827547"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spatrio"
 aliases:

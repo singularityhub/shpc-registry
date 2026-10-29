@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snk-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snk-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snk-cli/container.yaml"
-updated_at: "2026-10-28 08:22:08.876951"
+updated_at: "2026-10-29 08:32:20.050469"
 latest: "0.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snk-cli"
 aliases:

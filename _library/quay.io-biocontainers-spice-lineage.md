@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spice-lineage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spice-lineage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spice-lineage/container.yaml"
-updated_at: "2026-10-28 08:04:47.663717"
+updated_at: "2026-10-29 08:15:40.223130"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spice-lineage"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms-pred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms-pred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms-pred/container.yaml"
-updated_at: "2026-10-28 08:05:52.946036"
+updated_at: "2026-10-29 08:22:02.291138"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ms-pred"
 aliases:

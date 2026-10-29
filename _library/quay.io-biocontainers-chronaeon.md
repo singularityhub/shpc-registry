@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chronaeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chronaeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chronaeon/container.yaml"
-updated_at: "2026-10-28 08:23:14.693899"
+updated_at: "2026-10-29 08:40:24.824040"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chronaeon"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opencv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opencv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opencv/container.yaml"
-updated_at: "2026-10-28 08:11:08.782495"
+updated_at: "2026-10-29 08:15:26.211889"
 latest: "4.13.0"
 container_url: "https://biocontainers.pro/tools/opencv"
 aliases:

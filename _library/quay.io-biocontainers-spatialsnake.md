@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatialsnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatialsnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatialsnake/container.yaml"
-updated_at: "2026-10-28 08:34:13.645824"
+updated_at: "2026-10-29 08:29:04.291660"
 latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spatialsnake"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ga4gh.vrs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ga4gh.vrs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ga4gh.vrs/container.yaml"
-updated_at: "2026-10-28 08:20:01.270953"
+updated_at: "2026-10-29 08:12:13.706257"
 latest: "2.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ga4gh.vrs"
 aliases:

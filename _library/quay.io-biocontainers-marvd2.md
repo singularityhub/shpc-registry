@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marvd2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marvd2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marvd2/container.yaml"
-updated_at: "2026-10-28 08:47:37.701530"
+updated_at: "2026-10-29 08:39:03.753161"
 latest: "0.11.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/marvd2"
 aliases:

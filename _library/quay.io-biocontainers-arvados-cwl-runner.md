@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arvados-cwl-runner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arvados-cwl-runner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arvados-cwl-runner/container.yaml"
-updated_at: "2026-10-28 08:56:01.589143"
+updated_at: "2026-10-29 08:20:09.304101"
 latest: "3.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/arvados-cwl-runner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longdust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longdust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longdust/container.yaml"
-updated_at: "2026-10-28 08:47:43.418713"
+updated_at: "2026-10-29 08:31:53.115993"
 latest: "1.2--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/longdust"
 aliases:

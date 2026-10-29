@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqprep/container.yaml"
-updated_at: "2026-10-28 08:58:01.920052"
+updated_at: "2026-10-29 08:23:03.356137"
 latest: "1.3.2--h577a1d6_10"
 container_url: "https://biocontainers.pro/tools/seqprep"
 aliases:

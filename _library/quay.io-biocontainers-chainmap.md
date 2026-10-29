@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chainmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chainmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chainmap/container.yaml"
-updated_at: "2026-10-28 08:48:12.727342"
+updated_at: "2026-10-29 08:51:38.250033"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/chainmap"
 aliases:

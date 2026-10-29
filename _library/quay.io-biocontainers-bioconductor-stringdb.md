@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stringdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stringdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stringdb/container.yaml"
-updated_at: "2026-10-28 08:48:57.114896"
+updated_at: "2026-10-29 08:42:55.062864"
 latest: "2.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stringdb"
 

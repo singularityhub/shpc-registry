@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bammmotif2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bammmotif2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bammmotif2/container.yaml"
-updated_at: "2026-10-28 08:19:52.419212"
+updated_at: "2026-10-29 08:12:20.558498"
 latest: "2.0.0--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/bammmotif2"
 aliases:

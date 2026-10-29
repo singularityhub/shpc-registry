@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bbcanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bbcanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bbcanalyzer/container.yaml"
-updated_at: "2026-10-28 08:40:20.115916"
+updated_at: "2026-10-29 08:44:25.313449"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bbcanalyzer"
 aliases:
