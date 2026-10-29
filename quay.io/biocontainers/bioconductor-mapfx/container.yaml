@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/bioconductor-mapfx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-mapfx
+latest:
+  1.6.3--r45hdfd78af_0-amd64: 
+    sha256:e10cf459572e007e8be3607775ed342706311d2c8488e84bcd8f52c9932e23df
+tags:
+  1.6.3--r45hdfd78af_0-amd64: 
+    sha256:e10cf459572e007e8be3607775ed342706311d2c8488e84bcd8f52c9932e23df
+docker: quay.io/biocontainers/bioconductor-mapfx
+aliases:
+  gmake: /usr/local/bin/gmake
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  h2benchmark: /usr/local/bin/h2benchmark
+  fc-genconf: /usr/local/bin/fc-genconf
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  checksum-profile: /usr/local/bin/checksum-profile
+  pandoc-server: /usr/local/bin/pandoc-server
+  elasticurl: /usr/local/bin/elasticurl
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  h5delete: /usr/local/bin/h5delete
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  h5fc: /usr/local/bin/h5fc
