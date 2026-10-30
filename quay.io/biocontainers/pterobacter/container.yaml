@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/pterobacter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pterobacter
+latest:
+  0.1.1--h6f1597e_0: 
+    sha256:bc4ad1031b5252e7079bf320699a1c369db6246abfab259cbfae3cdc0d1d9524
+tags:
+  0.1.1--h6f1597e_0: 
+    sha256:bc4ad1031b5252e7079bf320699a1c369db6246abfab259cbfae3cdc0d1d9524
+docker: quay.io/biocontainers/pterobacter
+aliases:
+  ptero: /usr/local/bin/ptero
+  pterobacter: /usr/local/bin/pterobacter

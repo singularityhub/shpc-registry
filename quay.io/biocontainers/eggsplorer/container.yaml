@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/eggsplorer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eggsplorer
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:09691d29f57d22debcb27a3e2d097e4f8f38619b4810ace0fa291fc7423a4475
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:09691d29f57d22debcb27a3e2d097e4f8f38619b4810ace0fa291fc7423a4475
+docker: quay.io/biocontainers/eggsplorer
+aliases:
+  eggsplorer: /usr/local/bin/eggsplorer
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
