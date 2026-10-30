@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decodiphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decodiphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decodiphy/container.yaml"
-updated_at: "2026-10-29 08:38:13.544237"
+updated_at: "2026-10-30 08:41:52.496296"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/decodiphy"
 aliases:

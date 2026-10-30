@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rammappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rammappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rammappy/container.yaml"
-updated_at: "2026-10-29 08:40:53.407652"
+updated_at: "2026-10-30 08:44:38.679439"
 latest: "0.1.3--py310h75e7593_0"
 container_url: "https://biocontainers.pro/tools/rammappy"
 aliases:

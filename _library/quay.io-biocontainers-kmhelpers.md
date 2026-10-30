@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmhelpers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmhelpers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmhelpers/container.yaml"
-updated_at: "2026-10-29 08:47:37.661573"
+updated_at: "2026-10-30 08:51:22.904721"
 latest: "0.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kmhelpers"
 aliases:

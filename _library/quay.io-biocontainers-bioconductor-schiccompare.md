@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-schiccompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-schiccompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-schiccompare/container.yaml"
-updated_at: "2026-10-29 08:17:06.400603"
+updated_at: "2026-10-30 08:19:54.152170"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-schiccompare"
 aliases:

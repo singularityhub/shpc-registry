@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyinfernal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyinfernal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyinfernal/container.yaml"
-updated_at: "2026-10-29 08:52:00.574385"
+updated_at: "2026-10-30 08:55:54.996735"
 latest: "0.1.1--py310h6813faf_0"
 container_url: "https://biocontainers.pro/tools/pyinfernal"
 aliases:

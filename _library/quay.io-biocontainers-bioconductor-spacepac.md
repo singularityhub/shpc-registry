@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spacepac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spacepac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spacepac/container.yaml"
-updated_at: "2026-10-29 08:49:05.803683"
+updated_at: "2026-10-30 08:52:57.792824"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spacepac"
 

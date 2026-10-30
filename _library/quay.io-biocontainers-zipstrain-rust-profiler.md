@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zipstrain-rust-profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zipstrain-rust-profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zipstrain-rust-profiler/container.yaml"
-updated_at: "2026-10-29 08:37:02.437214"
+updated_at: "2026-10-30 08:40:39.805298"
 latest: "0.1.0--py314h9fe5951_0"
 container_url: "https://biocontainers.pro/tools/zipstrain-rust-profiler"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sativa-epang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sativa-epang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sativa-epang/container.yaml"
-updated_at: "2026-10-29 08:32:55.851436"
+updated_at: "2026-10-30 08:36:45.012907"
 latest: "0.10.2--py314hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/sativa-epang"
 aliases:
