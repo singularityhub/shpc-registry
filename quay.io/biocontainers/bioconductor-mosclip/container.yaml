@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/bioconductor-mosclip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-mosclip
+latest:
+  1.4.0--r45hdfd78af_0-amd64: 
+    sha256:cc383ac166738d12b5ff2262326730e58d60c1fcc9e30f1d3a08b012a2c6372a
+tags:
+  1.4.0--r45hdfd78af_0-amd64: 
+    sha256:cc383ac166738d12b5ff2262326730e58d60c1fcc9e30f1d3a08b012a2c6372a
+docker: quay.io/biocontainers/bioconductor-mosclip
+aliases:
+  gmake: /usr/local/bin/gmake
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  fc-genconf: /usr/local/bin/fc-genconf
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  numpy-config: /usr/local/bin/numpy-config
