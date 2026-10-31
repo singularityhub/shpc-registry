@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ygs98.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ygs98.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ygs98.db/container.yaml"
-updated_at: "2026-10-30 08:26:03.168598"
+updated_at: "2026-10-31 08:20:57.111184"
 latest: "3.13.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-ygs98.db"
 aliases:

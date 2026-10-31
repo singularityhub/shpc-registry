@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/robust-pcst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/robust-pcst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/robust-pcst/container.yaml"
-updated_at: "2026-10-30 08:41:05.334053"
+updated_at: "2026-10-31 08:37:27.997776"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/robust-pcst"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hyper/container.yaml"
-updated_at: "2026-10-30 08:52:12.847642"
+updated_at: "2026-10-31 08:49:12.353391"
 latest: "2.8.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hyper"
 aliases:

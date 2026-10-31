@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-encodexplorerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-encodexplorerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-encodexplorerdata/container.yaml"
-updated_at: "2026-10-30 08:47:18.978714"
+updated_at: "2026-10-31 08:43:50.629480"
 latest: "0.99.5--r45hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-encodexplorerdata"
 

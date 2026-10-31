@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicparser/container.yaml"
-updated_at: "2026-10-30 08:22:32.361336"
+updated_at: "2026-10-31 08:17:08.967350"
 latest: "1.2.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicparser"
 aliases:

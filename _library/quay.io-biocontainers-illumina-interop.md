@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/illumina-interop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illumina-interop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illumina-interop/container.yaml"
-updated_at: "2026-10-30 08:43:31.898483"
+updated_at: "2026-10-31 08:39:52.449948"
 latest: "1.9.0--h503566f_0"
 container_url: "https://biocontainers.pro/tools/illumina-interop"
 aliases:

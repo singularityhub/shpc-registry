@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agpcorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agpcorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agpcorrect/container.yaml"
-updated_at: "2026-10-30 08:49:42.571449"
+updated_at: "2026-10-31 08:46:22.159220"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agpcorrect"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unimap/container.yaml"
-updated_at: "2026-10-30 08:48:37.242202"
+updated_at: "2026-10-31 08:45:09.890260"
 latest: "0.1--h577a1d6_7"
 container_url: "https://biocontainers.pro/tools/unimap"
 aliases:

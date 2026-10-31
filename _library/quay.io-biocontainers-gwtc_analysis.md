@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gwtc_analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gwtc_analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gwtc_analysis/container.yaml"
-updated_at: "2026-10-30 08:33:08.523643"
+updated_at: "2026-10-31 08:28:42.071473"
 latest: "0.4.3"
 container_url: "https://biocontainers.pro/tools/gwtc_analysis"
 aliases:

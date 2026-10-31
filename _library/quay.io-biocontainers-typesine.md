@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/typesine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/typesine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/typesine/container.yaml"
-updated_at: "2026-10-30 08:36:02.354896"
+updated_at: "2026-10-31 08:31:50.715318"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/typesine"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsat-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsat-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsat-core/container.yaml"
-updated_at: "2026-10-30 08:25:51.092897"
+updated_at: "2026-10-31 08:20:44.043030"
 latest: "2026.10.08--hed7202d_0"
 container_url: "https://biocontainers.pro/tools/rsat-core"
 aliases:

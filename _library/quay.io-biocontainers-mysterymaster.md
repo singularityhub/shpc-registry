@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mysterymaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysterymaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysterymaster/container.yaml"
-updated_at: "2026-10-30 08:52:49.972492"
+updated_at: "2026-10-31 08:49:51.773046"
 latest: "0.0.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mysterymaster"
 aliases:

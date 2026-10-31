@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aviary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aviary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aviary/container.yaml"
-updated_at: "2026-10-30 08:54:14.370719"
+updated_at: "2026-10-31 08:51:16.645628"
 latest: "0.13.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aviary"
 aliases:

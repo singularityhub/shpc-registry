@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-alien-build-plugin-download-gitlab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-alien-build-plugin-download-gitlab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-alien-build-plugin-download-gitlab/container.yaml"
-updated_at: "2026-10-30 08:39:20.973511"
+updated_at: "2026-10-31 08:35:36.001306"
 latest: "0.01--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-alien-build-plugin-download-gitlab"
 

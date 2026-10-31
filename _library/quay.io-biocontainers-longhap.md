@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longhap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longhap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longhap/container.yaml"
-updated_at: "2026-10-30 08:26:08.473419"
+updated_at: "2026-10-31 08:21:02.758545"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longhap"
 aliases:

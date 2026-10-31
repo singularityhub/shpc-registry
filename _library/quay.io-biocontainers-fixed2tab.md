@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fixed2tab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fixed2tab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fixed2tab/container.yaml"
-updated_at: "2026-10-30 08:55:05.046117"
+updated_at: "2026-10-31 08:52:10.525149"
 latest: "0.1.0"
 container_url: "https://biocontainers.pro/tools/fixed2tab"
 aliases:

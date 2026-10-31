@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-piuma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-piuma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-piuma/container.yaml"
-updated_at: "2026-10-30 08:37:38.292897"
+updated_at: "2026-10-31 08:33:38.790882"
 latest: "1.5.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-piuma"
 aliases:

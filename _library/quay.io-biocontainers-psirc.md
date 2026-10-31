@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psirc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psirc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psirc/container.yaml"
-updated_at: "2026-10-30 08:32:56.296652"
+updated_at: "2026-10-31 08:28:29.078643"
 latest: "1.0.0--he1fd2f9_0"
 container_url: "https://biocontainers.pro/tools/psirc"
 aliases:

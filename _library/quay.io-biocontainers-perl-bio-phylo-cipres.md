@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-phylo-cipres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-phylo-cipres/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-phylo-cipres/container.yaml"
-updated_at: "2026-10-30 08:21:58.101455"
+updated_at: "2026-10-31 08:16:32.708859"
 latest: "v0.2.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-bio-phylo-cipres"
 aliases:

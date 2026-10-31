@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-surfr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-surfr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-surfr/container.yaml"
-updated_at: "2026-10-30 08:48:18.283074"
+updated_at: "2026-10-31 08:44:51.081365"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-surfr"
 aliases:
