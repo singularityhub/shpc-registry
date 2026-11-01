@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bwa-mem3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bwa-mem3
 latest:
-  0.13.0--h8d53bd0_0: 
-    sha256:d2f0e848f69795832901ef0ddd4bd30105bfdc25f8010c645937ee816ffa995e
+  0.15.1--h8d53bd0_1: 
+    sha256:128aac72abfb443b43931c25db82565531a729affa5faf4e6e42d1378cec98c5
 tags:
   0.2.1--h5814d7d_0: 
     sha256:2ee7f4b1b33d69d7e679e4bd1779595c9f90b25612f11da2bb9091deeb9e5caa
@@ -31,6 +31,10 @@ tags:
     sha256:9924a6bc2ec3452f2105f5cb49ad294e1a619568a8fd414b14dfff801b845e10
   0.11.0--h8d53bd0_0: 
     sha256:8316127341bf11fbc4faaef712708143e49fc3cb1451dd29435eccc78c4d98be
+  0.15.1--h8d53bd0_1: 
+    sha256:128aac72abfb443b43931c25db82565531a729affa5faf4e6e42d1378cec98c5
+  0.14.1--h8d53bd0_0: 
+    sha256:39130772fb0e348ad8f89d10cc44c851127ce752fdabf87465ce8a086085f646
 docker: quay.io/biocontainers/bwa-mem3
 aliases:
   bwa-mem3: /usr/local/bin/bwa-mem3

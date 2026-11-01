@@ -7,6 +7,8 @@ latest:
 tags:
   1.0.1--py310h6813faf_0: 
     sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b
+  1.0.1--py312hfabe715_0: 
+    sha256:2f09e8cca0aa37a15ac038d47d6faf7927f2e69f057414d41073de02af8d352b
 docker: quay.io/biocontainers/myers-batch
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

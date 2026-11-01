@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-scfeatures
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:152884d8a6a99b9151844eb34835b2f86575a7d98e8c0b88f85c118631368872
+  1.10.9--r45hdfd78af_0-amd64: 
+    sha256:d7b21866707785c95bed9d2ae5c317e598abec7386b9ae814d397788e2b7117c
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:2c8d79513952dfd23fc2335c5b2da3023ef32af7357b5bcabaad573ff68f6299
@@ -12,6 +12,8 @@ tags:
     sha256:9df41cb2ef67de2cd7c7496721e224300d1e3d7747f1b4a08ee7f367be844766
   1.6.0--r44hdfd78af_0: 
     sha256:152884d8a6a99b9151844eb34835b2f86575a7d98e8c0b88f85c118631368872
+  1.10.9--r45hdfd78af_0-amd64: 
+    sha256:d7b21866707785c95bed9d2ae5c317e598abec7386b9ae814d397788e2b7117c
 docker: quay.io/biocontainers/bioconductor-scfeatures
 aliases:
   geosop: /usr/local/bin/geosop

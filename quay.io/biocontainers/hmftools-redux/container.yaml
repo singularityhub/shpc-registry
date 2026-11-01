@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-redux
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-redux
 latest:
-  2.0.5--hdfd78af_0: 
-    sha256:3ff467eb9a66c2c9729e9e78f8aac5fe20eed9b51ee4e09987427be332ee2078
+  2.0.7--hdfd78af_0: 
+    sha256:f19a8cc659837bcd756950744bdfe2cbb4693662d048d3d48cde98fd0a321fea
 tags:
   1.0_beta--hdfd78af_0: 
     sha256:cd8b9582cdc782c83332b0d4b4c532f617c41d19d0725426413de301cd5da6ed
@@ -33,6 +33,8 @@ tags:
     sha256:11ebc2e253cf249d153ceb7b6fe26fad14e3d51e12fba5072bfe9af23b6ca264
   2.0.5--hdfd78af_0: 
     sha256:3ff467eb9a66c2c9729e9e78f8aac5fe20eed9b51ee4e09987427be332ee2078
+  2.0.7--hdfd78af_0: 
+    sha256:f19a8cc659837bcd756950744bdfe2cbb4693662d048d3d48cde98fd0a321fea
 docker: quay.io/biocontainers/hmftools-redux
 aliases:
   redux: /usr/local/bin/redux
