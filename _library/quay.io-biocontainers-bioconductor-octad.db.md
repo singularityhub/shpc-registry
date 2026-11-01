@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-octad.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-octad.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-octad.db/container.yaml"
-updated_at: "2026-10-31 08:43:28.039606"
+updated_at: "2026-11-01 09:39:57.085980"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-octad.db"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/myers-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myers-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myers-batch/container.yaml"
-updated_at: "2026-10-31 08:47:39.741550"
+updated_at: "2026-11-01 09:45:08.649973"
 latest: "1.0.1--py310h6813faf_0"
 container_url: "https://biocontainers.pro/tools/myers-batch"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.1--py310h6813faf_0"
+ - "1.0.1--py312hfabe715_0"
 description: "singularity registry hpc automated addition for myers-batch"
-config: {"url": "https://biocontainers.pro/tools/myers-batch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for myers-batch", "latest": {"1.0.1--py310h6813faf_0": "sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b"}, "tags": {"1.0.1--py310h6813faf_0": "sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b"}, "docker": "quay.io/biocontainers/myers-batch", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/myers-batch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for myers-batch", "latest": {"1.0.1--py310h6813faf_0": "sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b"}, "tags": {"1.0.1--py310h6813faf_0": "sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b", "1.0.1--py312hfabe715_0": "sha256:2f09e8cca0aa37a15ac038d47d6faf7927f2e69f057414d41073de02af8d352b"}, "docker": "quay.io/biocontainers/myers-batch", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/myers-batch.

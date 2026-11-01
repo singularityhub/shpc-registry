@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pango-collapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pango-collapse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pango-collapse/container.yaml"
-updated_at: "2026-10-31 08:14:24.681410"
-latest: "0.8.2--pyhdfd78af_0"
+updated_at: "2026-11-01 09:02:57.040681"
+latest: "0.8.3--pyh2628382_0"
 container_url: "https://biocontainers.pro/tools/pango-collapse"
 aliases:
  - "pango-collapse"
@@ -20,8 +20,9 @@ aliases:
  - "python3.11-config"
 versions:
  - "0.8.2--pyhdfd78af_0"
+ - "0.8.3--pyh2628382_0"
 description: "singularity registry hpc automated addition for pango-collapse"
-config: {"url": "https://biocontainers.pro/tools/pango-collapse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pango-collapse", "latest": {"0.8.2--pyhdfd78af_0": "sha256:170b7b266d397e6184d6d699e1d6e87492e2c27a0381b4dd29c8dcb5156853ce"}, "tags": {"0.8.2--pyhdfd78af_0": "sha256:170b7b266d397e6184d6d699e1d6e87492e2c27a0381b4dd29c8dcb5156853ce"}, "docker": "quay.io/biocontainers/pango-collapse", "aliases": {"pango-collapse": "/usr/local/bin/pango-collapse", "cmark": "/usr/local/bin/cmark", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/pango-collapse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pango-collapse", "latest": {"0.8.3--pyh2628382_0": "sha256:178bb6b14eb8a5b20e9abf23b0a02126eaf525e3f5d11e10b3345c07e30c17f7"}, "tags": {"0.8.2--pyhdfd78af_0": "sha256:170b7b266d397e6184d6d699e1d6e87492e2c27a0381b4dd29c8dcb5156853ce", "0.8.3--pyh2628382_0": "sha256:178bb6b14eb8a5b20e9abf23b0a02126eaf525e3f5d11e10b3345c07e30c17f7"}, "docker": "quay.io/biocontainers/pango-collapse", "aliases": {"pango-collapse": "/usr/local/bin/pango-collapse", "cmark": "/usr/local/bin/cmark", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pango-collapse.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pango-collapse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pango-collapse:0.8.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pango-collapse:0.8.3--pyh2628382_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pango-collapse/0.8.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/pango-collapse/0.8.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/pango-collapse/0.8.3--pyh2628382_0
+$ module help quay.io/biocontainers/pango-collapse/0.8.3--pyh2628382_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

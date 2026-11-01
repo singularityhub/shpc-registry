@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/newmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newmap/container.yaml"
-updated_at: "2026-10-31 08:11:40.921423"
-latest: "0.2--py310h8ea774a_1"
+updated_at: "2026-11-01 08:59:32.694605"
+latest: "0.3--py311h9a48388_0"
 container_url: "https://biocontainers.pro/tools/newmap"
 aliases:
  - "newmap"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.2--py310h8ea774a_1"
  - "0.2--py312h9c9b0c2_1"
+ - "0.3--py311h9a48388_0"
 description: "singularity registry hpc automated addition for newmap"
-config: {"url": "https://biocontainers.pro/tools/newmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for newmap", "latest": {"0.2--py310h8ea774a_1": "sha256:623369e1282526e349897d2ee7ddfe2022c50c470bee5c31ba3c7bd8e11c2f75"}, "tags": {"0.2--py310h8ea774a_1": "sha256:623369e1282526e349897d2ee7ddfe2022c50c470bee5c31ba3c7bd8e11c2f75", "0.2--py312h9c9b0c2_1": "sha256:51c072591ec72ee36f58aad7c3f9a1693d43868c7f66b028d7f5ea9e09b6170d"}, "docker": "quay.io/biocontainers/newmap", "aliases": {"newmap": "/usr/local/bin/newmap", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/newmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for newmap", "latest": {"0.3--py311h9a48388_0": "sha256:50f8e0595b83c2628939ecade205fba7d8c4b8bdd168b65d245a2783094c960f"}, "tags": {"0.2--py310h8ea774a_1": "sha256:623369e1282526e349897d2ee7ddfe2022c50c470bee5c31ba3c7bd8e11c2f75", "0.2--py312h9c9b0c2_1": "sha256:51c072591ec72ee36f58aad7c3f9a1693d43868c7f66b028d7f5ea9e09b6170d", "0.3--py311h9a48388_0": "sha256:50f8e0595b83c2628939ecade205fba7d8c4b8bdd168b65d245a2783094c960f"}, "docker": "quay.io/biocontainers/newmap", "aliases": {"newmap": "/usr/local/bin/newmap", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/newmap.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/newmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/newmap:0.2--py310h8ea774a_1
+$ shpc install quay.io/biocontainers/newmap:0.3--py311h9a48388_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/newmap/0.2--py310h8ea774a_1
-$ module help quay.io/biocontainers/newmap/0.2--py310h8ea774a_1
+$ module load quay.io/biocontainers/newmap/0.3--py311h9a48388_0
+$ module help quay.io/biocontainers/newmap/0.3--py311h9a48388_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

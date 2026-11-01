@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tesseract-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesseract-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesseract-assembler/container.yaml"
-updated_at: "2026-10-31 08:11:59.285728"
-latest: "1.2.5--haa19386_0"
+updated_at: "2026-11-01 08:59:56.075060"
+latest: "1.6.2--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/tesseract-assembler"
 aliases:
  - "tessera"
@@ -14,8 +14,10 @@ versions:
  - "1.2.2--h03affb9_0"
  - "1.2.4--h03affb9_0"
  - "1.2.5--haa19386_0"
+ - "1.6.2--h3be2455_0"
+ - "1.4.0--h3be2455_0"
 description: "singularity registry hpc automated addition for tesseract-assembler"
-config: {"url": "https://biocontainers.pro/tools/tesseract-assembler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tesseract-assembler", "latest": {"1.2.5--haa19386_0": "sha256:2a3db1f13af9918cd6d691350fdc6c81835357b220a2c4859281d107f85e22f7"}, "tags": {"1.2.2--h03affb9_0": "sha256:00d4daee77d4a7e68c687adfc260afe91cbd251561d6526c035d0284ba85c730", "1.2.4--h03affb9_0": "sha256:5107c151ee59a73d3eb8ec246e3f8e77f2f12a66311f4866fd8b983761e9bba3", "1.2.5--haa19386_0": "sha256:2a3db1f13af9918cd6d691350fdc6c81835357b220a2c4859281d107f85e22f7"}, "docker": "quay.io/biocontainers/tesseract-assembler", "aliases": {"tessera": "/usr/local/bin/tessera", "tessera-model": "/usr/local/bin/tessera-model"}}
+config: {"url": "https://biocontainers.pro/tools/tesseract-assembler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tesseract-assembler", "latest": {"1.6.2--h3be2455_0": "sha256:12567fccb86d96943f39d653d29a9ccff984e0121faddc4a9037a098edc5cf92"}, "tags": {"1.2.2--h03affb9_0": "sha256:00d4daee77d4a7e68c687adfc260afe91cbd251561d6526c035d0284ba85c730", "1.2.4--h03affb9_0": "sha256:5107c151ee59a73d3eb8ec246e3f8e77f2f12a66311f4866fd8b983761e9bba3", "1.2.5--haa19386_0": "sha256:2a3db1f13af9918cd6d691350fdc6c81835357b220a2c4859281d107f85e22f7", "1.6.2--h3be2455_0": "sha256:12567fccb86d96943f39d653d29a9ccff984e0121faddc4a9037a098edc5cf92", "1.4.0--h3be2455_0": "sha256:5955a3cd6ed3dcc327aa64663cf8cd540cc9af1b2a1a18eec960fdea3913ed9b"}, "docker": "quay.io/biocontainers/tesseract-assembler", "aliases": {"tessera": "/usr/local/bin/tessera", "tessera-model": "/usr/local/bin/tessera-model"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tesseract-assembler.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/tesseract-assembler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tesseract-assembler:1.2.5--haa19386_0
+$ shpc install quay.io/biocontainers/tesseract-assembler:1.6.2--h3be2455_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tesseract-assembler/1.2.5--haa19386_0
-$ module help quay.io/biocontainers/tesseract-assembler/1.2.5--haa19386_0
+$ module load quay.io/biocontainers/tesseract-assembler/1.6.2--h3be2455_0
+$ module help quay.io/biocontainers/tesseract-assembler/1.6.2--h3be2455_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

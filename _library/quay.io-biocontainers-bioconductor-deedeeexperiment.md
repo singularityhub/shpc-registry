@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deedeeexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deedeeexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deedeeexperiment/container.yaml"
-updated_at: "2026-10-31 08:35:12.795627"
+updated_at: "2026-11-01 09:29:18.491443"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deedeeexperiment"
 aliases:

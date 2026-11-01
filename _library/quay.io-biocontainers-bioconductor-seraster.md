@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seraster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seraster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seraster/container.yaml"
-updated_at: "2026-10-31 08:12:31.650748"
+updated_at: "2026-11-01 09:00:36.575551"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seraster"
 aliases:

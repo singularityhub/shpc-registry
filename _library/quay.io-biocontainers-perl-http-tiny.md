@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-http-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-tiny/container.yaml"
-updated_at: "2026-10-31 08:21:53.448106"
-latest: "0.076--pl5321hdfd78af_1"
+updated_at: "2026-11-01 09:12:31.027747"
+latest: "0.096--pl5321hcbfc158_0"
 container_url: "https://biocontainers.pro/tools/perl-http-tiny"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.076--pl5321hdfd78af_1"
+ - "0.096--pl5321hcbfc158_0"
 description: "shpc-registry automated BioContainers addition for perl-http-tiny"
-config: {"url": "https://biocontainers.pro/tools/perl-http-tiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-tiny", "latest": {"0.076--pl5321hdfd78af_1": "sha256:85234157098e732a0b1e38a230a899e121fabf2e1846c3cfdb28c1cb8e8fce93"}, "tags": {"0.076--pl5321hdfd78af_1": "sha256:85234157098e732a0b1e38a230a899e121fabf2e1846c3cfdb28c1cb8e8fce93"}, "docker": "quay.io/biocontainers/perl-http-tiny", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-http-tiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-tiny", "latest": {"0.096--pl5321hcbfc158_0": "sha256:735c715cb34cb7620c610436497d30ee8154b9d4e0e2e8ddc2dbe3799d551952"}, "tags": {"0.076--pl5321hdfd78af_1": "sha256:85234157098e732a0b1e38a230a899e121fabf2e1846c3cfdb28c1cb8e8fce93", "0.096--pl5321hcbfc158_0": "sha256:735c715cb34cb7620c610436497d30ee8154b9d4e0e2e8ddc2dbe3799d551952"}, "docker": "quay.io/biocontainers/perl-http-tiny", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-tiny.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-http-tiny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-http-tiny:0.076--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-http-tiny:0.096--pl5321hcbfc158_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-http-tiny/0.076--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-http-tiny/0.076--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-http-tiny/0.096--pl5321hcbfc158_0
+$ module help quay.io/biocontainers/perl-http-tiny/0.096--pl5321hcbfc158_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
