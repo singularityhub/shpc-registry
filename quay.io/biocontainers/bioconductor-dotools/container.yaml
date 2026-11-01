@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/bioconductor-dotools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-dotools
+latest:
+  1.0.0--r45hdfd78af_0-amd64: 
+    sha256:e227a458589688db7451e8ef3f1135b75e503bb63d74e0968aadaaea8103086c
+tags:
+  1.0.0--r45hdfd78af_0-amd64: 
+    sha256:e227a458589688db7451e8ef3f1135b75e503bb63d74e0968aadaaea8103086c
+docker: quay.io/biocontainers/bioconductor-dotools
+aliases:
+  gmake: /usr/local/bin/gmake
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  fc-genconf: /usr/local/bin/fc-genconf
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info

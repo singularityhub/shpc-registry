@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/disassembler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for disassembler
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:a1bd2d290c8458872fbeaf44de53b9aa5521f9dd08836bdc4bcbe96a99e99fc1
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:a1bd2d290c8458872fbeaf44de53b9aa5521f9dd08836bdc4bcbe96a99e99fc1
+docker: quay.io/biocontainers/disassembler
+aliases:
+  GraphAligner: /usr/local/bin/GraphAligner
+  disassembler: /usr/local/bin/disassembler
+  l1_pipeline_serial: /usr/local/bin/l1_pipeline_serial
+  logan-walker: /usr/local/bin/logan-walker
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  FastTree: /usr/local/bin/FastTree
+  fasttree: /usr/local/bin/fasttree
+  idna: /usr/local/bin/idna
+  gawkbug: /usr/local/bin/gawkbug
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi
+  mafft-ginsi: /usr/local/bin/mafft-ginsi
+  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb
+  mafft-linsi: /usr/local/bin/mafft-linsi
+  mafft-nwns: /usr/local/bin/mafft-nwns
+  mafft-nwnsi: /usr/local/bin/mafft-nwnsi
+  mafft-profile: /usr/local/bin/mafft-profile
+  mafft-qinsi: /usr/local/bin/mafft-qinsi
+  mafft-xinsi: /usr/local/bin/mafft-xinsi

@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/ucsc-hgwiggle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ucsc-hgwiggle
+latest:
+  502--ha7d8dd5_0-amd64: 
+    sha256:f4091e1da2eb8841904f0e690d8f3bbe5776ca0ba2fceb90dd92d1261a9943ad
+tags:
+  502--ha7d8dd5_0-amd64: 
+    sha256:f4091e1da2eb8841904f0e690d8f3bbe5776ca0ba2fceb90dd92d1261a9943ad
+docker: quay.io/biocontainers/ucsc-hgwiggle
+aliases:
+  hgWiggle: /usr/local/bin/hgWiggle
+  zless: /usr/local/bin/zless
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

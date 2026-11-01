@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/kmer-diversity-sieve
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  kmer-diversity-sieve
+latest:
+  0.1.0--hab16a5f_0: 
+    sha256:fcb2d6c6b446e540264cb0027dc23a0d242d7b4873fc84b3f22187cad477a825
+tags:
+  0.1.0--hab16a5f_0: 
+    sha256:fcb2d6c6b446e540264cb0027dc23a0d242d7b4873fc84b3f22187cad477a825
+docker: quay.io/biocontainers/kmer-diversity-sieve
+aliases:
+  l1_pipeline_serial: /usr/local/bin/l1_pipeline_serial
