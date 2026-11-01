@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-bert
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-bert
+latest:
+  1.6.0--r45hdfd78af_0-amd64: 
+    sha256:a5911a6c2c5438caf68868e6b1f1d528748a1c34f1ebe01f1789d1e347d10bfd
+tags:
+  1.6.0--r45hdfd78af_0-amd64: 
+    sha256:a5911a6c2c5438caf68868e6b1f1d528748a1c34f1ebe01f1789d1e347d10bfd
+docker: quay.io/biocontainers/bioconductor-bert
+aliases:
+  gmake: /usr/local/bin/gmake
+  fc-genconf: /usr/local/bin/fc-genconf
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

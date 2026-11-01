@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/seqpy-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqpy-tools
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:cc99cd13efa01801d06d0636fde1c08a077ea260599c18873aa3e8da708d5265
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:cc99cd13efa01801d06d0636fde1c08a077ea260599c18873aa3e8da708d5265
+docker: quay.io/biocontainers/seqpy-tools
+aliases:
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  numpy-config: /usr/local/bin/numpy-config

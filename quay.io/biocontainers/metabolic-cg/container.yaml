@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/metabolic-cg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metabolic-cg
+latest:
+  4.1.1--hdfd78af_0: 
+    sha256:108374ed932a5d5e2116beea3cc7aed0b81c7f6669e94e618f55f834debc5b2b
+tags:
+  4.1.1--hdfd78af_0: 
+    sha256:108374ed932a5d5e2116beea3cc7aed0b81c7f6669e94e618f55f834debc5b2b
+docker: quay.io/biocontainers/metabolic-cg
+aliases:
+  All_Module_KO_ids.txt: /usr/local/bin/All_Module_KO_ids.txt
+  METABOLIC-C.2nd_run.pl: /usr/local/bin/METABOLIC-C.2nd_run.pl
+  METABOLIC-C.pl: /usr/local/bin/METABOLIC-C.pl
+  METABOLIC-G.pl: /usr/local/bin/METABOLIC-G.pl
+  METABOLIC_hmm_db.tgz: /usr/local/bin/METABOLIC_hmm_db.tgz
+  METABOLIC_template_and_database.tgz: 
+    /usr/local/bin/METABOLIC_template_and_database.tgz
+  coverm: /usr/local/bin/coverm
+  create_excel_spreadsheet.R: /usr/local/bin/create_excel_spreadsheet.R
+  draw_biogeochemical_cycles.R: /usr/local/bin/draw_biogeochemical_cycles.R
+  draw_functional_network_diagram.R: 
+    /usr/local/bin/draw_functional_network_diagram.R
+  draw_metabolic_Sankey_diagram.R: 
+    /usr/local/bin/draw_metabolic_Sankey_diagram.R
+  draw_sequential_reaction_diagram.R: 
+    /usr/local/bin/draw_sequential_reaction_diagram.R
+  gmake: /usr/local/bin/gmake
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  strobealign: /usr/local/bin/strobealign
+  skani: /usr/local/bin/skani
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  starcode: /usr/local/bin/starcode
+  sambamba: /usr/local/bin/sambamba
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  zless: /usr/local/bin/zless
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  fastANI: /usr/local/bin/fastANI
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
