@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mobiorigin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mobiorigin
 latest:
-  0.1.5--pyhdfd78af_0: 
-    sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268
+  0.1.7--pyhdfd78af_0: 
+    sha256:eb2042b518d8e030e4c01f08b3ce8cd6b567d5cefa8ba59788c86942e16d916a
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268
+  0.1.7--pyhdfd78af_0: 
+    sha256:eb2042b518d8e030e4c01f08b3ce8cd6b567d5cefa8ba59788c86942e16d916a
 docker: quay.io/biocontainers/mobiorigin
 aliases:
   amrfinder_index: /usr/local/bin/amrfinder_index

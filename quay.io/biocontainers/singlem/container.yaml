@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/singlem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for singlem
 latest:
-  0.21.4--pyhdfd78af_0: 
-    sha256:8b22549a86476b51e8f9c4d54a17e93cd952c794b6e2b9a398f86a75c9c68307
+  0.21.4--pyhdfd78af_2: 
+    sha256:8e4c4c283020ec05e33d5b31961d11394fa77ec0529513db4b2585c28adfcd91
 tags:
   0.13.2--pyhdfd78af_2: 
     sha256:1c353c5f0cc33cc9db5ec18b4cd414f10f25b1bd31a9fb9764277e4c8557ff77
@@ -33,6 +33,8 @@ tags:
     sha256:c01b406761e9453ad1a779a01270d60105b8c9e66691790a611ac0dd7a5fbc8a
   0.21.4--pyhdfd78af_0: 
     sha256:8b22549a86476b51e8f9c4d54a17e93cd952c794b6e2b9a398f86a75c9c68307
+  0.21.4--pyhdfd78af_2: 
+    sha256:8e4c4c283020ec05e33d5b31961d11394fa77ec0529513db4b2585c28adfcd91
 docker: quay.io/biocontainers/singlem
 aliases:
   AbstractPlot.py: /usr/local/bin/AbstractPlot.py

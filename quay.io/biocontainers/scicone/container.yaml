@@ -7,6 +7,8 @@ latest:
 tags:
   1.0.0--py310hbebfe88_0: 
     sha256:cace263467c472160c894d80001ef1fe10b631d80bb641a0df3ca39f73a8c800
+  1.0.0--py313hfaf6c7c_0: 
+    sha256:44f664df3e1117e2754e3c2394be17e8e67ee2d1293c61300b46e02ffc1d32a2
 docker: quay.io/biocontainers/scicone
 aliases:
   scicone-breakpoint_detection: /usr/local/bin/scicone-breakpoint_detection

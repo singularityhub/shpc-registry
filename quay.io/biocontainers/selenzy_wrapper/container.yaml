@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/selenzy_wrapper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for selenzy_wrapper
 latest:
-  0.3.1--pyhdfd78af_1: 
-    sha256:28c0a2f9ae1cc698a6d3fc683c3606045e968e93c3052f36fe2b9f954e9688b2
+  0.3.3--pyhdfd78af_0: 
+    sha256:a3dad950930abbfe0d50e16c64e453cfc7e8f04f42ad0f253630304323ed1067
 tags:
   0.3.0--pyhdfd78af_0: 
     sha256:05f798f89781420eefdb7e46b69b0fcd263c4e49d3b8294221d7c2bbeb306f4a
@@ -11,6 +11,8 @@ tags:
     sha256:5715d388d9648b5668a4b7a7636c41a5eac5018dc1895a15f972d4a8525b1306
   0.3.1--pyhdfd78af_1: 
     sha256:28c0a2f9ae1cc698a6d3fc683c3606045e968e93c3052f36fe2b9f954e9688b2
+  0.3.3--pyhdfd78af_0: 
+    sha256:a3dad950930abbfe0d50e16c64e453cfc7e8f04f42ad0f253630304323ed1067
 docker: quay.io/biocontainers/selenzy_wrapper
 aliases:
   depinfo: /usr/local/bin/depinfo
