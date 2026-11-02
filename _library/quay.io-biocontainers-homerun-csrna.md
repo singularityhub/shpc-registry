@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/homerun-csrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/homerun-csrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/homerun-csrna/container.yaml"
-updated_at: "2026-11-01 09:22:26.735801"
+updated_at: "2026-11-02 05:50:23.780554"
 latest: "1.0.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/homerun-csrna"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wisecondorx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wisecondorx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wisecondorx/container.yaml"
-updated_at: "2026-11-01 09:36:01.598042"
-latest: "1.3.2--pyhdfd78af_0"
+updated_at: "2026-11-02 06:03:43.247685"
+latest: "1.3.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/wisecondorx"
 aliases:
  - "WisecondorX"
@@ -26,8 +26,9 @@ versions:
  - "1.3.0--pyhdfd78af_0"
  - "1.3.1--pyhdfd78af_0"
  - "1.3.2--pyhdfd78af_0"
+ - "1.3.3--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for wisecondorx"
-config: {"url": "https://biocontainers.pro/tools/wisecondorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wisecondorx", "latest": {"1.3.2--pyhdfd78af_0": "sha256:c3db75a9a38a1c6f245b98a85cc6c78bd0c1e1d8adfe7fb11e3d3acd7d7bb818"}, "tags": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb", "1.2.7--pyhdfd78af_0": "sha256:24a66efa275c7eea19d1c2a533b01f01eeaec9f57a57ae14ff8d2b7892c049bb", "1.2.9--pyhdfd78af_0": "sha256:26f12ed4e5e5c589193fffaf45dc5e631f9a7feef4cdd6f27eec692efca08211", "1.3.0--pyhdfd78af_0": "sha256:dbfe1678ebf618fab43d44f872077f73b15b2de698da03b4a29b0c37996698ab", "1.3.1--pyhdfd78af_0": "sha256:bd78d43a0c73bf2669ed97686d13104b8682f7d1da3b15e54a43c63bbf12af4f", "1.3.2--pyhdfd78af_0": "sha256:c3db75a9a38a1c6f245b98a85cc6c78bd0c1e1d8adfe7fb11e3d3acd7d7bb818"}, "docker": "quay.io/biocontainers/wisecondorx", "aliases": {"WisecondorX": "/usr/local/bin/WisecondorX", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
+config: {"url": "https://biocontainers.pro/tools/wisecondorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wisecondorx", "latest": {"1.3.3--pyhdfd78af_1": "sha256:e6cffc1487b250579aa744fba1463fe97fa54ee792eb2222b6a16db9a0507adc"}, "tags": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb", "1.2.7--pyhdfd78af_0": "sha256:24a66efa275c7eea19d1c2a533b01f01eeaec9f57a57ae14ff8d2b7892c049bb", "1.2.9--pyhdfd78af_0": "sha256:26f12ed4e5e5c589193fffaf45dc5e631f9a7feef4cdd6f27eec692efca08211", "1.3.0--pyhdfd78af_0": "sha256:dbfe1678ebf618fab43d44f872077f73b15b2de698da03b4a29b0c37996698ab", "1.3.1--pyhdfd78af_0": "sha256:bd78d43a0c73bf2669ed97686d13104b8682f7d1da3b15e54a43c63bbf12af4f", "1.3.2--pyhdfd78af_0": "sha256:c3db75a9a38a1c6f245b98a85cc6c78bd0c1e1d8adfe7fb11e3d3acd7d7bb818", "1.3.3--pyhdfd78af_1": "sha256:e6cffc1487b250579aa744fba1463fe97fa54ee792eb2222b6a16db9a0507adc"}, "docker": "quay.io/biocontainers/wisecondorx", "aliases": {"WisecondorX": "/usr/local/bin/WisecondorX", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wisecondorx.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/wisecondorx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wisecondorx:1.3.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/wisecondorx:1.3.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wisecondorx/1.3.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/wisecondorx/1.3.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/wisecondorx/1.3.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/wisecondorx/1.3.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

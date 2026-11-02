@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tafinder3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tafinder3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tafinder3d/container.yaml"
-updated_at: "2026-11-01 09:49:37.162652"
+updated_at: "2026-11-02 06:17:11.457693"
 latest: "1.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tafinder3d"
 aliases:

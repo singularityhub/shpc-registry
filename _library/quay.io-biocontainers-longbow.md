@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longbow/container.yaml"
-updated_at: "2026-11-01 09:28:51.538445"
+updated_at: "2026-11-02 05:56:44.089100"
 latest: "2.3.0--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longbow"
 aliases:

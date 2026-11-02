@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mobiorigin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobiorigin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mobiorigin/container.yaml"
-updated_at: "2026-11-01 09:49:45.948694"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2026-11-02 06:17:20.130366"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mobiorigin"
 aliases:
  - "amrfinder_index"
@@ -56,8 +56,9 @@ aliases:
  - "pair-at-a-time"
 versions:
  - "0.1.5--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mobiorigin"
-config: {"url": "https://biocontainers.pro/tools/mobiorigin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mobiorigin", "latest": {"0.1.5--pyhdfd78af_0": "sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268"}, "docker": "quay.io/biocontainers/mobiorigin", "aliases": {"amrfinder_index": "/usr/local/bin/amrfinder_index", "archive-peptide": "/usr/local/bin/archive-peptide", "cittest": "/usr/local/bin/cittest", "combine-uids": "/usr/local/bin/combine-uids", "compare-uids": "/usr/local/bin/compare-uids", "disruption2genesymbol": "/usr/local/bin/disruption2genesymbol", "exclude-uids": "/usr/local/bin/exclude-uids", "filter-records": "/usr/local/bin/filter-records", "gene2tbl": "/usr/local/bin/gene2tbl", "gpf2info": "/usr/local/bin/gpf2info", "intersect-uids": "/usr/local/bin/intersect-uids", "mobiorigin": "/usr/local/bin/mobiorigin", "mutate": "/usr/local/bin/mutate", "rcommon.sh": "/usr/local/bin/rcommon.sh", "split-records": "/usr/local/bin/split-records", "stx.prot": "/usr/local/bin/stx.prot", "stxtyper": "/usr/local/bin/stxtyper", "test-repeat": "/usr/local/bin/test-repeat", "test_stxtyper.sh": "/usr/local/bin/test_stxtyper.sh", "uniq-count": "/usr/local/bin/uniq-count", "uniq-count-rank": "/usr/local/bin/uniq-count-rank", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "fasta_check": "/usr/local/bin/fasta_check", "pyrodigal": "/usr/local/bin/pyrodigal", "archspec": "/usr/local/bin/archspec", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time"}}
+config: {"url": "https://biocontainers.pro/tools/mobiorigin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mobiorigin", "latest": {"0.1.7--pyhdfd78af_0": "sha256:eb2042b518d8e030e4c01f08b3ce8cd6b567d5cefa8ba59788c86942e16d916a"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268", "0.1.7--pyhdfd78af_0": "sha256:eb2042b518d8e030e4c01f08b3ce8cd6b567d5cefa8ba59788c86942e16d916a"}, "docker": "quay.io/biocontainers/mobiorigin", "aliases": {"amrfinder_index": "/usr/local/bin/amrfinder_index", "archive-peptide": "/usr/local/bin/archive-peptide", "cittest": "/usr/local/bin/cittest", "combine-uids": "/usr/local/bin/combine-uids", "compare-uids": "/usr/local/bin/compare-uids", "disruption2genesymbol": "/usr/local/bin/disruption2genesymbol", "exclude-uids": "/usr/local/bin/exclude-uids", "filter-records": "/usr/local/bin/filter-records", "gene2tbl": "/usr/local/bin/gene2tbl", "gpf2info": "/usr/local/bin/gpf2info", "intersect-uids": "/usr/local/bin/intersect-uids", "mobiorigin": "/usr/local/bin/mobiorigin", "mutate": "/usr/local/bin/mutate", "rcommon.sh": "/usr/local/bin/rcommon.sh", "split-records": "/usr/local/bin/split-records", "stx.prot": "/usr/local/bin/stx.prot", "stxtyper": "/usr/local/bin/stxtyper", "test-repeat": "/usr/local/bin/test-repeat", "test_stxtyper.sh": "/usr/local/bin/test_stxtyper.sh", "uniq-count": "/usr/local/bin/uniq-count", "uniq-count-rank": "/usr/local/bin/uniq-count-rank", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "fasta_check": "/usr/local/bin/fasta_check", "pyrodigal": "/usr/local/bin/pyrodigal", "archspec": "/usr/local/bin/archspec", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mobiorigin.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/mobiorigin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mobiorigin:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mobiorigin:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mobiorigin/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/mobiorigin/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/mobiorigin/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/mobiorigin/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

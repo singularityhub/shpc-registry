@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ragtag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ragtag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ragtag/container.yaml"
-updated_at: "2026-11-01 09:17:30.107730"
+updated_at: "2026-11-02 05:45:40.630033"
 latest: "2.1.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ragtag"
 aliases:

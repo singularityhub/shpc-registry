@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacherchant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacherchant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacherchant/container.yaml"
-updated_at: "2026-11-01 09:10:47.737359"
+updated_at: "2026-11-02 05:39:11.906626"
 latest: "0.1.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/metacherchant"
 aliases:

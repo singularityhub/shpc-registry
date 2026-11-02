@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pplacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pplacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pplacer/container.yaml"
-updated_at: "2026-11-01 09:07:17.166435"
-latest: "1.1.alpha22--hd563303_0"
+updated_at: "2026-11-02 05:35:48.597811"
+latest: "1.1.alpha23--h01ede22_0"
 container_url: "https://biocontainers.pro/tools/pplacer"
 aliases:
  - "pplacer"
@@ -15,8 +15,9 @@ versions:
  - "1.1.alpha19--h9ee0642_2"
  - "1.1.alpha20--hd563303_0"
  - "1.1.alpha22--hd563303_0"
+ - "1.1.alpha23--h01ede22_0"
 description: "shpc-registry automated BioContainers addition for pplacer"
-config: {"url": "https://biocontainers.pro/tools/pplacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pplacer", "latest": {"1.1.alpha22--hd563303_0": "sha256:788895c035a98c8adb17c07c5b2b9958165c9b7be8728f8e04fff75395a8458a"}, "tags": {"1.1.alpha19--h9ee0642_2": "sha256:5ff394bb7863b160346f7ecc528ffe3b932250000d3f364d7a8caae1a724ae04", "1.1.alpha20--hd563303_0": "sha256:30e09d71f0889a94dfd8f2469fd7f58b12a6ca23478aa9c121b13bd07b9a06e0", "1.1.alpha22--hd563303_0": "sha256:788895c035a98c8adb17c07c5b2b9958165c9b7be8728f8e04fff75395a8458a"}, "docker": "quay.io/biocontainers/pplacer", "aliases": {"pplacer": "/usr/local/bin/pplacer", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy"}}
+config: {"url": "https://biocontainers.pro/tools/pplacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pplacer", "latest": {"1.1.alpha23--h01ede22_0": "sha256:1b5d2c521cf8e18731dff227d375c43f1218727661ba2a8c9724eb9b6379d1c1"}, "tags": {"1.1.alpha19--h9ee0642_2": "sha256:5ff394bb7863b160346f7ecc528ffe3b932250000d3f364d7a8caae1a724ae04", "1.1.alpha20--hd563303_0": "sha256:30e09d71f0889a94dfd8f2469fd7f58b12a6ca23478aa9c121b13bd07b9a06e0", "1.1.alpha22--hd563303_0": "sha256:788895c035a98c8adb17c07c5b2b9958165c9b7be8728f8e04fff75395a8458a", "1.1.alpha23--h01ede22_0": "sha256:1b5d2c521cf8e18731dff227d375c43f1218727661ba2a8c9724eb9b6379d1c1"}, "docker": "quay.io/biocontainers/pplacer", "aliases": {"pplacer": "/usr/local/bin/pplacer", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pplacer.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pplacer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pplacer:1.1.alpha22--hd563303_0
+$ shpc install quay.io/biocontainers/pplacer:1.1.alpha23--h01ede22_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pplacer/1.1.alpha22--hd563303_0
-$ module help quay.io/biocontainers/pplacer/1.1.alpha22--hd563303_0
+$ module load quay.io/biocontainers/pplacer/1.1.alpha23--h01ede22_0
+$ module help quay.io/biocontainers/pplacer/1.1.alpha23--h01ede22_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
