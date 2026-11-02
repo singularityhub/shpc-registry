@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shiba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shiba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shiba/container.yaml"
-updated_at: "2026-11-02 05:50:49.650077"
+updated_at: "2026-11-02 09:31:01.835930"
 latest: "0.8.2--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shiba"
 aliases:

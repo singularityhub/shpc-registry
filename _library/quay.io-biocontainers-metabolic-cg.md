@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabolic-cg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolic-cg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabolic-cg/container.yaml"
-updated_at: "2026-11-02 06:17:00.986359"
+updated_at: "2026-11-02 09:59:02.275250"
 latest: "4.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolic-cg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logan-walker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logan-walker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logan-walker/container.yaml"
-updated_at: "2026-11-02 05:56:32.803023"
+updated_at: "2026-11-02 09:37:02.738429"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/logan-walker"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binny/container.yaml"
-updated_at: "2026-11-02 06:01:47.118387"
+updated_at: "2026-11-02 09:42:32.639591"
 latest: "2.2.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/binny"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fair-bioheaders"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fair-bioheaders/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fair-bioheaders/container.yaml"
-updated_at: "2026-11-02 05:35:18.329108"
+updated_at: "2026-11-02 09:14:50.800096"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fair-bioheaders"
 aliases:

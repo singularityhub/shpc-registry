@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dmbiolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dmbiolib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dmbiolib/container.yaml"
-updated_at: "2026-11-02 05:32:45.188840"
+updated_at: "2026-11-02 09:12:13.659036"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dmbiolib"
 aliases:

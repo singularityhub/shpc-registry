@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blend-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blend-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blend-bio/container.yaml"
-updated_at: "2026-11-02 05:28:14.753616"
+updated_at: "2026-11-02 09:07:30.480290"
 latest: "1.0.0--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/blend-bio"
 aliases:

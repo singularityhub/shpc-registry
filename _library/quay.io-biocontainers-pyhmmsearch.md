@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyhmmsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhmmsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyhmmsearch/container.yaml"
-updated_at: "2026-11-02 05:50:02.408899"
+updated_at: "2026-11-02 09:30:12.192782"
 latest: "2025.10.23.post1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyhmmsearch"
 aliases:

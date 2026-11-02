@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-checker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-checker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-checker/container.yaml"
-updated_at: "2026-11-02 05:54:39.362785"
+updated_at: "2026-11-02 09:35:05.831985"
 latest: "1.60--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-pod-checker"
 aliases:

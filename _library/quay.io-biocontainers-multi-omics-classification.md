@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multi-omics-classification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multi-omics-classification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multi-omics-classification/container.yaml"
-updated_at: "2026-11-02 05:33:43.893735"
+updated_at: "2026-11-02 09:13:12.457979"
 latest: "0.1.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/multi-omics-classification"
 aliases:

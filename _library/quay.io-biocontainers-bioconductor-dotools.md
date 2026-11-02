@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dotools/container.yaml"
-updated_at: "2026-11-02 05:22:32.532608"
+updated_at: "2026-11-02 09:01:28.991458"
 latest: "1.0.0--r45hdfd78af_0-amd64"
 container_url: "https://biocontainers.pro/tools/bioconductor-dotools"
 aliases:

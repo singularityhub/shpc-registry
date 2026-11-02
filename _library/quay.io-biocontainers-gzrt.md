@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gzrt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gzrt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gzrt/container.yaml"
-updated_at: "2026-11-02 06:10:34.944471"
+updated_at: "2026-11-02 09:52:15.398220"
 latest: "0.9.1--h577a1d6_1"
 container_url: "https://biocontainers.pro/tools/gzrt"
 aliases:

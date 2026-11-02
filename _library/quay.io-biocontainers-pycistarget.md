@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycistarget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycistarget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycistarget/container.yaml"
-updated_at: "2026-11-02 05:39:01.568511"
+updated_at: "2026-11-02 09:18:42.977177"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pycistarget"
 aliases:

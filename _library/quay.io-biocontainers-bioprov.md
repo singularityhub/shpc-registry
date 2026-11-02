@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioprov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioprov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioprov/container.yaml"
-updated_at: "2026-11-02 05:59:54.414834"
+updated_at: "2026-11-02 09:40:34.465731"
 latest: "0.1.23--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/bioprov"
 aliases:
