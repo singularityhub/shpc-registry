@@ -1,0 +1,95 @@
+url: https://biocontainers.pro/tools/rasher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rasher
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:1b7c7db019d77566aafba26f73c6c0d47bb29271e6d92bd321834bae0a98511c
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:1b7c7db019d77566aafba26f73c6c0d47bb29271e6d92bd321834bae0a98511c
+docker: quay.io/biocontainers/rasher
+aliases:
+  Phi: /usr/local/bin/Phi
+  Profile: /usr/local/bin/Profile
+  alignerbenchmark.sh: /usr/local/bin/alignerbenchmark.sh
+  annotateanticodon.sh: /usr/local/bin/annotateanticodon.sh
+  balancevectors.sh: /usr/local/bin/balancevectors.sh
+  bbmap5.sh: /usr/local/bin/bbmap5.sh
+  bbmapacc.sh: /usr/local/bin/bbmapacc.sh
+  bbmaps.sh: /usr/local/bin/bbmaps.sh
+  bbsplitS.sh: /usr/local/bin/bbsplitS.sh
+  bedset.sh: /usr/local/bin/bedset.sh
+  builddisktables.sh: /usr/local/bin/builddisktables.sh
+  callits.sh: /usr/local/bin/callits.sh
+  clusterproteins.sh: /usr/local/bin/clusterproteins.sh
+  coveringset.sh: /usr/local/bin/coveringset.sh
+  cutgff2.sh: /usr/local/bin/cutgff2.sh
+  ddlblacklist.sh: /usr/local/bin/ddlblacklist.sh
+  ddlcalibrate.sh: /usr/local/bin/ddlcalibrate.sh
+  ddlcompare.sh: /usr/local/bin/ddlcompare.sh
+  ddlmerger.sh: /usr/local/bin/ddlmerger.sh
+  ddlwriter.sh: /usr/local/bin/ddlwriter.sh
+  extend.py: /usr/local/bin/extend.py
+  faketreeleaves.sh: /usr/local/bin/faketreeleaves.sh
+  fetchgenomes.sh: /usr/local/bin/fetchgenomes.sh
+  findssu.sh: /usr/local/bin/findssu.sh
+  fusebytaxa.sh: /usr/local/bin/fusebytaxa.sh
+  gfa_connector: /usr/local/bin/gfa_connector
+  gradevcf.sh: /usr/local/bin/gradevcf.sh
+  harvesttools: /usr/local/bin/harvesttools
+  invertvcf.sh: /usr/local/bin/invertvcf.sh
+  khistmulti.sh: /usr/local/bin/khistmulti.sh
+  kmercounter: /usr/local/bin/kmercounter
+  logger.py: /usr/local/bin/logger.py
+  lowcomplexcalibrate.sh: /usr/local/bin/lowcomplexcalibrate.sh
+  magqc.sh: /usr/local/bin/magqc.sh
+  mergesam2.sh: /usr/local/bin/mergesam2.sh
+  modifynn.sh: /usr/local/bin/modifynn.sh
+  multishred.sh: /usr/local/bin/multishred.sh
+  netconvert.sh: /usr/local/bin/netconvert.sh
+  parsnp: /usr/local/bin/parsnp
+  partition.py: /usr/local/bin/partition.py
+  prokcc.sh: /usr/local/bin/prokcc.sh
+  proteinsearch.sh: /usr/local/bin/proteinsearch.sh
+  rasher: /usr/local/bin/rasher
+  reformatOld.sh: /usr/local/bin/reformatOld.sh
+  regressiontrainer.sh: /usr/local/bin/regressiontrainer.sh
+  renamecami.sh: /usr/local/bin/renamecami.sh
+  restorebases.sh: /usr/local/bin/restorebases.sh
+  saute: /usr/local/bin/saute
+  saute_prot: /usr/local/bin/saute_prot
+  shredpacbio.sh: /usr/local/bin/shredpacbio.sh
+  ska: /usr/local/bin/ska
+  ssuserver.sh: /usr/local/bin/ssuserver.sh
+  tadpolemulti.sh: /usr/local/bin/tadpolemulti.sh
+  taxtree2.sh: /usr/local/bin/taxtree2.sh
+  template.ini: /usr/local/bin/template.ini
+  trnaconsensus.sh: /usr/local/bin/trnaconsensus.sh
+  validategz.sh: /usr/local/bin/validategz.sh
+  validatepairs.sh: /usr/local/bin/validatepairs.sh
+  vectorutils.sh: /usr/local/bin/vectorutils.sh
+  bbdukOld.sh: /usr/local/bin/bbdukOld.sh
+  covmaker.sh: /usr/local/bin/covmaker.sh
+  filescan.sh: /usr/local/bin/filescan.sh
+  reassemble.sh: /usr/local/bin/reassemble.sh
+  skesa: /usr/local/bin/skesa
+  binspreader: /usr/local/bin/binspreader
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  spades-hpc: /usr/local/bin/spades-hpc
+  cbcl2text.sh: /usr/local/bin/cbcl2text.sh
+  cladeserver.sh: /usr/local/bin/cladeserver.sh
+  cloudplot.sh: /usr/local/bin/cloudplot.sh
+  fastqscan.sh: /usr/local/bin/fastqscan.sh
+  iqtree3: /usr/local/bin/iqtree3
+  kmercountshort.sh: /usr/local/bin/kmercountshort.sh
+  parallelogram.sh: /usr/local/bin/parallelogram.sh
+  pathracer: /usr/local/bin/pathracer
+  profile.sh: /usr/local/bin/profile.sh
+  samstreamer.sh: /usr/local/bin/samstreamer.sh
+  scalarintervals.sh: /usr/local/bin/scalarintervals.sh
+  scalars.sh: /usr/local/bin/scalars.sh
+  scrabblealigner.sh: /usr/local/bin/scrabblealigner.sh
+  sendclade.sh: /usr/local/bin/sendclade.sh
+  smithwaterman.sh: /usr/local/bin/smithwaterman.sh
+  stream.sh: /usr/local/bin/stream.sh
+  wavefrontalignerviz.sh: /usr/local/bin/wavefrontalignerviz.sh

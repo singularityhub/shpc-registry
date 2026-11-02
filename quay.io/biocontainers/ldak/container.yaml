@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ldak
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ldak
+latest:
+  6.3--hae53b8d_0: 
+    sha256:94d94a43025846120e58cea837a35801c956fc54d63e71b4c8f0a9fddf95661f
+tags:
+  6.3--hae53b8d_0: 
+    sha256:94d94a43025846120e58cea837a35801c956fc54d63e71b4c8f0a9fddf95661f
+docker: quay.io/biocontainers/ldak
+aliases:
+  ldak: /usr/local/bin/ldak

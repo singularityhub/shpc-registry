@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/pydivsufsort
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pydivsufsort
+latest:
+  0.0.20--py310h0c14f88_0: 
+    sha256:b2020180d9b995d403f968e9839b850b861e2f4317e2a7f61963c76e175e90f1
+tags:
+  0.0.20--py310h0c14f88_0: 
+    sha256:b2020180d9b995d403f968e9839b850b861e2f4317e2a7f61963c76e175e90f1
+docker: quay.io/biocontainers/pydivsufsort
+aliases:
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

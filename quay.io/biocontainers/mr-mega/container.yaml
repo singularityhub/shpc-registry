@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mr-mega
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mr-mega
+latest:
+  0.2--h3be2455_0: 
+    sha256:789ed8d66113e578a88c4d2397e22ac93d509b6e311637e42a05f0ed3bcbfc2a
+tags:
+  0.2--h3be2455_0: 
+    sha256:789ed8d66113e578a88c4d2397e22ac93d509b6e311637e42a05f0ed3bcbfc2a
+docker: quay.io/biocontainers/mr-mega
+aliases:
+  MR-MEGA: /usr/local/bin/MR-MEGA

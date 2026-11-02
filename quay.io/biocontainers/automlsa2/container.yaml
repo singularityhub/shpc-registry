@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/automlsa2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for automlsa2
+latest:
+  0.10.0--pyhdfd78af_0: 
+    sha256:ca54a90f7583c3e364d9f8301cd22c326ecfabdc268fc889b3f47bde54f2c3f7
+tags:
+  0.10.0--pyhdfd78af_0: 
+    sha256:ca54a90f7583c3e364d9f8301cd22c326ecfabdc268fc889b3f47bde54f2c3f7
+docker: quay.io/biocontainers/automlsa2
+aliases:
+  automlsa2: /usr/local/bin/automlsa2
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  iqtree3: /usr/local/bin/iqtree3
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  iqtree: /usr/local/bin/iqtree
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect

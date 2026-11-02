@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/smd-variant-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for smd-variant-tools
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:1000a4435f34cf9988ba39444f59b7a287217b5872184418a9d86e28dae7eb7a
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:1000a4435f34cf9988ba39444f59b7a287217b5872184418a9d86e28dae7eb7a
+docker: quay.io/biocontainers/smd-variant-tools
+aliases:
+  smd_variant: /usr/local/bin/smd_variant
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config

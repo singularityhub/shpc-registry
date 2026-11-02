@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/py-kmc-api
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for py-kmc-api
+latest:
+  3.2.4--py310hd9fedd7_0: 
+    sha256:52b2c03b95e0defc14bb6d8c25c05a8d56d7d278fd9e6a5f6d15727a775896ee
+tags:
+  3.2.4--py310hd9fedd7_0: 
+    sha256:52b2c03b95e0defc14bb6d8c25c05a8d56d7d278fd9e6a5f6d15727a775896ee
+docker: quay.io/biocontainers/py-kmc-api
+aliases:
+  py_kmc_dump.py: /usr/local/bin/py_kmc_dump.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/torchstain
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for torchstain
+latest:
+  1.4.1--pyhdfd78af_0: 
+    sha256:888271c064368c15658f604e51931dc99a9c17332cdadff40c525c89b35dd9d4
+tags:
+  1.4.1--pyhdfd78af_0: 
+    sha256:888271c064368c15658f604e51931dc99a9c17332cdadff40c525c89b35dd9d4
+docker: quay.io/biocontainers/torchstain
+aliases:
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  numpy-config: /usr/local/bin/numpy-config

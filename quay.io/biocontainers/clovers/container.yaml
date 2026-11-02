@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/clovers
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clovers
+latest:
+  1.2.2--h3be2455_0: 
+    sha256:841ad9aeca73eff51dca8acea7bbc35d4338b4f13ce6c9db636cf3c28b50f6f8
+tags:
+  1.2.2--h3be2455_0: 
+    sha256:841ad9aeca73eff51dca8acea7bbc35d4338b4f13ce6c9db636cf3c28b50f6f8
+docker: quay.io/biocontainers/clovers
+aliases:
+  clovers: /usr/local/bin/clovers

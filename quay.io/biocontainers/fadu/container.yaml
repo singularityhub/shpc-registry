@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/fadu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fadu
+latest:
+  1.10.1--h9ee0642_0: 
+    sha256:ca73b23aace98c7c241bdbd52b5275638b6a67795b83a9c1f65a6eabd7b10fd7
+tags:
+  1.10.1--h9ee0642_0: 
+    sha256:ca73b23aace98c7c241bdbd52b5275638b6a67795b83a9c1f65a6eabd7b10fd7
+docker: quay.io/biocontainers/fadu
+aliases:
+  7z: /usr/local/bin/7z
+  7za: /usr/local/bin/7za
+  7zr: /usr/local/bin/7zr
+  fadu: /usr/local/bin/fadu
+  julia: /usr/local/bin/julia
+  perl5.44.0: /usr/local/bin/perl5.44.0
+  scalar: /usr/local/bin/scalar
+  git2: /usr/local/bin/git2
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  cmpfillin: /usr/local/bin/cmpfillin
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis

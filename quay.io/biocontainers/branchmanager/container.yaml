@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/branchmanager
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for branchmanager
+latest:
+  0.1.6--pyhdfd78af_0: 
+    sha256:a5c12786fe616d1d7572edde222d6acb74e2d0f4c9993e34879d187888133a6e
+tags:
+  0.1.6--pyhdfd78af_0: 
+    sha256:a5c12786fe616d1d7572edde222d6acb74e2d0f4c9993e34879d187888133a6e
+docker: quay.io/biocontainers/branchmanager
+aliases:
+  BranchManager: /usr/local/bin/BranchManager
+  branchmanager: /usr/local/bin/branchmanager
+  iqtree3: /usr/local/bin/iqtree3
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  vsearch: /usr/local/bin/vsearch
+  iqtree: /usr/local/bin/iqtree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  FastTree: /usr/local/bin/FastTree
+  fasttree: /usr/local/bin/fasttree
+  gawkbug: /usr/local/bin/gawkbug
+  fc-genconf: /usr/local/bin/fc-genconf
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi
+  mafft-ginsi: /usr/local/bin/mafft-ginsi
+  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb

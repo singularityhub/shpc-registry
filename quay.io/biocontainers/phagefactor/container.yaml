@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/phagefactor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phagefactor
+latest:
+  1.2.0--hdfd78af_0: 
+    sha256:f04c48d8d9b72fd6de27526e3015617d3d04bc22bbbc51fe717a545ebb1f13c7
+tags:
+  1.2.0--hdfd78af_0: 
+    sha256:f04c48d8d9b72fd6de27526e3015617d3d04bc22bbbc51fe717a545ebb1f13c7
+docker: quay.io/biocontainers/phagefactor
+aliases:
+  create_custom_hmm.py: /usr/local/bin/create_custom_hmm.py
+  dnaapler: /usr/local/bin/dnaapler
+  genbank.py: /usr/local/bin/genbank.py
+  generate-slurm-partition-config: 
+    /usr/local/bin/generate-slurm-partition-config
+  install_databases.py: /usr/local/bin/install_databases.py
+  phagefactor: /usr/local/bin/phagefactor
+  phanotate.py: /usr/local/bin/phanotate.py
+  pharokka: /usr/local/bin/pharokka
+  pharokka.py: /usr/local/bin/pharokka.py
+  pharokka_multiplotter.py: /usr/local/bin/pharokka_multiplotter.py
+  pharokka_plotter.py: /usr/local/bin/pharokka_plotter.py
+  pharokka_proteins.py: /usr/local/bin/pharokka_proteins.py
+  phold: /usr/local/bin/phold
+  pyrodigal-rv: /usr/local/bin/pyrodigal-rv
+  spm_decode: /usr/local/bin/spm_decode
+  spm_encode: /usr/local/bin/spm_encode
+  spm_export_vocab: /usr/local/bin/spm_export_vocab
+  spm_normalize: /usr/local/bin/spm_normalize
+  spm_train: /usr/local/bin/spm_train
+  foldseek: /usr/local/bin/foldseek
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  datasets-cli: /usr/local/bin/datasets-cli
+  pyrodigal-gv: /usr/local/bin/pyrodigal-gv
+  transformers: /usr/local/bin/transformers
+  black: /usr/local/bin/black
+  blackd: /usr/local/bin/blackd
+  isort-identify-imports: /usr/local/bin/isort-identify-imports
+  isort: /usr/local/bin/isort
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  hf: /usr/local/bin/hf
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
+  coverage: /usr/local/bin/coverage
+  tiny-agents: /usr/local/bin/tiny-agents
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  minced: /usr/local/bin/minced

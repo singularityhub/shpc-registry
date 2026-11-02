@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/panhog
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panhog
+latest:
+  0.4.1--pyhdfd78af_0: 
+    sha256:fa551dc100b54ddb2fd3e980039d7a1e5009ea5b77d1e137b3df0331dab27dec
+tags:
+  0.4.1--pyhdfd78af_0: 
+    sha256:fa551dc100b54ddb2fd3e980039d7a1e5009ea5b77d1e137b3df0331dab27dec
+docker: quay.io/biocontainers/panhog
+aliases:
+  pangenehog: /usr/local/bin/pangenehog
+  panhog: /usr/local/bin/panhog
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  pal2nal.pl: /usr/local/bin/pal2nal.pl
+  ds: /usr/local/bin/ds
+  raxml-ng: /usr/local/bin/raxml-ng
+  raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids

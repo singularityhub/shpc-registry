@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/spatial-sanctuary
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spatial-sanctuary
+latest:
+  2.2.2--pyhdfd78af_0: 
+    sha256:3ac5a676a92324466dffe9371e4e3ca7ac75faba8f5c1f9aa4874a8b050d810a
+tags:
+  2.2.2--pyhdfd78af_0: 
+    sha256:3ac5a676a92324466dffe9371e4e3ca7ac75faba8f5c1f9aa4874a8b050d810a
+docker: quay.io/biocontainers/spatial-sanctuary
+aliases:
+  osimertinib-sanctuary: /usr/local/bin/osimertinib-sanctuary
+  spatial-sanctuary: /usr/local/bin/spatial-sanctuary
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  fc-genconf: /usr/local/bin/fc-genconf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  numpy-config: /usr/local/bin/numpy-config
+  brotli: /usr/local/bin/brotli

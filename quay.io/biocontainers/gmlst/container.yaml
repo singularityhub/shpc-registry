@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/gmlst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gmlst
+latest:
+  0.6.1--pyhdfd78af_0: 
+    sha256:336f358907c4917d5a52cfaa0a7ff74a5550be0fd6fb1088795f50ede28c9691
+tags:
+  0.6.1--pyhdfd78af_0: 
+    sha256:336f358907c4917d5a52cfaa0a7ff74a5550be0fd6fb1088795f50ede28c9691
+docker: quay.io/biocontainers/gmlst
+aliases:
+  gmlst: /usr/local/bin/gmlst
+  xxh3sum: /usr/local/bin/xxh3sum
+  pyrodigal: /usr/local/bin/pyrodigal
+  archspec: /usr/local/bin/archspec
+  flask: /usr/local/bin/flask
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  idna: /usr/local/bin/idna
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  normalizer: /usr/local/bin/normalizer

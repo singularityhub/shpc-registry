@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-snp.slicer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-snp.slicer
+latest:
+  1.0.0--r45hc52dbad_0: 
+    sha256:5351bcef2e6ad7a5a6e17c1ced9cfbb18bd3dff618797c271cf8302d43213700
+tags:
+  1.0.0--r45hc52dbad_0: 
+    sha256:5351bcef2e6ad7a5a6e17c1ced9cfbb18bd3dff618797c271cf8302d43213700
+docker: quay.io/biocontainers/r-snp.slicer
+aliases:
+  gmake: /usr/local/bin/gmake
+  fc-genconf: /usr/local/bin/fc-genconf
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

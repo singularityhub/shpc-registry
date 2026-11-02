@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pynem
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pynem
+latest:
+  0.6.1--pyhdfd78af_0: 
+    sha256:a37502ba17b7ed3c4f8c19fea3dfd13dd965992fca7257490dfbdbb44b8bc3fd
+tags:
+  0.6.1--pyhdfd78af_0: 
+    sha256:a37502ba17b7ed3c4f8c19fea3dfd13dd965992fca7257490dfbdbb44b8bc3fd
+docker: quay.io/biocontainers/pynem
+aliases:
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-sql-abstract-pg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  perl-sql-abstract-pg
+latest:
+  1.01--pl5321hcbfc158_0: 
+    sha256:cb4652485ce375e68606eaa3ee8385480c998a78ab2b4668f12bed70098897d7
+tags:
+  1.01--pl5321hcbfc158_0: 
+    sha256:cb4652485ce375e68606eaa3ee8385480c998a78ab2b4668f12bed70098897d7
+docker: quay.io/biocontainers/perl-sql-abstract-pg

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/recore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for recore
+latest:
+  1.0.0--hab7d0fd_0: 
+    sha256:feffa4d7f7c4a636dae0ed508ce9ef33e81a496048bdfb2326e18a660a0256ec
+tags:
+  1.0.0--hab7d0fd_0: 
+    sha256:feffa4d7f7c4a636dae0ed508ce9ef33e81a496048bdfb2326e18a660a0256ec
+docker: quay.io/biocontainers/recore
+aliases:
+  recore: /usr/local/bin/recore
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/drs-transcript-prediction
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  drs-transcript-prediction
+latest:
+  1.0.5--pyhdfd78af_0: 
+    sha256:e54ada56e014d4086de1e9f2a368b7c295e823396aad3e1b1cf17d2fa4c5204e
+tags:
+  1.0.5--pyhdfd78af_0: 
+    sha256:e54ada56e014d4086de1e9f2a368b7c295e823396aad3e1b1cf17d2fa4c5204e
+docker: quay.io/biocontainers/drs-transcript-prediction
+aliases:
+  drs-transcript-prediction: /usr/local/bin/drs-transcript-prediction
+  tp.py: /usr/local/bin/tp.py
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  numpy-config: /usr/local/bin/numpy-config
