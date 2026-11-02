@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ldsc-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ldsc-rs
+latest:
+  0.5.0--hfa8f182_0: 
+    sha256:9e64ae577b9d196bdc718b10022197ecc16e25ce7ed8fa2a262d7675836b661e
+tags:
+  0.5.0--hfa8f182_0: 
+    sha256:9e64ae577b9d196bdc718b10022197ecc16e25ce7ed8fa2a262d7675836b661e
+docker: quay.io/biocontainers/ldsc-rs
+aliases:
+  ldsc: /usr/local/bin/ldsc

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/factorforge-cds
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for factorforge-cds
+latest:
+  3.5.11--pyhdfd78af_0: 
+    sha256:0a2c78277146aa42edc1bcf6c6b143d259dbdcb5b5db6e73478c50864c1e3cea
+tags:
+  3.5.11--pyhdfd78af_0: 
+    sha256:0a2c78277146aa42edc1bcf6c6b143d259dbdcb5b5db6e73478c50864c1e3cea
+docker: quay.io/biocontainers/factorforge-cds
+aliases:
+  factorforge: /usr/local/bin/factorforge
+  factorforge-validate: /usr/local/bin/factorforge-validate
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  idna: /usr/local/bin/idna
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer

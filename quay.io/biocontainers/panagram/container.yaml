@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/panagram
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panagram
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:490e9ee3c84fea2abbf91b2cd7cb4345e66c41c03339269f66ac05d00c2eb83c
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:490e9ee3c84fea2abbf91b2cd7cb4345e66c41c03339269f66ac05d00c2eb83c
+docker: quay.io/biocontainers/panagram
+aliases:
+  choreo_diagnose: /usr/local/bin/choreo_diagnose
+  choreo_get_chrome: /usr/local/bin/choreo_get_chrome
+  kaleido_get_chrome: /usr/local/bin/kaleido_get_chrome
+  kaleido_mocker: /usr/local/bin/kaleido_mocker
+  panagram: /usr/local/bin/panagram
+  plotly: /usr/local/bin/plotly
+  py_kmc_dump.py: /usr/local/bin/py_kmc_dump.py
+  dash-update-components: /usr/local/bin/dash-update-components
+  renderer: /usr/local/bin/renderer
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  kmc_dump: /usr/local/bin/kmc_dump
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  kmc: /usr/local/bin/kmc
+  kmc_tools: /usr/local/bin/kmc_tools
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  flask: /usr/local/bin/flask
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  idna: /usr/local/bin/idna

@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/insitugame
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for insitugame
+latest:
+  1.0.7--pyhdfd78af_0: 
+    sha256:ab442cf23985467d72cdfa51d97cfac3850a5be68776b68a5fc501fbfd744ef6
+tags:
+  1.0.7--pyhdfd78af_0: 
+    sha256:ab442cf23985467d72cdfa51d97cfac3850a5be68776b68a5fc501fbfd744ef6
+docker: quay.io/biocontainers/insitugame
+aliases:
+  insitugame: /usr/local/bin/insitugame
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  fc-genconf: /usr/local/bin/fc-genconf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  numpy-config: /usr/local/bin/numpy-config
+  brotli: /usr/local/bin/brotli

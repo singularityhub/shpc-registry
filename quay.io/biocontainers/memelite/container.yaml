@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/memelite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for memelite
+latest:
+  0.5.0--pyhdfd78af_0: 
+    sha256:229bfde63867b2994fb04bb7b8065e199ed0a2c0c31b60387c889e68369cb66c
+tags:
+  0.5.0--pyhdfd78af_0: 
+    sha256:229bfde63867b2994fb04bb7b8065e199ed0a2c0c31b60387c889e68369cb66c
+docker: quay.io/biocontainers/memelite
+aliases:
+  ttl: /usr/local/bin/ttl
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  numba: /usr/local/bin/numba
+  tqdm: /usr/local/bin/tqdm
+  numpy-config: /usr/local/bin/numpy-config

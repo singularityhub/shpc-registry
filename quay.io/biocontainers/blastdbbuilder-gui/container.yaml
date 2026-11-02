@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/blastdbbuilder-gui
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for blastdbbuilder-gui
+latest:
+  1.2.0--pyhdfd78af_0: 
+    sha256:8f2c8d38a0b38efe836e136a0901cbbcbfc3791312e97bc13616161956e0c5e1
+tags:
+  1.2.0--pyhdfd78af_0: 
+    sha256:8f2c8d38a0b38efe836e136a0901cbbcbfc3791312e97bc13616161956e0c5e1
+docker: quay.io/biocontainers/blastdbbuilder-gui
+aliases:
+  blastdbbuilder: /usr/local/bin/blastdbbuilder
+  blastdbbuilder-gui: /usr/local/bin/blastdbbuilder-gui
+  blastdbbuilder-gui-desktop: /usr/local/bin/blastdbbuilder-gui-desktop
+  blastdbbuilder-gui-desktop-uninstall: 
+    /usr/local/bin/blastdbbuilder-gui-desktop-uninstall
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  seqkit: /usr/local/bin/seqkit
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect

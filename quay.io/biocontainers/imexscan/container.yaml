@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/imexscan
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for imexscan
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:e57806c619b4a4c56270cc7a253a7df32a845443710ed73a514d2a98be22dafe
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:e57806c619b4a4c56270cc7a253a7df32a845443710ed73a514d2a98be22dafe
+docker: quay.io/biocontainers/imexscan
+aliases:
+  imexscan: /usr/local/bin/imexscan
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  prodigal: /usr/local/bin/prodigal
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server

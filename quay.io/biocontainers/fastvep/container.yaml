@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fastvep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastvep
+latest:
+  0.4.0--hfa8f182_0: 
+    sha256:d311a0af937431da7bc3aab3c2068c888fc73b43832b2b3cfc44df0b82a9be5a
+tags:
+  0.4.0--hfa8f182_0: 
+    sha256:d311a0af937431da7bc3aab3c2068c888fc73b43832b2b3cfc44df0b82a9be5a
+docker: quay.io/biocontainers/fastvep
+aliases:
+  fastvep: /usr/local/bin/fastvep
+  fastvep-web: /usr/local/bin/fastvep-web

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bonefish
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bonefish
+latest:
+  0.4.0--hfa8f182_0: 
+    sha256:00fcbd2905fd5ffb65ff5667dca7881567d04751effd67c8b4de5e6d51f0dd8d
+tags:
+  0.4.0--hfa8f182_0: 
+    sha256:00fcbd2905fd5ffb65ff5667dca7881567d04751effd67c8b4de5e6d51f0dd8d
+docker: quay.io/biocontainers/bonefish
+aliases:
+  bonefish: /usr/local/bin/bonefish

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/tuna-kmer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tuna-kmer
+latest:
+  1.4.0--h3be2455_0: 
+    sha256:64105b340715f84dd1500d9405b15da31d0f0134eab3c8af14f0434de076cb7e
+tags:
+  1.4.0--h3be2455_0: 
+    sha256:64105b340715f84dd1500d9405b15da31d0f0134eab3c8af14f0434de076cb7e
+docker: quay.io/biocontainers/tuna-kmer
+aliases:
+  tuna: /usr/local/bin/tuna

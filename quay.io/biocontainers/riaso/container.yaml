@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/riaso
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for riaso
+latest:
+  0.1.0--h8d1255d_0: 
+    sha256:b2e4b48129e5b5ea17273216786ba4e4bfa620e7c6e79ef71bbb033357ad06f9
+tags:
+  0.1.0--h8d1255d_0: 
+    sha256:b2e4b48129e5b5ea17273216786ba4e4bfa620e7c6e79ef71bbb033357ad06f9
+docker: quay.io/biocontainers/riaso
+aliases:
+  riaso: /usr/local/bin/riaso
+  h5fuse: /usr/local/bin/h5fuse
+  fc-genconf: /usr/local/bin/fc-genconf
+  h5delete: /usr/local/bin/h5delete
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5fc: /usr/local/bin/h5fc
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart
+  h5stat: /usr/local/bin/h5stat
+  h5unjam: /usr/local/bin/h5unjam
+  h5dump: /usr/local/bin/h5dump

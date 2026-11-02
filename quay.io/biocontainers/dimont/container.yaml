@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/dimont
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dimont
+latest:
+  2.4.1--hdfd78af_0: 
+    sha256:4242c634ab46afd34a8bd90450fe590b8a2385cd8186d11632ceca0557e5a8b1
+tags:
+  2.4.1--hdfd78af_0: 
+    sha256:4242c634ab46afd34a8bd90450fe590b8a2385cd8186d11632ceca0557e5a8b1
+docker: quay.io/biocontainers/dimont
+aliases:
+  dimont: /usr/local/bin/dimont
+  dimont-cli: /usr/local/bin/dimont-cli
+  dimont-genomescan: /usr/local/bin/dimont-genomescan
+  dimont-predictor: /usr/local/bin/dimont-predictor
+  slimdimont: /usr/local/bin/slimdimont
+  slimdimont-predictor: /usr/local/bin/slimdimont-predictor
+  fc-genconf: /usr/local/bin/fc-genconf
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
+  jmap: /usr/local/bin/jmap

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/annobtd
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for annobtd
+latest:
+  2.0.0--hdfd78af_0: 
+    sha256:d53a24fab55c4d6ca1e2662731effe14e66ef868b6106fd87d660f4187351c98
+tags:
+  2.0.0--hdfd78af_0: 
+    sha256:d53a24fab55c4d6ca1e2662731effe14e66ef868b6106fd87d660f4187351c98
+docker: quay.io/biocontainers/annobtd
+aliases:
+  annobtd: /usr/local/bin/annobtd
+  annobtd-fetch-refdb: /usr/local/bin/annobtd-fetch-refdb
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  zless: /usr/local/bin/zless
+  aragorn: /usr/local/bin/aragorn
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
