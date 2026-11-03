@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/bacon-nanopore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bacon-nanopore
 latest:
-  0.3.5--pyhdfd78af_0: 
-    sha256:17b18820c3fd5b7b86d2a1afcfa200be6998e90f7b0a702bf2edfa7a55de7c26
+  0.4.0--pyhdfd78af_0: 
+    sha256:12e64cfe733932550e446f1b9aa555c7383642ab7ec35801f7f0c00915b9a30f
 tags:
   0.3.5--pyhdfd78af_0: 
     sha256:17b18820c3fd5b7b86d2a1afcfa200be6998e90f7b0a702bf2edfa7a55de7c26
+  0.4.0--pyhdfd78af_0: 
+    sha256:12e64cfe733932550e446f1b9aa555c7383642ab7ec35801f7f0c00915b9a30f
+  0.3.8--pyhdfd78af_0: 
+    sha256:6890020967d4e760fa62ffd3614233d38da8d5b375b93ff535a57d4576709e94
 docker: quay.io/biocontainers/bacon-nanopore
 aliases:
   Phi: /usr/local/bin/Phi

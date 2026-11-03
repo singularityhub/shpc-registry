@@ -3,13 +3,20 @@ url: https://quay.io/repository/pawsey/openfoam-org
 maintainer: '@alexisespinosa'
 description: OpenFOAM (openfoam.org) images built on top of MPICH.
 latest:
-  '12': sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753
+  14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04: 
+    sha256:84e43296ce5c10845c3d7bc0893f5e1188db7d898dd24723dd9c91502be421d9
 tags:
   '12': sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753
   '10': sha256:7b923a567b7792a7da827a09d60aedb90d2f324f69892ab86b2f8d970ecf8fb1
   '9': sha256:7df46fc4cc0844c66ddfb897f47bf79b3e4c33c3a9d9bf8169d2ac6ea896841f
   '8': sha256:a552ba767634ae7e87a8db9585476348ccbebdc3ae1d264f7af87384c291d4aa
   '7': sha256:c55d41ae5249c33a413a5fccd28053d1544d11deb46f01dd0411bd8493c89b2b
+  14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04: 
+    sha256:84e43296ce5c10845c3d7bc0893f5e1188db7d898dd24723dd9c91502be421d9
+  12-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04: 
+    sha256:81cc4a821f9b36e3997e0286237fe76c9a38d48a90d73a9f243123ff55db5d60
+  10-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04: 
+    sha256:0a57afb37b9dac95aff27241146e29904ee3e810ab0c666b44dfd01edb420a4c
 overrides:
   '12': aliases/12.yaml
   '10': aliases/10.yaml

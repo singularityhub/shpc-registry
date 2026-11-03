@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ffmpeg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ffmpeg
 latest:
-  7.1.1: sha256:736bb0f82f30eaffcea3baafcbf742f8dc37a23b1a8292fffa9703e52b03a654
+  9.0.2: sha256:bfb059ff5ef474007cbe5c88e5aa9610722498aef30e377f2e89ba1e06c5c0b0
 tags:
   7.1.1: sha256:736bb0f82f30eaffcea3baafcbf742f8dc37a23b1a8292fffa9703e52b03a654
+  9.0.2: sha256:bfb059ff5ef474007cbe5c88e5aa9610722498aef30e377f2e89ba1e06c5c0b0
 docker: quay.io/biocontainers/ffmpeg
 aliases:
   cllayerinfo: /usr/local/bin/cllayerinfo

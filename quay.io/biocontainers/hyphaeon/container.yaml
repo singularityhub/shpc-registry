@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/hyphaeon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hyphaeon
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:e0d82c3f2656c5081b0bed4d3ba6f8e4f74125af100319876d44ffe510606505
+  0.4.1--pyhdfd78af_0: 
+    sha256:5d074a49d1b89823ce052f94201a27f6acc3d8dd5b0cd9c46158f4399afafa05
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:e0d82c3f2656c5081b0bed4d3ba6f8e4f74125af100319876d44ffe510606505
+  0.4.1--pyhdfd78af_0: 
+    sha256:5d074a49d1b89823ce052f94201a27f6acc3d8dd5b0cd9c46158f4399afafa05
+  0.3.0--pyhdfd78af_0: 
+    sha256:32ac61560da4818134347c6e18db5d05fbb765b2638cd5fe1770b1665114737a
+  0.2.0--pyhdfd78af_1: 
+    sha256:c0672a1d0a4a80850c47b59caa4d436dd3929a9919494604dd70b5df6ac02877
 docker: quay.io/biocontainers/hyphaeon
 aliases:
   hyphaeon: /usr/local/bin/hyphaeon
