@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samwell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samwell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samwell/container.yaml"
-updated_at: "2026-11-03 06:20:14.781000"
+updated_at: "2026-11-03 09:40:26.222566"
 latest: "0.0.4--py313h8c92656_3"
 container_url: "https://biocontainers.pro/tools/samwell"
 aliases:

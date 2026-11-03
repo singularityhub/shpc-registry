@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unimeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unimeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unimeth/container.yaml"
-updated_at: "2026-11-03 06:23:25.639829"
+updated_at: "2026-11-03 09:42:31.427554"
 latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unimeth"
 aliases:

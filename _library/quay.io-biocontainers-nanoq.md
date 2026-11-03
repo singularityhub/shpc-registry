@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoq/container.yaml"
-updated_at: "2026-11-03 05:46:42.157656"
+updated_at: "2026-11-03 09:16:49.037544"
 latest: "0.10.0--hc1c3326_4"
 container_url: "https://biocontainers.pro/tools/nanoq"
 aliases:

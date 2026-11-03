@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ucsc-wigencode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ucsc-wigencode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ucsc-wigencode/container.yaml"
-updated_at: "2026-11-03 05:50:23.402289"
+updated_at: "2026-11-03 09:19:09.381718"
 latest: "502--ha7d8dd5_0-amd64"
 container_url: "https://biocontainers.pro/tools/ucsc-wigencode"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/voronotalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/voronotalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/voronotalt/container.yaml"
-updated_at: "2026-11-03 06:32:29.027639"
+updated_at: "2026-11-03 09:49:04.732657"
 latest: "1.1.479--py310hd766df8_0"
 container_url: "https://biocontainers.pro/tools/voronotalt"
 aliases:

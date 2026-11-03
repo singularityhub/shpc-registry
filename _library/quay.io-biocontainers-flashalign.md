@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flashalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flashalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flashalign/container.yaml"
-updated_at: "2026-11-03 06:01:38.823835"
+updated_at: "2026-11-03 09:27:07.854758"
 latest: "0.3.0--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/flashalign"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-xgr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xgr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xgr/container.yaml"
-updated_at: "2026-11-03 05:44:48.583110"
+updated_at: "2026-11-03 09:15:30.775875"
 latest: "1.1.7--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-xgr"
 aliases:

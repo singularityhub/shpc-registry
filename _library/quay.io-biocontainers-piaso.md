@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piaso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piaso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piaso/container.yaml"
-updated_at: "2026-11-03 05:51:18.286536"
+updated_at: "2026-11-03 09:19:42.750729"
 latest: "1.2.6--py310hce5ca29_0"
 container_url: "https://biocontainers.pro/tools/piaso"
 aliases:

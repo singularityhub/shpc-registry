@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-csv_xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-csv_xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-csv_xs/container.yaml"
-updated_at: "2026-11-03 06:14:26.191638"
+updated_at: "2026-11-03 09:36:29.168442"
 latest: "1.64--pl5321hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/perl-text-csv_xs"
 aliases:

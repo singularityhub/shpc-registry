@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/knotannotsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knotannotsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knotannotsv/container.yaml"
-updated_at: "2026-11-03 05:52:30.216041"
+updated_at: "2026-11-03 09:20:29.959766"
 latest: "1.1.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/knotannotsv"
 aliases:

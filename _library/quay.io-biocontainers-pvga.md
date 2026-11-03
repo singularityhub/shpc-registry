@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pvga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pvga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pvga/container.yaml"
-updated_at: "2026-11-03 06:23:40.863963"
+updated_at: "2026-11-03 09:42:41.120678"
 latest: "0.1.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pvga"
 aliases:

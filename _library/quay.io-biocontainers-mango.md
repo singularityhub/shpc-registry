@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mango"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mango/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mango/container.yaml"
-updated_at: "2026-11-03 06:05:50.247741"
+updated_at: "2026-11-03 09:30:16.826082"
 latest: "0.0.5--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/mango"
 aliases:

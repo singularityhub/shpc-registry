@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatial-sanctuary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatial-sanctuary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatial-sanctuary/container.yaml"
-updated_at: "2026-11-03 05:38:49.992740"
+updated_at: "2026-11-03 09:11:36.290100"
 latest: "2.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spatial-sanctuary"
 aliases:

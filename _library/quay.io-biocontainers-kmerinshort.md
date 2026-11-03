@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmerinshort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmerinshort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmerinshort/container.yaml"
-updated_at: "2026-11-03 05:53:18.473088"
+updated_at: "2026-11-03 09:21:03.069700"
 latest: "1.0.1--0"
 container_url: "https://biocontainers.pro/tools/kmerinshort"
 aliases:

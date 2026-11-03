@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annostat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annostat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annostat/container.yaml"
-updated_at: "2026-11-03 05:58:00.186779"
+updated_at: "2026-11-03 09:24:27.956092"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/annostat"
 aliases:

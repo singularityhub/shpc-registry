@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chemproflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chemproflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chemproflow/container.yaml"
-updated_at: "2026-11-03 06:29:43.357871"
+updated_at: "2026-11-03 09:47:02.747523"
 latest: "1.3.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/chemproflow"
 aliases:

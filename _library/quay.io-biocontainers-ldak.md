@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ldak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ldak/container.yaml"
-updated_at: "2026-11-03 06:11:15.192266"
+updated_at: "2026-11-03 09:34:03.975916"
 latest: "6.3--hae53b8d_0"
 container_url: "https://biocontainers.pro/tools/ldak"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lightpanda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightpanda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightpanda/container.yaml"
-updated_at: "2026-11-03 05:41:27.425448"
+updated_at: "2026-11-03 09:13:21.463183"
 latest: "0.3.7--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/lightpanda"
 aliases:

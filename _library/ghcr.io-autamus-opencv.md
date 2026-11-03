@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/opencv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/opencv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/opencv/container.yaml"
-updated_at: "2026-11-03 05:33:50.538012"
+updated_at: "2026-11-03 09:08:06.329910"
 latest: "4.6.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/opencv"
 aliases:

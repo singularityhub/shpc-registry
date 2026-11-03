@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grimer/container.yaml"
-updated_at: "2026-11-03 06:27:16.986182"
+updated_at: "2026-11-03 09:45:13.444656"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grimer"
 aliases:

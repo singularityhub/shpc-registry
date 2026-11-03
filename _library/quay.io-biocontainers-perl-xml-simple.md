@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-simple/container.yaml"
-updated_at: "2026-11-03 06:16:01.976987"
+updated_at: "2026-11-03 09:37:37.957061"
 latest: "2.25--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-simple"
 aliases:

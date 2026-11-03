@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/plink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/plink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/plink/container.yaml"
-updated_at: "2026-11-03 05:34:01.907505"
+updated_at: "2026-11-03 09:08:14.575467"
 latest: "1.9.beta.6.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/plink"
 aliases:

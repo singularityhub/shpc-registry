@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vardictrust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vardictrust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vardictrust/container.yaml"
-updated_at: "2026-11-03 06:31:57.049327"
+updated_at: "2026-11-03 09:48:41.137318"
 latest: "1.0.2--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/vardictrust"
 aliases:
