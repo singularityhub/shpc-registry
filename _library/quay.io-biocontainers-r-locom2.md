@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-locom2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-locom2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-locom2/container.yaml"
-updated_at: "2026-11-02 09:25:51.380809"
-latest: "1.0--r45ha766e9f_0"
+updated_at: "2026-11-03 05:58:08.197344"
+latest: "1.1--r45ha766e9f_0"
 container_url: "https://biocontainers.pro/tools/r-locom2"
 aliases:
  - "python3.14t"
@@ -19,8 +19,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0--r45ha766e9f_0"
+ - "1.1--r45ha766e9f_0"
 description: "singularity registry hpc automated addition for r-locom2"
-config: {"url": "https://biocontainers.pro/tools/r-locom2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-locom2", "latest": {"1.0--r45ha766e9f_0": "sha256:a1516166d61f65e18a88f6e62e2cb3079a40b78a1caad6b8534a17cd142b056a"}, "tags": {"1.0--r45ha766e9f_0": "sha256:a1516166d61f65e18a88f6e62e2cb3079a40b78a1caad6b8534a17cd142b056a"}, "docker": "quay.io/biocontainers/r-locom2", "aliases": {"python3.14t": "/usr/local/bin/python3.14t", "python3.14t-config": "/usr/local/bin/python3.14t-config", "fc-genconf": "/usr/local/bin/fc-genconf", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-locom2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-locom2", "latest": {"1.1--r45ha766e9f_0": "sha256:92bad45b302fbe83d9b6e88581e3039ff422ff670439b1fa8455052a9fab7e21"}, "tags": {"1.0--r45ha766e9f_0": "sha256:a1516166d61f65e18a88f6e62e2cb3079a40b78a1caad6b8534a17cd142b056a", "1.1--r45ha766e9f_0": "sha256:92bad45b302fbe83d9b6e88581e3039ff422ff670439b1fa8455052a9fab7e21"}, "docker": "quay.io/biocontainers/r-locom2", "aliases": {"python3.14t": "/usr/local/bin/python3.14t", "python3.14t-config": "/usr/local/bin/python3.14t-config", "fc-genconf": "/usr/local/bin/fc-genconf", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-locom2.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/r-locom2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-locom2:1.0--r45ha766e9f_0
+$ shpc install quay.io/biocontainers/r-locom2:1.1--r45ha766e9f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-locom2/1.0--r45ha766e9f_0
-$ module help quay.io/biocontainers/r-locom2/1.0--r45ha766e9f_0
+$ module load quay.io/biocontainers/r-locom2/1.1--r45ha766e9f_0
+$ module help quay.io/biocontainers/r-locom2/1.1--r45ha766e9f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unitas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitas/container.yaml"
-updated_at: "2026-11-02 09:11:35.456335"
+updated_at: "2026-11-03 05:44:28.363787"
 latest: "1.6.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/unitas"
 aliases:

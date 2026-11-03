@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmer-diversity-sieve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmer-diversity-sieve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmer-diversity-sieve/container.yaml"
-updated_at: "2026-11-02 09:18:04.235437"
+updated_at: "2026-11-03 05:50:41.842130"
 latest: "0.1.0--hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/kmer-diversity-sieve"
 aliases:

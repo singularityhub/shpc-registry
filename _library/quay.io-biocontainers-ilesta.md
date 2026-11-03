@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ilesta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ilesta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ilesta/container.yaml"
-updated_at: "2026-11-02 09:45:39.844997"
-latest: "1.2.1--h4349ce8_0"
+updated_at: "2026-11-03 06:16:53.605197"
+latest: "1.5.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/ilesta"
 aliases:
  - "Ilesta"
@@ -13,8 +13,12 @@ versions:
  - "1.0.0--h4349ce8_0"
  - "1.2.1--h4349ce8_0"
  - "1.1.0--h4349ce8_0"
+ - "1.5.0--hab7d0fd_0"
+ - "1.4.0--hab7d0fd_0"
+ - "1.3.0--hab7d0fd_0"
+ - "1.2.1--hab7d0fd_1"
 description: "singularity registry hpc automated addition for ilesta"
-config: {"url": "https://biocontainers.pro/tools/ilesta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ilesta", "latest": {"1.2.1--h4349ce8_0": "sha256:bef84513c1b52d9ae5acdb9ce6f09b83fc86bae5120a00b46ce0373c6f637f66"}, "tags": {"1.0.0--h4349ce8_0": "sha256:6b9dcef45c7fd3e41fefe8e5f0a5d4d2c765f97ab549c2d8673678b698f00657", "1.2.1--h4349ce8_0": "sha256:bef84513c1b52d9ae5acdb9ce6f09b83fc86bae5120a00b46ce0373c6f637f66", "1.1.0--h4349ce8_0": "sha256:4aa498fcf1ce67c4344c0c9d9a089e200a4c65ab7b095aab9434be5b832ad254"}, "docker": "quay.io/biocontainers/ilesta", "aliases": {"Ilesta": "/usr/local/bin/Ilesta"}}
+config: {"url": "https://biocontainers.pro/tools/ilesta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ilesta", "latest": {"1.5.0--hab7d0fd_0": "sha256:947d94e93b5ba5f910b751ceb5dc1ce7bbde79c3485890734c3277fc2b8ff1cb"}, "tags": {"1.0.0--h4349ce8_0": "sha256:6b9dcef45c7fd3e41fefe8e5f0a5d4d2c765f97ab549c2d8673678b698f00657", "1.2.1--h4349ce8_0": "sha256:bef84513c1b52d9ae5acdb9ce6f09b83fc86bae5120a00b46ce0373c6f637f66", "1.1.0--h4349ce8_0": "sha256:4aa498fcf1ce67c4344c0c9d9a089e200a4c65ab7b095aab9434be5b832ad254", "1.5.0--hab7d0fd_0": "sha256:947d94e93b5ba5f910b751ceb5dc1ce7bbde79c3485890734c3277fc2b8ff1cb", "1.4.0--hab7d0fd_0": "sha256:6f9bc22575d9029e3db65e5c7d671f92ed69a0a794f030426308dc15f4834529", "1.3.0--hab7d0fd_0": "sha256:06f2ef2a4880d7050654596a26b977d9f8971eec8f933f064debcbeb356577a4", "1.2.1--hab7d0fd_1": "sha256:1eab84e82ef72e844670ff4f9edfd04d5c607deede7df865e2d5bb3407cca533"}, "docker": "quay.io/biocontainers/ilesta", "aliases": {"Ilesta": "/usr/local/bin/Ilesta"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ilesta.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/ilesta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ilesta:1.2.1--h4349ce8_0
+$ shpc install quay.io/biocontainers/ilesta:1.5.0--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ilesta/1.2.1--h4349ce8_0
-$ module help quay.io/biocontainers/ilesta/1.2.1--h4349ce8_0
+$ module load quay.io/biocontainers/ilesta/1.5.0--hab7d0fd_0
+$ module help quay.io/biocontainers/ilesta/1.5.0--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

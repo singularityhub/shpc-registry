@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ffmpeg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffmpeg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffmpeg/container.yaml"
-updated_at: "2026-11-02 09:14:28.886236"
-latest: "7.1.1"
+updated_at: "2026-11-03 05:47:12.619806"
+latest: "9.0.2"
 container_url: "https://biocontainers.pro/tools/ffmpeg"
 aliases:
  - "cllayerinfo"
@@ -47,8 +47,9 @@ aliases:
  - "parec"
 versions:
  - "7.1.1"
+ - "9.0.2"
 description: "singularity registry hpc automated addition for ffmpeg"
-config: {"url": "https://biocontainers.pro/tools/ffmpeg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ffmpeg", "latest": {"7.1.1": "sha256:736bb0f82f30eaffcea3baafcbf742f8dc37a23b1a8292fffa9703e52b03a654"}, "tags": {"7.1.1": "sha256:736bb0f82f30eaffcea3baafcbf742f8dc37a23b1a8292fffa9703e52b03a654"}, "docker": "quay.io/biocontainers/ffmpeg", "aliases": {"cllayerinfo": "/usr/local/bin/cllayerinfo", "ffmpeg": "/usr/local/bin/ffmpeg", "ffplay": "/usr/local/bin/ffplay", "pax11publish": "/usr/local/bin/pax11publish", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "sdl2-config": "/usr/local/bin/sdl2-config", "wayland-scanner": "/usr/local/bin/wayland-scanner", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "jackd": "/usr/local/bin/jackd", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "lame": "/usr/local/bin/lame", "pa-info": "/usr/local/bin/pa-info", "pacat": "/usr/local/bin/pacat", "pactl": "/usr/local/bin/pactl", "padsp": "/usr/local/bin/padsp", "pamon": "/usr/local/bin/pamon", "paplay": "/usr/local/bin/paplay", "parec": "/usr/local/bin/parec"}}
+config: {"url": "https://biocontainers.pro/tools/ffmpeg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ffmpeg", "latest": {"9.0.2": "sha256:bfb059ff5ef474007cbe5c88e5aa9610722498aef30e377f2e89ba1e06c5c0b0"}, "tags": {"7.1.1": "sha256:736bb0f82f30eaffcea3baafcbf742f8dc37a23b1a8292fffa9703e52b03a654", "9.0.2": "sha256:bfb059ff5ef474007cbe5c88e5aa9610722498aef30e377f2e89ba1e06c5c0b0"}, "docker": "quay.io/biocontainers/ffmpeg", "aliases": {"cllayerinfo": "/usr/local/bin/cllayerinfo", "ffmpeg": "/usr/local/bin/ffmpeg", "ffplay": "/usr/local/bin/ffplay", "pax11publish": "/usr/local/bin/pax11publish", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "sdl2-config": "/usr/local/bin/sdl2-config", "wayland-scanner": "/usr/local/bin/wayland-scanner", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "jackd": "/usr/local/bin/jackd", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "lame": "/usr/local/bin/lame", "pa-info": "/usr/local/bin/pa-info", "pacat": "/usr/local/bin/pacat", "pactl": "/usr/local/bin/pactl", "padsp": "/usr/local/bin/padsp", "pamon": "/usr/local/bin/pamon", "paplay": "/usr/local/bin/paplay", "parec": "/usr/local/bin/parec"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ffmpeg.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/ffmpeg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ffmpeg:7.1.1
+$ shpc install quay.io/biocontainers/ffmpeg:9.0.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ffmpeg/7.1.1
-$ module help quay.io/biocontainers/ffmpeg/7.1.1
+$ module load quay.io/biocontainers/ffmpeg/9.0.2
+$ module help quay.io/biocontainers/ffmpeg/9.0.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

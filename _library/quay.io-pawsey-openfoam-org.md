@@ -4,8 +4,8 @@ name:  "quay.io/pawsey/openfoam-org"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/openfoam-org/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/openfoam-org/container.yaml"
-updated_at: "2026-11-02 09:01:26.858332"
-latest: "12"
+updated_at: "2026-11-03 05:34:45.936456"
+latest: "14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04"
 container_url: "https://quay.io/repository/pawsey/openfoam-org"
 
 versions:
@@ -14,8 +14,11 @@ versions:
  - "9"
  - "8"
  - "7"
+ - "14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04"
+ - "12-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04"
+ - "10-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04"
 description: "OpenFOAM (openfoam.org) images built on top of MPICH."
-config: {"docker": "quay.io/pawsey/openfoam-org", "url": "https://quay.io/repository/pawsey/openfoam-org", "maintainer": "@alexisespinosa", "description": "OpenFOAM (openfoam.org) images built on top of MPICH.", "latest": {"12": "sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753"}, "tags": {"12": "sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753", "10": "sha256:7b923a567b7792a7da827a09d60aedb90d2f324f69892ab86b2f8d970ecf8fb1", "9": "sha256:7df46fc4cc0844c66ddfb897f47bf79b3e4c33c3a9d9bf8169d2ac6ea896841f", "8": "sha256:a552ba767634ae7e87a8db9585476348ccbebdc3ae1d264f7af87384c291d4aa", "7": "sha256:c55d41ae5249c33a413a5fccd28053d1544d11deb46f01dd0411bd8493c89b2b"}, "overrides": {"12": "aliases/12.yaml", "10": "aliases/10.yaml", "9": "aliases/9.yaml", "8": "aliases/8.yaml", "7": "aliases/7.yaml"}}
+config: {"docker": "quay.io/pawsey/openfoam-org", "url": "https://quay.io/repository/pawsey/openfoam-org", "maintainer": "@alexisespinosa", "description": "OpenFOAM (openfoam.org) images built on top of MPICH.", "latest": {"14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04": "sha256:84e43296ce5c10845c3d7bc0893f5e1188db7d898dd24723dd9c91502be421d9"}, "tags": {"12": "sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753", "10": "sha256:7b923a567b7792a7da827a09d60aedb90d2f324f69892ab86b2f8d970ecf8fb1", "9": "sha256:7df46fc4cc0844c66ddfb897f47bf79b3e4c33c3a9d9bf8169d2ac6ea896841f", "8": "sha256:a552ba767634ae7e87a8db9585476348ccbebdc3ae1d264f7af87384c291d4aa", "7": "sha256:c55d41ae5249c33a413a5fccd28053d1544d11deb46f01dd0411bd8493c89b2b", "14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04": "sha256:84e43296ce5c10845c3d7bc0893f5e1188db7d898dd24723dd9c91502be421d9", "12-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04": "sha256:81cc4a821f9b36e3997e0286237fe76c9a38d48a90d73a9f243123ff55db5d60", "10-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04": "sha256:0a57afb37b9dac95aff27241146e29904ee3e810ab0c666b44dfd01edb420a4c"}, "overrides": {"12": "aliases/12.yaml", "10": "aliases/10.yaml", "9": "aliases/9.yaml", "8": "aliases/8.yaml", "7": "aliases/7.yaml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/openfoam-org.
@@ -30,7 +33,7 @@ $ shpc install quay.io/pawsey/openfoam-org
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/openfoam-org:12
+$ shpc install quay.io/pawsey/openfoam-org:14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/openfoam-org/12
-$ module help quay.io/pawsey/openfoam-org/12
+$ module load quay.io/pawsey/openfoam-org/14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04
+$ module help quay.io/pawsey/openfoam-org/14-gcc13DPInt32Opt-mpich4.2.2-ubuntu24.04
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

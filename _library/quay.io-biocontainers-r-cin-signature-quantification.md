@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cin-signature-quantification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cin-signature-quantification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cin-signature-quantification/container.yaml"
-updated_at: "2026-11-02 09:25:12.692219"
+updated_at: "2026-11-03 05:57:31.504357"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-cin-signature-quantification"
 aliases:

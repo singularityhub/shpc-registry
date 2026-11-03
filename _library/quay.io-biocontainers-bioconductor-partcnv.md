@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-partcnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-partcnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-partcnv/container.yaml"
-updated_at: "2026-11-02 09:03:37.294967"
+updated_at: "2026-11-03 05:36:52.504778"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-partcnv"
 aliases:

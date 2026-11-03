@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-orthos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orthos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orthos/container.yaml"
-updated_at: "2026-11-02 09:43:43.816437"
+updated_at: "2026-11-03 06:15:05.392903"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orthos"
 aliases:

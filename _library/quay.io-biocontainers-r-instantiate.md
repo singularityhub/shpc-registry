@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-instantiate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-instantiate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-instantiate/container.yaml"
-updated_at: "2026-11-02 09:10:01.239159"
-latest: "0.2.3--r45hf7ecca6_0"
+updated_at: "2026-11-03 05:42:59.891261"
+latest: "0.2.4--r45hcdf289b_0"
 container_url: "https://biocontainers.pro/tools/r-instantiate"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "0.2.3--r45hf7ecca6_0"
+ - "0.2.4--r45hcdf289b_0"
 description: "singularity registry hpc automated addition for r-instantiate"
-config: {"url": "https://biocontainers.pro/tools/r-instantiate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-instantiate", "latest": {"0.2.3--r45hf7ecca6_0": "sha256:7e1f5b866e3c66e8bfd1229f8777ebbbca488d90445f8b779da11d154f456099"}, "tags": {"0.2.3--r45hf7ecca6_0": "sha256:7e1f5b866e3c66e8bfd1229f8777ebbbca488d90445f8b779da11d154f456099"}, "docker": "quay.io/biocontainers/r-instantiate", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-instantiate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-instantiate", "latest": {"0.2.4--r45hcdf289b_0": "sha256:496fa28281d3c5f1ab6fa64ba5497428a3b3c8483c4df395008eaab9d14994b3"}, "tags": {"0.2.3--r45hf7ecca6_0": "sha256:7e1f5b866e3c66e8bfd1229f8777ebbbca488d90445f8b779da11d154f456099", "0.2.4--r45hcdf289b_0": "sha256:496fa28281d3c5f1ab6fa64ba5497428a3b3c8483c4df395008eaab9d14994b3"}, "docker": "quay.io/biocontainers/r-instantiate", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-instantiate.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-instantiate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-instantiate:0.2.3--r45hf7ecca6_0
+$ shpc install quay.io/biocontainers/r-instantiate:0.2.4--r45hcdf289b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-instantiate/0.2.3--r45hf7ecca6_0
-$ module help quay.io/biocontainers/r-instantiate/0.2.3--r45hf7ecca6_0
+$ module load quay.io/biocontainers/r-instantiate/0.2.4--r45hcdf289b_0
+$ module help quay.io/biocontainers/r-instantiate/0.2.4--r45hcdf289b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

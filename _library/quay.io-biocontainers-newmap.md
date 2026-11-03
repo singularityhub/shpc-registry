@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/newmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newmap/container.yaml"
-updated_at: "2026-11-02 09:07:15.842291"
+updated_at: "2026-11-03 05:40:22.640406"
 latest: "0.3--py311h9a48388_0"
 container_url: "https://biocontainers.pro/tools/newmap"
 aliases:

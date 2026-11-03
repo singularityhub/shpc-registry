@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastnlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastnlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastnlr/container.yaml"
-updated_at: "2026-11-02 09:27:16.460449"
+updated_at: "2026-11-03 05:59:29.925226"
 latest: "1.4.1--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/fastnlr"
 aliases:

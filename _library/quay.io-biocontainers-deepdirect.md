@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepdirect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepdirect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepdirect/container.yaml"
-updated_at: "2026-11-02 09:34:38.380828"
+updated_at: "2026-11-03 06:06:29.682418"
 latest: "0.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepdirect"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirit/container.yaml"
-updated_at: "2026-11-02 09:38:54.259410"
+updated_at: "2026-11-03 06:10:31.366725"
 latest: "1.6.2--r45h55fe1e3_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirit"
 aliases:

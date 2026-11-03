@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/palmscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/palmscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/palmscan/container.yaml"
-updated_at: "2026-11-02 09:31:52.392111"
+updated_at: "2026-11-03 06:03:52.835114"
 latest: "2.0.0--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/palmscan"
 aliases:

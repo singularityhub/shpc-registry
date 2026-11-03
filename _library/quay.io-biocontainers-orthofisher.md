@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthofisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthofisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthofisher/container.yaml"
-updated_at: "2026-11-02 09:09:43.941098"
+updated_at: "2026-11-03 05:42:43.530144"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orthofisher"
 aliases:
