@@ -9,6 +9,8 @@ tags:
     sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1
   0.2.1--pyhdfd78af_0: 
     sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9
+  0.2.1--pyhdfd78af_0-amd64: 
+    sha256:cce2160cd897e885188faf06dc07d981c089a5fe31938d98a5f8e8d77ec960ff
 docker: quay.io/biocontainers/cellosaurus
 aliases:
   idle3.14: /usr/local/bin/idle3.14

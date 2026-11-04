@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/nano16s
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nano16s
 latest:
-  1.2.2--hdfd78af_0: 
-    sha256:f34f6d72f3314fcb66c9a3212f0d18ea0f2127a6ece0222bac17e872da9c7ede
+  1.2.3--hdfd78af_0: 
+    sha256:a8af3f91d68fd95d6a5bef5ad1696dafbcc25cbe99f0adf95e22d83d4acfc82c
 tags:
   1.2.2--hdfd78af_0: 
     sha256:f34f6d72f3314fcb66c9a3212f0d18ea0f2127a6ece0222bac17e872da9c7ede
+  1.2.3--hdfd78af_0: 
+    sha256:a8af3f91d68fd95d6a5bef5ad1696dafbcc25cbe99f0adf95e22d83d4acfc82c
 docker: quay.io/biocontainers/nano16s
 aliases:
   NanoStat: /usr/local/bin/NanoStat

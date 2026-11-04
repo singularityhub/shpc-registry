@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sawfish
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sawfish
 latest:
-  2.2.1--h9ee0642_0: 
-    sha256:43c13a51ed07909a307ba8c86779d55ca62caedc07ef053235f7e96b71d2112f
+  2.3.1--h9ee0642_0: 
+    sha256:4607140cd4c54303479147fb538383f5609d5e51e04666b70a0ca5f8bae72cdb
 tags:
   0.12.1--h9ee0642_0: 
     sha256:0de0ad7950f341793da2af2143b1f8a763eec1eb042a51e15132291ade2cde92
@@ -35,6 +35,8 @@ tags:
     sha256:1fc602f54e6af8a15d27ee6f2429c4e7945b38946009ef9cb75e4d7fa28df9aa
   2.2.1--h9ee0642_0: 
     sha256:43c13a51ed07909a307ba8c86779d55ca62caedc07ef053235f7e96b71d2112f
+  2.3.1--h9ee0642_0: 
+    sha256:4607140cd4c54303479147fb538383f5609d5e51e04666b70a0ca5f8bae72cdb
 docker: quay.io/biocontainers/sawfish
 aliases:
   sawfish: /usr/local/bin/sawfish

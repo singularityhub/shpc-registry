@@ -16,7 +16,7 @@ tags:
   enh_various: 
     sha256:e477c8a30722eafe8fc61592bf17b64c0afd5f737140589ef55d76ebc47bffd7
   unstable: 
-    sha256:8bb441064db5eb39de0cac3041ef156a1c83a19128bbdd49bd20be55ae654698
+    sha256:45db0ae06ca8c7e1adb843cd61e8c1da2f25b036187d9e6b9b804578db2354cc
 aliases:
   spm12: /opt/spm12/spm12
 filter:

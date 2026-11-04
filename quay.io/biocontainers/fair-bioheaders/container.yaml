@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fair-bioheaders
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fair-bioheaders
 latest:
-  0.5.0--pyhdfd78af_0: 
-    sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4
+  0.8.6--pyhdfd78af_0: 
+    sha256:9d774ad79601ffd25c423d9efb6da3e24a16e3bf8124d112fe5887c7c27d02bb
 tags:
   0.5.0--pyhdfd78af_0: 
     sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4
+  0.8.6--pyhdfd78af_0: 
+    sha256:9d774ad79601ffd25c423d9efb6da3e24a16e3bf8124d112fe5887c7c27d02bb
 docker: quay.io/biocontainers/fair-bioheaders
 aliases:
   bioheaders: /usr/local/bin/bioheaders

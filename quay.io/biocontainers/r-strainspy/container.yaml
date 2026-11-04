@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-strainspy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-strainspy
 latest:
-  0.99.1--r45hdfd78af_0: 
-    sha256:fb21decdac979daa0d969b45745354999abf13842163edaa3bc3e09a73fcf4bd
+  0.99.3--r45hdfd78af_0: 
+    sha256:185a598cca8bda1be73a748371b970cd759b954b4c8f784f1ca74f7553543fda
 tags:
   0.99.1--r45hdfd78af_0: 
     sha256:fb21decdac979daa0d969b45745354999abf13842163edaa3bc3e09a73fcf4bd
+  0.99.3--r45hdfd78af_0: 
+    sha256:185a598cca8bda1be73a748371b970cd759b954b4c8f784f1ca74f7553543fda
 docker: quay.io/biocontainers/r-strainspy
 aliases:
   fc-genconf: /usr/local/bin/fc-genconf

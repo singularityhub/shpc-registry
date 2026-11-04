@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/galaxy-files-full
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for galaxy-files-full
 latest:
-  26.1.1--pyhdfd78af_0: 
-    sha256:732baf54692e59a4a6f6d2e5cba1c93803a4aa2088e4edce3750f51240ad3f02
+  26.1.2--pyhdfd78af_0: 
+    sha256:5939a74a5630cb6ee2fdf91e9e0610265cf212fefef77b5202b4803b993f568e
 tags:
   24.2.3--pyh7e72e81_0: 
     sha256:11c1dea1213d99c3b0f59b399fef341e24665bfd8ed12cc37a792a75e925c70d
@@ -23,6 +23,8 @@ tags:
     sha256:010e26590997a793ee4df43ef5bad1c50cf614ae316fcbadb52d1c376aa59776
   26.1.1--pyhdfd78af_0: 
     sha256:732baf54692e59a4a6f6d2e5cba1c93803a4aa2088e4edce3750f51240ad3f02
+  26.1.2--pyhdfd78af_0: 
+    sha256:5939a74a5630cb6ee2fdf91e9e0610265cf212fefef77b5202b4803b993f568e
 docker: quay.io/biocontainers/galaxy-files-full
 aliases:
   protoc-29.3.0: /usr/local/bin/protoc-29.3.0

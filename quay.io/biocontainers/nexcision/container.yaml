@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/nexcision
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nexcision
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:d9e1443d376774e7a45b17494dc866be9552f156087eaf6b403be8f27f07f99a
+  0.2.0--pyhdfd78af_0: 
+    sha256:c0aef0928cce9634e4664cd63640638ddb3d66757238b5377e8b33cd198b4c17
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:d9e1443d376774e7a45b17494dc866be9552f156087eaf6b403be8f27f07f99a
+  0.2.0--pyhdfd78af_0: 
+    sha256:c0aef0928cce9634e4664cd63640638ddb3d66757238b5377e8b33cd198b4c17
 docker: quay.io/biocontainers/nexcision
 aliases:
   nexcise: /usr/local/bin/nexcise

@@ -6,11 +6,13 @@ features:
   gpu: true
 
 latest:
-  2024.3-rocm6.3.0: 
-    sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677
+  2026.2-rocm7.0.1: 
+    sha256:ca79e7e3d4677b94aae6a0323c1b800b319a3927dd74543833cb038fad61ea19
 tags:
   2024.3-rocm6.3.0: 
     sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677
+  2026.2-rocm7.0.1: 
+    sha256:ca79e7e3d4677b94aae6a0323c1b800b319a3927dd74543833cb038fad61ea19
 aliases:
   cp2k.popt: /opt/cp2k/bin/cp2k.popt
   cp2k.psmp.dbcsr_gpu.pw_gpu: /opt/cp2k/bin/cp2k.psmp.dbcsr_gpu.pw_gpu
