@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metagene_annotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagene_annotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagene_annotator/container.yaml"
-updated_at: "2026-11-03 09:20:23.698447"
+updated_at: "2026-11-05 09:19:57.772513"
 latest: "1.0--h516909a_3"
 container_url: "https://biocontainers.pro/tools/metagene_annotator"
 aliases:

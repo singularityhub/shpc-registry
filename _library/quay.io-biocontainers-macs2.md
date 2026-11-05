@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/macs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macs2/container.yaml"
-updated_at: "2026-11-03 09:22:56.155656"
-latest: "2.2.9.1--py310h1fe012e_5"
+updated_at: "2026-11-05 09:22:17.418731"
+latest: "2.2.9.1--py310h6813faf_6"
 container_url: "https://biocontainers.pro/tools/macs2"
 aliases:
  - "macs2"
@@ -24,8 +24,9 @@ versions:
  - "2.2.9.1--py39hbcbf7aa_3"
  - "2.2.9.1--py311haab0aaa_4"
  - "2.2.9.1--py310h1fe012e_5"
+ - "2.2.9.1--py310h6813faf_6"
 description: "shpc-registry automated BioContainers addition for macs2"
-config: {"url": "https://biocontainers.pro/tools/macs2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for macs2", "latest": {"2.2.9.1--py310h1fe012e_5": "sha256:d1387523283200f0f09cc643266a6c9d1319e5b132b2b764015f75c04d61bff1"}, "tags": {"2.2.7.1--py38hbff2b2d_5": "sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10", "2.2.9.1--py38he5da3d1_0": "sha256:2ced5035e7a83413034a77c12f5434fc35c823647431665e4ab2175afcc0445c", "2.2.9.1--py39hf95cd2a_0": "sha256:72c7bb1607500199d93008847805f7d6e035bd112237db6a0aff1edee1b79788", "2.2.9.1--py38h0020b31_1": "sha256:af9814c1ae91f811f35dce9033df57b28d6a4032d44eb5dba9ebe26539bf1deb", "2.2.9.1--py310h1fe012e_2": "sha256:92483b3cddae71c954853f38cee7ce1c49d0370d7624de051a8779275a2b8877", "2.2.9.1--py39hbcbf7aa_3": "sha256:626b8772df0f8814510a7020747bfad414b3fe61e766b9f146b87f32b2747efc", "2.2.9.1--py311haab0aaa_4": "sha256:6a3fca1b38c3a6fb8829708a7835c420302a91aa50b0c6e1df09d157fab31a1b", "2.2.9.1--py310h1fe012e_5": "sha256:d1387523283200f0f09cc643266a6c9d1319e5b132b2b764015f75c04d61bff1"}, "docker": "quay.io/biocontainers/macs2", "aliases": {"macs2": "/usr/local/bin/macs2", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/macs2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for macs2", "latest": {"2.2.9.1--py310h6813faf_6": "sha256:5009013d700d473c4aa4ceb514fd28cbe31919125578c4bc1866efcfee5ff2d2"}, "tags": {"2.2.7.1--py38hbff2b2d_5": "sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10", "2.2.9.1--py38he5da3d1_0": "sha256:2ced5035e7a83413034a77c12f5434fc35c823647431665e4ab2175afcc0445c", "2.2.9.1--py39hf95cd2a_0": "sha256:72c7bb1607500199d93008847805f7d6e035bd112237db6a0aff1edee1b79788", "2.2.9.1--py38h0020b31_1": "sha256:af9814c1ae91f811f35dce9033df57b28d6a4032d44eb5dba9ebe26539bf1deb", "2.2.9.1--py310h1fe012e_2": "sha256:92483b3cddae71c954853f38cee7ce1c49d0370d7624de051a8779275a2b8877", "2.2.9.1--py39hbcbf7aa_3": "sha256:626b8772df0f8814510a7020747bfad414b3fe61e766b9f146b87f32b2747efc", "2.2.9.1--py311haab0aaa_4": "sha256:6a3fca1b38c3a6fb8829708a7835c420302a91aa50b0c6e1df09d157fab31a1b", "2.2.9.1--py310h1fe012e_5": "sha256:d1387523283200f0f09cc643266a6c9d1319e5b132b2b764015f75c04d61bff1", "2.2.9.1--py310h6813faf_6": "sha256:5009013d700d473c4aa4ceb514fd28cbe31919125578c4bc1866efcfee5ff2d2"}, "docker": "quay.io/biocontainers/macs2", "aliases": {"macs2": "/usr/local/bin/macs2", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/macs2.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/macs2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/macs2:2.2.9.1--py310h1fe012e_5
+$ shpc install quay.io/biocontainers/macs2:2.2.9.1--py310h6813faf_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/macs2/2.2.9.1--py310h1fe012e_5
-$ module help quay.io/biocontainers/macs2/2.2.9.1--py310h1fe012e_5
+$ module load quay.io/biocontainers/macs2/2.2.9.1--py310h6813faf_6
+$ module help quay.io/biocontainers/macs2/2.2.9.1--py310h6813faf_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

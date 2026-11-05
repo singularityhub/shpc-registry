@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squigulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squigulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squigulator/container.yaml"
-updated_at: "2026-11-03 09:41:35.893747"
+updated_at: "2026-11-05 09:39:32.996982"
 latest: "0.5.0--h7f5d12c_0"
 container_url: "https://biocontainers.pro/tools/squigulator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mitools/container.yaml"
-updated_at: "2026-11-03 09:38:59.480530"
+updated_at: "2026-11-05 09:36:53.399264"
 latest: "2.3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-mitools"
 aliases:

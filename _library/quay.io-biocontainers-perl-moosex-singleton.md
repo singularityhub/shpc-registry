@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-singleton"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-singleton/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-singleton/container.yaml"
-updated_at: "2026-11-03 09:22:07.615145"
+updated_at: "2026-11-05 09:21:35.053580"
 latest: "0.30--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-moosex-singleton"
 aliases:

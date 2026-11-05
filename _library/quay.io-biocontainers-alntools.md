@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alntools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alntools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alntools/container.yaml"
-updated_at: "2026-11-03 09:20:54.369056"
+updated_at: "2026-11-05 09:20:26.731143"
 latest: "1.0--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/alntools"
 aliases:

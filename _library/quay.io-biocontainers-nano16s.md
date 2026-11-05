@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nano16s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nano16s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nano16s/container.yaml"
-updated_at: "2026-11-03 09:25:43.558920"
-latest: "1.2.2--hdfd78af_0"
+updated_at: "2026-11-05 09:24:39.252002"
+latest: "1.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nano16s"
 aliases:
  - "NanoStat"
@@ -50,8 +50,9 @@ aliases:
  - "rst2html5"
 versions:
  - "1.2.2--hdfd78af_0"
+ - "1.2.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for nano16s"
-config: {"url": "https://biocontainers.pro/tools/nano16s", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nano16s", "latest": {"1.2.2--hdfd78af_0": "sha256:f34f6d72f3314fcb66c9a3212f0d18ea0f2127a6ece0222bac17e872da9c7ede"}, "tags": {"1.2.2--hdfd78af_0": "sha256:f34f6d72f3314fcb66c9a3212f0d18ea0f2127a6ece0222bac17e872da9c7ede"}, "docker": "quay.io/biocontainers/nano16s", "aliases": {"NanoStat": "/usr/local/bin/NanoStat", "bioawk": "/usr/local/bin/bioawk", "chopper": "/usr/local/bin/chopper", "clang++-23": "/usr/local/bin/clang++-23", "clang-23": "/usr/local/bin/clang-23", "clang-cl-23": "/usr/local/bin/clang-cl-23", "clang-cpp-23": "/usr/local/bin/clang-cpp-23", "emu": "/usr/local/bin/emu", "nano16s": "/usr/local/bin/nano16s", "porechop_abi": "/usr/local/bin/porechop_abi", "x86_64-conda-linux-gnu-clang": "/usr/local/bin/x86_64-conda-linux-gnu-clang", "x86_64-conda-linux-gnu-clang-cpp": "/usr/local/bin/x86_64-conda-linux-gnu-clang-cpp", "x86_64-conda-linux-gnu-clang-cpp.cfg": "/usr/local/bin/x86_64-conda-linux-gnu-clang-cpp.cfg", "x86_64-conda-linux-gnu-clang.cfg": "/usr/local/bin/x86_64-conda-linux-gnu-clang.cfg", "x86_64-conda-linux-gnu-flang.cfg": "/usr/local/bin/x86_64-conda-linux-gnu-flang.cfg", "clang-cl": "/usr/local/bin/clang-cl", "clang-cpp": "/usr/local/bin/clang-cpp", "addr2line": "/usr/local/bin/addr2line", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "clang": "/usr/local/bin/clang", "elfedit": "/usr/local/bin/elfedit", "gprof": "/usr/local/bin/gprof", "ld.bfd": "/usr/local/bin/ld.bfd", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "ar": "/usr/local/bin/ar", "ld": "/usr/local/bin/ld", "ranlib": "/usr/local/bin/ranlib", "strip": "/usr/local/bin/strip", "seq_cache_populate.py": "/usr/local/bin/seq_cache_populate.py", "phc": "/usr/local/bin/phc", "eido": "/usr/local/bin/eido", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5"}}
+config: {"url": "https://biocontainers.pro/tools/nano16s", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nano16s", "latest": {"1.2.3--hdfd78af_0": "sha256:a8af3f91d68fd95d6a5bef5ad1696dafbcc25cbe99f0adf95e22d83d4acfc82c"}, "tags": {"1.2.2--hdfd78af_0": "sha256:f34f6d72f3314fcb66c9a3212f0d18ea0f2127a6ece0222bac17e872da9c7ede", "1.2.3--hdfd78af_0": "sha256:a8af3f91d68fd95d6a5bef5ad1696dafbcc25cbe99f0adf95e22d83d4acfc82c"}, "docker": "quay.io/biocontainers/nano16s", "aliases": {"NanoStat": "/usr/local/bin/NanoStat", "bioawk": "/usr/local/bin/bioawk", "chopper": "/usr/local/bin/chopper", "clang++-23": "/usr/local/bin/clang++-23", "clang-23": "/usr/local/bin/clang-23", "clang-cl-23": "/usr/local/bin/clang-cl-23", "clang-cpp-23": "/usr/local/bin/clang-cpp-23", "emu": "/usr/local/bin/emu", "nano16s": "/usr/local/bin/nano16s", "porechop_abi": "/usr/local/bin/porechop_abi", "x86_64-conda-linux-gnu-clang": "/usr/local/bin/x86_64-conda-linux-gnu-clang", "x86_64-conda-linux-gnu-clang-cpp": "/usr/local/bin/x86_64-conda-linux-gnu-clang-cpp", "x86_64-conda-linux-gnu-clang-cpp.cfg": "/usr/local/bin/x86_64-conda-linux-gnu-clang-cpp.cfg", "x86_64-conda-linux-gnu-clang.cfg": "/usr/local/bin/x86_64-conda-linux-gnu-clang.cfg", "x86_64-conda-linux-gnu-flang.cfg": "/usr/local/bin/x86_64-conda-linux-gnu-flang.cfg", "clang-cl": "/usr/local/bin/clang-cl", "clang-cpp": "/usr/local/bin/clang-cpp", "addr2line": "/usr/local/bin/addr2line", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "clang": "/usr/local/bin/clang", "elfedit": "/usr/local/bin/elfedit", "gprof": "/usr/local/bin/gprof", "ld.bfd": "/usr/local/bin/ld.bfd", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "ar": "/usr/local/bin/ar", "ld": "/usr/local/bin/ld", "ranlib": "/usr/local/bin/ranlib", "strip": "/usr/local/bin/strip", "seq_cache_populate.py": "/usr/local/bin/seq_cache_populate.py", "phc": "/usr/local/bin/phc", "eido": "/usr/local/bin/eido", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nano16s.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/nano16s
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nano16s:1.2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/nano16s:1.2.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nano16s/1.2.2--hdfd78af_0
-$ module help quay.io/biocontainers/nano16s/1.2.2--hdfd78af_0
+$ module load quay.io/biocontainers/nano16s/1.2.3--hdfd78af_0
+$ module help quay.io/biocontainers/nano16s/1.2.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

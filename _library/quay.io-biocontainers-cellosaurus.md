@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellosaurus/container.yaml"
-updated_at: "2026-11-03 09:23:26.693996"
+updated_at: "2026-11-05 09:22:42.662508"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellosaurus"
 aliases:
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0-amd64"
 description: "singularity registry hpc automated addition for cellosaurus"
-config: {"url": "https://biocontainers.pro/tools/cellosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellosaurus", "latest": {"0.2.1--pyhdfd78af_0": "sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1", "0.2.1--pyhdfd78af_0": "sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9"}, "docker": "quay.io/biocontainers/cellosaurus", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/cellosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellosaurus", "latest": {"0.2.1--pyhdfd78af_0": "sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1", "0.2.1--pyhdfd78af_0": "sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9", "0.2.1--pyhdfd78af_0-amd64": "sha256:cce2160cd897e885188faf06dc07d981c089a5fe31938d98a5f8e8d77ec960ff"}, "docker": "quay.io/biocontainers/cellosaurus", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cellosaurus.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nexcision"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nexcision/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nexcision/container.yaml"
-updated_at: "2026-11-03 09:43:11.448180"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-11-05 09:41:10.354824"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nexcision"
 aliases:
  - "nexcise"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for nexcision"
-config: {"url": "https://biocontainers.pro/tools/nexcision", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nexcision", "latest": {"0.1.1--pyhdfd78af_0": "sha256:d9e1443d376774e7a45b17494dc866be9552f156087eaf6b403be8f27f07f99a"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:d9e1443d376774e7a45b17494dc866be9552f156087eaf6b403be8f27f07f99a"}, "docker": "quay.io/biocontainers/nexcision", "aliases": {"nexcise": "/usr/local/bin/nexcise", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/nexcision", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nexcision", "latest": {"0.2.0--pyhdfd78af_0": "sha256:c0aef0928cce9634e4664cd63640638ddb3d66757238b5377e8b33cd198b4c17"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:d9e1443d376774e7a45b17494dc866be9552f156087eaf6b403be8f27f07f99a", "0.2.0--pyhdfd78af_0": "sha256:c0aef0928cce9634e4664cd63640638ddb3d66757238b5377e8b33cd198b4c17"}, "docker": "quay.io/biocontainers/nexcision", "aliases": {"nexcise": "/usr/local/bin/nexcise", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nexcision.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/nexcision
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nexcision:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nexcision:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nexcision/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/nexcision/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/nexcision/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/nexcision/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

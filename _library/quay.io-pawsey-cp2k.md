@@ -4,8 +4,8 @@ name:  "quay.io/pawsey/cp2k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/cp2k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/cp2k/container.yaml"
-updated_at: "2026-11-03 09:08:43.511488"
-latest: "2024.3-rocm6.3.0"
+updated_at: "2026-11-05 09:07:04.876309"
+latest: "2026.2-rocm7.0.1"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
  - "cp2k.popt"
@@ -28,8 +28,9 @@ aliases:
  - "nequip_unittest.psmp"
 versions:
  - "2024.3-rocm6.3.0"
+ - "2026.2-rocm7.0.1"
 description: "Pawsey build of CP2K built on top of MPICH and ROCm for AMD GPUs"
-config: {"docker": "quay.io/pawsey/cp2k", "url": "https://singularity-hpc.readthedocs.io", "description": "Pawsey build of CP2K built on top of MPICH and ROCm for AMD GPUs", "maintainer": "@craigmeyer", "features": {"gpu": true}, "latest": {"2024.3-rocm6.3.0": "sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677"}, "tags": {"2024.3-rocm6.3.0": "sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677"}, "aliases": {"cp2k.popt": "/opt/cp2k/bin/cp2k.popt", "cp2k.psmp.dbcsr_gpu.pw_gpu": "/opt/cp2k/bin/cp2k.psmp.dbcsr_gpu.pw_gpu", "cp2k_shell.psmp": "/opt/cp2k/bin/cp2k_shell.psmp", "graph.psmp": "/opt/cp2k/bin/graph.psmp", "grid_unittest.psmp": "/opt/cp2k/bin/grid_unittest.psmp", "memory_utilities_unittest.psmp": "/opt/cp2k/bin/memory_utilities_unittest.psmp", "xyz2dcd.psmp": "/opt/cp2k/bin/xyz2dcd.psmp", "cp2k.psmp": "/opt/cp2k/bin/cp2k.psmp", "cp2k.psmp.no_dbcsr_gpu": "/opt/cp2k/bin/cp2k.psmp.no_dbcsr_gpu", "cp2k.psmp.no_pw_gpu": "/opt/cp2k/bin/cp2k.psmp.no_pw_gpu", "dumpdcd.psmp": "/opt/cp2k/bin/dumpdcd.psmp", "dbm_miniapp.psmp": "/opt/cp2k/bin/dbm_miniapp.psmp", "dbt_tas_unittest.psmp": "/opt/cp2k/bin/dbt_tas_unittest.psmp", "dbt_unittest.psmp": "/opt/cp2k/bin/dbt_unittest.psmp", "grid_miniapp.psmp": "/opt/cp2k/bin/grid_miniapp.psmp", "libcp2k_unittest.psmp": "/opt/cp2k/bin/libcp2k_unittest.psmp", "parallel_rng_types_unittest.psmp": "/opt/cp2k/bin/parallel_rng_types_unittest.psmp", "nequip_unittest.psmp": "/opt/cp2k/bin/nequip_unittest.psmp"}}
+config: {"docker": "quay.io/pawsey/cp2k", "url": "https://singularity-hpc.readthedocs.io", "description": "Pawsey build of CP2K built on top of MPICH and ROCm for AMD GPUs", "maintainer": "@craigmeyer", "features": {"gpu": true}, "latest": {"2026.2-rocm7.0.1": "sha256:ca79e7e3d4677b94aae6a0323c1b800b319a3927dd74543833cb038fad61ea19"}, "tags": {"2024.3-rocm6.3.0": "sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677", "2026.2-rocm7.0.1": "sha256:ca79e7e3d4677b94aae6a0323c1b800b319a3927dd74543833cb038fad61ea19"}, "aliases": {"cp2k.popt": "/opt/cp2k/bin/cp2k.popt", "cp2k.psmp.dbcsr_gpu.pw_gpu": "/opt/cp2k/bin/cp2k.psmp.dbcsr_gpu.pw_gpu", "cp2k_shell.psmp": "/opt/cp2k/bin/cp2k_shell.psmp", "graph.psmp": "/opt/cp2k/bin/graph.psmp", "grid_unittest.psmp": "/opt/cp2k/bin/grid_unittest.psmp", "memory_utilities_unittest.psmp": "/opt/cp2k/bin/memory_utilities_unittest.psmp", "xyz2dcd.psmp": "/opt/cp2k/bin/xyz2dcd.psmp", "cp2k.psmp": "/opt/cp2k/bin/cp2k.psmp", "cp2k.psmp.no_dbcsr_gpu": "/opt/cp2k/bin/cp2k.psmp.no_dbcsr_gpu", "cp2k.psmp.no_pw_gpu": "/opt/cp2k/bin/cp2k.psmp.no_pw_gpu", "dumpdcd.psmp": "/opt/cp2k/bin/dumpdcd.psmp", "dbm_miniapp.psmp": "/opt/cp2k/bin/dbm_miniapp.psmp", "dbt_tas_unittest.psmp": "/opt/cp2k/bin/dbt_tas_unittest.psmp", "dbt_unittest.psmp": "/opt/cp2k/bin/dbt_unittest.psmp", "grid_miniapp.psmp": "/opt/cp2k/bin/grid_miniapp.psmp", "libcp2k_unittest.psmp": "/opt/cp2k/bin/libcp2k_unittest.psmp", "parallel_rng_types_unittest.psmp": "/opt/cp2k/bin/parallel_rng_types_unittest.psmp", "nequip_unittest.psmp": "/opt/cp2k/bin/nequip_unittest.psmp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/cp2k.
@@ -44,7 +45,7 @@ $ shpc install quay.io/pawsey/cp2k
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/cp2k:2024.3-rocm6.3.0
+$ shpc install quay.io/pawsey/cp2k:2026.2-rocm7.0.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/cp2k/2024.3-rocm6.3.0
-$ module help quay.io/pawsey/cp2k/2024.3-rocm6.3.0
+$ module load quay.io/pawsey/cp2k/2026.2-rocm7.0.1
+$ module help quay.io/pawsey/cp2k/2026.2-rocm7.0.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

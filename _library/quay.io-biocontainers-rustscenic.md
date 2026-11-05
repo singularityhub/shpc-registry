@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rustscenic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustscenic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustscenic/container.yaml"
-updated_at: "2026-11-03 09:43:09.342886"
+updated_at: "2026-11-05 09:41:08.401722"
 latest: "0.5.1--py313hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/rustscenic"
 aliases:

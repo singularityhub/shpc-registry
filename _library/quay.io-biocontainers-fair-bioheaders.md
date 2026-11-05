@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fair-bioheaders"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fair-bioheaders/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fair-bioheaders/container.yaml"
-updated_at: "2026-11-03 09:17:24.382116"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2026-11-05 09:16:40.054048"
+latest: "0.8.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fair-bioheaders"
 aliases:
  - "bioheaders"
@@ -26,8 +26,9 @@ aliases:
  - "jsonschema"
 versions:
  - "0.5.0--pyhdfd78af_0"
+ - "0.8.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for fair-bioheaders"
-config: {"url": "https://biocontainers.pro/tools/fair-bioheaders", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fair-bioheaders", "latest": {"0.5.0--pyhdfd78af_0": "sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4"}, "docker": "quay.io/biocontainers/fair-bioheaders", "aliases": {"bioheaders": "/usr/local/bin/bioheaders", "fhr-convert": "/usr/local/bin/fhr-convert", "fhr-fasta-combine": "/usr/local/bin/fhr-fasta-combine", "fhr-fasta-strip": "/usr/local/bin/fhr-fasta-strip", "fhr-fasta-validate": "/usr/local/bin/fhr-fasta-validate", "fhr-gfa-combine": "/usr/local/bin/fhr-gfa-combine", "fhr-gfa-strip": "/usr/local/bin/fhr-gfa-strip", "fhr-gfa-validate": "/usr/local/bin/fhr-gfa-validate", "fhr-validate": "/usr/local/bin/fhr-validate", "idle3.15": "/usr/local/bin/idle3.15", "pydoc3.15": "/usr/local/bin/pydoc3.15", "python3.15": "/usr/local/bin/python3.15", "python3.15-config": "/usr/local/bin/python3.15-config", "jsonpointer": "/usr/local/bin/jsonpointer", "idna": "/usr/local/bin/idna", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/fair-bioheaders", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fair-bioheaders", "latest": {"0.8.6--pyhdfd78af_0": "sha256:9d774ad79601ffd25c423d9efb6da3e24a16e3bf8124d112fe5887c7c27d02bb"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:c0ad46ee4496801b584430a04cb6db5e73d1ee0ae1b9134f04bfef87185ef0d4", "0.8.6--pyhdfd78af_0": "sha256:9d774ad79601ffd25c423d9efb6da3e24a16e3bf8124d112fe5887c7c27d02bb"}, "docker": "quay.io/biocontainers/fair-bioheaders", "aliases": {"bioheaders": "/usr/local/bin/bioheaders", "fhr-convert": "/usr/local/bin/fhr-convert", "fhr-fasta-combine": "/usr/local/bin/fhr-fasta-combine", "fhr-fasta-strip": "/usr/local/bin/fhr-fasta-strip", "fhr-fasta-validate": "/usr/local/bin/fhr-fasta-validate", "fhr-gfa-combine": "/usr/local/bin/fhr-gfa-combine", "fhr-gfa-strip": "/usr/local/bin/fhr-gfa-strip", "fhr-gfa-validate": "/usr/local/bin/fhr-gfa-validate", "fhr-validate": "/usr/local/bin/fhr-validate", "idle3.15": "/usr/local/bin/idle3.15", "pydoc3.15": "/usr/local/bin/pydoc3.15", "python3.15": "/usr/local/bin/python3.15", "python3.15-config": "/usr/local/bin/python3.15-config", "jsonpointer": "/usr/local/bin/jsonpointer", "idna": "/usr/local/bin/idna", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fair-bioheaders.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/fair-bioheaders
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fair-bioheaders:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fair-bioheaders:0.8.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fair-bioheaders/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/fair-bioheaders/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/fair-bioheaders/0.8.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/fair-bioheaders/0.8.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-taxsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-taxsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-taxsea/container.yaml"
-updated_at: "2026-11-03 09:40:54.289918"
+updated_at: "2026-11-05 09:38:47.906132"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-taxsea"
 aliases:

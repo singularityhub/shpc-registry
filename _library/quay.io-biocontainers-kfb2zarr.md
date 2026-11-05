@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/kfb2zarr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kfb2zarr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kfb2zarr/container.yaml"
-updated_at: "2026-11-03 09:38:39.456777"
-latest: "0.1.3--hec9b1f2_1"
+updated_at: "2026-11-05 09:36:31.671341"
+latest: "0.2.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/kfb2zarr"
 aliases:
  - "kfb2zarr"
 versions:
  - "0.1.1--hec9b1f2_0"
  - "0.1.3--hec9b1f2_1"
+ - "0.2.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for kfb2zarr"
-config: {"url": "https://biocontainers.pro/tools/kfb2zarr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kfb2zarr", "latest": {"0.1.3--hec9b1f2_1": "sha256:10f4fc27f2111ad3852c62cba219cdb59d63b90d8a015386b143e9b5cb201a63"}, "tags": {"0.1.1--hec9b1f2_0": "sha256:90c50f4dba7c10763f962630339e4998d1da05d57b2881cfadf07e22a3de9104", "0.1.3--hec9b1f2_1": "sha256:10f4fc27f2111ad3852c62cba219cdb59d63b90d8a015386b143e9b5cb201a63"}, "docker": "quay.io/biocontainers/kfb2zarr", "aliases": {"kfb2zarr": "/usr/local/bin/kfb2zarr"}}
+config: {"url": "https://biocontainers.pro/tools/kfb2zarr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kfb2zarr", "latest": {"0.2.0--hec9b1f2_0": "sha256:89ecb85dfdc815a7c99076d4a3367944310f679a3b5510d2a2fa36dc04991e33"}, "tags": {"0.1.1--hec9b1f2_0": "sha256:90c50f4dba7c10763f962630339e4998d1da05d57b2881cfadf07e22a3de9104", "0.1.3--hec9b1f2_1": "sha256:10f4fc27f2111ad3852c62cba219cdb59d63b90d8a015386b143e9b5cb201a63", "0.2.0--hec9b1f2_0": "sha256:89ecb85dfdc815a7c99076d4a3367944310f679a3b5510d2a2fa36dc04991e33"}, "docker": "quay.io/biocontainers/kfb2zarr", "aliases": {"kfb2zarr": "/usr/local/bin/kfb2zarr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kfb2zarr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/kfb2zarr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kfb2zarr:0.1.3--hec9b1f2_1
+$ shpc install quay.io/biocontainers/kfb2zarr:0.2.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kfb2zarr/0.1.3--hec9b1f2_1
-$ module help quay.io/biocontainers/kfb2zarr/0.1.3--hec9b1f2_1
+$ module load quay.io/biocontainers/kfb2zarr/0.2.0--hec9b1f2_0
+$ module help quay.io/biocontainers/kfb2zarr/0.2.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pynem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynem/container.yaml"
-updated_at: "2026-11-03 09:45:52.451624"
+updated_at: "2026-11-05 09:43:49.219355"
 latest: "0.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pynem"
 aliases:

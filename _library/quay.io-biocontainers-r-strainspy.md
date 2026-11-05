@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-strainspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-strainspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-strainspy/container.yaml"
-updated_at: "2026-11-03 09:44:37.336392"
-latest: "0.99.1--r45hdfd78af_0"
+updated_at: "2026-11-05 09:42:35.462719"
+latest: "0.99.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-strainspy"
 aliases:
  - "fc-genconf"
@@ -20,8 +20,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.99.1--r45hdfd78af_0"
+ - "0.99.3--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for r-strainspy"
-config: {"url": "https://biocontainers.pro/tools/r-strainspy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-strainspy", "latest": {"0.99.1--r45hdfd78af_0": "sha256:fb21decdac979daa0d969b45745354999abf13842163edaa3bc3e09a73fcf4bd"}, "tags": {"0.99.1--r45hdfd78af_0": "sha256:fb21decdac979daa0d969b45745354999abf13842163edaa3bc3e09a73fcf4bd"}, "docker": "quay.io/biocontainers/r-strainspy", "aliases": {"fc-genconf": "/usr/local/bin/fc-genconf", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-strainspy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-strainspy", "latest": {"0.99.3--r45hdfd78af_0": "sha256:185a598cca8bda1be73a748371b970cd759b954b4c8f784f1ca74f7553543fda"}, "tags": {"0.99.1--r45hdfd78af_0": "sha256:fb21decdac979daa0d969b45745354999abf13842163edaa3bc3e09a73fcf4bd", "0.99.3--r45hdfd78af_0": "sha256:185a598cca8bda1be73a748371b970cd759b954b4c8f784f1ca74f7553543fda"}, "docker": "quay.io/biocontainers/r-strainspy", "aliases": {"fc-genconf": "/usr/local/bin/fc-genconf", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-strainspy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-strainspy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-strainspy:0.99.1--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/r-strainspy:0.99.3--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-strainspy/0.99.1--r45hdfd78af_0
-$ module help quay.io/biocontainers/r-strainspy/0.99.1--r45hdfd78af_0
+$ module load quay.io/biocontainers/r-strainspy/0.99.3--r45hdfd78af_0
+$ module help quay.io/biocontainers/r-strainspy/0.99.3--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
