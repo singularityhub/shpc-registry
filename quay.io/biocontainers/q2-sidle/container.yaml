@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/q2-sidle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for q2-sidle
+latest:
+  v.0.1.0-beta: 
+    sha256:6547e683c76519f63a8d7b131042c22aa5dd241ca2178f265d3d4578daca1290
+tags:
+  v.0.1.0-beta: 
+    sha256:6547e683c76519f63a8d7b131042c22aa5dd241ca2178f265d3d4578daca1290
+docker: quay.io/biocontainers/q2-sidle
+aliases:
+  autoheader.bak: /usr/local/bin/autoheader.bak
+  autom4te.bak: /usr/local/bin/autom4te.bak
+  autoreconf.bak: /usr/local/bin/autoreconf.bak
+  autoscan.bak: /usr/local/bin/autoscan.bak
+  autoupdate.bak: /usr/local/bin/autoupdate.bak
+  ifnames.bak: /usr/local/bin/ifnames.bak
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  automake.bak: /usr/local/bin/automake.bak
+  npx: /usr/local/bin/npx
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  biom: /usr/local/bin/biom
+  produce_x_platform_fuzz_corpus: /usr/local/bin/produce_x_platform_fuzz_corpus
+  run_x_platform_fuzz_corpus: /usr/local/bin/run_x_platform_fuzz_corpus
+  vsearch: /usr/local/bin/vsearch
+  dask: /usr/local/bin/dask
+  sha256_profile: /usr/local/bin/sha256_profile
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds

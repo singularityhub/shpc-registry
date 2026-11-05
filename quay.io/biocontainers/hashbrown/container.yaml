@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/hashbrown
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hashbrown
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:78748a063b7fba76b6ff4a0ad036a8f0a53fdb2a6976bc9e4c0c5eaeda4303af
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:78748a063b7fba76b6ff4a0ad036a8f0a53fdb2a6976bc9e4c0c5eaeda4303af
+docker: quay.io/biocontainers/hashbrown
+aliases:
+  Bandage: /usr/local/bin/Bandage
+  fastahack: /usr/local/bin/fastahack
+  filtlong: /usr/local/bin/filtlong
+  gfa_connector: /usr/local/bin/gfa_connector
+  hashbrown: /usr/local/bin/hashbrown
+  kmercounter: /usr/local/bin/kmercounter
+  medaka_consensus_joint: /usr/local/bin/medaka_consensus_joint
+  medaka_variant: /usr/local/bin/medaka_variant
+  mosdepth: /usr/local/bin/mosdepth
+  pl2bat.pl: /usr/local/bin/pl2bat.pl
+  polypolish: /usr/local/bin/polypolish
+  pypolca: /usr/local/bin/pypolca
+  saute: /usr/local/bin/saute
+  saute_prot: /usr/local/bin/saute_prot
+  shasta: /usr/local/bin/shasta
+  syntax_suggest: /usr/local/bin/syntax_suggest
+  vcfnullgenofields: /usr/local/bin/vcfnullgenofields
+  vcfwave: /usr/local/bin/vcfwave
+  weasyprint: /usr/local/bin/weasyprint
+  yaggo: /usr/local/bin/yaggo
+  medaka: /usr/local/bin/medaka
+  medaka_consensus: /usr/local/bin/medaka_consensus
+  medaka_counts: /usr/local/bin/medaka_counts
+  medaka_data_path: /usr/local/bin/medaka_data_path
+  medaka_version_report: /usr/local/bin/medaka_version_report
+  skesa: /usr/local/bin/skesa
+  binspreader: /usr/local/bin/binspreader
+  demux_fast5: /usr/local/bin/demux_fast5
+  mini_align: /usr/local/bin/mini_align
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  spades-hpc: /usr/local/bin/spades-hpc
+  icarus.py: /usr/local/bin/icarus.py
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  pathracer: /usr/local/bin/pathracer
+  porechop: /usr/local/bin/porechop
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
+  check_compression: /usr/local/bin/check_compression
+  compress_fast5: /usr/local/bin/compress_fast5
+  spades-gfa-split: /usr/local/bin/spades-gfa-split
