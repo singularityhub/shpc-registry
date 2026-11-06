@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/argutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argutils/container.yaml"
-updated_at: "2026-11-05 09:34:19.839781"
+updated_at: "2026-11-06 09:26:24.629600"
 latest: "0.3.2--py35_1"
 container_url: "https://biocontainers.pro/tools/argutils"
 aliases:

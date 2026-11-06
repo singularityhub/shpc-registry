@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jorg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jorg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jorg/container.yaml"
-updated_at: "2026-11-05 09:16:47.057063"
+updated_at: "2026-11-06 09:09:14.151186"
 latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jorg"
 aliases:

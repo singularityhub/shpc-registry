@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnv-phenopacket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnv-phenopacket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnv-phenopacket/container.yaml"
-updated_at: "2026-11-05 09:37:29.854411"
+updated_at: "2026-11-06 09:29:28.330650"
 latest: "1.0.2"
 container_url: "https://biocontainers.pro/tools/cnv-phenopacket"
 aliases:

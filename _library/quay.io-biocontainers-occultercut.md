@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/occultercut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/occultercut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/occultercut/container.yaml"
-updated_at: "2026-11-05 09:20:28.231372"
+updated_at: "2026-11-06 09:12:44.300028"
 latest: "1.1--h503566f_1"
 container_url: "https://biocontainers.pro/tools/occultercut"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vitessce-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vitessce-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vitessce-python/container.yaml"
-updated_at: "2026-11-05 09:09:50.372160"
+updated_at: "2026-11-06 09:03:13.536222"
 latest: "3.9.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vitessce-python"
 aliases:

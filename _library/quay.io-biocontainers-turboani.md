@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/turboani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/turboani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/turboani/container.yaml"
-updated_at: "2026-11-05 09:24:38.665052"
+updated_at: "2026-11-06 09:16:54.751528"
 latest: "0.1.8--h39acb7c_0"
 container_url: "https://biocontainers.pro/tools/turboani"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-radiogx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-radiogx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-radiogx/container.yaml"
-updated_at: "2026-11-05 09:11:54.339479"
+updated_at: "2026-11-06 09:04:51.210257"
 latest: "2.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-radiogx"
 

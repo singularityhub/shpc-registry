@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/getitd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/getitd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/getitd/container.yaml"
-updated_at: "2026-11-05 09:11:51.372540"
+updated_at: "2026-11-06 09:04:48.832054"
 latest: "1.5.17--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/getitd"
 aliases:

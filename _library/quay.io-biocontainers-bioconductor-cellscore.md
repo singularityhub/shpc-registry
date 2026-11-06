@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellscore/container.yaml"
-updated_at: "2026-11-05 09:30:41.486430"
+updated_at: "2026-11-06 09:22:41.006468"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellscore"
 aliases:

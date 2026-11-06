@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyaragorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyaragorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyaragorn/container.yaml"
-updated_at: "2026-11-05 09:07:15.054205"
+updated_at: "2026-11-06 09:01:06.808318"
 latest: "0.3.0--py310h6813faf_0"
 container_url: "https://biocontainers.pro/tools/pyaragorn"
 aliases:

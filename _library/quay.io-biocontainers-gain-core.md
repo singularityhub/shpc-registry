@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gain-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gain-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gain-core/container.yaml"
-updated_at: "2026-11-05 09:32:02.410588"
+updated_at: "2026-11-06 09:24:05.408036"
 latest: "2026.10.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gain-core"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasnet/container.yaml"
-updated_at: "2026-11-05 09:44:20.452496"
+updated_at: "2026-11-06 09:35:40.582062"
 latest: "0.5.1--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasnet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/k2tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/k2tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/k2tools/container.yaml"
-updated_at: "2026-11-05 09:36:07.566709"
+updated_at: "2026-11-06 09:28:06.783777"
 latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/k2tools"
 aliases:

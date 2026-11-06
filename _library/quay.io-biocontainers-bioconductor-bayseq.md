@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bayseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayseq/container.yaml"
-updated_at: "2026-11-05 09:41:18.264491"
+updated_at: "2026-11-06 09:32:59.938060"
 latest: "2.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayseq"
 

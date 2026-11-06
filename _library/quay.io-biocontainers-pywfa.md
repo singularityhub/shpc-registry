@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pywfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywfa/container.yaml"
-updated_at: "2026-11-05 09:12:28.750438"
+updated_at: "2026-11-06 09:05:19.624833"
 latest: "0.6.0--py312hfabe715_0"
 container_url: "https://biocontainers.pro/tools/pywfa"
 

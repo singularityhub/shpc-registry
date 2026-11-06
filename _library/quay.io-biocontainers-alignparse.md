@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alignparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignparse/container.yaml"
-updated_at: "2026-11-05 09:22:52.837134"
+updated_at: "2026-11-06 09:15:09.912035"
 latest: "0.8.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/alignparse"
 aliases:

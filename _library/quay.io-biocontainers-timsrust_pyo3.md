@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/timsrust_pyo3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/timsrust_pyo3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/timsrust_pyo3/container.yaml"
-updated_at: "2026-11-05 09:14:38.462208"
+updated_at: "2026-11-06 09:07:10.533362"
 latest: "0.4.1--py311h78a2e26_0"
 container_url: "https://biocontainers.pro/tools/timsrust_pyo3"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drs-transcript-prediction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drs-transcript-prediction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drs-transcript-prediction/container.yaml"
-updated_at: "2026-11-05 09:25:34.285496"
+updated_at: "2026-11-06 09:17:46.475204"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drs-transcript-prediction"
 aliases:

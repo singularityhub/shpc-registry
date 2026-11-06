@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/disassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/disassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/disassembler/container.yaml"
-updated_at: "2026-11-05 09:15:21.256586"
+updated_at: "2026-11-06 09:07:49.682798"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/disassembler"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mist-cf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mist-cf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mist-cf/container.yaml"
-updated_at: "2026-11-05 09:38:12.182478"
+updated_at: "2026-11-06 09:30:09.042843"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mist-cf"
 aliases:

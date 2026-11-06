@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyvcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyvcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyvcf/container.yaml"
-updated_at: "2026-11-05 09:29:11.306464"
+updated_at: "2026-11-06 09:21:04.544388"
 latest: "0.8.0--py27_0"
 container_url: "https://biocontainers.pro/tools/cyvcf"
 

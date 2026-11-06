@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/konezumiaid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/konezumiaid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/konezumiaid/container.yaml"
-updated_at: "2026-11-05 09:41:37.726445"
+updated_at: "2026-11-06 09:33:16.816948"
 latest: "0.3.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/konezumiaid"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/womtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/womtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/womtool/container.yaml"
-updated_at: "2026-11-05 09:28:02.921230"
+updated_at: "2026-11-06 09:20:00.194822"
 latest: "61--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/womtool"
 aliases:

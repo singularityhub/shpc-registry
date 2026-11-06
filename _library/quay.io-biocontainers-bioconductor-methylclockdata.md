@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylclockdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylclockdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylclockdata/container.yaml"
-updated_at: "2026-11-05 09:17:35.641451"
+updated_at: "2026-11-06 09:09:58.364825"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylclockdata"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seqminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seqminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seqminer/container.yaml"
-updated_at: "2026-11-05 09:45:48.085420"
+updated_at: "2026-11-06 09:36:59.507230"
 latest: "7.1--r351h29659fb_0"
 container_url: "https://biocontainers.pro/tools/r-seqminer"
 aliases:

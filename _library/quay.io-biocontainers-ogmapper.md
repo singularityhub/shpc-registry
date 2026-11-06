@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ogmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ogmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ogmapper/container.yaml"
-updated_at: "2026-11-05 09:13:31.601255"
+updated_at: "2026-11-06 09:06:11.289473"
 latest: "1.1.1--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/ogmapper"
 aliases:

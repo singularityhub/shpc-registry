@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phagefactor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phagefactor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phagefactor/container.yaml"
-updated_at: "2026-11-05 09:28:38.390957"
+updated_at: "2026-11-06 09:20:31.759101"
 latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phagefactor"
 aliases:

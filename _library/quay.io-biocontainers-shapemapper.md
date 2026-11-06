@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shapemapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapemapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapemapper/container.yaml"
-updated_at: "2026-11-05 09:18:16.464120"
+updated_at: "2026-11-06 09:10:35.479352"
 latest: "2.3.2--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/shapemapper"
 aliases:

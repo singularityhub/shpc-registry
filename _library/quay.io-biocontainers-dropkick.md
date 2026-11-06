@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dropkick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropkick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropkick/container.yaml"
-updated_at: "2026-11-05 09:24:34.451166"
+updated_at: "2026-11-06 09:16:50.909456"
 latest: "1.2.8--py39hdd8045a_0"
 container_url: "https://biocontainers.pro/tools/dropkick"
 aliases:

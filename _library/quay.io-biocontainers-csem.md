@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csem/container.yaml"
-updated_at: "2026-11-05 09:38:06.948528"
+updated_at: "2026-11-06 09:30:03.989508"
 latest: "2.4--h47932c3_1"
 container_url: "https://biocontainers.pro/tools/csem"
 aliases:

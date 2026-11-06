@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phizz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phizz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phizz/container.yaml"
-updated_at: "2026-11-05 09:39:58.954313"
+updated_at: "2026-11-06 09:31:47.071639"
 latest: "0.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/phizz"
 aliases:

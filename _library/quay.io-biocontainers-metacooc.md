@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacooc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacooc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacooc/container.yaml"
-updated_at: "2026-11-05 09:46:57.351752"
+updated_at: "2026-11-06 09:38:02.065381"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacooc"
 aliases:

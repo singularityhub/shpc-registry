@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reaper-trim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reaper-trim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reaper-trim/container.yaml"
-updated_at: "2026-11-05 09:37:46.864836"
+updated_at: "2026-11-06 09:29:44.655340"
 latest: "17.257--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/reaper-trim"
 aliases:

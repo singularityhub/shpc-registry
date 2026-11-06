@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vaxrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vaxrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vaxrank/container.yaml"
-updated_at: "2026-11-05 09:42:04.380889"
+updated_at: "2026-11-06 09:33:39.916891"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vaxrank"
 aliases:

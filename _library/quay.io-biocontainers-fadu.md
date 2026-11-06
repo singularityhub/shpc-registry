@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fadu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fadu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fadu/container.yaml"
-updated_at: "2026-11-05 09:41:46.877510"
+updated_at: "2026-11-06 09:33:24.668186"
 latest: "1.10.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/fadu"
 aliases:

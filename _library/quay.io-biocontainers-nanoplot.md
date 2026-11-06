@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplot/container.yaml"
-updated_at: "2026-11-05 09:13:19.631880"
+updated_at: "2026-11-06 09:06:01.568477"
 latest: "1.48.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/nanoplot"
 aliases:

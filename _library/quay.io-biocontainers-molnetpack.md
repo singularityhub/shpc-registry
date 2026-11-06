@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/molnetpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molnetpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molnetpack/container.yaml"
-updated_at: "2026-11-05 09:34:03.346259"
+updated_at: "2026-11-06 09:26:08.028275"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/molnetpack"
 aliases:

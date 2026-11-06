@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gse13015"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gse13015/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gse13015/container.yaml"
-updated_at: "2026-11-05 09:18:15.865820"
+updated_at: "2026-11-06 09:10:34.933946"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gse13015"
 

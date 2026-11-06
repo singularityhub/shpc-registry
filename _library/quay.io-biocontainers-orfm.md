@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orfm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfm/container.yaml"
-updated_at: "2026-11-05 09:28:00.605821"
+updated_at: "2026-11-06 09:19:58.015916"
 latest: "2.1.1--h54198d6_1"
 container_url: "https://biocontainers.pro/tools/orfm"
 aliases:

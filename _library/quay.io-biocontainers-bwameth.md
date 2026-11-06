@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwameth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwameth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwameth/container.yaml"
-updated_at: "2026-11-05 09:37:50.604750"
+updated_at: "2026-11-06 09:29:48.343789"
 latest: "0.20--py35_0"
 container_url: "https://biocontainers.pro/tools/bwameth"
 aliases:
