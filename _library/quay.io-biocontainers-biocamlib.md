@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biocamlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocamlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocamlib/container.yaml"
-updated_at: "2026-11-06 09:22:15.635399"
+updated_at: "2026-11-06 18:28:50.437480"
 latest: "1.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/biocamlib"
 aliases:

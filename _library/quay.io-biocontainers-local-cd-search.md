@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/local-cd-search"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/local-cd-search/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/local-cd-search/container.yaml"
-updated_at: "2026-11-06 09:08:46.430767"
+updated_at: "2026-11-06 18:15:00.273998"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/local-cd-search"
 aliases:

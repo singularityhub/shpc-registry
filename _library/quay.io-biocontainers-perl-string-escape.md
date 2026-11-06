@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-escape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-escape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-escape/container.yaml"
-updated_at: "2026-11-06 09:13:59.289652"
+updated_at: "2026-11-06 18:20:03.674076"
 latest: "2010.002--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-string-escape"
 aliases:

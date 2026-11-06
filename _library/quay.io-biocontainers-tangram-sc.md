@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tangram-sc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tangram-sc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tangram-sc/container.yaml"
-updated_at: "2026-11-06 09:22:47.978895"
+updated_at: "2026-11-06 18:29:22.624762"
 latest: "1.0.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/tangram-sc"
 aliases:

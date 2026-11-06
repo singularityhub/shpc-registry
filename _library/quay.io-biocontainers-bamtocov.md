@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamtocov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamtocov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamtocov/container.yaml"
-updated_at: "2026-11-06 09:21:20.399194"
+updated_at: "2026-11-06 18:27:57.635258"
 latest: "2.10.0--hf50e46a_0"
 container_url: "https://biocontainers.pro/tools/bamtocov"
 aliases:

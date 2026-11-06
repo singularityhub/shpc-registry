@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hyplas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyplas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyplas/container.yaml"
-updated_at: "2026-11-06 09:09:35.317086"
+updated_at: "2026-11-06 18:15:54.188370"
 latest: "1.0.2--py311h2de2dd3_0"
 container_url: "https://biocontainers.pro/tools/hyplas"
 aliases:

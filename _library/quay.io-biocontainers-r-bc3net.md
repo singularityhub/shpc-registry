@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bc3net"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bc3net/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bc3net/container.yaml"
-updated_at: "2026-11-06 09:04:16.594847"
+updated_at: "2026-11-06 18:10:19.693328"
 latest: "1.0.4--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-bc3net"
 aliases:

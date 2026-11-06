@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lash/container.yaml"
-updated_at: "2026-11-06 09:22:08.068073"
+updated_at: "2026-11-06 18:28:42.734996"
 latest: "0.1.7--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/lash"
 aliases:

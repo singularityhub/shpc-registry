@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/torchstain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/torchstain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/torchstain/container.yaml"
-updated_at: "2026-11-06 09:27:47.388565"
+updated_at: "2026-11-06 18:34:36.782027"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/torchstain"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmaple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmaple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmaple/container.yaml"
-updated_at: "2026-11-06 09:37:25.567724"
+updated_at: "2026-11-06 18:46:06.870827"
 latest: "2.0.0--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/cmaple"
 aliases:

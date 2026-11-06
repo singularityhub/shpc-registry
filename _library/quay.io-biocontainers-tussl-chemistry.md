@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tussl-chemistry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tussl-chemistry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tussl-chemistry/container.yaml"
-updated_at: "2026-11-06 09:16:39.615398"
+updated_at: "2026-11-06 18:22:43.789794"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/tussl-chemistry"
 aliases:

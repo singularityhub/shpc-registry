@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coreutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coreutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coreutils/container.yaml"
-updated_at: "2026-11-06 09:21:20.207621"
+updated_at: "2026-11-06 18:27:57.459700"
 latest: "9.11"
 container_url: "https://biocontainers.pro/tools/coreutils"
 aliases:

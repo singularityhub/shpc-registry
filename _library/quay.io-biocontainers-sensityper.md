@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sensityper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sensityper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sensityper/container.yaml"
-updated_at: "2026-11-06 09:35:37.899742"
+updated_at: "2026-11-06 18:44:07.954602"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sensityper"
 aliases:

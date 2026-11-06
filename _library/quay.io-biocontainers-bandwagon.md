@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bandwagon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bandwagon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bandwagon/container.yaml"
-updated_at: "2026-11-06 09:08:36.676153"
+updated_at: "2026-11-06 18:14:49.978319"
 latest: "0.3.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/bandwagon"
 aliases:

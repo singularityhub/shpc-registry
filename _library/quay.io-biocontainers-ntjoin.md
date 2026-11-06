@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntjoin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntjoin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntjoin/container.yaml"
-updated_at: "2026-11-06 09:06:35.404043"
+updated_at: "2026-11-06 18:12:44.225641"
 latest: "1.1.7--py312h05cac1d_0"
 container_url: "https://biocontainers.pro/tools/ntjoin"
 aliases:

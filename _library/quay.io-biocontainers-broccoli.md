@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/broccoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/broccoli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/broccoli/container.yaml"
-updated_at: "2026-11-06 09:31:28.274135"
+updated_at: "2026-11-06 18:38:54.329072"
 latest: "2.0.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/broccoli"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phykit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phykit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phykit/container.yaml"
-updated_at: "2026-11-06 09:28:39.472579"
+updated_at: "2026-11-06 18:35:33.153626"
 latest: "2.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phykit"
 aliases:

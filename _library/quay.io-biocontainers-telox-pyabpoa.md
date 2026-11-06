@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telox-pyabpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telox-pyabpoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telox-pyabpoa/container.yaml"
-updated_at: "2026-11-06 09:37:27.603426"
+updated_at: "2026-11-06 18:46:09.206236"
 latest: "1.5.6.post1--py310hfe4f656_0"
 container_url: "https://biocontainers.pro/tools/telox-pyabpoa"
 aliases:

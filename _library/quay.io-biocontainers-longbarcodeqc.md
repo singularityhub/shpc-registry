@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longbarcodeqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longbarcodeqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longbarcodeqc/container.yaml"
-updated_at: "2026-11-06 09:10:36.966987"
+updated_at: "2026-11-06 18:16:53.791370"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longbarcodeqc"
 aliases:
