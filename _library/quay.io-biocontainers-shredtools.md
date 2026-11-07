@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shredtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shredtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shredtools/container.yaml"
-updated_at: "2026-11-06 18:22:28.868283"
+updated_at: "2026-11-07 08:56:08.142084"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shredtools"
 aliases:

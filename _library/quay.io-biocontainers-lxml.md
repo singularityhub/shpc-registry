@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lxml/container.yaml"
-updated_at: "2026-11-06 18:33:30.352910"
+updated_at: "2026-11-07 09:12:32.972419"
 latest: "6.1.3"
 container_url: "https://biocontainers.pro/tools/lxml"
 aliases:

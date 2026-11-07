@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-delaporte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-delaporte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-delaporte/container.yaml"
-updated_at: "2026-11-06 18:42:11.269657"
+updated_at: "2026-11-07 09:24:14.035813"
 latest: "3.0.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-delaporte"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomeblocks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomeblocks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomeblocks/container.yaml"
-updated_at: "2026-11-06 18:30:18.211083"
+updated_at: "2026-11-07 09:07:52.993850"
 latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genomeblocks"
 aliases:

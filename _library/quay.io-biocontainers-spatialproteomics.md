@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatialproteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatialproteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatialproteomics/container.yaml"
-updated_at: "2026-11-06 18:31:10.999557"
+updated_at: "2026-11-07 09:09:08.737316"
 latest: "0.9.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/spatialproteomics"
 aliases:

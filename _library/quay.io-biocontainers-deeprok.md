@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeprok"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeprok/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeprok/container.yaml"
-updated_at: "2026-11-06 18:40:43.518215"
+updated_at: "2026-11-07 09:22:23.368679"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeprok"
 aliases:

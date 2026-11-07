@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bottle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bottle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bottle/container.yaml"
-updated_at: "2026-11-06 18:07:24.346167"
+updated_at: "2026-11-07 08:32:05.460140"
 latest: "0.12.9--py35_0"
 container_url: "https://biocontainers.pro/tools/bottle"
 aliases:

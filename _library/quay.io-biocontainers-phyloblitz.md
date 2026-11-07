@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyloblitz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloblitz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloblitz/container.yaml"
-updated_at: "2026-11-06 18:45:59.530166"
+updated_at: "2026-11-07 09:29:08.512819"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyloblitz"
 aliases:

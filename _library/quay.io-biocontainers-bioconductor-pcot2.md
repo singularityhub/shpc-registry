@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pcot2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcot2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcot2/container.yaml"
-updated_at: "2026-11-06 18:24:40.944642"
+updated_at: "2026-11-07 08:59:22.116710"
 latest: "1.58.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcot2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/factorforge-cds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/factorforge-cds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/factorforge-cds/container.yaml"
-updated_at: "2026-11-06 18:23:03.157989"
+updated_at: "2026-11-07 08:56:59.069064"
 latest: "3.5.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/factorforge-cds"
 aliases:

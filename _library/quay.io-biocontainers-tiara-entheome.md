@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiara-entheome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiara-entheome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiara-entheome/container.yaml"
-updated_at: "2026-11-06 18:09:05.003324"
+updated_at: "2026-11-07 08:34:17.248033"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tiara-entheome"
 aliases:

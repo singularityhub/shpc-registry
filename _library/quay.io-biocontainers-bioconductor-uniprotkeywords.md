@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-uniprotkeywords"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uniprotkeywords/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uniprotkeywords/container.yaml"
-updated_at: "2026-11-06 18:36:23.876723"
+updated_at: "2026-11-07 09:16:37.394037"
 latest: "0.99.7--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uniprotkeywords"
 aliases:
