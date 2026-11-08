@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/homer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/homer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/homer/container.yaml"
-updated_at: "2026-11-07 09:09:00.776880"
+updated_at: "2026-11-08 09:20:34.563317"
 latest: "5.1--pl5321hc52dbad_1"
 container_url: "https://biocontainers.pro/tools/homer"
 aliases:

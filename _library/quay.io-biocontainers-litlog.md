@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/litlog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/litlog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/litlog/container.yaml"
-updated_at: "2026-11-07 08:59:32.423054"
+updated_at: "2026-11-08 09:11:19.683122"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/litlog"
 aliases:

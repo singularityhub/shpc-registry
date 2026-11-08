@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bipangolin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bipangolin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bipangolin/container.yaml"
-updated_at: "2026-11-07 09:09:11.379398"
+updated_at: "2026-11-08 09:20:44.953260"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bipangolin"
 aliases:

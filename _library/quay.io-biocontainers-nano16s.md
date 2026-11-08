@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nano16s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nano16s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nano16s/container.yaml"
-updated_at: "2026-11-07 08:56:56.089184"
+updated_at: "2026-11-08 09:08:47.686594"
 latest: "1.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nano16s"
 aliases:

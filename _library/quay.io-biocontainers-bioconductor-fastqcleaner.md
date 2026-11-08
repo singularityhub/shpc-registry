@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fastqcleaner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastqcleaner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastqcleaner/container.yaml"
-updated_at: "2026-11-07 08:59:42.468717"
+updated_at: "2026-11-08 09:11:29.227003"
 latest: "1.28.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastqcleaner"
 aliases:

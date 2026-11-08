@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sctreeviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sctreeviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sctreeviz/container.yaml"
-updated_at: "2026-11-07 09:29:45.537944"
+updated_at: "2026-11-08 09:40:41.725326"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sctreeviz"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samstrip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samstrip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samstrip/container.yaml"
-updated_at: "2026-11-07 09:25:24.645323"
+updated_at: "2026-11-08 09:36:27.955677"
 latest: "0.2.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/samstrip"
 aliases:

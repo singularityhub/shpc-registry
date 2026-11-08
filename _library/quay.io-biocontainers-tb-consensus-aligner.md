@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tb-consensus-aligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tb-consensus-aligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tb-consensus-aligner/container.yaml"
-updated_at: "2026-11-07 08:33:08.998171"
+updated_at: "2026-11-08 08:46:02.918719"
 latest: "1.0.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/tb-consensus-aligner"
 aliases:

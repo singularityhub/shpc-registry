@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ucsc-hgloadgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ucsc-hgloadgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ucsc-hgloadgap/container.yaml"
-updated_at: "2026-11-07 08:33:12.388730"
+updated_at: "2026-11-08 08:46:06.129132"
 latest: "502--ha7d8dd5_0-amd64"
 container_url: "https://biocontainers.pro/tools/ucsc-hgloadgap"
 aliases:

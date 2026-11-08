@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xlaevis.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xlaevis.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xlaevis.db/container.yaml"
-updated_at: "2026-11-07 08:46:14.453994"
+updated_at: "2026-11-08 08:58:25.952217"
 latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-xlaevis.db"
 

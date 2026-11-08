@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatialde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatialde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatialde/container.yaml"
-updated_at: "2026-11-07 08:39:32.118011"
+updated_at: "2026-11-08 08:52:05.321502"
 latest: "1.1.3--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/spatialde"
 aliases:

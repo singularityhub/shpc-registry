@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqgain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqgain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqgain/container.yaml"
-updated_at: "2026-11-07 09:08:45.760772"
+updated_at: "2026-11-08 09:20:19.871147"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqgain"
 aliases:

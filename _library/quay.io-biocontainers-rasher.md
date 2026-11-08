@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rasher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rasher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rasher/container.yaml"
-updated_at: "2026-11-07 08:39:01.533206"
+updated_at: "2026-11-08 08:51:36.405606"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rasher"
 aliases:

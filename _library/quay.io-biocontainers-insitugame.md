@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/insitugame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insitugame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insitugame/container.yaml"
-updated_at: "2026-11-07 08:44:09.872228"
+updated_at: "2026-11-08 08:56:31.748936"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/insitugame"
 aliases:

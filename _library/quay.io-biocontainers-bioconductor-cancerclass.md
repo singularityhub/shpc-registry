@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancerclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancerclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancerclass/container.yaml"
-updated_at: "2026-11-07 09:06:28.386493"
+updated_at: "2026-11-08 09:18:04.915108"
 latest: "1.54.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancerclass"
 

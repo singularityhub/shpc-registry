@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barena/container.yaml"
-updated_at: "2026-11-07 09:14:04.037813"
+updated_at: "2026-11-08 09:25:27.744564"
 latest: "0.3.0--h038a63e_0"
 container_url: "https://biocontainers.pro/tools/barena"
 aliases:

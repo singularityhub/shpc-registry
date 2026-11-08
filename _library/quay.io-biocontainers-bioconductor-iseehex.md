@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iseehex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iseehex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iseehex/container.yaml"
-updated_at: "2026-11-07 08:47:02.971960"
+updated_at: "2026-11-08 08:59:12.585414"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iseehex"
 aliases:

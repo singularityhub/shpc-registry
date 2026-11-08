@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tabicl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabicl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabicl/container.yaml"
-updated_at: "2026-11-07 09:20:12.491299"
+updated_at: "2026-11-08 09:31:24.293960"
 latest: "2.2.0"
 container_url: "https://biocontainers.pro/tools/tabicl"
 aliases:

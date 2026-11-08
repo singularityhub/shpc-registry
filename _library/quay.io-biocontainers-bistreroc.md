@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bistreroc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bistreroc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bistreroc/container.yaml"
-updated_at: "2026-11-07 09:24:57.373997"
+updated_at: "2026-11-08 09:36:01.212937"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bistreroc"
 aliases:

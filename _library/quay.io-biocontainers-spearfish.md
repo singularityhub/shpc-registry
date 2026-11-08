@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spearfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spearfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spearfish/container.yaml"
-updated_at: "2026-11-07 09:01:50.344946"
+updated_at: "2026-11-08 09:13:31.717940"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/spearfish"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mudas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mudas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mudas/container.yaml"
-updated_at: "2026-11-07 08:34:14.108107"
+updated_at: "2026-11-08 08:47:04.580039"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mudas"
 aliases:

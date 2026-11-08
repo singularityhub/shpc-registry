@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bobafit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bobafit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bobafit/container.yaml"
-updated_at: "2026-11-07 09:19:54.523353"
+updated_at: "2026-11-08 09:31:06.945703"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bobafit"
 aliases:
