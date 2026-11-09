@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flashpca2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flashpca2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flashpca2/container.yaml"
-updated_at: "2026-11-08 09:39:00.106594"
+updated_at: "2026-11-09 10:06:36.289997"
 latest: "2.0--ha987a51_0"
 container_url: "https://biocontainers.pro/tools/flashpca2"
 aliases:

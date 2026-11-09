@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/papa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/papa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/papa2/container.yaml"
-updated_at: "2026-11-08 09:41:31.841194"
+updated_at: "2026-11-09 10:08:51.490648"
 latest: "1.0.1--py313h1da1f56_0"
 container_url: "https://biocontainers.pro/tools/papa2"
 aliases:

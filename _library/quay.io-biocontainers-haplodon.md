@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/haplodon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplodon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplodon/container.yaml"
-updated_at: "2026-11-08 09:38:20.315695"
-latest: "0.17.0--hbcba35e_0"
+updated_at: "2026-11-09 10:06:03.304722"
+latest: "0.20.1--hbcba35e_0"
 container_url: "https://biocontainers.pro/tools/haplodon"
 aliases:
  - "haplodon"
 versions:
  - "0.17.0--hbcba35e_0"
+ - "0.20.1--hbcba35e_0"
+ - "0.19.1--hbcba35e_0"
+ - "0.18.0--hbcba35e_0"
 description: "singularity registry hpc automated addition for haplodon"
-config: {"url": "https://biocontainers.pro/tools/haplodon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplodon", "latest": {"0.17.0--hbcba35e_0": "sha256:2ad3712f1304493e11065e1485ff1927ec47bc39200c3d154f7119b6e25005f8"}, "tags": {"0.17.0--hbcba35e_0": "sha256:2ad3712f1304493e11065e1485ff1927ec47bc39200c3d154f7119b6e25005f8"}, "docker": "quay.io/biocontainers/haplodon", "aliases": {"haplodon": "/usr/local/bin/haplodon"}}
+config: {"url": "https://biocontainers.pro/tools/haplodon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplodon", "latest": {"0.20.1--hbcba35e_0": "sha256:c56f3c3bb663a883e5918428daaa0a3634e9ac97159e9648e62316859b9ac336"}, "tags": {"0.17.0--hbcba35e_0": "sha256:2ad3712f1304493e11065e1485ff1927ec47bc39200c3d154f7119b6e25005f8", "0.20.1--hbcba35e_0": "sha256:c56f3c3bb663a883e5918428daaa0a3634e9ac97159e9648e62316859b9ac336", "0.19.1--hbcba35e_0": "sha256:d223a040cd1972260bb9faeb88d7cf4f561849e2c92ae1c1c8e8d6edde55e7fc", "0.18.0--hbcba35e_0": "sha256:e9cb90cbb6261a391f75469aed9e81f9fb6fff38d70f3efc65562c1be4d487ca"}, "docker": "quay.io/biocontainers/haplodon", "aliases": {"haplodon": "/usr/local/bin/haplodon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haplodon.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/haplodon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haplodon:0.17.0--hbcba35e_0
+$ shpc install quay.io/biocontainers/haplodon:0.20.1--hbcba35e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haplodon/0.17.0--hbcba35e_0
-$ module help quay.io/biocontainers/haplodon/0.17.0--hbcba35e_0
+$ module load quay.io/biocontainers/haplodon/0.20.1--hbcba35e_0
+$ module help quay.io/biocontainers/haplodon/0.20.1--hbcba35e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

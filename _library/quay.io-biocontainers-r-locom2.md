@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-locom2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-locom2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-locom2/container.yaml"
-updated_at: "2026-11-08 09:07:14.662031"
+updated_at: "2026-11-09 09:40:10.012135"
 latest: "1.1--r45ha766e9f_0"
 container_url: "https://biocontainers.pro/tools/r-locom2"
 aliases:

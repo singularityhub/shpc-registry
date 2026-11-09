@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msbuddy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msbuddy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msbuddy/container.yaml"
-updated_at: "2026-11-08 08:46:55.103965"
+updated_at: "2026-11-09 09:23:23.250953"
 latest: "0.3.16--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msbuddy"
 aliases:

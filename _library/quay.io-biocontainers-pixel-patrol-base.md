@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pixel-patrol-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pixel-patrol-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pixel-patrol-base/container.yaml"
-updated_at: "2026-11-08 09:24:13.715048"
-latest: "0.9.2--pyhdfd78af_0"
+updated_at: "2026-11-09 09:54:15.254880"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pixel-patrol-base"
 aliases:
  - "pixel-patrol"
@@ -36,8 +36,9 @@ aliases:
  - "timezone-dump"
 versions:
  - "0.9.2--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pixel-patrol-base"
-config: {"url": "https://biocontainers.pro/tools/pixel-patrol-base", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pixel-patrol-base", "latest": {"0.9.2--pyhdfd78af_0": "sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c"}, "tags": {"0.9.2--pyhdfd78af_0": "sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c"}, "docker": "quay.io/biocontainers/pixel-patrol-base", "aliases": {"pixel-patrol": "/usr/local/bin/pixel-patrol", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "dask": "/usr/local/bin/dask", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "fc-genconf": "/usr/local/bin/fc-genconf", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
+config: {"url": "https://biocontainers.pro/tools/pixel-patrol-base", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pixel-patrol-base", "latest": {"1.0.1--pyhdfd78af_0": "sha256:280cd798d6867f6ebd65232d545960f277fe0c7fa5d2282dd48b15cb6892f743"}, "tags": {"0.9.2--pyhdfd78af_0": "sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c", "1.0.1--pyhdfd78af_0": "sha256:280cd798d6867f6ebd65232d545960f277fe0c7fa5d2282dd48b15cb6892f743"}, "docker": "quay.io/biocontainers/pixel-patrol-base", "aliases": {"pixel-patrol": "/usr/local/bin/pixel-patrol", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "dask": "/usr/local/bin/dask", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "fc-genconf": "/usr/local/bin/fc-genconf", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pixel-patrol-base.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/pixel-patrol-base
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pixel-patrol-base:0.9.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pixel-patrol-base:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pixel-patrol-base/0.9.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/pixel-patrol-base/0.9.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/pixel-patrol-base/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pixel-patrol-base/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

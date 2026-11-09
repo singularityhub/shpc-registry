@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/q2-sidle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/q2-sidle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/q2-sidle/container.yaml"
-updated_at: "2026-11-08 09:39:53.570889"
+updated_at: "2026-11-09 10:07:19.902878"
 latest: "v.0.1.0-beta"
 container_url: "https://biocontainers.pro/tools/q2-sidle"
 aliases:

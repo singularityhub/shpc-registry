@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mmpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmpdb/container.yaml"
-updated_at: "2026-11-08 08:54:59.010781"
-latest: "3.1.4--pyhdfd78af_0"
+updated_at: "2026-11-09 09:30:02.698232"
+latest: "3.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mmpdb"
 aliases:
  - "mmpdb"
@@ -37,8 +37,9 @@ aliases:
  - "pyftmerge"
 versions:
  - "3.1.4--pyhdfd78af_0"
+ - "3.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mmpdb"
-config: {"url": "https://biocontainers.pro/tools/mmpdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmpdb", "latest": {"3.1.4--pyhdfd78af_0": "sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774"}, "tags": {"3.1.4--pyhdfd78af_0": "sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774"}, "docker": "quay.io/biocontainers/mmpdb", "aliases": {"mmpdb": "/usr/local/bin/mmpdb", "pwiz": "/usr/local/bin/pwiz", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pg_config": "/usr/local/bin/pg_config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/mmpdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmpdb", "latest": {"3.1.6--pyhdfd78af_0": "sha256:fb2ceafb5df078899325417198ddb603b04e9b88d51249463f4501cda762b44b"}, "tags": {"3.1.4--pyhdfd78af_0": "sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774", "3.1.6--pyhdfd78af_0": "sha256:fb2ceafb5df078899325417198ddb603b04e9b88d51249463f4501cda762b44b"}, "docker": "quay.io/biocontainers/mmpdb", "aliases": {"mmpdb": "/usr/local/bin/mmpdb", "pwiz": "/usr/local/bin/pwiz", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pg_config": "/usr/local/bin/pg_config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmpdb.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/mmpdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmpdb:3.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mmpdb:3.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmpdb/3.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/mmpdb/3.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/mmpdb/3.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/mmpdb/3.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

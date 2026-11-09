@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maaslin3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maaslin3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maaslin3/container.yaml"
-updated_at: "2026-11-08 09:22:36.858496"
+updated_at: "2026-11-09 09:52:55.312805"
 latest: "0.99.16--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/maaslin3"
 aliases:

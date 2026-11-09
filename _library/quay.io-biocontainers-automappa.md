@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/automappa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/automappa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/automappa/container.yaml"
-updated_at: "2026-11-08 08:55:41.098418"
+updated_at: "2026-11-09 09:30:36.477851"
 latest: "2.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/automappa"
 aliases:

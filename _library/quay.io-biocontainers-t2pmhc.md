@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/t2pmhc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t2pmhc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t2pmhc/container.yaml"
-updated_at: "2026-11-08 09:08:43.096986"
+updated_at: "2026-11-09 09:41:27.005678"
 latest: "1.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/t2pmhc"
 aliases:

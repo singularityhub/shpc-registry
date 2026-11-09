@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selectsequencesfrommsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selectsequencesfrommsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selectsequencesfrommsa/container.yaml"
-updated_at: "2026-11-08 08:47:39.833474"
+updated_at: "2026-11-09 09:24:00.518081"
 latest: "1.0.5--pl526h9ebf644_0"
 container_url: "https://biocontainers.pro/tools/selectsequencesfrommsa"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatialqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatialqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatialqc/container.yaml"
-updated_at: "2026-11-08 08:50:42.712422"
+updated_at: "2026-11-09 09:26:33.044580"
 latest: "1.0.3.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/spatialqc"
 aliases:

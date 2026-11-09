@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasrisk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasrisk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasrisk/container.yaml"
-updated_at: "2026-11-08 08:47:59.209284"
+updated_at: "2026-11-09 09:24:16.683682"
 latest: "1.7.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasrisk"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioflowkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioflowkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioflowkit/container.yaml"
-updated_at: "2026-11-08 09:00:35.009723"
+updated_at: "2026-11-09 09:34:36.539097"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioflowkit"
 aliases:

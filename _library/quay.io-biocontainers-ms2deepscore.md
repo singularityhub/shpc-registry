@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms2deepscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2deepscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2deepscore/container.yaml"
-updated_at: "2026-11-08 09:34:36.464805"
+updated_at: "2026-11-09 10:02:56.321675"
 latest: "2.9.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ms2deepscore"
 aliases:

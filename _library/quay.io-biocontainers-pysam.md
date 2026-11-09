@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysam/container.yaml"
-updated_at: "2026-11-08 09:07:03.153804"
+updated_at: "2026-11-09 09:40:00.048278"
 latest: "0.24.1--py310h4a09ff2_0"
 container_url: "https://biocontainers.pro/tools/pysam"
 aliases:

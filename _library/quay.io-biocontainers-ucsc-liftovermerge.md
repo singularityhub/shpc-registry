@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ucsc-liftovermerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ucsc-liftovermerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ucsc-liftovermerge/container.yaml"
-updated_at: "2026-11-08 08:56:25.664020"
+updated_at: "2026-11-09 09:31:13.512841"
 latest: "502--ha7d8dd5_0-amd64"
 container_url: "https://biocontainers.pro/tools/ucsc-liftovermerge"
 aliases:

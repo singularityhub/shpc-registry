@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/folddisco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/folddisco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/folddisco/container.yaml"
-updated_at: "2026-11-08 08:50:28.305859"
+updated_at: "2026-11-09 09:26:21.570859"
 latest: "3.3e193e3--hb42e459_0"
 container_url: "https://biocontainers.pro/tools/folddisco"
 aliases:

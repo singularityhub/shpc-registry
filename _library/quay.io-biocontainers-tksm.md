@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tksm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tksm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tksm/container.yaml"
-updated_at: "2026-11-08 08:46:48.785769"
+updated_at: "2026-11-09 09:23:18.008474"
 latest: "0.6.1--py310ha025fb0_1"
 container_url: "https://biocontainers.pro/tools/tksm"
 aliases:

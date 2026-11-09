@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-calib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-calib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-calib/container.yaml"
-updated_at: "2026-11-08 09:39:17.443613"
+updated_at: "2026-11-09 10:06:50.340708"
 latest: "1.52.0--r36he1b5a44_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-calib"
 aliases:

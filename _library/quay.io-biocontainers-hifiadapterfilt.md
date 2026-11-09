@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hifiadapterfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifiadapterfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifiadapterfilt/container.yaml"
-updated_at: "2026-11-08 09:11:41.423808"
-latest: "3.0.0--hdfd78af_0"
+updated_at: "2026-11-09 09:43:55.745910"
+latest: "3.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hifiadapterfilt"
 aliases:
  - "action_report.py"
@@ -48,8 +48,9 @@ aliases:
  - "grep"
 versions:
  - "3.0.0--hdfd78af_0"
+ - "3.0.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for hifiadapterfilt"
-config: {"url": "https://biocontainers.pro/tools/hifiadapterfilt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hifiadapterfilt", "latest": {"3.0.0--hdfd78af_0": "sha256:ce791533ef2066f830ace1b7c8e7250e8b36cd809cf3cdb53e5ad6851451d6a3"}, "tags": {"3.0.0--hdfd78af_0": "sha256:ce791533ef2066f830ace1b7c8e7250e8b36cd809cf3cdb53e5ad6851451d6a3"}, "docker": "quay.io/biocontainers/hifiadapterfilt", "aliases": {"action_report.py": "/usr/local/bin/action_report.py", "blast_names_mapping.tsv": "/usr/local/bin/blast_names_mapping.tsv", "classify_taxonomy.py": "/usr/local/bin/classify_taxonomy.py", "gx": "/usr/local/bin/gx", "hifiadapterfilt.bib": "/usr/local/bin/hifiadapterfilt.bib", "hifiadapterfilt.ris": "/usr/local/bin/hifiadapterfilt.ris", "hifiadapterfilt.sh": "/usr/local/bin/hifiadapterfilt.sh", "hifiadapterfiltFCS.sh": "/usr/local/bin/hifiadapterfiltFCS.sh", "pbadapterfilt.sh": "/usr/local/bin/pbadapterfilt.sh", "pv": "/usr/local/bin/pv", "rclone": "/usr/local/bin/rclone", "run_gx.py": "/usr/local/bin/run_gx.py", "sync_files.py": "/usr/local/bin/sync_files.py", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep"}}
+config: {"url": "https://biocontainers.pro/tools/hifiadapterfilt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hifiadapterfilt", "latest": {"3.0.0--hdfd78af_1": "sha256:4eae481b28a7e7dfb5bea93bf8027477e0e80a773c47ce02870f71a977def71d"}, "tags": {"3.0.0--hdfd78af_0": "sha256:ce791533ef2066f830ace1b7c8e7250e8b36cd809cf3cdb53e5ad6851451d6a3", "3.0.0--hdfd78af_1": "sha256:4eae481b28a7e7dfb5bea93bf8027477e0e80a773c47ce02870f71a977def71d"}, "docker": "quay.io/biocontainers/hifiadapterfilt", "aliases": {"action_report.py": "/usr/local/bin/action_report.py", "blast_names_mapping.tsv": "/usr/local/bin/blast_names_mapping.tsv", "classify_taxonomy.py": "/usr/local/bin/classify_taxonomy.py", "gx": "/usr/local/bin/gx", "hifiadapterfilt.bib": "/usr/local/bin/hifiadapterfilt.bib", "hifiadapterfilt.ris": "/usr/local/bin/hifiadapterfilt.ris", "hifiadapterfilt.sh": "/usr/local/bin/hifiadapterfilt.sh", "hifiadapterfiltFCS.sh": "/usr/local/bin/hifiadapterfiltFCS.sh", "pbadapterfilt.sh": "/usr/local/bin/pbadapterfilt.sh", "pv": "/usr/local/bin/pv", "rclone": "/usr/local/bin/rclone", "run_gx.py": "/usr/local/bin/run_gx.py", "sync_files.py": "/usr/local/bin/sync_files.py", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hifiadapterfilt.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/hifiadapterfilt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hifiadapterfilt:3.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/hifiadapterfilt:3.0.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hifiadapterfilt/3.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/hifiadapterfilt/3.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/hifiadapterfilt/3.0.0--hdfd78af_1
+$ module help quay.io/biocontainers/hifiadapterfilt/3.0.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

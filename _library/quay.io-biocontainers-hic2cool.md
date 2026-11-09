@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hic2cool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hic2cool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hic2cool/container.yaml"
-updated_at: "2026-11-08 09:07:22.461387"
+updated_at: "2026-11-09 09:40:16.878759"
 latest: "1.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hic2cool"
 aliases:

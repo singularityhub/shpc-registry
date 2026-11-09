@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primerforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primerforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primerforge/container.yaml"
-updated_at: "2026-11-08 09:11:30.980179"
+updated_at: "2026-11-09 09:43:47.043429"
 latest: "1.5.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/primerforge"
 aliases:

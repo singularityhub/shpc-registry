@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msfiddle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msfiddle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msfiddle/container.yaml"
-updated_at: "2026-11-08 09:10:40.940996"
-latest: "2.1.0--pyhdfd78af_0"
+updated_at: "2026-11-09 09:43:05.163315"
+latest: "2.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msfiddle"
 aliases:
  - "elements_gui"
@@ -41,8 +41,10 @@ aliases:
  - "elasticurl_cpp"
 versions:
  - "2.1.0--pyhdfd78af_0"
+ - "2.3.0--pyhdfd78af_0"
+ - "2.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for msfiddle"
-config: {"url": "https://biocontainers.pro/tools/msfiddle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msfiddle", "latest": {"2.1.0--pyhdfd78af_0": "sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110"}, "docker": "quay.io/biocontainers/msfiddle", "aliases": {"elements_gui": "/usr/local/bin/elements_gui", "molmass": "/usr/local/bin/molmass", "molmass_web": "/usr/local/bin/molmass_web", "msfiddle": "/usr/local/bin/msfiddle", "msfiddle-checkpoint-paths": "/usr/local/bin/msfiddle-checkpoint-paths", "msfiddle-download-models": "/usr/local/bin/msfiddle-download-models", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pybind11-config": "/usr/local/bin/pybind11-config", "fc-genconf": "/usr/local/bin/fc-genconf", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "elastishadow": "/usr/local/bin/elastishadow", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "checksum-profile": "/usr/local/bin/checksum-profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp"}}
+config: {"url": "https://biocontainers.pro/tools/msfiddle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msfiddle", "latest": {"2.3.0--pyhdfd78af_0": "sha256:8ac129189324e9c01da0190d082625200c878bfa29f020c3c22bf2ed4c2853d8"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110", "2.3.0--pyhdfd78af_0": "sha256:8ac129189324e9c01da0190d082625200c878bfa29f020c3c22bf2ed4c2853d8", "2.2.1--pyhdfd78af_0": "sha256:2799172c61655317ff234e08fd1cc0bee910a33870186e29aa2df09cb2ed7330"}, "docker": "quay.io/biocontainers/msfiddle", "aliases": {"elements_gui": "/usr/local/bin/elements_gui", "molmass": "/usr/local/bin/molmass", "molmass_web": "/usr/local/bin/molmass_web", "msfiddle": "/usr/local/bin/msfiddle", "msfiddle-checkpoint-paths": "/usr/local/bin/msfiddle-checkpoint-paths", "msfiddle-download-models": "/usr/local/bin/msfiddle-download-models", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pybind11-config": "/usr/local/bin/pybind11-config", "fc-genconf": "/usr/local/bin/fc-genconf", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "elastishadow": "/usr/local/bin/elastishadow", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "checksum-profile": "/usr/local/bin/checksum-profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msfiddle.
@@ -57,7 +59,7 @@ $ shpc install quay.io/biocontainers/msfiddle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msfiddle:2.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/msfiddle:2.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msfiddle/2.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/msfiddle/2.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/msfiddle/2.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/msfiddle/2.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

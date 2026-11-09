@@ -4,8 +4,8 @@ name:  "quay.io/pawsey/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/namd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/namd/container.yaml"
-updated_at: "2026-11-08 08:43:43.182924"
-latest: "3.0.1-rocm6.3.0"
+updated_at: "2026-11-09 09:20:47.499650"
+latest: "3.0.3"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
  - "charmrun"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "3.0.1-rocm6.3.0"
  - "3.0.1"
+ - "3.0.3"
 description: "Pawsey build of NAMD built on top of MPICH and ROCm"
-config: {"docker": "quay.io/pawsey/namd", "url": "https://singularity-hpc.readthedocs.io", "description": "Pawsey build of NAMD built on top of MPICH and ROCm", "maintainer": "@craigmeyer", "latest": {"3.0.1-rocm6.3.0": "sha256:1098a0896521eaa2929fc72738b213c797199a3f885ada35fe17e35ba0ecc1fd"}, "tags": {"3.0.1-rocm6.3.0": "sha256:1098a0896521eaa2929fc72738b213c797199a3f885ada35fe17e35ba0ecc1fd", "3.0.1": "sha256:256fd50371294ef26c5f277e508e6986c7c2bf9853771c5c6f02b7886f8e07c2"}, "aliases": {"charmrun": "/opt/namd/bin/charmrun", "namd3": "/opt/namd/bin/namd3"}}
+config: {"docker": "quay.io/pawsey/namd", "url": "https://singularity-hpc.readthedocs.io", "description": "Pawsey build of NAMD built on top of MPICH and ROCm", "maintainer": "@craigmeyer", "latest": {"3.0.3": "sha256:b085bdac8a92ed53e396152c0a4781be23352fc427569b9ae9a4fde23756cf1d"}, "tags": {"3.0.1-rocm6.3.0": "sha256:1098a0896521eaa2929fc72738b213c797199a3f885ada35fe17e35ba0ecc1fd", "3.0.1": "sha256:256fd50371294ef26c5f277e508e6986c7c2bf9853771c5c6f02b7886f8e07c2", "3.0.3": "sha256:b085bdac8a92ed53e396152c0a4781be23352fc427569b9ae9a4fde23756cf1d"}, "aliases": {"charmrun": "/opt/namd/bin/charmrun", "namd3": "/opt/namd/bin/namd3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/namd.
@@ -29,7 +30,7 @@ $ shpc install quay.io/pawsey/namd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/namd:3.0.1-rocm6.3.0
+$ shpc install quay.io/pawsey/namd:3.0.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/namd/3.0.1-rocm6.3.0
-$ module help quay.io/pawsey/namd/3.0.1-rocm6.3.0
+$ module load quay.io/pawsey/namd/3.0.3
+$ module help quay.io/pawsey/namd/3.0.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

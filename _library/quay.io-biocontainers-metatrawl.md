@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metatrawl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metatrawl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metatrawl/container.yaml"
-updated_at: "2026-11-08 09:19:19.765734"
+updated_at: "2026-11-09 09:50:13.143998"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metatrawl"
 aliases:

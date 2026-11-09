@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpy2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpy2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpy2/container.yaml"
-updated_at: "2026-11-08 08:52:02.133281"
+updated_at: "2026-11-09 09:27:37.316486"
 latest: "2.9.4"
 container_url: "https://biocontainers.pro/tools/rpy2"
 aliases:

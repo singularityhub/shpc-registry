@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riker/container.yaml"
-updated_at: "2026-11-08 09:02:53.797059"
+updated_at: "2026-11-09 09:36:29.742546"
 latest: "0.5.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/riker"
 aliases:

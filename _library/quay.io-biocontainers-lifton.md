@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lifton"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lifton/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lifton/container.yaml"
-updated_at: "2026-11-08 08:45:15.183069"
+updated_at: "2026-11-09 09:22:00.956990"
 latest: "1.0.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lifton"
 aliases:

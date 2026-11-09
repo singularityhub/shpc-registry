@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-import-into"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-import-into/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-import-into/container.yaml"
-updated_at: "2026-11-08 08:46:49.646114"
+updated_at: "2026-11-09 09:23:18.740353"
 latest: "1.002005--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-import-into"
 aliases:

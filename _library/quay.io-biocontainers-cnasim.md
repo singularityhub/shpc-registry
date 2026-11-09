@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnasim/container.yaml"
-updated_at: "2026-11-08 09:01:34.052246"
+updated_at: "2026-11-09 09:35:24.090826"
 latest: "1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cnasim"
 aliases:

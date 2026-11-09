@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/picard/container.yaml"
-updated_at: "2026-11-08 08:43:23.863072"
+updated_at: "2026-11-09 09:20:32.037332"
 latest: "2.26.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/picard"
 aliases:

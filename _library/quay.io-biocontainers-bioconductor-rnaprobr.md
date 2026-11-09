@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaprobr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
-updated_at: "2026-11-08 09:02:35.567120"
+updated_at: "2026-11-09 09:36:14.581470"
 latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaprobr"
 aliases:

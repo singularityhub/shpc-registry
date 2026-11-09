@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prinseq-rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prinseq-rust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prinseq-rust/container.yaml"
-updated_at: "2026-11-08 08:45:29.081656"
+updated_at: "2026-11-09 09:22:12.474156"
 latest: "1.1.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/prinseq-rust"
 aliases:

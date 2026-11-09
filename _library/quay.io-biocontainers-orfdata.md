@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orfdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfdata/container.yaml"
-updated_at: "2026-11-08 09:39:59.942761"
-latest: "0.34.0--pyhdfd78af_0"
+updated_at: "2026-11-09 10:07:25.827207"
+latest: "0.34.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orfdata"
 aliases:
  - "idle3.15"
@@ -15,8 +15,9 @@ aliases:
  - "python3.15-config"
 versions:
  - "0.34.0--pyhdfd78af_0"
+ - "0.34.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for orfdata"
-config: {"url": "https://biocontainers.pro/tools/orfdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orfdata", "latest": {"0.34.0--pyhdfd78af_0": "sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79"}, "tags": {"0.34.0--pyhdfd78af_0": "sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79"}, "docker": "quay.io/biocontainers/orfdata", "aliases": {"idle3.15": "/usr/local/bin/idle3.15", "orfdata": "/usr/local/bin/orfdata", "pydoc3.15": "/usr/local/bin/pydoc3.15", "python3.15": "/usr/local/bin/python3.15", "python3.15-config": "/usr/local/bin/python3.15-config"}}
+config: {"url": "https://biocontainers.pro/tools/orfdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orfdata", "latest": {"0.34.1--pyhdfd78af_0": "sha256:9e250b9c9eca0b0e8c9ecf817ad002b90a810d9bc5d204ac92dc1bab798fa436"}, "tags": {"0.34.0--pyhdfd78af_0": "sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79", "0.34.1--pyhdfd78af_0": "sha256:9e250b9c9eca0b0e8c9ecf817ad002b90a810d9bc5d204ac92dc1bab798fa436"}, "docker": "quay.io/biocontainers/orfdata", "aliases": {"idle3.15": "/usr/local/bin/idle3.15", "orfdata": "/usr/local/bin/orfdata", "pydoc3.15": "/usr/local/bin/pydoc3.15", "python3.15": "/usr/local/bin/python3.15", "python3.15-config": "/usr/local/bin/python3.15-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orfdata.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/orfdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orfdata:0.34.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/orfdata:0.34.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orfdata/0.34.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/orfdata/0.34.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/orfdata/0.34.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/orfdata/0.34.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

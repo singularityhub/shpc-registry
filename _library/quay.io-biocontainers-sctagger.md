@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sctagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sctagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sctagger/container.yaml"
-updated_at: "2026-11-08 08:56:22.178692"
+updated_at: "2026-11-09 09:31:10.592026"
 latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sctagger"
 aliases:

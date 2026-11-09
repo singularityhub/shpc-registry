@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parse-vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parse-vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parse-vcf/container.yaml"
-updated_at: "2026-11-08 08:45:33.167338"
+updated_at: "2026-11-09 09:22:15.793568"
 latest: "0.2.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/parse-vcf"
 aliases:

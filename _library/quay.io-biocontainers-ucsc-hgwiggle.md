@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ucsc-hgwiggle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ucsc-hgwiggle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ucsc-hgwiggle/container.yaml"
-updated_at: "2026-11-08 09:37:45.861445"
+updated_at: "2026-11-09 10:05:34.209929"
 latest: "502--ha7d8dd5_0-amd64"
 container_url: "https://biocontainers.pro/tools/ucsc-hgwiggle"
 aliases:

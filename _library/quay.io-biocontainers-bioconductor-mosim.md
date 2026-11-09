@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mosim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mosim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mosim/container.yaml"
-updated_at: "2026-11-08 08:52:35.621871"
+updated_at: "2026-11-09 09:28:05.485721"
 latest: "2.6.1--r45h55fe1e3_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mosim"
 

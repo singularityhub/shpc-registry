@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-roberts2005annotation.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roberts2005annotation.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roberts2005annotation.db/container.yaml"
-updated_at: "2026-11-08 09:03:29.665675"
+updated_at: "2026-11-09 09:36:59.175959"
 latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-roberts2005annotation.db"
 

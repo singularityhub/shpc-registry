@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtfreader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtfreader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtfreader/container.yaml"
-updated_at: "2026-11-08 08:53:12.375308"
+updated_at: "2026-11-09 09:28:36.418161"
 latest: "0.2.0--py312h247cb63_0"
 container_url: "https://biocontainers.pro/tools/gtfreader"
 aliases:

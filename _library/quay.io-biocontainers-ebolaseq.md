@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebolaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebolaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebolaseq/container.yaml"
-updated_at: "2026-11-08 09:05:04.535523"
+updated_at: "2026-11-09 09:38:17.601148"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ebolaseq"
 aliases:
