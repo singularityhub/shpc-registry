@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/orfdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orfdata
 latest:
-  0.34.0--pyhdfd78af_0: 
-    sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79
+  0.34.1--pyhdfd78af_0: 
+    sha256:9e250b9c9eca0b0e8c9ecf817ad002b90a810d9bc5d204ac92dc1bab798fa436
 tags:
   0.34.0--pyhdfd78af_0: 
     sha256:9ed5509070540e251e60117307301557cedc611e124424a74d78bf2146fb6e79
+  0.34.1--pyhdfd78af_0: 
+    sha256:9e250b9c9eca0b0e8c9ecf817ad002b90a810d9bc5d204ac92dc1bab798fa436
 docker: quay.io/biocontainers/orfdata
 aliases:
   idle3.15: /usr/local/bin/idle3.15

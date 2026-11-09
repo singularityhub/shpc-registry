@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pixel-patrol-base
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pixel-patrol-base
 latest:
-  0.9.2--pyhdfd78af_0: 
-    sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c
+  1.0.1--pyhdfd78af_0: 
+    sha256:280cd798d6867f6ebd65232d545960f277fe0c7fa5d2282dd48b15cb6892f743
 tags:
   0.9.2--pyhdfd78af_0: 
     sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c
+  1.0.1--pyhdfd78af_0: 
+    sha256:280cd798d6867f6ebd65232d545960f277fe0c7fa5d2282dd48b15cb6892f743
 docker: quay.io/biocontainers/pixel-patrol-base
 aliases:
   pixel-patrol: /usr/local/bin/pixel-patrol

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mimick
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mimick
 latest:
-  3.1--pyh106432d_0: 
-    sha256:3bb40eaa61d2c567bf0fd56b2ea3694998a93aaa60450078e27c6a0ec235d244
+  3.1--pyh106432d_1: 
+    sha256:ff94484d3904c3fb3ed0eed5b9fbd26f98684954e3d0d706c6fbd83123e91b77
 tags:
   1.0.1--pyhdfd78af_1: 
     sha256:50e6478e3132b78e7548e7ccd3a2c5eccfe857fc50bad8d1e2aa858868706420
@@ -33,6 +33,8 @@ tags:
     sha256:3bb40eaa61d2c567bf0fd56b2ea3694998a93aaa60450078e27c6a0ec235d244
   3.0.5--pyh106432d_0: 
     sha256:8c13d1595c04add5a106b9b4a2988a1978804ecce903322d96f7c9e21250d421
+  3.1--pyh106432d_1: 
+    sha256:ff94484d3904c3fb3ed0eed5b9fbd26f98684954e3d0d706c6fbd83123e91b77
 docker: quay.io/biocontainers/mimick
 aliases:
   mimick: /usr/local/bin/mimick

@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/msfiddle
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msfiddle
 latest:
-  2.1.0--pyhdfd78af_0: 
-    sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110
+  2.3.0--pyhdfd78af_0: 
+    sha256:8ac129189324e9c01da0190d082625200c878bfa29f020c3c22bf2ed4c2853d8
 tags:
   2.1.0--pyhdfd78af_0: 
     sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110
+  2.3.0--pyhdfd78af_0: 
+    sha256:8ac129189324e9c01da0190d082625200c878bfa29f020c3c22bf2ed4c2853d8
+  2.2.1--pyhdfd78af_0: 
+    sha256:2799172c61655317ff234e08fd1cc0bee910a33870186e29aa2df09cb2ed7330
 docker: quay.io/biocontainers/msfiddle
 aliases:
   elements_gui: /usr/local/bin/elements_gui

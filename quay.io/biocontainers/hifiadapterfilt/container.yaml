@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hifiadapterfilt
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hifiadapterfilt
 latest:
-  3.0.0--hdfd78af_0: 
-    sha256:ce791533ef2066f830ace1b7c8e7250e8b36cd809cf3cdb53e5ad6851451d6a3
+  3.0.0--hdfd78af_1: 
+    sha256:4eae481b28a7e7dfb5bea93bf8027477e0e80a773c47ce02870f71a977def71d
 tags:
   3.0.0--hdfd78af_0: 
     sha256:ce791533ef2066f830ace1b7c8e7250e8b36cd809cf3cdb53e5ad6851451d6a3
+  3.0.0--hdfd78af_1: 
+    sha256:4eae481b28a7e7dfb5bea93bf8027477e0e80a773c47ce02870f71a977def71d
 docker: quay.io/biocontainers/hifiadapterfilt
 aliases:
   action_report.py: /usr/local/bin/action_report.py

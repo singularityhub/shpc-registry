@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mmpdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mmpdb
 latest:
-  3.1.4--pyhdfd78af_0: 
-    sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774
+  3.1.6--pyhdfd78af_0: 
+    sha256:fb2ceafb5df078899325417198ddb603b04e9b88d51249463f4501cda762b44b
 tags:
   3.1.4--pyhdfd78af_0: 
     sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774
+  3.1.6--pyhdfd78af_0: 
+    sha256:fb2ceafb5df078899325417198ddb603b04e9b88d51249463f4501cda762b44b
 docker: quay.io/biocontainers/mmpdb
 aliases:
   mmpdb: /usr/local/bin/mmpdb
