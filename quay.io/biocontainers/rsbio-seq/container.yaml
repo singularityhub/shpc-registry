@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/rsbio-seq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rsbio-seq
+latest:
+  1.1.0--py315h551aa79_0: 
+    sha256:b738a96c1fd2671010336a4e157b8d26f2a01ac96fce917276ec020b50540e58
+tags:
+  1.1.0--py315h551aa79_0: 
+    sha256:b738a96c1fd2671010336a4e157b8d26f2a01ac96fce917276ec020b50540e58
+docker: quay.io/biocontainers/rsbio-seq
+aliases:
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
