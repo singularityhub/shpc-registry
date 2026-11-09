@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/hgt-site
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hgt-site
+latest:
+  0.3.0--pyhdfd78af_0: 
+    sha256:76433c6ba8c8aaf0dd6d6b21060699154a29f7a698156f8d556052e8d26d0821
+tags:
+  0.3.0--pyhdfd78af_0: 
+    sha256:76433c6ba8c8aaf0dd6d6b21060699154a29f7a698156f8d556052e8d26d0821
+docker: quay.io/biocontainers/hgt-site
+aliases:
+  hgt-site: /usr/local/bin/hgt-site
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

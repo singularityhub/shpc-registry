@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/seqbank
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqbank
+latest:
+  0.4.1--pyhdfd78af_0: 
+    sha256:8b45f2e0db421b482f7eceef99d6605e2422fe639183029b868d38fdf08e6d24
+tags:
+  0.4.1--pyhdfd78af_0: 
+    sha256:8b45f2e0db421b482f7eceef99d6605e2422fe639183029b868d38fdf08e6d24
+docker: quay.io/biocontainers/seqbank
+aliases:
+  choreo_diagnose: /usr/local/bin/choreo_diagnose
+  choreo_get_chrome: /usr/local/bin/choreo_get_chrome
+  kaleido_get_chrome: /usr/local/bin/kaleido_get_chrome
+  kaleido_mocker: /usr/local/bin/kaleido_mocker
+  seqbank: /usr/local/bin/seqbank
+  pyfastx: /usr/local/bin/pyfastx
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  typer: /usr/local/bin/typer
+  idna: /usr/local/bin/idna
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  elasticurl: /usr/local/bin/elasticurl
+  markdown-it: /usr/local/bin/markdown-it
+  h5delete: /usr/local/bin/h5delete
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize
+  h5fc: /usr/local/bin/h5fc
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
