@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   galaxy-objectstore
 latest:
-  26.1.1--pyhdfd78af_0: 
-    sha256:3a889116ee90b88e7f3fd471f0327f46a788a12ea7860d52905ed31ed04831f0
+  26.1.2--pyhdfd78af_0: 
+    sha256:c08b138e9645fbd1c95decfae970cf131788a0620f59b0060d1ca0000c05bdec
 tags:
   22.1.1--pyhdfd78af_0: 
     sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5
@@ -50,6 +50,8 @@ tags:
     sha256:98a1c3f1aa0fb75315bfe7251fa7f76ba8936c6bcc50e7d8004815a92475700d
   26.1.1--pyhdfd78af_0: 
     sha256:3a889116ee90b88e7f3fd471f0327f46a788a12ea7860d52905ed31ed04831f0
+  26.1.2--pyhdfd78af_0: 
+    sha256:c08b138e9645fbd1c95decfae970cf131788a0620f59b0060d1ca0000c05bdec
 docker: quay.io/biocontainers/galaxy-objectstore
 aliases:
   cheetah: /usr/local/bin/cheetah

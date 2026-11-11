@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ba3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ba3
 latest:
-  3.5.0--h193c6b0_0: 
-    sha256:dc9f484a4539c664751594807d2229ac62a4c1fc65f822d4c2f86c03d7decf87
+  3.7.1--h193c6b0_0: 
+    sha256:757998ece6ba8dd84855fe861a1e82dca85ee232abd5cb5276b14d82a71175c5
 tags:
   3.4.4--h193c6b0_0: 
     sha256:04add8762ca5f91f02261a5d325847591d544ac9cf0676de51c4edf9f0dcaaf8
@@ -11,6 +11,10 @@ tags:
     sha256:4e148dd165d89683c9ee0fea4d82583a59e532cb7706fd19e6134a2a8872b9a2
   3.5.0--h193c6b0_0: 
     sha256:dc9f484a4539c664751594807d2229ac62a4c1fc65f822d4c2f86c03d7decf87
+  3.7.1--h193c6b0_0: 
+    sha256:757998ece6ba8dd84855fe861a1e82dca85ee232abd5cb5276b14d82a71175c5
+  3.6.1--h193c6b0_0: 
+    sha256:2e755e381b9f26b739116c2c62b7f668823bb35a50a6a3fb422330c95c493943
 docker: quay.io/biocontainers/ba3
 aliases:
   BA3: /usr/local/bin/BA3

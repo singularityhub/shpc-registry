@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/monsda
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for monsda
 latest:
-  1.4.0--pyhdfd78af_0: 
-    sha256:a8a39a182f7e146ef6c8833f8ab1130c026e71415886704b941b221420746355
+  1.5.0--pyhdfd78af_0: 
+    sha256:1d360992feaa30466d906d681b7e5c3ea5a4ad52600e24592e696b95f1ace334
 tags:
   1.0.0--pypyhdfd78af_0: 
     sha256:2d39c68cf0269585307464336066ac1723aa04dca4b45c64d8668f69929f256c
@@ -25,6 +25,8 @@ tags:
     sha256:ac3bfbd04ed9f5922cea80657a23a58a4a25253c707c4a95c282ad0697d2d766
   1.4.0--pyhdfd78af_0: 
     sha256:a8a39a182f7e146ef6c8833f8ab1130c026e71415886704b941b221420746355
+  1.5.0--pyhdfd78af_0: 
+    sha256:1d360992feaa30466d906d681b7e5c3ea5a4ad52600e24592e696b95f1ace334
 docker: quay.io/biocontainers/monsda
 aliases:
   bsdcat: /usr/local/bin/bsdcat
