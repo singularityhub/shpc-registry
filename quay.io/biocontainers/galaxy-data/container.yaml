@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/galaxy-data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxy-data
 latest:
-  26.0.1--pyhdfd78af_1: 
-    sha256:a4fdac07aaba361a4ba25620e78f2f2f810581515b63f05348d38cc6bb033fd0
+  26.1.2--pyhdfd78af_0: 
+    sha256:4db4f021599f9aac950e9f0ab442c1d1d366e0465a8b1effeffbfde115bbfde8
 tags:
   22.1.1--pyhdfd78af_0: 
     sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7
@@ -33,6 +33,8 @@ tags:
     sha256:4cb7b6f394e238d9044c24bd1e020eeb198f5418ec1de6ae1a19cbffaf4bda38
   26.0.1--pyhdfd78af_1: 
     sha256:a4fdac07aaba361a4ba25620e78f2f2f810581515b63f05348d38cc6bb033fd0
+  26.1.2--pyhdfd78af_0: 
+    sha256:4db4f021599f9aac950e9f0ab442c1d1d366e0465a8b1effeffbfde115bbfde8
 docker: quay.io/biocontainers/galaxy-data
 aliases:
   bagit.py: /usr/local/bin/bagit.py

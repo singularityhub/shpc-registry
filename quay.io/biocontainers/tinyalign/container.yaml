@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tinyalign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tinyalign
 latest:
-  0.2--py38h4a8c8d9_2: 
-    sha256:54cc4668419374e3874c4741df9b0d01614199522bcb5f6601d87fb80b42db2e
+  0.3.0--py311h78a2e26_0: 
+    sha256:da316ab22f51dbeb23f9d725e0f4c2c2070a9bd10cc2fc8a49252d6829db4a54
 tags:
   0.2--py38h4a8c8d9_2: 
     sha256:54cc4668419374e3874c4741df9b0d01614199522bcb5f6601d87fb80b42db2e
@@ -13,6 +13,8 @@ tags:
     sha256:a81d79154b97a74c646c5ce30f66f10b27f415117335224018a9bfb7d03121a1
   0.2.2--py311haab0aaa_2: 
     sha256:613edeae2e5dd32d177aab6761ebf115981b08aa833aafd73ee90648c907502b
+  0.3.0--py311h78a2e26_0: 
+    sha256:da316ab22f51dbeb23f9d725e0f4c2c2070a9bd10cc2fc8a49252d6829db4a54
 docker: quay.io/biocontainers/tinyalign
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

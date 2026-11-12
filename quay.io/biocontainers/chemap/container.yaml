@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/chemap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chemap
 latest:
-  0.3.7--pyh106432d_0: 
-    sha256:3a5cdd21bb8c1fddb54545e0947ca2aece6aadf6cbd6511bb9045266c80884e6
+  0.3.9--pyh106432d_0: 
+    sha256:0395c66e9967382a4197fb97e00d806567f5b1e6ee446ce3c51f4e720de8fd4c
 tags:
   0.3.7--pyh106432d_0: 
     sha256:3a5cdd21bb8c1fddb54545e0947ca2aece6aadf6cbd6511bb9045266c80884e6
+  0.3.9--pyh106432d_0: 
+    sha256:0395c66e9967382a4197fb97e00d806567f5b1e6ee446ce3c51f4e720de8fd4c
 docker: quay.io/biocontainers/chemap
 aliases:
   e3fp-conformer: /usr/local/bin/e3fp-conformer

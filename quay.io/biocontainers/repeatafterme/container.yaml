@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/repeatafterme
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for repeatafterme
 latest:
-  0.2.2--hfa8f182_0: 
-    sha256:bd1902b0bbf922392d66b3631e44f765a6e667c29d283c1c683183bacc3ca51c
+  1.0.1--hfa8f182_0: 
+    sha256:0be94e2c3e01583fdd3147cf106b21b9025e12069348c876aba5502f4bccf0be
 tags:
   0.0.7--h7b50bb2_0: 
     sha256:dc1efa0774bcb83fd937b3cdf5bc1b879919092f08bb2c1c31badfa4f67bac0b
   0.2.2--hfa8f182_0: 
     sha256:bd1902b0bbf922392d66b3631e44f765a6e667c29d283c1c683183bacc3ca51c
+  1.0.1--hfa8f182_0: 
+    sha256:0be94e2c3e01583fdd3147cf106b21b9025e12069348c876aba5502f4bccf0be
 docker: quay.io/biocontainers/repeatafterme
 aliases:
   RAMExtend: /usr/local/bin/RAMExtend

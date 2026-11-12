@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyensembl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyensembl
 latest:
-  2.10.4--pyhdfd78af_0: 
-    sha256:f074783105bf04c7152bdd13b526b73b33b429099b77c51e23f740655e7526f9
+  2.33.2--pyhdfd78af_0: 
+    sha256:2bfb30d395e7cd4103ca69454c5f5a504430547c76054395107365e646d6c4be
 tags:
   2.0.1--pyh5e36f6f_0: 
     sha256:c35a3a654e49c7b48485c0d0904d24f814daa9c678d1c7ce9b52f2a853e707c7
@@ -29,6 +29,14 @@ tags:
     sha256:f074783105bf04c7152bdd13b526b73b33b429099b77c51e23f740655e7526f9
   2.6.7--pyhdfd78af_1: 
     sha256:14192755ec3cd58dd198a5d0363d68f3b5cdff795355522dfa1e523f2ff3b901
+  2.33.2--pyhdfd78af_0: 
+    sha256:2bfb30d395e7cd4103ca69454c5f5a504430547c76054395107365e646d6c4be
+  2.32.3--pyhdfd78af_0: 
+    sha256:7231fa608804675c6e6528d03f8f198d880a4e8961ea5f003acd912c7a0fec12
+  2.31.1--pyhdfd78af_0: 
+    sha256:13da58ce95d032804e844c2ee4231779b0bd893ac89ac1ed73f2db4617c07db4
+  2.27.3--pyhdfd78af_0: 
+    sha256:92663ca0f0437256d00dec075707aca36a29873c6807c160697172b24f56545f
 docker: quay.io/biocontainers/pyensembl
 aliases:
   epylint: /usr/local/bin/epylint

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/homerun-csrna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for homerun-csrna
 latest:
-  1.0.0--pyh106432d_0: 
-    sha256:c1009d2c8cc515c6212c5242e4e2ede062be4e4ad35a8228b299759f210fe299
+  1.1.2--pyhdfd78af_0: 
+    sha256:55f7df423635208f27bd742e6e573969e6bd8eb0b3ced96fc3b6827579dc837b
 tags:
   1.0.0--pyh106432d_0: 
     sha256:c1009d2c8cc515c6212c5242e4e2ede062be4e4ad35a8228b299759f210fe299
+  1.1.2--pyhdfd78af_0: 
+    sha256:55f7df423635208f27bd742e6e573969e6bd8eb0b3ced96fc3b6827579dc837b
 docker: quay.io/biocontainers/homerun-csrna
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl

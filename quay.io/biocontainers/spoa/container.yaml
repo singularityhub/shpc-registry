@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/spoa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spoa
 latest:
-  4.1.5--h077b44d_0: 
-    sha256:852a8d9521f6482e31a1aa28f28115d6c8f6d15b500cbecfaadd8f3d83e0869b
+  4.1.6--h3be2455_0: 
+    sha256:46de147196007b5251f4427f911a622fe64117b0fcbae1c9070fa1e775039a5d
 tags:
   4.0.7--hd03093a_3: 
     sha256:5a2fd9bee52f97f543cc2036767268e67d73ce21be6bfdc1863ea0f04bc0341c
@@ -27,6 +27,8 @@ tags:
     sha256:76d53910764c1ac532708d1c680e0fdec23ae153c341f689226ace96ebfacd44
   4.1.5--h077b44d_0: 
     sha256:852a8d9521f6482e31a1aa28f28115d6c8f6d15b500cbecfaadd8f3d83e0869b
+  4.1.6--h3be2455_0: 
+    sha256:46de147196007b5251f4427f911a622fe64117b0fcbae1c9070fa1e775039a5d
 docker: quay.io/biocontainers/spoa
 aliases:
   spoa: /usr/local/bin/spoa

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gpsw
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gpsw
 latest:
-  0.10.0--pyhdfd78af_0: 
-    sha256:69a090a37df228923ee8c040ac4f64f801a1fea9aa73e980dabec876ce27d85e
+  0.12.0--pyhdfd78af_0: 
+    sha256:87a58fcd6bea4f0db2309722eeb35c7da56126243c565f490ef9f451cc49e729
 tags:
   0.6.3--pyhdfd78af_0: 
     sha256:7c4dd10779e0dbbd7f730ef955b2a69b44ff80deeccea8f9ac9efa2f8102d2c9
@@ -19,6 +19,10 @@ tags:
     sha256:5cbab8e7350a294b5a1aeef744f4dcb47a474dff6297671b48f718506ef98c43
   0.10.0--pyhdfd78af_0: 
     sha256:69a090a37df228923ee8c040ac4f64f801a1fea9aa73e980dabec876ce27d85e
+  0.12.0--pyhdfd78af_0: 
+    sha256:87a58fcd6bea4f0db2309722eeb35c7da56126243c565f490ef9f451cc49e729
+  0.11.0--pyhdfd78af_0: 
+    sha256:69a993ad2891fb152c07c09c830053e5668a9798ef0407c9df1bfd641b1094f4
 docker: quay.io/biocontainers/gpsw
 aliases:
   apptainer: /usr/local/bin/apptainer

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/semibin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for semibin
 latest:
-  2.5.0--pyhdfd78af_0: 
-    sha256:3bc7ec20e2e41a35e2d43031891cc497402c5e962329a97bf03b387074aaa2c7
+  2.6.0--pyhdfd78af_0: 
+    sha256:a4473de0a6fdbde3a44f4d4893a5f2c63fbf1501907b4de4411bad72cedeeabd
 tags:
   1.1.1--pyh7cba7a3_1: 
     sha256:36b5deb5c51f3c38f8e0a235675d80ab4bbe1611914f6a24e8e2cf80a4c6d7ad
@@ -35,6 +35,8 @@ tags:
     sha256:f1ba0ca5235ca548483a8da3cbdfe4624234163b274f989f81b09679634b1aa7
   2.5.0--pyhdfd78af_0: 
     sha256:3bc7ec20e2e41a35e2d43031891cc497402c5e962329a97bf03b387074aaa2c7
+  2.6.0--pyhdfd78af_0: 
+    sha256:a4473de0a6fdbde3a44f4d4893a5f2c63fbf1501907b4de4411bad72cedeeabd
 docker: quay.io/biocontainers/semibin
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan

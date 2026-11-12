@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bamtocov
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bamtocov
 latest:
-  2.10.0--hf50e46a_0: 
-    sha256:459a720a2c130cbd8c452c664fe8c4a2b1878df9331264fdf9504c18b02c366c
+  2.11.0--hf50e46a_0: 
+    sha256:339ffc3cd38011522ae524da426cca6d705429335c3fe224d0507ae285f3719e
 tags:
   2.7.0--hbd632db_1: 
     sha256:adaf35c67d230809d289ee9efee15906fbcb62b9e39c3aadb631e70e54f648d8
@@ -13,6 +13,8 @@ tags:
     sha256:6ff3d6bcaf771d3d1686ea315aec689ac3ac210af5384123c9a023617e5ec4ad
   2.10.0--hf50e46a_0: 
     sha256:459a720a2c130cbd8c452c664fe8c4a2b1878df9331264fdf9504c18b02c366c
+  2.11.0--hf50e46a_0: 
+    sha256:339ffc3cd38011522ae524da426cca6d705429335c3fe224d0507ae285f3719e
 docker: quay.io/biocontainers/bamtocov
 aliases:
   average-coverage.py: /usr/local/bin/average-coverage.py

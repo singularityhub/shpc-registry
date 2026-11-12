@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-bioregion
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-bioregion
 latest:
-  1.4.0--r45h9ee0642_0: 
-    sha256:8b4270e840363b443a03001678399987d3cbbb3d618eaefe93e4427a5a41d0cb
+  1.5.0--r45h9ee0642_0: 
+    sha256:a7964e5d53407d35ae393c59d604fc485430861f0f40b8a02c2cdb29a9a89aa8
 tags:
   1.4.0--r45h9ee0642_0: 
     sha256:8b4270e840363b443a03001678399987d3cbbb3d618eaefe93e4427a5a41d0cb
+  1.5.0--r45h9ee0642_0: 
+    sha256:a7964e5d53407d35ae393c59d604fc485430861f0f40b8a02c2cdb29a9a89aa8
 docker: quay.io/biocontainers/r-bioregion
 aliases:
   gdal: /usr/local/bin/gdal
