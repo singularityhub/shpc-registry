@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hlaont
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hlaont
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:3bfa904de67130c23876c86726c073d7f1097ed8e0d704ded475c863ce7b304b
+  0.1.1--pyhdfd78af_0: 
+    sha256:e2d12343a1502d9e4f7caab6ec19ef3ff2e7534a6a8cd4de0f029431c5c4aa53
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:3bfa904de67130c23876c86726c073d7f1097ed8e0d704ded475c863ce7b304b
+  0.1.1--pyhdfd78af_0: 
+    sha256:e2d12343a1502d9e4f7caab6ec19ef3ff2e7534a6a8cd4de0f029431c5c4aa53
 docker: quay.io/biocontainers/hlaont
 aliases:
   hlaont: /usr/local/bin/hlaont

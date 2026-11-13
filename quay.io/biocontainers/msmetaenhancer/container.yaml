@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/msmetaenhancer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for msmetaenhancer
 latest:
-  0.5.1--pyhdfd78af_0: 
-    sha256:be7fdb1c561def72b4efa593eab42308f15c49f2078a69f47bc0e141e1dce0bb
+  0.7.0--pyhdfd78af_0: 
+    sha256:48a304e79f8de42f0bc202af9cc043f78590cdae60163c317318d66551c74299
 tags:
   0.2.5--pyhdfd78af_0: 
     sha256:ff09e6c18c69be623dae7a7063d3bf031ba0e7eea721be8eae918e282e74d48d
@@ -17,6 +17,10 @@ tags:
     sha256:ecd494db1d58487b5aad86dcc383d4757491ef17240d6cebf8dee5297f12347a
   0.5.1--pyhdfd78af_0: 
     sha256:be7fdb1c561def72b4efa593eab42308f15c49f2078a69f47bc0e141e1dce0bb
+  0.7.0--pyhdfd78af_0: 
+    sha256:48a304e79f8de42f0bc202af9cc043f78590cdae60163c317318d66551c74299
+  0.6.1--pyhdfd78af_0: 
+    sha256:6c346d9a3f6edccd4a8ffa83122a638a3d1f4de92299af4b2ef894c76583b049
 docker: quay.io/biocontainers/msmetaenhancer
 aliases:
   xml2-config.bak: /usr/local/bin/xml2-config.bak

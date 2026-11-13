@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/aspera-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aspera-cli
 latest:
-  4.20.0--hdfd78af_0: 
-    sha256:57c76e4fa56ad3751b58450bbc8c7da8a8463ef505106691fb659ba44e83f7d2
+  4.28.0--hdfd78af_0: 
+    sha256:94fd1dfbdef2eea65fcaf86a56228aea0228ee025b510a67b97e20171956e362
 tags:
   4.14.0--he0b3917_0: 
     sha256:b30f7b8cddd7ea9da30f24fb508304aa44020b2f29a93512258b6b6eeafddf81
@@ -13,6 +13,8 @@ tags:
     sha256:543995d090af8e04f7357aded3c2f4d78bfd44b44d2b08ccc7b848fe69c16e77
   4.20.0--hdfd78af_0: 
     sha256:57c76e4fa56ad3751b58450bbc8c7da8a8463ef505106691fb659ba44e83f7d2
+  4.28.0--hdfd78af_0: 
+    sha256:94fd1dfbdef2eea65fcaf86a56228aea0228ee025b510a67b97e20171956e362
 docker: quay.io/biocontainers/aspera-cli
 aliases:
   ascli: /usr/local/bin/ascli

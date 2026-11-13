@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/gfaidx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gfaidx
 latest:
-  1.8.3--h5814d7d_0: 
-    sha256:4f86e287666412e5aa3e6b361f53a36c258adf5e897a6888aad3869fe6e32d26
+  2.3.2--h5814d7d_0: 
+    sha256:d0a0488be1f8fb33bfa59683b7fd6fc7e716a2e41ac324b8752737243b0df060
 tags:
   1.8.3--h5814d7d_0: 
     sha256:4f86e287666412e5aa3e6b361f53a36c258adf5e897a6888aad3869fe6e32d26
+  2.3.2--h5814d7d_0: 
+    sha256:d0a0488be1f8fb33bfa59683b7fd6fc7e716a2e41ac324b8752737243b0df060
+  2.1.0--h5814d7d_0: 
+    sha256:9ca95aa2339c85e14375af56735547c65440414743b71581c9df5c67d53234a4
 docker: quay.io/biocontainers/gfaidx
 aliases:
   gfaidx: /usr/local/bin/gfaidx

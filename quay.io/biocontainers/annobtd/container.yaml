@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/annobtd
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annobtd
 latest:
-  2.0.0--hdfd78af_0: 
-    sha256:d53a24fab55c4d6ca1e2662731effe14e66ef868b6106fd87d660f4187351c98
+  2.0.1--hdfd78af_0: 
+    sha256:d1e0bd12a5167457cb4ada53b688a78b2f6dc2d5fdf02db23f7cb12fef38824e
 tags:
   2.0.0--hdfd78af_0: 
     sha256:d53a24fab55c4d6ca1e2662731effe14e66ef868b6106fd87d660f4187351c98
+  2.0.1--hdfd78af_0: 
+    sha256:d1e0bd12a5167457cb4ada53b688a78b2f6dc2d5fdf02db23f7cb12fef38824e
 docker: quay.io/biocontainers/annobtd
 aliases:
   annobtd: /usr/local/bin/annobtd
