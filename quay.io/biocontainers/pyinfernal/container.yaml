@@ -7,6 +7,8 @@ latest:
 tags:
   0.1.1--py310h6813faf_0: 
     sha256:5ef374d24b5cdef60f8fd91b8edca715e9b0001813dfd648f2baf8d5cb67f0d1
+  0.1.1--py312hfabe715_0: 
+    sha256:a9648e7883adec2d7bbcfac3341b9ff41337d9e9479c33fc4a65d80c3e6d5b3c
 docker: quay.io/biocontainers/pyinfernal
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

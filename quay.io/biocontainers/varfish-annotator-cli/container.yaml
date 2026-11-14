@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   varfish-annotator-cli
 latest:
-  0.34--hdfd78af_0: 
-    sha256:bfac20b35aef9da04f930ab067b5081d87db4ae0bcb9c92d917ccd25a8a036a1
+  0.34--hdfd78af_1: 
+    sha256:c8ac3dec3ab90b43865d9d5fb4d29e8a90a1e51767ae5957b54c54c7f94d027d
 tags:
   0.9--0: 
     sha256:0b303b89e15c7e48712659ba60749099e07f17253cbfea672525b7a3930fd6f6
@@ -32,6 +32,8 @@ tags:
     sha256:bfac20b35aef9da04f930ab067b5081d87db4ae0bcb9c92d917ccd25a8a036a1
   0.33--hdfd78af_0: 
     sha256:b7e989cc33f58efbee31c464b7a9e3c7cb00f8dca396a526090295f229023d5c
+  0.34--hdfd78af_1: 
+    sha256:c8ac3dec3ab90b43865d9d5fb4d29e8a90a1e51767ae5957b54c54c7f94d027d
 docker: quay.io/biocontainers/varfish-annotator-cli
 aliases:
   varfish-annotator: /usr/local/bin/varfish-annotator

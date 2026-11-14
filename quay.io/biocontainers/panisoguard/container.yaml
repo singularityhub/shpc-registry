@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/panisoguard
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panisoguard
 latest:
-  0.0.5--h8471819_0: 
-    sha256:ad69279d3b9fe73314731f1a113cc46d9fb15cbbb1b50bf2f6e5d39ed33eb2b1
+  0.0.7--h8471819_0: 
+    sha256:0710bfc87e14c5ac0fb89ed92328906b5366620f8354caa44fe4d998f11edc0e
 tags:
   0.0.5--h8471819_0: 
     sha256:ad69279d3b9fe73314731f1a113cc46d9fb15cbbb1b50bf2f6e5d39ed33eb2b1
+  0.0.7--h8471819_0: 
+    sha256:0710bfc87e14c5ac0fb89ed92328906b5366620f8354caa44fe4d998f11edc0e
 docker: quay.io/biocontainers/panisoguard
 aliases:
   panisoguard: /usr/local/bin/panisoguard
