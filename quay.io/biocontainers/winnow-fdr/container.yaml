@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/winnow-fdr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for winnow-fdr
 latest:
-  2.0.0--pyh106432d_0: 
-    sha256:db711f7010a47006abdb62c9f513ce46a2a2c5a1e6e89dfdfbc1c03c1c6e128a
+  2.1.1--pyh106432d_0: 
+    sha256:de1f908e0bf55359d9849c0403c57b0419a608c57ebc876e07778d7b96039e16
 tags:
   2.0.0--pyh106432d_0: 
     sha256:db711f7010a47006abdb62c9f513ce46a2a2c5a1e6e89dfdfbc1c03c1c6e128a
+  2.1.1--pyh106432d_0: 
+    sha256:de1f908e0bf55359d9849c0403c57b0419a608c57ebc876e07778d7b96039e16
 docker: quay.io/biocontainers/winnow-fdr
 aliases:
   acc-lda: /usr/local/bin/acc-lda

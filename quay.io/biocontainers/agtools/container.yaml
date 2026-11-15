@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/agtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for agtools
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:a6732a3759046afe42e734835f3e5d1efeeaa1f0c517b46b6bb5a2dc2af9d543
+  1.2.0--pyhdfd78af_0: 
+    sha256:14081b42ae5a8dfefb0538e3266f2e3a3794d313c1ee772ee18d24ef445747ee
 tags:
   0.1.1--py313hdfd78af_0: 
     sha256:0625a4041dbba43b8cb16063052807426abeab604818ae443f2abddb8a88b962
@@ -19,6 +19,8 @@ tags:
     sha256:9ee4611171ad4d1c2129a7330a5213a450995544b9aac83f8da83a58aed65fbd
   1.1.2--pyhdfd78af_0: 
     sha256:a6732a3759046afe42e734835f3e5d1efeeaa1f0c517b46b6bb5a2dc2af9d543
+  1.2.0--pyhdfd78af_0: 
+    sha256:14081b42ae5a8dfefb0538e3266f2e3a3794d313c1ee772ee18d24ef445747ee
 docker: quay.io/biocontainers/agtools
 aliases:
   agtools: /usr/local/bin/agtools

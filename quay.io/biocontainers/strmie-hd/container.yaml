@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/strmie-hd
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strmie-hd
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:8e6a7c3226b2a6c680bc3a84fb51c3d082f2c7b6c435a1749129b7e106b317ca
+  1.1.1--py314h9ee0642_0: 
+    sha256:304df9500c2130f97ae56216a9e1d4c69e1d9cd9bba5328907cfc6edb3df091e
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:b8c2dafa677e31295f6764cebefd41e4af1069c147cc78831210666a5395a52d
   1.1.0--pyhdfd78af_0: 
     sha256:8e6a7c3226b2a6c680bc3a84fb51c3d082f2c7b6c435a1749129b7e106b317ca
+  1.1.1--py314h9ee0642_0: 
+    sha256:304df9500c2130f97ae56216a9e1d4c69e1d9cd9bba5328907cfc6edb3df091e
 docker: quay.io/biocontainers/strmie-hd
 aliases:
   strmie: /usr/local/bin/strmie

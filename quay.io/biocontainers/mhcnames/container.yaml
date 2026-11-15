@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mhcnames
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mhcnames
 latest:
-  0.4.8--pyh864c0ab_1: 
-    sha256:1b88b2b1440293cebcfc828479e08a8b2927c23f7e5f20e8715117b3b38d3c16
+  0.4.9--pyhdfd78af_0: 
+    sha256:b4d8fd84a6e746e016f06ba8bc09572ec8ad1baec4797444a48f9c99db760e7e
 tags:
   0.4.8--pyh864c0ab_1: 
     sha256:1b88b2b1440293cebcfc828479e08a8b2927c23f7e5f20e8715117b3b38d3c16
+  0.4.9--pyhdfd78af_0: 
+    sha256:b4d8fd84a6e746e016f06ba8bc09572ec8ad1baec4797444a48f9c99db760e7e
 docker: quay.io/biocontainers/mhcnames
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

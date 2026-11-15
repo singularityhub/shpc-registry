@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/mashid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mashid
 latest:
-  0.2.8--pyhdfd78af_0: 
-    sha256:6ec07149937f45b1fb4113ec76bff08f8a24a3a51352161d3bcabba65710b6c7
+  0.3.2--pyhdfd78af_0: 
+    sha256:d5f64255cbdea1d92f57f311866e87c46d38d7f534de4f2eabeccc53f2a3e3ff
 tags:
   0.2.8--pyhdfd78af_0: 
     sha256:6ec07149937f45b1fb4113ec76bff08f8a24a3a51352161d3bcabba65710b6c7
+  0.3.2--pyhdfd78af_0: 
+    sha256:d5f64255cbdea1d92f57f311866e87c46d38d7f534de4f2eabeccc53f2a3e3ff
+  0.2.9--pyhdfd78af_0: 
+    sha256:5c92ed1d207c5fd1cabb91cc94adec9e562230a9461757f03552173dbba2ccbf
 docker: quay.io/biocontainers/mashid
 aliases:
   make_mashID_db: /usr/local/bin/make_mashID_db

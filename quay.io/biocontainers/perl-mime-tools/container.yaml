@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-mime-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-mime-tools
 latest:
-  5.519--pl5321hdfd78af_0: 
-    sha256:2dc96e735beb18daa9f2da824699e92c2fdd3deacb0bdf674247972baf25928f
+  5.522--pl5321hcbfc158_0: 
+    sha256:bd8b71db406b61449c314d3cde360c00a2cbef258732fd2a4c558cda5535e9f9
 tags:
   5.508--pl5321hdfd78af_2: 
     sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021
@@ -15,6 +15,10 @@ tags:
     sha256:cfa2b18f1840cd8051045a6d69f48f49da4eb8bdf58eccabef304e4cfbfaefa9
   5.519--pl5321hdfd78af_0: 
     sha256:2dc96e735beb18daa9f2da824699e92c2fdd3deacb0bdf674247972baf25928f
+  5.522--pl5321hcbfc158_0: 
+    sha256:bd8b71db406b61449c314d3cde360c00a2cbef258732fd2a4c558cda5535e9f9
+  5.520--pl5321hcbfc158_0: 
+    sha256:a57541ebf00cd763f6cc965abfe8c949d1c30bbd640a2db9b42a8210acd271d6
 docker: quay.io/biocontainers/perl-mime-tools
 aliases:
   binhex.pl: /usr/local/bin/binhex.pl
