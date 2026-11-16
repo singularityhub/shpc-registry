@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/svanna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svanna
 latest:
-  1.2.0--hdfd78af_0: 
-    sha256:9f76129c385cc52e3afb8d446aefe494f7dfd7d26f6e5a24480c5b8b90fedcf0
+  1.2.1--hdfd78af_0: 
+    sha256:850075119b96ca605314a1e27075a50a3866e633cb0a394faa75f69eccc06ef4
 tags:
   1.2.0--hdfd78af_0: 
     sha256:9f76129c385cc52e3afb8d446aefe494f7dfd7d26f6e5a24480c5b8b90fedcf0
+  1.2.1--hdfd78af_0: 
+    sha256:850075119b96ca605314a1e27075a50a3866e633cb0a394faa75f69eccc06ef4
 docker: quay.io/biocontainers/svanna
 aliases:
   fc-genconf: /usr/local/bin/fc-genconf

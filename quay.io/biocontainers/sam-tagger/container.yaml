@@ -2,11 +2,19 @@ url: https://biocontainers.pro/tools/sam-tagger
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sam-tagger
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:273d90dffb414bb2eec4acd2d6cdf9bfb3538542c08337f1056b1e1d5dca28df
+  0.8.0--pyhdfd78af_0: 
+    sha256:f7c644db5c7e5734e5659627427ff9a294f4b5feb38adb9dce7cdd1dba553143
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:273d90dffb414bb2eec4acd2d6cdf9bfb3538542c08337f1056b1e1d5dca28df
+  0.8.0--pyhdfd78af_0: 
+    sha256:f7c644db5c7e5734e5659627427ff9a294f4b5feb38adb9dce7cdd1dba553143
+  0.7.0--pyhdfd78af_0: 
+    sha256:c0733e72ba9eb6265828cf734e0b575e2d671a54129b09014b8de00902a8a594
+  0.5.1--pyhdfd78af_0: 
+    sha256:8a147c849c6255c122cf69b8259881a3d654ea0bae3bff7dcdf7e60e341a3e09
+  0.3.0--pyhdfd78af_0: 
+    sha256:57f3074efe0e10d96de909c1420a4113c565f2acb8aa729dcaf46bbceece2fc2
 docker: quay.io/biocontainers/sam-tagger
 aliases:
   cyclopts: /usr/local/bin/cyclopts

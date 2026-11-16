@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ecolityper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ecolityper
 latest:
-  1.3.0--pyhdfd78af_0: 
-    sha256:a3d7c11c2a860b6c37e6988be33c9a1ca1658c8deb37d0ce8c3555f8a5f829a7
+  1.4.0--pyhdfd78af_0: 
+    sha256:676402a2d62f2494ab522382e10da0e5bb8f5042020cdfe55af7f12700bb936d
 tags:
   1.1.1--pyhdfd78af_0: 
     sha256:35bae7ab08cb8bd8d67653ff8698fa21c2e6f6814df601d519aa5e627d605b3f
@@ -15,6 +15,8 @@ tags:
     sha256:876fe96612eb89b30000992ff18c72c1d2b960c39f603e29ead76cbb02c75786
   1.3.0--pyhdfd78af_0: 
     sha256:a3d7c11c2a860b6c37e6988be33c9a1ca1658c8deb37d0ce8c3555f8a5f829a7
+  1.4.0--pyhdfd78af_0: 
+    sha256:676402a2d62f2494ab522382e10da0e5bb8f5042020cdfe55af7f12700bb936d
 docker: quay.io/biocontainers/ecolityper
 aliases:
   ds: /usr/local/bin/ds

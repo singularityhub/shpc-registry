@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/aliceasm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aliceasm
 latest:
-  0.7.14--hf426362_0: 
-    sha256:4a09298ca2360b5ad4915b80535737cbbefb6d3f74b508eef1c7cafb1be59797
+  0.8.1--h3be2455_0: 
+    sha256:7858403b3d1a9b7268997c00b9f1c9be61e69034e4d129ae1686e82ea5310aaa
 tags:
   0.6.33--h9948957_0: 
     sha256:f170743918a626e1c11ac7578143edcd36208a0251b6fab334e333b8d0df3fa1
@@ -17,6 +17,8 @@ tags:
     sha256:ed7b3a43b315b87d9221c29600c208a0b20d487883bd03559c9d24ab6587a97a
   0.7.14--hf426362_0: 
     sha256:4a09298ca2360b5ad4915b80535737cbbefb6d3f74b508eef1c7cafb1be59797
+  0.8.1--h3be2455_0: 
+    sha256:7858403b3d1a9b7268997c00b9f1c9be61e69034e4d129ae1686e82ea5310aaa
 docker: quay.io/biocontainers/aliceasm
 aliases:
   aliceasm: /usr/local/bin/aliceasm
