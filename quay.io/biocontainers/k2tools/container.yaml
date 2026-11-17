@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/k2tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for k2tools
 latest:
-  0.2.0--hfa8f182_0: 
-    sha256:72a48b83d0fcb5f340c7f09dafd506545037b2ee7bc6533a504c2cf282cc5afa
+  0.2.1--hfa8f182_0: 
+    sha256:b8e2e3f88169716efad5ef7041b9c6f01fe9aedb2c298145dff5177065bf0845
 tags:
   0.1.0--h54198d6_0: 
     sha256:bf36738123d0f6427b0cef79295891c496eac3722746758020c99528943c0447
   0.2.0--hfa8f182_0: 
     sha256:72a48b83d0fcb5f340c7f09dafd506545037b2ee7bc6533a504c2cf282cc5afa
+  0.2.1--hfa8f182_0: 
+    sha256:b8e2e3f88169716efad5ef7041b9c6f01fe9aedb2c298145dff5177065bf0845
 docker: quay.io/biocontainers/k2tools
 aliases:
   k2tools: /usr/local/bin/k2tools

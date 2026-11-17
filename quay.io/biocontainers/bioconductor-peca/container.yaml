@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-peca
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:3bf05ea1a885c06d23653252d11aa7a00cf519755a5150526f411894f7705928
+  1.46.0--r45hdfd78af_0-amd64: 
+    sha256:62542d278f581f5af1f4f0cdcf5c4204f2d3962ec4ac36185209baf53787d9a4
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:4207e7638070f92d91f786a52eab99848c5c28478c4f0c4210890c954a7bdee0
@@ -16,4 +16,6 @@ tags:
     sha256:4f5a10a2b430353e09a4ea31cd6b7cb3bf07aba007971367bd269f30bb4895d3
   1.42.0--r44hdfd78af_0: 
     sha256:3bf05ea1a885c06d23653252d11aa7a00cf519755a5150526f411894f7705928
+  1.46.0--r45hdfd78af_0-amd64: 
+    sha256:62542d278f581f5af1f4f0cdcf5c4204f2d3962ec4ac36185209baf53787d9a4
 docker: quay.io/biocontainers/bioconductor-peca

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/enzywizard-batch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enzywizard-batch
 latest:
-  1.0.3--pyhdfd78af_0: 
-    sha256:37945895437812b44843a22250fface9d2f18ee1649903d5aa80164bb922e27d
+  1.0.3--pyhdfd78af_1: 
+    sha256:34d803dc11da752f4d446f584adc2da8ce68916bfe0ba848a82d712ec747e41e
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:07abf69b90b4f9edb451e743e32c7962933de1fb46b9eb8199f06e585b119e68
@@ -11,6 +11,8 @@ tags:
     sha256:41a2f4a9e073805a49fd3de189c97ef5437f63da23664eb393bae0b38007f061
   1.0.3--pyhdfd78af_0: 
     sha256:37945895437812b44843a22250fface9d2f18ee1649903d5aa80164bb922e27d
+  1.0.3--pyhdfd78af_1: 
+    sha256:34d803dc11da752f4d446f584adc2da8ce68916bfe0ba848a82d712ec747e41e
 docker: quay.io/biocontainers/enzywizard-batch
 aliases:
   enzywizard-batch: /usr/local/bin/enzywizard-batch

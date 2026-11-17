@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/osteosarc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for osteosarc
 latest:
-  0.15.5--pyhdfd78af_0: 
-    sha256:a47dd607da4d857f2ffab8d3d96c90e52a2ee0b75f906e21fb31a84b30702be4
+  0.15.7--pyhdfd78af_0: 
+    sha256:66957b1f37ee04b1097652b524e0935d3367d0291f567a0f922c1e4566d0edef
 tags:
   0.15.5--pyhdfd78af_0: 
     sha256:a47dd607da4d857f2ffab8d3d96c90e52a2ee0b75f906e21fb31a84b30702be4
+  0.15.7--pyhdfd78af_0: 
+    sha256:66957b1f37ee04b1097652b524e0935d3367d0291f567a0f922c1e4566d0edef
 docker: quay.io/biocontainers/osteosarc
 aliases:
   osteosarc: /usr/local/bin/osteosarc

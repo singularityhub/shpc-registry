@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/openstructure
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for openstructure
 latest:
-  2.12.0--py313he9191a9_1: 
-    sha256:b398992265147df7df8822928e7209938d5c034dc7397925c42ff11aa6832d3a
+  2.12.0--py311hf6d4a4b_2: 
+    sha256:edc4f7925cfb005cd59387d331e675897958200bf74cd5ee619cabef5ef6a2ee
 tags:
   2.10.0--py312haad5270_1: 
     sha256:45e6fe9b7c098c90a62ee34f0eb95f976028c05ceedfa228e4b2372ed47fe7ed
@@ -21,6 +21,8 @@ tags:
     sha256:3363a7b074d2a87b0cc0eaf72aea35ba0364868b6c2595595901c5982dd2b038
   2.12.0--py313he9191a9_1: 
     sha256:b398992265147df7df8822928e7209938d5c034dc7397925c42ff11aa6832d3a
+  2.12.0--py311hf6d4a4b_2: 
+    sha256:edc4f7925cfb005cd59387d331e675897958200bf74cd5ee619cabef5ef6a2ee
 docker: quay.io/biocontainers/openstructure
 aliases:
   chemdict_tool: /usr/local/bin/chemdict_tool
