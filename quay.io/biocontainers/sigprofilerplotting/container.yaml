@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sigprofilerplotting
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sigprofilerplotting
 latest:
-  1.4.3--pyhdfd78af_0: 
-    sha256:7977b61e81b3abaa7d2e96a9d7b0bf07b8fec1964a53614b971beec93ec68631
+  1.6.0--pyhdfd78af_0: 
+    sha256:468435e5eace2224cc21173deec6fb6e0b8554d19f1123dc5324515b73b7680f
 tags:
   1.3.21--pyh7cba7a3_0: 
     sha256:6ec878dbef7f0abde400e60507df8a27b034bfe32a9eaf2ed5749c2dddf53f42
@@ -23,6 +23,10 @@ tags:
     sha256:efc511150eb93968798540bea141ac10fb0514642f3ceb773ba86d53aea1f0bc
   1.4.3--pyhdfd78af_0: 
     sha256:7977b61e81b3abaa7d2e96a9d7b0bf07b8fec1964a53614b971beec93ec68631
+  1.6.0--pyhdfd78af_0: 
+    sha256:468435e5eace2224cc21173deec6fb6e0b8554d19f1123dc5324515b73b7680f
+  1.5.0--pyhdfd78af_0: 
+    sha256:7c6e3822d489b4b1cd32d10494123052b06d7c4e93b0cb566f13615d29abc9f9
 docker: quay.io/biocontainers/sigprofilerplotting
 aliases:
   SigProfilerPlotting: /usr/local/bin/SigProfilerPlotting

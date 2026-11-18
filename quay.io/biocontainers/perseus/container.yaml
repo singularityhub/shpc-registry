@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perseus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perseus
 latest:
-  1.2.0--pyhdfd78af_0: 
-    sha256:7cfed652360733d6bd92e89e710e2459734a2ecedbb8ec1ca79cffa2cba920e8
+  1.3.0--pyhdfd78af_0: 
+    sha256:0016369975b3207ca5c12880e9e4b0a0f86bac5f370f1475224fb15933ffadea
 tags:
   1.2.0--pyhdfd78af_0: 
     sha256:7cfed652360733d6bd92e89e710e2459734a2ecedbb8ec1ca79cffa2cba920e8
+  1.3.0--pyhdfd78af_0: 
+    sha256:0016369975b3207ca5c12880e9e4b0a0f86bac5f370f1475224fb15933ffadea
 docker: quay.io/biocontainers/perseus
 aliases:
   perseus: /usr/local/bin/perseus
