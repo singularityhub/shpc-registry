@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   mutalyzer_hgvs_parser
 latest:
-  0.4.0--pyh106432d_0: 
-    sha256:f2d0ecd71ddef0d85e5cec8bf444ea2cb2e6aed3b5bafb429fb82ea3a14f94ec
+  0.5.0--pyh106432d_0: 
+    sha256:ea89b4a576ac0113f9697749910681405e65449f77ffe97dc18ef90f2c6831ed
 tags:
   0.3.8--pyh7e72e81_0: 
     sha256:bcb7d0a1f7d1854cfc05ecf54fe59713505004e73b475d80087d9d02e714b9ef
@@ -12,6 +12,8 @@ tags:
     sha256:ad75f7bea36f0e9a485a249c8f6a5ddcdcf74e54bbc1cfdd6d6fc23d5a9d902b
   0.4.0--pyh106432d_0: 
     sha256:f2d0ecd71ddef0d85e5cec8bf444ea2cb2e6aed3b5bafb429fb82ea3a14f94ec
+  0.5.0--pyh106432d_0: 
+    sha256:ea89b4a576ac0113f9697749910681405e65449f77ffe97dc18ef90f2c6831ed
 docker: quay.io/biocontainers/mutalyzer_hgvs_parser
 aliases:
   mutalyzer_hgvs_parser: /usr/local/bin/mutalyzer_hgvs_parser

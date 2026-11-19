@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/ragtag
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ragtag
 latest:
-  2.1.0--pyhdfd78af_2: 
-    sha256:d74bccc4923ef0d6eaacd31f050dd4af082931c91ab55c7c922f8650ec47b341
+  2.1.1--pyhdfd78af_0: 
+    sha256:7e5e3dc941cb72e001962691851979d448a0b56b92ab4483bc0e951d1f89fcee
 tags:
   2.1.0--pyhb7b1952_0: 
     sha256:88e12e008e8301df8b3797b4bfff551534accf92f194daae65dbb3ed78da1580
   2.1.0--pyhdfd78af_2: 
     sha256:d74bccc4923ef0d6eaacd31f050dd4af082931c91ab55c7c922f8650ec47b341
+  2.1.1--pyhdfd78af_0: 
+    sha256:7e5e3dc941cb72e001962691851979d448a0b56b92ab4483bc0e951d1f89fcee
 docker: quay.io/biocontainers/ragtag
 aliases:
   ragtag.py: /usr/local/bin/ragtag.py

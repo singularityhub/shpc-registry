@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   jms-metabolite-services
 latest:
-  0.5.8--pyhdfd78af_0: 
-    sha256:18cf2b5bb4e65afc959c3d1026e2b2c046059704caccea17745b68d26914b1b2
+  0.5.9--pyhdfd78af_0: 
+    sha256:2a7d80465a953a834b246db1f06c7fe8b93b5365c68d97f4bb42ab7371d215b7
 tags:
   0.5.7--pyhdfd78af_0: 
     sha256:eb73335c02ba0525024dff20f373454d7c27ef98bbf403f1a9d23a3426d30623
   0.5.8--pyhdfd78af_0: 
     sha256:18cf2b5bb4e65afc959c3d1026e2b2c046059704caccea17745b68d26914b1b2
+  0.5.9--pyhdfd78af_0: 
+    sha256:2a7d80465a953a834b246db1f06c7fe8b93b5365c68d97f4bb42ab7371d215b7
 docker: quay.io/biocontainers/jms-metabolite-services
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

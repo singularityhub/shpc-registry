@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scatrans
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scatrans
 latest:
-  0.10.18--pyhdfd78af_0: 
-    sha256:03490bf0c89090729a2b5ef4432525406cb8000eedc8c64d5c20ac9c9a58b88e
+  0.11.0--pyhdfd78af_0: 
+    sha256:38c9b736392a6b498619877569e6702f7fa79becc527c57719d4b25f5aeb853f
 tags:
   0.10.5--pyhdfd78af_0: 
     sha256:478ad7cb4cf0bdb396d70445c135f97a2a6c9c0ebafc8f99ed82619a7e66b7b1
@@ -11,6 +11,8 @@ tags:
     sha256:28ba5a84461c116b9ce1f0e14267a05f1ddec2c7193427cb0a4c25389e63f88b
   0.10.18--pyhdfd78af_0: 
     sha256:03490bf0c89090729a2b5ef4432525406cb8000eedc8c64d5c20ac9c9a58b88e
+  0.11.0--pyhdfd78af_0: 
+    sha256:38c9b736392a6b498619877569e6702f7fa79becc527c57719d4b25f5aeb853f
 docker: quay.io/biocontainers/scatrans
 aliases:
   generate-gene-features: /usr/local/bin/generate-gene-features

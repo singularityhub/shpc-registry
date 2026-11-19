@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gtdb-gtranslate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gtdb-gtranslate
 latest:
-  0.0.5--pyh106432d_0: 
-    sha256:4abe498841cbd978ac6107bf832a5ce977b931fa2170dfea7bf783d80a028d27
+  0.0.7--pyh106432d_0: 
+    sha256:02931e0e38f34dbd236f81c536f4218ca121a1f607be2b4aac7fe2d761aef7b8
 tags:
   0.0.3--pyh106432d_0: 
     sha256:52b4506134f5e32820d4331fab4b07c8b209f29a7bb2179efe35726588243c75
@@ -11,6 +11,8 @@ tags:
     sha256:2c4a1938ce4077130ebcf467313bd1e323bdd673e5bf76dade502b2f7e180311
   0.0.5--pyh106432d_0: 
     sha256:4abe498841cbd978ac6107bf832a5ce977b931fa2170dfea7bf783d80a028d27
+  0.0.7--pyh106432d_0: 
+    sha256:02931e0e38f34dbd236f81c536f4218ca121a1f607be2b4aac7fe2d761aef7b8
 docker: quay.io/biocontainers/gtdb-gtranslate
 aliases:
   gtranslate: /usr/local/bin/gtranslate
