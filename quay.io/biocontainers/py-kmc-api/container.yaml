@@ -7,6 +7,8 @@ latest:
 tags:
   3.2.4--py310hd9fedd7_0: 
     sha256:52b2c03b95e0defc14bb6d8c25c05a8d56d7d278fd9e6a5f6d15727a775896ee
+  3.2.4--py311he19c82b_0: 
+    sha256:310c6b9edc268621622cff4a50a1d8ce2d6aeaa83e828a89422db76bd018c3c4
 docker: quay.io/biocontainers/py-kmc-api
 aliases:
   py_kmc_dump.py: /usr/local/bin/py_kmc_dump.py

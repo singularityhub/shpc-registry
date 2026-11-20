@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/msbuddy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msbuddy
 latest:
-  0.3.16--pyhdfd78af_0: 
-    sha256:4298817516af435d2609a8308286e31dbbafc927829d82b238d10d14671befc6
+  1.4.1--pyhdfd78af_0: 
+    sha256:95bf65aab8ba0fe57afe8e0b8c083082be34ad674442e1731e8a9a0c2e20a1d2
 tags:
   0.3.16--pyhdfd78af_0: 
     sha256:4298817516af435d2609a8308286e31dbbafc927829d82b238d10d14671befc6
+  1.4.1--pyhdfd78af_0: 
+    sha256:95bf65aab8ba0fe57afe8e0b8c083082be34ad674442e1731e8a9a0c2e20a1d2
+  1.0.0--pyhdfd78af_0: 
+    sha256:fbac3edae0936b1d6b46256683c20f2eadc50b80b6b96dad21deb3a392401a8a
 docker: quay.io/biocontainers/msbuddy
 aliases:
   gdown: /usr/local/bin/gdown

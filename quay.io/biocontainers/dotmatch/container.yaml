@@ -23,6 +23,8 @@ tags:
     sha256:b89ad9034fb3ffadf93f7faa77506b84d759f3d3e0b6e438561de73aff898211
   0.6.4--py312h9639c01_0: 
     sha256:1bd67abe302fcea0dcad4c03c9bd4626c643fdeeddebbf3d2b23cad4625b8de5
+  0.2.2--py313hfeada96_1-amd64: 
+    sha256:18807cb013e5e5c160f87f9811de478a6e5084c393f9c860e667a370e004de7f
 docker: quay.io/biocontainers/dotmatch
 aliases:
   dotmatch: /usr/local/bin/dotmatch

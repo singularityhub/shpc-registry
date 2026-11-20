@@ -7,6 +7,8 @@ latest:
 tags:
   2.26--h02cc909_0: 
     sha256:a162dfb0dcf5fd7c448acbb2457ea7a9363e488136ae6c7c22ad22523813dca2
+  2.26--h02cc909_0-amd64: 
+    sha256:9550c4acf9e6b7263e7cf068dab1dc496495d52831305662a7c81931d32e2a62
 docker: quay.io/biocontainers/pandepth
 aliases:
   pandepth: /usr/local/bin/pandepth

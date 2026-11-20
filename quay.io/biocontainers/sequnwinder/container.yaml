@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/sequnwinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sequnwinder
 latest:
-  0.1.4--hdfd78af_1: 
-    sha256:8cc85e27130f2aec854d4aafc10596a2159bf17bb28647c80d82faf89f7b1c5c
+  0.1.4--hdfd78af_2: 
+    sha256:cda9eeb31260fe89377bfa8374924ba24e29bb3f79110f25a04007e94d0b6459
 tags:
   0.1.4--hdfd78af_1: 
     sha256:8cc85e27130f2aec854d4aafc10596a2159bf17bb28647c80d82faf89f7b1c5c
+  0.1.4--hdfd78af_2: 
+    sha256:cda9eeb31260fe89377bfa8374924ba24e29bb3f79110f25a04007e94d0b6459
 docker: quay.io/biocontainers/sequnwinder
 aliases:
   dtc: /usr/local/bin/dtc
