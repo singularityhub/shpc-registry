@@ -17,9 +17,6 @@ jobs:
         with:
           ref: "gh-pages"
 
-      - name: Create conda environment
-        run: conda create --quiet -c conda-forge --name shpc spython
-
       - name: Check out main
         uses: "actions/checkout@v3"
         with:
@@ -28,15 +25,11 @@ jobs:
 
       - name: Install shpc
         run: |
-          export PATH="/usr/share/miniconda/bin:$PATH"
-          source activate shpc
           pip install git+https://github.com/singularityhub/singularity-hpc@main
           pip install setuptools
 
       - name: Generate docs
         run: |
-          export PATH="/usr/share/miniconda/bin:$PATH"
-          source activate shpc
           mkdir -p _library
           /bin/bash generate.sh ./tmp-registry
           git add _library/*
