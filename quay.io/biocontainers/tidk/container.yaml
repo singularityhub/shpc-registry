@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tidk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tidk
 latest:
-  0.3.0--hef77e2b_0: 
-    sha256:5fcf946f00167a7914a8d01a5e6f0d4a4a6a4dfefeacfc844fa087da8a8d03ea
+  0.3.2--hef77e2b_0: 
+    sha256:6378dc3fedde2a50efa25bb7d237b22f99f261f633907f1ca5ede55c94b5e870
 tags:
   0.2.1--h87f3376_1: 
     sha256:920d2cf7e33c7450eb5e85f7eaa5e30d9de2c2e765445d5b7e92c55bb8f3e5fc
@@ -21,6 +21,8 @@ tags:
     sha256:f1eb13335e29010df16fa48e2bdf6b18de4b42c8d8e44dcc30ae13a6b9e0e9ae
   0.3.0--hef77e2b_0: 
     sha256:5fcf946f00167a7914a8d01a5e6f0d4a4a6a4dfefeacfc844fa087da8a8d03ea
+  0.3.2--hef77e2b_0: 
+    sha256:6378dc3fedde2a50efa25bb7d237b22f99f261f633907f1ca5ede55c94b5e870
 docker: quay.io/biocontainers/tidk
 aliases:
   tidk: /usr/local/bin/tidk

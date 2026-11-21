@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioflowkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioflowkit
 latest:
-  0.3.1--pyhdfd78af_0: 
-    sha256:18ac668fce8fd6e5b1db77bf9cce70ef6cbce7adf3e6519d6bcc255cdccf668a
+  0.4.0--pyhdfd78af_0: 
+    sha256:9055656a48cea15e457d590fc958b5c80b847a5c1f8d32a19038ee11104fde42
 tags:
   0.3.1--pyhdfd78af_0: 
     sha256:18ac668fce8fd6e5b1db77bf9cce70ef6cbce7adf3e6519d6bcc255cdccf668a
+  0.4.0--pyhdfd78af_0: 
+    sha256:9055656a48cea15e457d590fc958b5c80b847a5c1f8d32a19038ee11104fde42
 docker: quay.io/biocontainers/bioflowkit
 aliases:
   bioflow: /usr/local/bin/bioflow

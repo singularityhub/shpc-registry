@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/tdkc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tdkc
 latest:
-  1.0.2--hfa8f182_0: 
-    sha256:f903c254ecf55262ca5b7d43502047cd6f5fd73dfd7208ad3d9c02b1d55ea2ea
+  1.1.1--hfa8f182_0: 
+    sha256:a2ea49cacb5b5b098165ba8f2010d859bc83db5e13b00ac54923c990864623fb
 tags:
   1.0.1--hfa8f182_0: 
     sha256:b29de800c1ca4dbe517d48dd152404022fdb4ced82e55a64a4ca228ab498501f
   1.0.2--hfa8f182_0: 
     sha256:f903c254ecf55262ca5b7d43502047cd6f5fd73dfd7208ad3d9c02b1d55ea2ea
+  1.1.1--hfa8f182_0: 
+    sha256:a2ea49cacb5b5b098165ba8f2010d859bc83db5e13b00ac54923c990864623fb
 docker: quay.io/biocontainers/tdkc
 aliases:
   archive-peptide: /usr/local/bin/archive-peptide

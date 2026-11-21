@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metaspace2020
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metaspace2020
 latest:
-  2.0.9--pyh7e72e81_0: 
-    sha256:e6084cb0cfaf3fd4c4a72521af3bf4607005f74c4bc5df547ae381e78235dcf7
+  2.1.0--pyh106432d_0: 
+    sha256:4b856571fc041c214143a1b7377447b7e92dd970eee454a24dece144fbe50248
 tags:
   2.0.9--pyh7e72e81_0: 
     sha256:e6084cb0cfaf3fd4c4a72521af3bf4607005f74c4bc5df547ae381e78235dcf7
+  2.1.0--pyh106432d_0: 
+    sha256:4b856571fc041c214143a1b7377447b7e92dd970eee454a24dece144fbe50248
 docker: quay.io/biocontainers/metaspace2020
 aliases:
   qconvex: /usr/local/bin/qconvex
