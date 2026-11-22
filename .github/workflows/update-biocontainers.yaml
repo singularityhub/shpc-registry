@@ -16,13 +16,15 @@ jobs:
       with:
         fetch-depth: '0'
 
-    - name: Create conda environment
-      run: conda create --quiet -c conda-forge --name cache spython pip
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
 
     - name: Derive BioContainers List
       run: |
-        conda run --name cache python -m pip install -r .github/scripts/dev-requirements.txt
-        conda run --name cache python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
+        python -m pip install -r .github/scripts/dev-requirements.txt
+        python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
         head /tmp/biocontainers.txt
 
       # registry defaults to PWD, branch defaults to main
