@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/nasp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nasp
 latest:
-  1.2.1--py36hf8e0771_1: 
-    sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871
+  1.2.1--py311haaf7d18_4: 
+    sha256:784ef6a74f3a5fc5337d07cff829a341361afa45516679ddfa50f84ad46bde27
 tags:
   1.2.1--py36hf8e0771_1: 
     sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871
   1.2.1--py38hebad582_1: 
     sha256:dae73a474fb9def70754e3e65926a28820482472118f2c32d66eca3c56e6badd
+  1.2.1--py311haaf7d18_4: 
+    sha256:784ef6a74f3a5fc5337d07cff829a341361afa45516679ddfa50f84ad46bde27
 docker: quay.io/biocontainers/nasp
 aliases:
   convert_external_genome: /usr/local/bin/convert_external_genome

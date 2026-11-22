@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hmftools-qsee
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-qsee
 latest:
-  1.0--hdfd78af_0: 
-    sha256:a744f8104f768f1b83c11d331bdf2fc7fb90a97fcbd411a47a0237ecee16653e
+  1.0--hdfd78af_1: 
+    sha256:91ebc50f20a5c251564ce57d04226b719518147aafa74ccb1985f0b9d22e29e6
 tags:
   1.0--hdfd78af_0: 
     sha256:a744f8104f768f1b83c11d331bdf2fc7fb90a97fcbd411a47a0237ecee16653e
+  1.0--hdfd78af_1: 
+    sha256:91ebc50f20a5c251564ce57d04226b719518147aafa74ccb1985f0b9d22e29e6
 docker: quay.io/biocontainers/hmftools-qsee
 aliases:
   qsee: /usr/local/bin/qsee

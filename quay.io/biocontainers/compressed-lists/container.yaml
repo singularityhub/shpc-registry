@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/compressed-lists
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for compressed-lists
 latest:
-  0.4.5--pyh106432d_0: 
-    sha256:2aaab14e33209648e6636f713824146e5a5b5b4fa0768dbfdccbb27d34130584
+  0.4.6--pyh106432d_0: 
+    sha256:d03af658a0b728f3eb8a6c608db41532dcdb03b5d032bf33f44bc3e267a34572
 tags:
   0.4.5--pyh106432d_0: 
     sha256:2aaab14e33209648e6636f713824146e5a5b5b4fa0768dbfdccbb27d34130584
+  0.4.6--pyh106432d_0: 
+    sha256:d03af658a0b728f3eb8a6c608db41532dcdb03b5d032bf33f44bc3e267a34572
 docker: quay.io/biocontainers/compressed-lists
 aliases:
   idle3.14: /usr/local/bin/idle3.14
