@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/ms-gpt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ms-gpt
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:0de28de746479f94fe8c89c525624dc7b109a9640f116db5479682e570b147e5
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:0de28de746479f94fe8c89c525624dc7b109a9640f116db5479682e570b147e5
+docker: quay.io/biocontainers/ms-gpt
+aliases:
+  accelerate: /usr/local/bin/accelerate
+  accelerate-config: /usr/local/bin/accelerate-config
+  accelerate-estimate-memory: /usr/local/bin/accelerate-estimate-memory
+  accelerate-launch: /usr/local/bin/accelerate-launch
+  accelerate-merge-weights: /usr/local/bin/accelerate-merge-weights
+  binaryornot: /usr/local/bin/binaryornot
+  email_validator: /usr/local/bin/email_validator
+  evaluate-cli: /usr/local/bin/evaluate-cli
+  fastapi: /usr/local/bin/fastapi
+  gradio: /usr/local/bin/gradio
+  hf-gradio: /usr/local/bin/hf-gradio
+  jupyter-builder: /usr/local/bin/jupyter-builder
+  mistune: /usr/local/bin/mistune
+  pygrun: /usr/local/bin/pygrun
+  ruff: /usr/local/bin/ruff
+  safe-train: /usr/local/bin/safe-train
+  upload_theme: /usr/local/bin/upload_theme
+  wandb: /usr/local/bin/wandb
+  watchfiles: /usr/local/bin/watchfiles
+  wb: /usr/local/bin/wb
+  websockets: /usr/local/bin/websockets
+  uvicorn: /usr/local/bin/uvicorn
+  glslang: /usr/local/bin/glslang
+  glslangValidator: /usr/local/bin/glslangValidator
+  glslc: /usr/local/bin/glslc
+  cookiecutter: /usr/local/bin/cookiecutter
+  transformers-cli: /usr/local/bin/transformers-cli
+  datasets-cli: /usr/local/bin/datasets-cli
+  spirv-diff: /usr/local/bin/spirv-diff
+  transformers: /usr/local/bin/transformers
+  jlpm: /usr/local/bin/jlpm
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  jupyter-events: /usr/local/bin/jupyter-events
+  slugify: /usr/local/bin/slugify
+  ffplay: /usr/local/bin/ffplay
+  pyjson5: /usr/local/bin/pyjson5
+  sdl2-config: /usr/local/bin/sdl2-config
+  jupyter-server: /usr/local/bin/jupyter-server
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint

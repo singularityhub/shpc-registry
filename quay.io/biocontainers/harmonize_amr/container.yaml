@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/harmonize_amr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for harmonize_amr
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:f15ccd3aef5750276025e30055d976d22b4a2b3682db3da8f8e384b3affb7e8c
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:f15ccd3aef5750276025e30055d976d22b4a2b3682db3da8f8e384b3affb7e8c
+docker: quay.io/biocontainers/harmonize_amr
+aliases:
+  harmonize_amr: /usr/local/bin/harmonize_amr
+  run_harmonize_amr: /usr/local/bin/run_harmonize_amr
+  update_databases.sh: /usr/local/bin/update_databases.sh
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  idna: /usr/local/bin/idna
+  yte: /usr/local/bin/yte
+  pulptest: /usr/local/bin/pulptest
+  docutils: /usr/local/bin/docutils
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  tabulate: /usr/local/bin/tabulate
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot

@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/nanoporetk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nanoporetk
+latest:
+  0.8.10--hdfd78af_0: 
+    sha256:dd11dcd15ffb5eb7550356e392463ac7db8b0e6fce6ad09df5f4e229b0cf5be7
+tags:
+  0.8.10--hdfd78af_0: 
+    sha256:dd11dcd15ffb5eb7550356e392463ac7db8b0e6fce6ad09df5f4e229b0cf5be7
+docker: quay.io/biocontainers/nanoporetk
+aliases:
+  nanoporeTK: /usr/local/bin/nanoporeTK
+  idle3.15: /usr/local/bin/idle3.15
+  pydoc3.15: /usr/local/bin/pydoc3.15
+  python3.15: /usr/local/bin/python3.15
+  python3.15-config: /usr/local/bin/python3.15-config
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug

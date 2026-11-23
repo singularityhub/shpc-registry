@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/amfsplit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amfsplit
+latest:
+  0.1.0--hb42e459_0: 
+    sha256:06cbff7bea56d36058c81216c386a64aadddd891ae83ceab7e04cba17abc9de3
+tags:
+  0.1.0--hb42e459_0: 
+    sha256:06cbff7bea56d36058c81216c386a64aadddd891ae83ceab7e04cba17abc9de3
+docker: quay.io/biocontainers/amfsplit
+aliases:
+  amfsplit: /usr/local/bin/amfsplit
+  epa-ng: /usr/local/bin/epa-ng
+  itsxrust: /usr/local/bin/itsxrust
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  vsearch: /usr/local/bin/vsearch
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
