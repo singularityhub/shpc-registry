@@ -1,12 +1,12 @@
 docker: bids/brainiak-srm
 latest:
-  unstable: 
-    sha256:1c4b379cbad7796fba5f30aeb953c4e5fb8e7cb13e0c4838bd273c50767cd19b
+  unstable: 'crane digest bids/brainiak-srm:unstable: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
 tags:
-  latest: 
-    sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430
-  unstable: 
-    sha256:1c4b379cbad7796fba5f30aeb953c4e5fb8e7cb13e0c4838bd273c50767cd19b
+  latest: 'crane digest bids/brainiak-srm:latest: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  unstable: 'crane digest bids/brainiak-srm:unstable: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
 filter:
 - v*
 maintainer: '@vsoch'

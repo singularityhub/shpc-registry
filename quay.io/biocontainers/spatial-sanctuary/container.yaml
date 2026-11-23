@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/spatial-sanctuary
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spatial-sanctuary
 latest:
-  2.2.2--pyhdfd78af_0: 
-    sha256:3ac5a676a92324466dffe9371e4e3ca7ac75faba8f5c1f9aa4874a8b050d810a
+  2.2.3--pyhdfd78af_0: 
+    sha256:14057f8219fa49011375ca80552ee5ab89e956f9263607bbbbb50b247bdd65dd
 tags:
   2.2.2--pyhdfd78af_0: 
     sha256:3ac5a676a92324466dffe9371e4e3ca7ac75faba8f5c1f9aa4874a8b050d810a
+  2.2.3--pyhdfd78af_0: 
+    sha256:14057f8219fa49011375ca80552ee5ab89e956f9263607bbbbb50b247bdd65dd
 docker: quay.io/biocontainers/spatial-sanctuary
 aliases:
   osimertinib-sanctuary: /usr/local/bin/osimertinib-sanctuary

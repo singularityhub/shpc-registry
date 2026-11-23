@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/qsignature
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for qsignature
 latest:
-  0.1pre--hdfd78af_5: 
-    sha256:d3498ae1ab91cab4c06fb2e6c502ddd332ba0ae89903311b13f34879058a6bff
+  0.1pre--hdfd78af_6: 
+    sha256:ed10a3010900c8ff4454dfbefd28a9263926176c43e4103a361f094b92c4c40c
 tags:
   0.1pre--hdfd78af_5: 
     sha256:d3498ae1ab91cab4c06fb2e6c502ddd332ba0ae89903311b13f34879058a6bff
+  0.1pre--hdfd78af_6: 
+    sha256:ed10a3010900c8ff4454dfbefd28a9263926176c43e4103a361f094b92c4c40c
 docker: quay.io/biocontainers/qsignature
 aliases:
   qsignature: /usr/local/bin/qsignature

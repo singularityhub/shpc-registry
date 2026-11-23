@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/prseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for prseq
 latest:
-  0.0.38--py311h3a51709_0: 
-    sha256:c4115e177795f5d0761c8e1a0153c5075fd8b90229bba5edb41ae461d467eb9c
+  0.0.39--py311h3a51709_0: 
+    sha256:bb2f44c0a606625f3ccaa38ed36f3e2c729d5815d13dbfbceb963fb92377607f
 tags:
   0.0.33--py310h7e03b2b_0: 
     sha256:efea91ca6d0a927faec793b89218afe2d7e39d1f4c1a27979a9149e9ed3116c5
@@ -13,6 +13,8 @@ tags:
     sha256:ea33ea062dd334df1f0bdfee5215f9e3e106d1eb5e40784dafc9ed27c6054854
   0.0.38--py311h3a51709_0: 
     sha256:c4115e177795f5d0761c8e1a0153c5075fd8b90229bba5edb41ae461d467eb9c
+  0.0.39--py311h3a51709_0: 
+    sha256:bb2f44c0a606625f3ccaa38ed36f3e2c729d5815d13dbfbceb963fb92377607f
 docker: quay.io/biocontainers/prseq
 aliases:
   fasta-filter: /usr/local/bin/fasta-filter

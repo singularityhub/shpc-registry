@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/atlas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for atlas
 latest:
-  2.0.4--h2a744bc_0: 
-    sha256:8502414ae05b040827640644fe53b5ae6ba0b609e054b7c41723b700bf5ab4b1
+  2.0.5--h2a744bc_0: 
+    sha256:a673f4f8b2aba67a61a615142b91a0609562db19bc4770cfbec4404548a2cb8a
 tags:
   0.9.9--h42556f1_1: 
     sha256:b356e7fa38d7c7a1cb110479105437c32084a33fedeebfe58c9d8f37fdc50383
@@ -31,6 +31,8 @@ tags:
     sha256:0496db9fe7fc1b970a2876b791f23873716a5b9b3f6c424f7c8d950d4b9b7321
   2.0.4--h2a744bc_0: 
     sha256:8502414ae05b040827640644fe53b5ae6ba0b609e054b7c41723b700bf5ab4b1
+  2.0.5--h2a744bc_0: 
+    sha256:a673f4f8b2aba67a61a615142b91a0609562db19bc4770cfbec4404548a2cb8a
 docker: quay.io/biocontainers/atlas
 aliases:
   atlas: /usr/local/bin/atlas

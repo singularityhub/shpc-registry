@@ -4,19 +4,24 @@ maintainer: '@vsoch'
 description: Jupyter Tensorflow Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  x86_64-ubuntu-22.04: 
-    sha256:e397f3cbded09b75a0a8194dc387aa69d31f1fd30e0a26fccaad2b9b8a7897b9
+  x86_64-ubuntu-22.04: 'crane digest jupyter/tensorflow-notebook:x86_64-ubuntu-22.04:
+    TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. Sign in
+    for a higher limit: https://www.docker.com/increase-rate-limit'
 tags:
-  latest: 
-    sha256:173f124f638efe870bb2b535e01a76a80a95217e66ed00751058c51c09d6d85d
-  ubuntu-20.04: 
-    sha256:1bbb4dd5fd643f693567c84173e86ec7ed0c2e11ac70f2326e057539698f91f2
-  ubuntu-22.04: 
-    sha256:173f124f638efe870bb2b535e01a76a80a95217e66ed00751058c51c09d6d85d
-  x86_64-ubuntu-22.04: 
-    sha256:e397f3cbded09b75a0a8194dc387aa69d31f1fd30e0a26fccaad2b9b8a7897b9
-  aarch64-ubuntu-22.04: 
-    sha256:36e71d9ff704150a732f0b7a4586e728c370056de8232c09c997c25e684140f7
+  latest: 'crane digest jupyter/tensorflow-notebook:latest: TOOMANYREQUESTS: You have
+    reached your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  ubuntu-20.04: 'crane digest jupyter/tensorflow-notebook:ubuntu-20.04: TOOMANYREQUESTS:
+    You have reached your unauthenticated pull rate limit. Sign in for a higher limit:
+    https://www.docker.com/increase-rate-limit'
+  ubuntu-22.04: 'crane digest jupyter/tensorflow-notebook:ubuntu-22.04: TOOMANYREQUESTS:
+    You have reached your unauthenticated pull rate limit. Sign in for a higher limit:
+    https://www.docker.com/increase-rate-limit'
+  x86_64-ubuntu-22.04: 'crane digest jupyter/tensorflow-notebook:x86_64-ubuntu-22.04:
+    TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. Sign in
+    for a higher limit: https://www.docker.com/increase-rate-limit'
+  aarch64-ubuntu-22.04: 'crane digest jupyter/tensorflow-notebook:aarch64-ubuntu-22.04:
+    TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. Sign in
+    for a higher limit: https://www.docker.com/increase-rate-limit'
 filter:
 - ubuntu*
 aliases:

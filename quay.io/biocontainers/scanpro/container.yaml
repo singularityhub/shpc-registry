@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/scanpro
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scanpro
 latest:
-  0.4.1--pyh84cbfca_0: 
-    sha256:4257c60df180240949b84f8144512459e220adcbcdfa8d5af2e2561e3402cbb9
+  0.5.0--pyh84cbfca_0: 
+    sha256:d2b7dd91c015309d95863d669743f2bcd131286565e3dd9dd057cb9720c07c83
 tags:
   0.4.0--pyh84cbfca_0: 
     sha256:0b0a7687cd8dc42c1d4d3e49a155f16b866886403d7aca9f336be141711992c7
   0.4.1--pyh84cbfca_0: 
     sha256:4257c60df180240949b84f8144512459e220adcbcdfa8d5af2e2561e3402cbb9
+  0.5.0--pyh84cbfca_0: 
+    sha256:d2b7dd91c015309d95863d669743f2bcd131286565e3dd9dd057cb9720c07c83
 docker: quay.io/biocontainers/scanpro
 aliases:
   idle3.14: /usr/local/bin/idle3.14

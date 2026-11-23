@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/nuclease
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nuclease
 latest:
-  0.6.3--hfa8f182_0: 
-    sha256:cdb1948f01e36ca236c22fa9c7b44bd064534632081f2dbaf5ec480ff5262033
+  0.8.0--hfa8f182_0: 
+    sha256:01a67cd2c333f68aeda5c453a76e3843feacb7a713d53328cd259c9fd486772e
 tags:
   0.6.0--hfa8f182_0: 
     sha256:c66b7a313a2cf69ff6b906b51bcce9fd12b5a97a8a1578940c86e0d387377a21
   0.6.3--hfa8f182_0: 
     sha256:cdb1948f01e36ca236c22fa9c7b44bd064534632081f2dbaf5ec480ff5262033
+  0.8.0--hfa8f182_0: 
+    sha256:01a67cd2c333f68aeda5c453a76e3843feacb7a713d53328cd259c9fd486772e
+  0.7.0--hfa8f182_0: 
+    sha256:989feaa843a66050d5b521590246c19d278f4e1846f576341bac9d829f0211c5
 docker: quay.io/biocontainers/nuclease
 aliases:
   nuclease: /usr/local/bin/nuclease
