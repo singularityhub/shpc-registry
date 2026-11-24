@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fgumi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fgumi
 latest:
-  0.8.0--h54198d6_0: 
-    sha256:81f8bef277138431f29e30f3a672b10556eded8e40759a16fa857efec0802bbb
+  0.9.0--h54198d6_0: 
+    sha256:c5e7543dbabb17bbde5aabb8f529e651645ae20c082ee7910168d7fc42a429f6
 tags:
   0.1.0--h54198d6_0: 
     sha256:35257dabe1ec92f04ac93fd3e5341e412b7aefd123f49a7323a80112fc058d11
@@ -25,6 +25,8 @@ tags:
     sha256:c093fa975a5c143fa0c4c81451211d6a5abd41c9fbbdb070537ab379533c0e66
   0.8.0--h54198d6_0: 
     sha256:81f8bef277138431f29e30f3a672b10556eded8e40759a16fa857efec0802bbb
+  0.9.0--h54198d6_0: 
+    sha256:c5e7543dbabb17bbde5aabb8f529e651645ae20c082ee7910168d7fc42a429f6
 docker: quay.io/biocontainers/fgumi
 aliases:
   fgumi: /usr/local/bin/fgumi

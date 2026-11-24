@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pepquery
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pepquery
 latest:
-  2.0.2--hdfd78af_0: 
-    sha256:312c8db90505c76a47e79c9fd17c865ec2ea34524de5c19863d15589fbe9010b
+  2.0.2--hdfd78af_1: 
+    sha256:94d1ec249a9960985f33ac4c3f2f73f7748809cf5f2e99e5437bd4893c081f1e
 tags:
   2.0.2--hdfd78af_0: 
     sha256:312c8db90505c76a47e79c9fd17c865ec2ea34524de5c19863d15589fbe9010b
+  2.0.2--hdfd78af_1: 
+    sha256:94d1ec249a9960985f33ac4c3f2f73f7748809cf5f2e99e5437bd4893c081f1e
 docker: quay.io/biocontainers/pepquery
 aliases:
   pepquery: /usr/local/bin/pepquery

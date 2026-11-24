@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sdrf-pipelines
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sdrf-pipelines
 latest:
-  0.1.6--pyhdfd78af_0: 
-    sha256:26521d494a9016e490d98da4cb7df65c6e0ee7e38fffa05542d5ba674e1c2b37
+  0.1.7--pyhdfd78af_0: 
+    sha256:b259135d4bf03dd76461eec481b755f745acb51c1f9d23a4709fbcfa0c999977
 tags:
   0.0.9--py_0: 
     sha256:bd38b5c004164b0d6e8492ca9d85cbc0d18b5b815720071ac50a889a960c4dc7
@@ -39,4 +39,6 @@ tags:
     sha256:e228ef844b53e3b47a5d61e47458ca27457a4b9a661390781629526b6ecb1927
   0.1.6--pyhdfd78af_0: 
     sha256:26521d494a9016e490d98da4cb7df65c6e0ee7e38fffa05542d5ba674e1c2b37
+  0.1.7--pyhdfd78af_0: 
+    sha256:b259135d4bf03dd76461eec481b755f745acb51c1f9d23a4709fbcfa0c999977
 docker: quay.io/biocontainers/sdrf-pipelines

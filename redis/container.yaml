@@ -6,8 +6,8 @@ description: Redis is an open-source, networked, in-memory, key-value data store
 filter:
 - ^(?!.*32bit).*$
 latest:
-  8.10-rc2: 
-    sha256:39fe2a74b00560e40268a0e68b587bb701685624e48c46bbf97904be6f22ccbc
+  '8.12': 'crane digest redis:8.12: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
 tags:
   6.2.3-alpine: 
     sha256:f8f0e809a4281714c33edf86f6da6cc2d4058c8549e44d8c83303c28b3123072
@@ -18,12 +18,12 @@ tags:
   7.0-rc: 
     sha256:359475c7f0c0a8a28444ca36799b087bb98c8f9db0ee9fa5c13017b4d1693fb5
   latest: 
-    sha256:97ec88159e6d7cfb5ddef9015386087d58a912de80112f06ebdfa78fa5989901
-  '6': sha256:8b98584f6c5a4a056d3a5441b837555f08341b8480ae6f75c6a00a235f985e57
+    sha256:2ee7f331f951b15cc747dbd1512121be5db20f2d062d9746f19a0dada2b18edd
+  '6': sha256:c607eec4c2320d35c69634f01ab3f47aa15b43bd05ac2fe96bf597fd2404509d
   6-alpine3.15: 
     sha256:4091b9da835824257744fba095932e470078eb2c0025899ac1c6944b2d638c7e
-  '6.2': sha256:8b98584f6c5a4a056d3a5441b837555f08341b8480ae6f75c6a00a235f985e57
-  '7': sha256:44960b3100c48159a66d28c18b0588c193492e25f7551d60e51dd464fc3eca5b
+  '6.2': sha256:c607eec4c2320d35c69634f01ab3f47aa15b43bd05ac2fe96bf597fd2404509d
+  '7': sha256:314425e49d4aad0c72746c97b72b5f258e8b5db372e61e0f1d9956866f3e0b7c
   7-alpine3.15: 
     sha256:541e6d75df5dfb08e8859929bab06da265673808a6f2285abe6b7c76c1c98c6e
   '7.0': sha256:352c1fdadc91926edda08f45aeb3f27f37194c2f14101229c0523a11195c96e3
@@ -39,49 +39,57 @@ tags:
     sha256:7263f36e388ca406f67ec5614a3d0099d7634804e5e26536fdde85ca7d8efa94
   7-alpine3.18: 
     sha256:3ce533b2b057f74b235d1d8697ae08b1b6ff0a5e16827ea6a377b6365693c7ed
-  '7.2': sha256:1009f15ccd9ed271996d1c65745a1ab1dadedea188feb3f1ab938602a32e50a3
+  '7.2': sha256:0f423529c4026f87906eb18203ba02d3ba8eac667fae79f05b9cc4f01cb8aa42
   7-alpine3.19: 
     sha256:8f157725f8eee31e65a8d4765f1f986d76aedc1a0503345dfb63a2b1b5a441ee
   7-alpine3.20: 
     sha256:c1e88455c85225310bbea54816e9c3f4b5295815e6dbf80c34d40afc6df28275
   7.4-rc: 
     sha256:4d08a8fc92f2ae6508cc4a622a95a75c0549f43da7c13542e8deb031e1c0b629
-  '7.4': sha256:44960b3100c48159a66d28c18b0588c193492e25f7551d60e51dd464fc3eca5b
+  '7.4': sha256:314425e49d4aad0c72746c97b72b5f258e8b5db372e61e0f1d9956866f3e0b7c
   8.0-M01: 
     sha256:418c6ae4c128641049a692135a683d3eca6746deb96b56b45e34993782b1596f
-  8.0-M02: 
-    sha256:671dbd33aafb8bc88656dc182921261ad592b2f907cc32b0f1bad57b2fd6e0e5
-  8.0-M03: 
-    sha256:f35d7bf9f1fdbcb7a0296ab01a5e7e72643a0a5d40fc263a189627bd09afe7c9
-  7-alpine3.21: 
-    sha256:57e4255cc971b1c8d6f8a6ca283ac01bc3ecdd914273ef6bfaede87aaecd6541
-  8.0-M04: 
-    sha256:9c6bb76658f8e6f7ca8d0d96c8fcdfb12e9795579c89918aea4fa2ad9817c2f0
-  '8': sha256:97ec88159e6d7cfb5ddef9015386087d58a912de80112f06ebdfa78fa5989901
-  8-alpine3.21: 
-    sha256:25c0ae32c6c2301798579f5944af53729766a18eff5660bbef196fc2e6214a9c
-  '8.0': sha256:ae471bdc20de180beed36e347d170ec0bdf8faa327959ea1f24692f22b05b955
-  8.2-m01: 
-    sha256:0022f77ef5fcee063d0e009d03a6696c47159d97c64ce1e8d176b485c66f7f57
-  8-alpine3.22: 
-    sha256:f9b3b74607c14a568cf0bda340432ca7ffd0682e3a53183412a8236974bdf69e
-  '8.2': sha256:e5f23377739f95a2f530b9c99f93accb4f634577f09d00a7d8e0638f2fdf69e0
+  8.0-M02: 'crane digest redis:8.0-M02: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8.0-M03: 'crane digest redis:8.0-M03: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  7-alpine3.21: 'crane digest redis:7-alpine3.21: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8.0-M04: 'crane digest redis:8.0-M04: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8': 'crane digest redis:8: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8-alpine3.21: 'crane digest redis:8-alpine3.21: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8.0': 'crane digest redis:8.0: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8.2-m01: 'crane digest redis:8.2-m01: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8-alpine3.22: 'crane digest redis:8-alpine3.22: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8.2': 'crane digest redis:8.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
   'crane ls redis: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/redis Type:repository]]': 'crane
     digest redis:crane ls redis: UNAUTHORIZED: authentication required; [map[Action:pull
     Class: Name:library/redis Type:repository]]: parsing reference "redis:crane ls
     redis: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/redis
     Type:repository]]": could not parse reference'
-  '8.4': sha256:6a12a187547eb2eac4da4528f9d9787d69f3848e513480baedfd75e3b2ac393e
-  8.10-rc2: 
-    sha256:39fe2a74b00560e40268a0e68b587bb701685624e48c46bbf97904be6f22ccbc
-  '8.10': 
-    sha256:97ec88159e6d7cfb5ddef9015386087d58a912de80112f06ebdfa78fa5989901
-  8-alpine3.23: 
-    sha256:0bf6577d7774e592b29d093e3ac9390eb91e13d72c21e506afce736de5e0eeb0
-  '8.8': sha256:418e397fd48d66e450af13baab123397f2d2580b07ef310c3a5dbe96c3d731f1
-  '8.6': sha256:e6dae84f7db289dde3384fdb18d182556784e5a681df3a3f54d1289952364ce8
-  8.4-trixie: 
-    sha256:6a12a187547eb2eac4da4528f9d9787d69f3848e513480baedfd75e3b2ac393e
+  '8.4': 'crane digest redis:8.4: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8.10-rc2: 'crane digest redis:8.10-rc2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8.10': 'crane digest redis:8.10: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8-alpine3.23: 'crane digest redis:8-alpine3.23: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8.8': 'crane digest redis:8.8: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8.6': 'crane digest redis:8.6: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  8.4-trixie: 'crane digest redis:8.4-trixie: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
+  '8.12': 'crane digest redis:8.12: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. Sign in for a higher limit: https://www.docker.com/increase-rate-limit'
 aliases:
   redis-benchmark: /usr/local/bin/redis-benchmark
   redis-check-aof: /usr/local/bin/redis-check-aof

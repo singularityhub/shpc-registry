@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/logan-walker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for logan-walker
 latest:
-  0.1.0--hfa8f182_0: 
-    sha256:61b032105a29b7eef77d2068ac8cfcb26a4ff8a5f381715b740b15952c1eaf04
+  0.1.1--hfa8f182_1: 
+    sha256:9458bafb2dfbd0dc027260a501dcac68731044bbd81503bf10d690664008fa0a
 tags:
   0.1.0--hfa8f182_0: 
     sha256:61b032105a29b7eef77d2068ac8cfcb26a4ff8a5f381715b740b15952c1eaf04
+  0.1.1--hfa8f182_1: 
+    sha256:9458bafb2dfbd0dc027260a501dcac68731044bbd81503bf10d690664008fa0a
 docker: quay.io/biocontainers/logan-walker
 aliases:
   GraphAligner: /usr/local/bin/GraphAligner

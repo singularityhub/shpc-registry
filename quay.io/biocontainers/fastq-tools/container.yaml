@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fastq-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq-tools
 latest:
-  0.8--hed695b0_3: 
-    sha256:00c2f42213cbc579a6807d8ec25f55e5d28298257a734124f22f711310f97431
+  0.8.3--h1104d80_7: 
+    sha256:04b73331bb76ae93186225c497e6fe4ba19b26cef63fc2385cc43f6f41331e60
 tags:
   0.8.3--hbd632db_2: 
     sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59

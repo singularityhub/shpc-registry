@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/captnseq-toolkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for captnseq-toolkit
 latest:
-  0.1.2--pyhdfd78af_0: 
-    sha256:3e94cee94290644923367ec03bdc093dccafaca5e14b26d901e4ab773f6b1409
+  0.2.0--pyhdfd78af_0: 
+    sha256:144da5bcb0f3042d5b0ed875980826241a78abf79a30687ea3a82a9e4142bb93
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:3e94cee94290644923367ec03bdc093dccafaca5e14b26d901e4ab773f6b1409
+  0.2.0--pyhdfd78af_0: 
+    sha256:144da5bcb0f3042d5b0ed875980826241a78abf79a30687ea3a82a9e4142bb93
 docker: quay.io/biocontainers/captnseq-toolkit
 aliases:
   captnseq-toolkit: /usr/local/bin/captnseq-toolkit
