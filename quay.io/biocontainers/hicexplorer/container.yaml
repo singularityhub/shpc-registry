@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hicexplorer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hicexplorer
 latest:
-  3.7.6--pyhdfd78af_0: 
-    sha256:5611c58152705b65fe18112afa1cb72a1f09a678171e74e8a42fe2d83e3fc02f
+  4.0.0--py312hfffc319_0: 
+    sha256:868b27997ec40d1f656d472d4ed6a914b2145fd7decf1dc75af32f6b8e9e0cca
 tags:
   2.2beta--py36_0: 
     sha256:b4b9284c564f584da3ef53ff4c6063d7f46346ef012406cf09828c45c20f953b
@@ -25,6 +25,8 @@ tags:
     sha256:3c0a08fffbb47cc01ab71ff59327363af25f699e28e1c82d324f981a70af9477
   3.7.6--pyhdfd78af_0: 
     sha256:5611c58152705b65fe18112afa1cb72a1f09a678171e74e8a42fe2d83e3fc02f
+  4.0.0--py312hfffc319_0: 
+    sha256:868b27997ec40d1f656d472d4ed6a914b2145fd7decf1dc75af32f6b8e9e0cca
 docker: quay.io/biocontainers/hicexplorer
 aliases:
   dask-mpi: /usr/local/bin/dask-mpi

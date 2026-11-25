@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bcbio-variation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bcbio-variation
 latest:
-  0.2.6--hdfd78af_4: 
-    sha256:a7c6ed07ddb4fee0f3dc5e4f70724c1fa2a8de7a321381a1af272eb7a1c57389
+  0.2.6--hdfd78af_6: 
+    sha256:3b9a67711bbb556557af8bd8d2d963b94d2ef49b2883782b6921e44dce59d46d
 tags:
   0.2.6--hdfd78af_4: 
     sha256:a7c6ed07ddb4fee0f3dc5e4f70724c1fa2a8de7a321381a1af272eb7a1c57389
+  0.2.6--hdfd78af_6: 
+    sha256:3b9a67711bbb556557af8bd8d2d963b94d2ef49b2883782b6921e44dce59d46d
 docker: quay.io/biocontainers/bcbio-variation
 aliases:
   bcbio-variation: /usr/local/bin/bcbio-variation

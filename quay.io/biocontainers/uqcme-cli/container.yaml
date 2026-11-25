@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/uqcme-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for uqcme-cli
 latest:
-  0.9.2--pyhdfd78af_0: 
-    sha256:e5c7365ceebc7d7016f4bda2238b228b430edc89522309d0cd8434053c069edd
+  0.9.4--pyhdfd78af_0: 
+    sha256:83f6952df57cb202cdb0102aabef511188b120b1f012f58d5405b740d209cc06
 tags:
   0.9.2--pyhdfd78af_0: 
     sha256:e5c7365ceebc7d7016f4bda2238b228b430edc89522309d0cd8434053c069edd
+  0.9.4--pyhdfd78af_0: 
+    sha256:83f6952df57cb202cdb0102aabef511188b120b1f012f58d5405b740d209cc06
 docker: quay.io/biocontainers/uqcme-cli
 aliases:
   uqcme: /usr/local/bin/uqcme

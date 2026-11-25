@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bgen-cpp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bgen-cpp
 latest:
-  1.1.7--h5ca1c30_0: 
-    sha256:1449d6740ad546c197fc9a4c85ade48a0f4b6dc714a070b097c451fa26957dac
+  1.2.0--h62df932_0: 
+    sha256:70a293c7b6779f0f2537bc1df1a4910bab2ba3133335d9c2ab1b3b951e6ad916
 tags:
   1.1.7--h5ca1c30_0: 
     sha256:1449d6740ad546c197fc9a4c85ade48a0f4b6dc714a070b097c451fa26957dac
+  1.2.0--h62df932_0: 
+    sha256:70a293c7b6779f0f2537bc1df1a4910bab2ba3133335d9c2ab1b3b951e6ad916
 docker: quay.io/biocontainers/bgen-cpp
 aliases:
   bgenix: /usr/local/bin/bgenix

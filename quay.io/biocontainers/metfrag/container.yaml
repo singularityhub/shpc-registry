@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metfrag
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metfrag
 latest:
-  2.4.5--hdfd78af_5: 
-    sha256:18639fbb371a91bbd5df0688707c72485596529072e5f176c3756ea08fd6b9af
+  2.4.5--hdfd78af_6: 
+    sha256:86795a3a423329922a72013dd0b0c8cbe64f4e6153da55725c9e48f9705207d6
 tags:
   2.4.5--hdfd78af_5: 
     sha256:18639fbb371a91bbd5df0688707c72485596529072e5f176c3756ea08fd6b9af
+  2.4.5--hdfd78af_6: 
+    sha256:86795a3a423329922a72013dd0b0c8cbe64f4e6153da55725c9e48f9705207d6
 docker: quay.io/biocontainers/metfrag
 aliases:
   metfrag: /usr/local/bin/metfrag
