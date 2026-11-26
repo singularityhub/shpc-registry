@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/riaso
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for riaso
 latest:
-  0.1.0--h8d1255d_0: 
-    sha256:b2e4b48129e5b5ea17273216786ba4e4bfa620e7c6e79ef71bbb033357ad06f9
+  0.1.1--h8d1255d_0: 
+    sha256:7cffda3f8363a921cbb5f9cc606278601622dfb675c4871fe9ae3c4dd1f414e8
 tags:
   0.1.0--h8d1255d_0: 
     sha256:b2e4b48129e5b5ea17273216786ba4e4bfa620e7c6e79ef71bbb033357ad06f9
+  0.1.1--h8d1255d_0: 
+    sha256:7cffda3f8363a921cbb5f9cc606278601622dfb675c4871fe9ae3c4dd1f414e8
 docker: quay.io/biocontainers/riaso
 aliases:
   riaso: /usr/local/bin/riaso

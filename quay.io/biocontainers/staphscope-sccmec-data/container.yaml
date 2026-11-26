@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   staphscope-sccmec-data
 latest:
-  2.0.0--hdfd78af_0: 
-    sha256:353470e4e765086a29777380e7dd6b932e148ed41068f253fb03d813741770b6
+  2.1.0--hdfd78af_0: 
+    sha256:54f5627fff7ab940e8ab3264c0fd68fa78162b08796d0c5885dc653499f81286
 tags:
   1.2.0--hdfd78af_1: 
     sha256:131e30a08f04ec1b72f55cb8a8f92ced5fae8946605981dfb68a5d99721708fc
@@ -18,4 +18,6 @@ tags:
     sha256:c491b53fbb15f24415002896357090070f1192664c0d09644267891485ee1e1c
   2.0.0--hdfd78af_0: 
     sha256:353470e4e765086a29777380e7dd6b932e148ed41068f253fb03d813741770b6
+  2.1.0--hdfd78af_0: 
+    sha256:54f5627fff7ab940e8ab3264c0fd68fa78162b08796d0c5885dc653499f81286
 docker: quay.io/biocontainers/staphscope-sccmec-data

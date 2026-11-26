@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bullseye
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bullseye
 latest:
-  1.0.0--pl5321hdfd78af_0: 
-    sha256:75635ba50257e8deccd52f6615f12057f5caaf9da2009b8e078662596b4706c6
+  1.1.0--pl5321hcbfc158_0: 
+    sha256:7f8e5dd83944bbe36a7876a30e8703b29be62a278c9e053ab4b36acc5d84528d
 tags:
   1.0.0--pl5321hdfd78af_0: 
     sha256:75635ba50257e8deccd52f6615f12057f5caaf9da2009b8e078662596b4706c6
+  1.1.0--pl5321hcbfc158_0: 
+    sha256:7f8e5dd83944bbe36a7876a30e8703b29be62a278c9e053ab4b36acc5d84528d
 docker: quay.io/biocontainers/bullseye
 aliases:
   Find_edit_sites.pl: /usr/local/bin/Find_edit_sites.pl

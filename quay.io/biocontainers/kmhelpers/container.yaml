@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kmhelpers
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmhelpers
 latest:
-  0.7.1--pyhdfd78af_0: 
-    sha256:cad0220a3267277979e6d97106b1ca22be4b4f06d6ae21764d717dbc91d936e0
+  0.7.4--pyhdfd78af_0: 
+    sha256:edf0bb4eafc3c65e5c3d8010db2a10ab2d8d0b23e6921c2fc42238c741817ba6
 tags:
   0.7.1--pyhdfd78af_0: 
     sha256:cad0220a3267277979e6d97106b1ca22be4b4f06d6ae21764d717dbc91d936e0
+  0.7.4--pyhdfd78af_0: 
+    sha256:edf0bb4eafc3c65e5c3d8010db2a10ab2d8d0b23e6921c2fc42238c741817ba6
 docker: quay.io/biocontainers/kmhelpers
 aliases:
   kh: /usr/local/bin/kh

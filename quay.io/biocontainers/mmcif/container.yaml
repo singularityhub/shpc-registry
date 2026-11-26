@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mmcif
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mmcif
 latest:
-  1.2.0--py312hfffc319_0: 
-    sha256:8158e10536b95630c7b76965104b739e9a6fefa17f5b0e128b0497820481fd33
+  1.2.1--py313h2362204_0: 
+    sha256:f17a6fb4b83e2212dab0754e2365b43bd3ba3cbafa0ec35c8c6db7b3080efaa9
 tags:
   0.91.0--py310h8ea774a_0: 
     sha256:a5514e483afef2fdc43209a928241f7e4ee3b0b7b9d9bc16148fde1853592fb6
@@ -19,6 +19,8 @@ tags:
     sha256:cae3894f87dbb74e2c192858052348901e8d9bac188908fce99ac05ad037d64d
   1.2.0--py312hfffc319_0: 
     sha256:8158e10536b95630c7b76965104b739e9a6fefa17f5b0e128b0497820481fd33
+  1.2.1--py313h2362204_0: 
+    sha256:f17a6fb4b83e2212dab0754e2365b43bd3ba3cbafa0ec35c8c6db7b3080efaa9
 docker: quay.io/biocontainers/mmcif
 aliases:
   build_dict_cli: /usr/local/bin/build_dict_cli

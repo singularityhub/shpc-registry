@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/upimapi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for upimapi
 latest:
-  1.13.3--hdfd78af_0: 
-    sha256:99127e8cd7fc54b150f3f31b56b7f33046c9d56a2090e161cb6039485551db4f
+  1.14.0--hdfd78af_0: 
+    sha256:9c69a938a4521cb02686fdebabd1c59a7f8db9a2f427aed4b7eee59ca2de62da
 tags:
   1.8.5--hdfd78af_0: 
     sha256:3959e0b860808cf09b3ed70734918ddcba3747ccafb9a6b184e1f1d2cb56a2c7
@@ -33,6 +33,8 @@ tags:
     sha256:93edcc4b8e8075e975cb7e76db3d8f620480ddca561300d59254cfd7f997dabb
   1.13.3--hdfd78af_0: 
     sha256:99127e8cd7fc54b150f3f31b56b7f33046c9d56a2090e161cb6039485551db4f
+  1.14.0--hdfd78af_0: 
+    sha256:9c69a938a4521cb02686fdebabd1c59a7f8db9a2f427aed4b7eee59ca2de62da
 docker: quay.io/biocontainers/upimapi
 aliases:
   firefox: /usr/local/bin/firefox
