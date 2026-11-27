@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-metamapwidget
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-metamapwidget
 latest:
-  0.1.0--r45hdfd78af_0: 
-    sha256:8672c378a28889d4b3283d0a113014e696892dcc1044cd000294f66205e653f8
+  0.2.0--r45hdfd78af_0: 
+    sha256:b55dc6c8b81d9e83275abdadf02c67b71f0f93c42c91231bb1036e82fe83653a
 tags:
   0.1.0--r45hdfd78af_0: 
     sha256:8672c378a28889d4b3283d0a113014e696892dcc1044cd000294f66205e653f8
+  0.2.0--r45hdfd78af_0: 
+    sha256:b55dc6c8b81d9e83275abdadf02c67b71f0f93c42c91231bb1036e82fe83653a
 docker: quay.io/biocontainers/r-metamapwidget
 aliases:
   fc-genconf: /usr/local/bin/fc-genconf

@@ -7,6 +7,7 @@ latest:
 tags:
   1.1.0--pyhdfd78af_0: 
     sha256:09691d29f57d22debcb27a3e2d097e4f8f38619b4810ace0fa291fc7423a4475
+  1.1.0: sha256:7f150cab94a59091df71989513126a926485e3b24b73dcc095b1a5d90cb3b097
 docker: quay.io/biocontainers/eggsplorer
 aliases:
   eggsplorer: /usr/local/bin/eggsplorer
